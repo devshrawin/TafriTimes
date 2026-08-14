@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Directs Stand-up Comedians to Maintain 50-Page 'Offense-Potential' Index Before Every Set",
+  "slug": "supreme-court-mandates-offense-index",
+  "body": "In a landmark judgment clarifying the boundaries of stage performance, the Supreme Court has ruled that all stand-up comedians must now submit a 50-page 'Offense-Potential Index' (OPI) to the local district magistrate at least 72 hours before taking the microphone. The court noted that while jokes are protected speech, audiences deserve an itemized list of every potential demographic, profession, and household appliance being targeted during the performance.\n\n“The days of spontaneous riffing are officially over,” said a senior legal consultant at the Ministry of Over-Sensitivities. “From now on, if a comedian plans to make a joke about the structural integrity of a toaster, they must first append a five-page apology drafted by a panel of home appliance enthusiasts. This will ensure that judicial dockets remain clear of cases involving hurt feelings and metaphorical insults.”\n\nIndustry insiders believe the ruling will permanently shift the landscape of comedy, as venues now plan to host 'Pre-Approval Reading Sessions' where local bureaucrats can audit punchlines for latent toxicity. The court also suggested that in the future, all laughter must be pre-registered via a mobile application to ensure the humor is being directed at legally permissible subjects.\n\nWhile some performers have expressed concern regarding the death of spontaneity, the court maintained that silence is the safest form of humor. The ruling concludes by advising that any joke containing a double entendre must be submitted in triplicate, with each interpretation clearly defined by a certified linguistic officer.",
+  "caption": "The Supreme Court has officially declared that if a punchline doesn't come with a 50-page impact report, it isn't legally allowed to be funny. Stand-up comedy is now 10% performance and 90% paperwork. #StandUpComedy #LegalHumor #Bureaucracy #SupremeCourt (satire)",
+  "imagePrompt": "A wide-angle shot of an empty stage with a single microphone stand, illuminated by a harsh spotlight, with a stack of thick legal files sitting on a wooden table in the foreground.",
+  "sourceHeadline": {
+    "title": "Supreme Court quashes all FIRs against Samay Raina, others over Latent show remarks against persons with disabilities | India News",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMzk5NHRlN1VWRW9qZFVMeHpBUTRJR1ZGOENIREdmZjBTSVhIS3Nhc1g2eTlmc0VISkFqTFpPM0R2ZXBOMmhfWGt4QjF1UC0ydldsUlE4YWZ5cmplNjl5dkVaV2g0SHpLNzgtWHhvZmdfdGlnb0FoWkM1ZzQ2d3RkN2hGeVF5M0V0R1lFQnVLTGRjQnRJbm1mMjI5YWMxS2ctQVNYU0kxQjhRYVh3aGVkN3dtdkhQZk5abkNwMHpvV0tnT3czVW93YXNiMGFweHhoZFczTVA4ZU1FQm5VbWR3N2hVZ09DOUl2V2Vvak80cmF2MGc1OXhn0gH8AUFVX3lxTFBELWdCbEFfanZKSkFDSnNrSngxV2sxSF95NUlMWEdYbVgzTXVfQmlocUIxNUdGYXF0VU5rdlNVQjkwZnB2eDBFWmRGTTA0cDdRWXc4MkdyalhVdW1ETExoMGR0d3lTeUluazNDV3NsNFQ1dUs2c2NmRFVPb2gzSUctaW9nT2puU05ITy1kbTN5UWpJY0FacVE1VmRHZFVfVElCMURmMEY3VHp2MUR1N2ZJdWhWZV9BRzRlTmd5clptbDc5OWNiSGxkLXY1Y2FrTVdfc2dQX2xyZDJqWFRWYl9LbFd0aUlpdWhxTWdBc1ZKbFpWTEFNR0xFMERNWQ?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 08:36:56 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 10,
+        "structure": 10,
+        "punchiness": 9,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "total": 25
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures the 'IndianOnion' voice by framing administrative absurdity (a 50-page OPI) with precise, deadpan bureaucratic language. Its specific details, like the inclusion of household appliances in the apology process, create a more grounded and hilarious cognitive dissonance than the more sci-fi approach of the Faraday cage or the generic certification process of the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, hyperbolic satire to critique the current state of censorship and bureaucracy without targeting specific individuals, religions, or protected groups. The image prompt is generic and avoids identifiable entities.",
+    "flaggedIssues": []
+  }
+}
