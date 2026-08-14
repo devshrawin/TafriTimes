@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "trending-news",
+  "headline": "Indian Shipping Ministry Announces Plan To Rebrand All Cargo Containers As 'Purely Ornamental Home Decor' To Evade US Tariffs",
+  "slug": "shipping-ministry-ornamental-container-strategy",
+  "body": "Following reports that India is being monitored for facilitating transhipment networks, the Ministry of Maritime Deception today unveiled a tactical pivot to reclassify all trans-oceanic shipping containers as 'oversized minimalist art installations.' Under the new policy, any vessel caught moving goods from East Asia to the West will be required to display a QR code linking to a brochure about the aesthetic beauty of weathered industrial steel.\n\n'Customs officials in the West are looking for cargo, but they aren't looking for avant-garde sculptures,' said a Senior Undersecretary of Logistics, while adjusting a velvet rope around a standard forty-foot container at a busy port. 'By labeling these as functionalist sculptures rather than supply chain assets, we effectively bypass trade barriers. If an inspector tries to open one, we simply inform them that the contents are intangible performance art that would lose their cultural value if exposed to natural light.'\n\nTo ensure complete compliance with the new international branding, the government has mandated that all forklift operators undergo a three-day course in art curation. Industry experts suggest that this move could save billions in tariffs, provided that no one asks why the 'industrial installation' from a Chinese factory is emitting a faint scent of mass-produced consumer electronics and factory-sealed plastic wrap.\n\nThe ministry also plans to open a pop-up gallery at the Port of Los Angeles later this month, where customs agents will be invited to admire the structural integrity of the containers for a nominal entry fee. Officials confirmed that if the ruse fails, they are prepared to pivot to classifying the shipments as 'high-stakes international surprise boxes,' which are technically exempt from tax codes dating back to the colonial era.",
+  "caption": "The Ministry of Maritime Deception is confident that art history will prove to be a better trade strategy than economic policy. #TradeWars #ArtInstallations #GlobalLogistics #CustomsHack (satire)",
+  "imagePrompt": "A wide, eye-level shot of a bustling industrial shipping port at dusk, showing rows of colorful shipping containers stacked high under a cloudy sky. In the foreground, a single, slightly rusted container has a small, professional-looking gallery-style plaque attached to its side, with no visible brand logos on the containers.",
+  "sourceHeadline": {
+    "title": "US names India a part of ‘shadow transhipment network’ helping China evade Trump tariffs | India News",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObVk1NzFUT1MzMjlwVGtkVmRNZF9kdU54NGFEZ1JKY0JLWlBPaEw5ZzBoNkhMbnFpQzV2WElTS0RWX1lCYmNzYWpVSkt4TExNYl9JXzFuRkpkcFVOTU4yWkJVNzhWWnQwaU9oVWV3bm1Da0MtMWhzbElaTDJsRS1FU0tfeWtfWW8tMU53LUNMS2tPcVl6VUNyNzRMVTFYWGpCVDJYWnQtM3RWNjhldUR3LWd6WUVsbzVBTXl4am45cDlFcC1Wc3prQmVBOUQzWjV2VTZKcTA5bUxaVzEwYjVrNkhTdw?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 05:53:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 30
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 6,
+        "punchiness": 6,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 9,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 achieves the perfect satirical balance of bureaucratic absurdity and deadpan tone. The premise of reclassifying industrial shipping as 'minimalist art' to bypass tariffs is a more sophisticated and structurally sound joke than the others, landing effectively in both the headline and the body copy."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear satirical take on trade policy and bureaucracy. It avoids naming real individuals or specific real-world entities, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}

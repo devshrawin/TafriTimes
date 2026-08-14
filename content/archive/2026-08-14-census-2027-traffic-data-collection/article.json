@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "trending-news",
+  "headline": "Government to Include ‘Percentage of Life Spent Waiting in Traffic’ as Mandatory Question in Upcoming Census",
+  "slug": "census-2027-traffic-data-collection",
+  "body": "The Office of the Registrar General has announced that the upcoming decennial census will include a critical new metric measuring the exact number of years an individual has spent idling at red lights or in gridlocked urban corridors. Officials confirmed that this data, intended to be cross-referenced with COVID-19 booster history and dietary habits, is essential for calculating the country's 'Real-Time Productivity Index.'\n\n'We aren't just asking if you have an ID proof anymore; we need to know exactly how much of your lifespan was surrendered to a stationary commute,' explained a deputy director of the enumeration department. 'If a citizen can’t provide a GPS log or a rough estimate of their peak-hour misery, they will be automatically classified as 'Statistically Optimistic' and subject to a mandatory 5% increase in road tax.'\n\nTo ensure accuracy, enumerators will be equipped with specialized 'frustration-meters' that measure blood pressure fluctuations during the interview process. The Ministry of Statistics plans to compile this information into a massive dashboard that will allegedly help urban planners identify which specific potholes contribute the most to the national existential crisis.\n\nOpposition groups have tentatively welcomed the move, provided the government also includes a sub-question regarding whether the commute was spent listening to an educational podcast or simply shouting at a motorcycle. The final results are expected to be published by 2030, or whenever the data entry team finally makes it through the morning rush hour.",
+  "caption": "The government is leaving no stone unturned in the pursuit of Big Data, even if that data is just how long you’ve stared at a tail light. #Census2027 #DataDriven #UrbanLiving #IndiaNews (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a chaotic urban intersection during the evening commute, showing dozens of vehicle headlights and tail lights forming a long, static queue under a hazy city skyline.",
+  "sourceHeadline": {
+    "title": "Census 2027 to have 40 questions, including details of caste, COVID vaccination, ID proofs",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWE02aTIzNUxtYzgydHVtVmtkVnZ6a04wTUM0T1dTZUxFLVBxNzlRdWdmXy1fXzJEYktKSWJDRVlYSWFHNnJuaC0ydnJRaUlSLUxkNGR6QUxQZ2ZQOEFUeUw0bTd2UTJhT1FEbUlER3VHTWl5enpVLVQ4UjJyZ3JFRWlGb1NxZGgxTXFDN3pTcjdFT2pwd2NWendUb1hLc2JWdGxRSHZRUV9MQzJxeXVxVEFVVUM1ZGVyLU11UHJ5cTdGOV84Ymg1MlpfSDVhNTloX09GWk01VF9YTUdjVXVZ0gHmAUFVX3lxTE1lejVyU2FDSXpHNFZoMVdiUnV0MnRDV2RZT1JHdWlnMzRmZTYwaC10RGVzUjVGWmN4WnRNZ0FUTWVXNEF0WjBPYnB3OGVWb2FneVZJTUg0Q3h3TXp3WnJsLWVwdThpUzRvTnUwbTBjbHpvRnh1eWpSdVppWWVfajFGdVRzRExhU1dyaW5xdjdJS1ZQbEI0TU51cVpKbWFsVnNVQjdOLTdlX0NialRMSko2QXFmd0ZNUTV5M1BYcGdtYmRyQlcyQkc0UEJaTDIyZ01TYUVKZVkyeV9CT2xicHBQTlNfMkdB?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 05:24:01 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "total": 36
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 7,
+        "total": 25
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 perfectly balances the mundane frustration of traffic with the absurdity of state surveillance, grounding its satire in recognizable, relatable grievances while maintaining a deadpan journalistic tone. It excels in specific invented details like the 'Statistically Optimistic' tax classification, which elevates the premise beyond simple exaggeration into sharp, structural satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a standard satirical piece about bureaucratic inefficiency and traffic, using generic government offices and fictionalized indices. It does not target specific individuals, religious groups, or castes, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
