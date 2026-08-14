@@ -18,6 +18,7 @@ const BEAT_ACCENTS = {
   "urban-life": "#3498db",
   "festivals-culture": "#f1c40f",
   "workplace-corporate": "#9b59b6",
+  "trending-news": "#e63946",
 };
 const DEFAULT_ACCENT = "#ff6b35";
 

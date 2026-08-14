@@ -1,0 +1,62 @@
+name: Hourly trending publish (test phase — archive only, no posting)
+
+# Test-phase workflow: runs generate -> judge -> guardrail -> render -> archive
+# once an hour (24/day) against a real trending India headline (see
+# scripts/fetch-trending.mjs and PLAN.md's "Real trending event mode"
+# section). Deliberately does NOT post to X/Instagram yet — that's a
+# separate, later decision (see PROGRESS.md 2026-08-14). This just builds up
+# a few days of real archived examples in content/archive/ to review before
+# posting is wired back in.
+
+on:
+  schedule:
+    - cron: "0 * * * *" # every hour, on the hour
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm ci
+
+      - name: Generate, judge, guardrail, render, archive from trending headline
+        id: publish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CANDIDATE_COUNT: "3"
+        run: |
+          set +e
+          node scripts/publish.mjs > publish-result.json
+          code=$?
+          set -e
+          cat publish-result.json
+          # Exit code 3 is a clean "blocked/regenerate-exhausted, didn't
+          # publish" outcome (see publish.mjs) — not a workflow failure.
+          if [ "$code" != "0" ] && [ "$code" != "3" ]; then
+            exit "$code"
+          fi
+
+      - name: Commit archive + trending-used log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/archive data/trending-used.json
+          git diff --staged --quiet || git commit -m "Hourly trending archive: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Upload run result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-result-${{ github.run_number }}
+          path: publish-result.json
+          if-no-files-found: ignore

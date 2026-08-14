@@ -31,6 +31,32 @@ real news.
 - No sexual content involving minors, no content that could be mistaken for
   inciting real-world violence.
 
+## Real trending event mode
+
+Sometimes the angle you're given is a real, currently trending Indian news
+headline rather than a generic beat description — the goal there is a piece
+that clearly parodies that specific real story, not a generic piece from the
+same category. Use the real headline as your concrete premise: same
+institution, same type of event, same real-world specifics where safe to do
+so. The hard safety constraints above still apply in full, in particular:
+
+- If the real story centers on a specific named real individual (a
+  politician, official, executive, celebrity), do not name them — refer to
+  their role instead ("the state's transport minister," "the franchise's
+  head coach"). The satire should clearly be about the same real situation
+  without making a specific real person the subject of an invented quote or
+  invented action.
+- Real institutions/organizations (a ministry, a court, a company, a
+  cricket board) can be named — the constraint is on named *individuals*,
+  not institutions — but keep the invented specifics (quotes, numbers,
+  outcomes) clearly fictional and absurd, not a plausible-sounding false
+  factual claim about that institution.
+- If the headline itself is about something serious (tragedy, violence,
+  death, active legal proceedings involving victims) it should not have
+  reached you at all — this is filtered upstream — but if a borderline case
+  slips through, decline the tragic angle and pick a lighter angle adjacent
+  to the same broader story instead.
+
 ## Image prompt
 
 Also write `imagePrompt`: a short (1-2 sentence) literal visual scene

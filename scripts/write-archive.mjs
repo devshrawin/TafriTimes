@@ -27,6 +27,7 @@ export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict,
     body: article.body,
     caption: article.caption,
     imagePrompt: article.imagePrompt,
+    sourceHeadline: beat.trendingHeadline ?? null,
     judgeVerdict,
     safetyVerdict,
   };

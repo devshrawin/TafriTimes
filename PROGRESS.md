@@ -13,6 +13,71 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Real trending-headline mode + hourly test scheduler
+
+- **Repo moved**: this project now lives at
+  `C:\Users\shrawin.sisodiya\Desktop\K UR Files\Projects\IndianOnion` (owner
+  moved it out of `Desktop\IndianOnion`). Use this path going forward.
+- Owner wants topic selection to target the actual most-trending India topic
+  each run, not just a fixed rotation of evergreen beats — explicitly chose
+  the higher-risk **"full real-event satire"** option over a safer
+  "category-only" alternative (I raised this as a real fork given it cuts
+  against PLAN.md's original no-live-news risk mitigation; noted as a
+  conscious decision, not a silent change).
+- Research: Google Trends' free RSS feed is dead (404) and there's no real
+  free Trends API anymore (2025's official one is alpha/waitlisted, paid
+  third-party alternatives only). **Google News RSS**
+  (`https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en`) works, is free,
+  needs no key — used that instead. Caveat worth remembering: that feed's
+  own terms restrict it to "personal, non-commercial, feed-reader use,"
+  which an automated pipeline doesn't strictly satisfy — low enforcement
+  risk, but a real ToS gray area (see PLAN.md Risks).
+- **Immediately hit a real problem this design predicts**: the actual top
+  trending story when first tested was a Supreme Court ruling on
+  compassionate appointments for people who died in a tragedy — completely
+  unsuitable for satire, and would have gone straight to the writer LLM with
+  no fixed-beat pipeline ever having to filter for this. Added a keyword
+  prefilter (`UNSUITABLE_KEYWORDS` in `scripts/fetch-trending.mjs`) blocking
+  death/violence/disaster/tragedy-adjacent headlines *before* they reach
+  generation — this runs earlier than the existing denylist/guardrail, which
+  only checks the *generated article*, not the source headline.
+- New `scripts/fetch-trending.mjs`: fetches + parses the RSS feed (regex-based,
+  no new XML dependency), strips Google's " - Source" suffix, filters
+  tragedy keywords, and skips headlines already used (tracked in
+  `data/trending-used.json`, written immediately when a headline is picked —
+  even on a `blocked` outcome — so a bad story isn't retried every hour).
+- `publish.mjs`: when no `TOPIC_KEY` is given, now tries a trending headline
+  first (falls back to the old weighted-random `topics.yaml` beat if the
+  feed is down or exhausted). Added a `guessCategory()` keyword map purely
+  for cosmetic accent-color selection in the rendered image, plus a new
+  `trending-news` fallback accent (red) for headlines that don't match any
+  existing beat's keywords.
+- `generation.system.md` got a new "Real trending event mode" section: use
+  the real headline as the concrete premise, real institutions can be named,
+  but real named *individuals* still can't be (existing hard safety
+  constraints unchanged) — the guardrail's existing real-person/defamation
+  checks apply exactly as before, unmodified.
+- Verified end-to-end: real trending story right now was "Bar Council
+  threatens Nalsar students, Cockroach Janta Party roars, order withdrawn" —
+  piece written directly parodying that (mandatory courtroom-arguments-
+  against-cockroaches training), guardrail passed it, image rendered fine
+  with the new red "Trending News" accent.
+- **New workflow**: `.github/workflows/hourly-trending-publish.yml` — runs
+  every hour (24/day), archive-only (no posting — that's still deliberately
+  deferred, see below), for a multi-day test the owner wants to review before
+  revisiting posting. Needs `GEMINI_API_KEY` added as a GitHub Actions repo
+  secret before it'll actually run — not done yet, no `gh` CLI available in
+  this environment to set it programmatically, owner needs to add it via
+  GitHub's web UI (Settings → Secrets and variables → Actions).
+- Explicitly NOT done: no posting to X/Instagram in this workflow. Owner's
+  plan is to let this run for a few days, review the archived output, then
+  come back to posting as a separate decision.
+- Kicked off a background research agent to survey existing similar
+  open-source projects (AI satire-news bots, automated meme/parody
+  generators) for architecture ideas and — most usefully — any documented
+  failure/controversy stories, since safety is the biggest open risk here.
+  Results not in yet as of this entry.
+
 ## 2026-08-14 — Photorealistic photo backgrounds + design feedback pass
 
 - Owner feedback on the first rendered image: too plain (flat black box +
