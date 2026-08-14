@@ -13,6 +13,23 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — GitHub Pages gallery live; explicit "don't clean up yet" instruction
+
+- GitHub Pages enabled (branch-based, `main`/`docs`) — live at
+  **https://devshrawin.github.io/IndianOnion/**. Note for next session: the
+  Source dropdown in Settings → Pages has two modes — "Deploy from a
+  branch" (what this needs, zero workflow steps, matches NewsDigest's
+  approach) vs "GitHub Actions" (needs `actions/deploy-pages` steps we
+  don't have). If the site ever goes 404 again, check that dropdown first.
+- **Owner instruction, keep this in mind**: keep every archived test post
+  through this week-long test phase — do NOT add any pruning/cleanup logic
+  for `content/archive/`, `docs/images/`, or `data/trending-used.json`.
+  Cleanup is explicitly a *later* decision, only once posting to social
+  media actually begins. As of this entry nothing deletes anything anyway
+  (the pipeline is purely additive), so this is a "don't add cleanup," not
+  "undo something" — but worth remembering before ever suggesting an
+  archive-size cleanup pass.
+
 ## 2026-08-14 — Hourly workflow verified live end-to-end (two real bugs found + fixed)
 
 - Owner added `GEMINI_API_KEY` as a repo secret and manually triggered the
