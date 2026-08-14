@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Rules That Comedians Must Now Submit Jokes To A 'Vibes Subcommittee' For Pre-Approval",
+  "slug": "supreme-court-rules-comedians-must-submit-jokes",
+  "body": "The Supreme Court of India has directed that all stand-up routines must now be vetted by a newly formed 'Vibes Subcommittee' to ensure that no audience member’s latent sensitivity is accidentally triggered during a set. The mandate requires performers to submit a 400-page affidavit explaining the subtext of every punchline at least three weeks before taking the stage.\n\n'We realized that waiting for an FIR to be filed after a joke is already told is simply inefficient governance,' said an official from the Ministry of Unintended Consequences. 'By institutionalizing the vetting process, we ensure that every laugh is legally sound, tax-compliant, and guaranteed to offend exactly zero percent of the population.'\n\nUnder the new guidelines, comedy clubs must install a 'Sensitivity Meter' at the entrance that tracks the collective heart rate of the room. If the meter detects a sudden spike in adrenaline caused by a controversial punchline, the stage lights will automatically switch to a soothing blue while the audio system plays pre-recorded apologetic elevator music.\n\nCritics of the ruling argue that the bureaucracy might struggle to keep up with the rapid pace of modern humor. However, the committee has already begun hiring five hundred retired clerks to manually cross-reference every satirical observation against a master list of all known human grievances to ensure total safety.",
+  "caption": "Comedy is now officially an administrative process. Please ensure your punchlines are notarized before your next set. #StandUpComedy #Bureaucracy #IndianComedy (satire)",
+  "imagePrompt": "A wide, eye-level shot of a generic, dimly lit comedy club stage with an empty microphone stand, focusing on the wooden floorboards and a spotlight beam hitting the microphone.",
+  "sourceHeadline": {
+    "title": "India's Got Latent: FIRs Against Samay Raina Over Insensitive Remarks Cancelled By Top Court",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTUF3QWdjMjd5SXNYMjVLaXhVSmtCYjJoMUNuclh1Ylc4b1RKbm1zZm1MMGVVMUpZZGt0TVZsNDI0Z2hKeUN1bjJVNHVYX29XMXpmUXBldldKNXF4aDFyNm5IUXBwQmZvLTYwVUtWaktLNEpQaFBfdFpkVjBaMUlmTUJzZWlGUUF3NzB0cnl3ekJHYnR4UnlfbnQ1RV9iWUp1YWozakJxdVZMbnYzMXFFaGZUQzF6UkdGTm1QYlZmcGEzMGZBNUhRcldydVk0VEo5TXNiRlA1dlN1WHB0eDQzZjFTb2traUk?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 08:52:09 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding its absurdity in the hilariously specific 'Ministry of Unintended Consequences' and the 'Vibes Subcommittee,' treating the bureaucratic nightmare with a deadpan tone that feels uniquely Indian. It achieves a higher level of warmth by painting a vivid, ridiculous world of 'soothing blue' lights and elevator music rather than just listing legal procedures, making the critique feel like a playful observation on red tape rather than just cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses clear satirical exaggeration to comment on regulatory overreach and censorship without naming specific real individuals, public figures, or targeting protected groups.",
+    "flaggedIssues": []
+  }
+}
