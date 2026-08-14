@@ -13,6 +13,45 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Fuzzy dedupe + LLM suitability check for trending headlines
+
+- Owner explicitly ruled out Reddit r/india as an alternate source ("heavily
+  biased") — noted so it doesn't get re-suggested.
+- **Fuzzy dedupe**, ported from the sibling NewsDigest project's approach to
+  merging the same wire story reworded across publishers: normalize title +
+  a string-similarity ratio above a threshold, gated to a recency window.
+  NewsDigest uses Python's `difflib.SequenceMatcher`; ported here as a
+  dependency-free character-bigram Sørensen–Dice coefficient instead (no JS
+  stdlib equivalent to SequenceMatcher, and adding a package for this felt
+  like overkill). Threshold `0.72`, window 7 days — both starting points,
+  not independently tuned the way NewsDigest's `0.78`/20h were. Scoped down
+  from NewsDigest's O(n²)-with-token-index version since we compare one
+  candidate against a used-log growing by a handful of entries/day, not
+  ~3,000 articles/run — a plain per-title scan is fine at this scale.
+  `fetch-trending.mjs`'s `getUsedTrendingTitles()` → `getUsedTrendingEntries()`
+  (needs full `{title, usedAt}` records now, not just title strings);
+  `fetchTrendingHeadline()`'s `excludeTitles` param → `usedEntries`.
+- **LLM suitability check** (`config/prompts/trending-suitability.system.md`):
+  added after the keyword prefilter demonstrably missed a real case live —
+  "Air India A320 briefly lost key flight controls" (a real safety incident)
+  passed the keyword list clean since it contains none of
+  `UNSUITABLE_KEYWORDS`. One extra Gemini call per candidate headline (not
+  every RSS item — only run on keyword-and-dedupe survivors, bounded to 8
+  checks worst-case) asking "is this suitable satire raw material, given
+  these reject criteria" — catches tragedy phrased without a trigger word.
+  Confirmed live: correctly rejected the Air India headline, fell through to
+  the next candidate.
+- That next candidate was itself a good stress test: a real Supreme Court
+  ruling naming a real politician (Rahul Gandhi) over comments about a real
+  historical figure (Savarkar) — not tragic/violent, so correctly not
+  fetch-trending's job to filter. Ran it through the full pipeline: the
+  writer genericized away from naming him entirely and landed on "Supreme
+  Court directs historical figures to file defamation complaints from the
+  afterlife" — clearly parodying the real story's absurdity without naming
+  anyone real. Guardrail passed it clean. Good end-to-end validation of the
+  safety chain on a genuinely sensitive real headline, archived as
+  `content/archive/2026-08-14-supreme-court-afterlife-defamation-ruling/`.
+
 ## 2026-08-14 — Rebranded "IndianOnion" → "Tafri Times"
 
 - Owner's call, scope confirmed explicitly: rename **everything**, including

@@ -5,7 +5,7 @@ import { ROOT, readText, readJson, callLLMForJson, pickWeightedTopic, readYaml }
 import { checkSafety } from "./safety-check.mjs";
 import { judgeCandidates } from "./judge-candidates.mjs";
 import { writeArchive } from "./write-archive.mjs";
-import { fetchTrendingHeadline, getUsedTrendingTitles } from "./fetch-trending.mjs";
+import { fetchTrendingHeadline, getUsedTrendingEntries } from "./fetch-trending.mjs";
 
 const MAX_REGENERATE_RETRIES = 2;
 const CANDIDATE_COUNT = Number(process.env.CANDIDATE_COUNT ?? 4);
@@ -96,7 +96,7 @@ export async function generateAndArchive({ topicKey } = {}) {
     beat = topics.beats.find((b) => b.key === topicKey);
     if (!beat) throw new Error(`Unknown topic key: ${topicKey}`);
   } else {
-    const headline = await fetchTrendingHeadline({ excludeTitles: getUsedTrendingTitles() });
+    const headline = await fetchTrendingHeadline({ usedEntries: getUsedTrendingEntries() });
     beat = headline ? beatFromTrendingHeadline(headline) : pickWeightedTopic(topics.beats);
     // Record the headline as used immediately (not just on eventual success)
     // so a blocked/unusable trending story isn't retried every single hour.
