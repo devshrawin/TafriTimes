@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "trending-news",
+  "headline": "Ministry of Commerce Unveils New 'Middleman Export' Subsidy to Help Global Powers Launder Their Tariff Liabilities",
+  "slug": "ministry-unveils-middleman-export-subsidy",
+  "body": "The Union Ministry of Commerce today announced the launch of the 'Global Tariff Optimization Scheme,' a flagship initiative designed to formalize the role of domestic traders in assisting foreign powers with complex bookkeeping requirements. The move comes in response to international reports suggesting that local exporters have been acting as a vital customs-evasion concierge for large economies struggling with pesky cross-border levies.\n\n“We are simply providing a value-added service,” said an Undersecretary for Indirect Logistics, speaking on condition of anonymity while shredding a stack of shipping invoices. “If a superpower finds itself burdened by high tariffs, it is only neighborly for our local SMEs to re-label their goods with a ‘Made in Somewhere-Else’ sticker. It’s not a scam; it’s a sophisticated global supply-chain arbitrage.”\n\nTo facilitate this, the government plans to set up 'Neutralization Parks' at major ports, where shipping containers can spend twenty minutes getting their country-of-origin tags swapped by unionized workers. Critics who called the practice a 'great scam' were dismissed by officials as being 'mathematically challenged' regarding the nuances of international trade velocity.\n\nExporters looking to join the scheme are encouraged to register their phantom warehouses online. The Ministry assured participants that as long as the paperwork is sufficiently confusing, no international investigator will ever bother to find the actual origin of a solar panel or a ball-bearing.",
+  "caption": "India launches a new 'Logistics Optimization' scheme for global partners. Efficiency is key! #Trade #GlobalEconomy #India #Export (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a bustling cargo port at twilight, showing rows of stacked shipping containers and a large industrial crane looming over the docks.",
+  "sourceHeadline": {
+    "title": "‘Great scam’: US after India named among 40 nations aiding China evade tariffs",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORVhLcFhoTlEtTVJBY2J2RGt6dWNtOGRSSXpjbzJlQzNKeHRHV3F3Tkt5NE9qdDJFV0tlS1NXc0EzcGFQUWFXcnJEZmNOdUhTaWNoVG85YVRMenh3by16eUszUE1rWlpGM1J6cDZ5a3ZoQjBhRmdZSUZrZmwxUklVWWxmemVOalg2Sm9idkduVklnRUw5bDdhU1REOWtwN3ZtdWNZX3VR0gGsAUFVX3lxTE1nTjhaRU9jWWExWDg1ZVh0MzJ5Z0h0dUpyNmN1R05qcW01SmpsMmFZZzhncGY2dk83VmliR1Z6a0kyaTVyNmVNQ2Q1dWlVQ2JPOWE1Uy1RWnl0MnpzeXdsN0F0aHBhMlUyQnoyMl8xNHJ0TGpxenpQTVFwbUxDVkt1c2pLX3BROURVMjdScmY5TUZjNGVsRW5vYl9ya3Q5MTZyRF9jVHc1eElYMEs?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 07:48:31 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels in deadpan structural fidelity and superior specificity, effectively grounding its premise in the mundane language of bureaucracy ('Neutralization Parks', 'Indirect Logistics'). It avoids the slightly more cartoonish tropes found in the other entries, maintaining the 'absurd fact treated as mundane' tone required for top-tier satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear piece of political satire targeting universal bureaucratic tropes and international trade complexities. It avoids naming specific individuals, real-world organizations, or protected groups, and the image prompt is generic and neutral.",
+    "flaggedIssues": []
+  }
+}
