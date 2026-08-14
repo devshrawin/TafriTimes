@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Upcoming Period Drama to be Filmed Entirely in Slow-Motion to Justify Three-Hour Runtime",
+  "slug": "period-drama-slow-motion-runtime",
+  "body": "The production house behind the upcoming historical epic 'Veer-Garjana' announced today that the entire two-hour screenplay will be stretched to a four-hour theatrical experience by filming every frame at 400 percent reduced speed. The move comes after producers realized that the script, which consists primarily of a single stare-down between a king and a tax collector, contained only twelve lines of actual dialogue.\n\n\"Audiences today are tired of fast-paced narratives that force them to use their brains to keep up with plot points,\" said Executive Producer Vikram Varma, while watching a test clip of a horse galloping in real-time for forty-five minutes. \"By slowing down the protagonist’s walk to the battlefield to a pace of one step every six minutes, we not only save millions on stunt coordination but also allow the background music to reach its full, agonizing potential.\"\n\nIndustry analysts have praised the decision, noting that the 'slow-motion aesthetic' is the most efficient way to maximize ticket prices during the interval break. The film is expected to be released as a 'Part One' of a trilogy, with the sequel dedicated entirely to the character blinking, which is currently scheduled for a 2026 release.",
+  "caption": "Why rush to the finish line when you can monetize every single frame of a character sighing? The future of cinema is officially in low-gear. #Bollywood #SlowMoCinema #EpicRuntime #SlowMotionMasterpiece",
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "total": 34
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "total": 26
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 takes the most absurd premise and treats it with the most grounded, bureaucratic logic, creating a sharper satirical critique of modern filmmaking trends. The specific detail of 'twelve lines of dialogue' and the 'blinking trilogy' adds a level of specificity that feels both hilarious and plausibly cynical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear, generic satire of Bollywood filmmaking trends. The name 'Vikram Varma' is a common, non-specific name that does not refer to a real identifiable public figure in this context, and the content avoids any hate speech or identity-based targeting.",
+    "flaggedIssues": []
+  }
+}

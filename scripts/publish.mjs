@@ -1,6 +1,6 @@
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { ROOT, readText, callClaudeForJson, pickWeightedTopic, readYaml } from "./lib.mjs";
+import { ROOT, readText, callLLMForJson, pickWeightedTopic, readYaml } from "./lib.mjs";
 import { checkSafety } from "./safety-check.mjs";
 import { judgeCandidates } from "./judge-candidates.mjs";
 import { writeArchive } from "./write-archive.mjs";
@@ -13,7 +13,7 @@ async function generateOneCandidate({ system, beat, negativeConstraint }) {
   const userMessage = negativeConstraint
     ? `${base}\n\nIMPORTANT: a previous attempt on this topic was rejected by the safety guardrail for this reason: "${negativeConstraint}". Write a materially different piece that avoids this issue.`
     : base;
-  return callClaudeForJson({ system, userMessage });
+  return callLLMForJson({ system, userMessage });
 }
 
 async function generateAndJudge({ beat, negativeConstraint }) {

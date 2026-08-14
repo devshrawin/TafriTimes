@@ -1,5 +1,5 @@
 import { pathToFileURL } from "node:url";
-import { readYaml, readText, callClaudeForJson, pickWeightedTopic } from "./lib.mjs";
+import { readYaml, readText, callLLMForJson, pickWeightedTopic } from "./lib.mjs";
 
 const CANDIDATE_COUNT = Number(process.env.CANDIDATE_COUNT ?? 4);
 
@@ -21,7 +21,7 @@ export async function generateCandidates({ topicKey } = {}) {
   for (let i = 0; i < CANDIDATE_COUNT; i++) {
     // Each call is independent, so natural sampling variance across calls
     // gives varied angles without needing to hand-tune temperature per call.
-    const candidate = await callClaudeForJson({ system, userMessage });
+    const candidate = await callLLMForJson({ system, userMessage });
     candidates.push(candidate);
   }
 

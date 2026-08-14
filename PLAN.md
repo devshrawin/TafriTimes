@@ -88,7 +88,7 @@ IndianOnion/
 
 | Secret | Purpose |
 |---|---|
-| `ANTHROPIC_API_KEY` | writer, judge, and guardrail Claude calls |
+| `GEMINI_API_KEY` | writer, judge, and guardrail LLM calls (currently Gemini — free tier, see PROGRESS.md; `ANTHROPIC_API_KEY`/Claude was the original design but has no free tier) |
 | `X_API_KEY` / `X_API_SECRET` | OAuth 1.0a consumer keys |
 | `X_ACCESS_TOKEN` / `X_ACCESS_SECRET` | OAuth 1.0a bot-account tokens |
 | `IG_USER_ID` | Instagram professional account ID |

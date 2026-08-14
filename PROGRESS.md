@@ -13,6 +13,50 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Swapped to Gemini (free), pipeline verified live end-to-end
+
+- Owner doesn't want to spend money yet, and Anthropic has no free tier at
+  all (unlike Gemini's 1,500 req/day free on Flash-tier models). Swapped
+  `scripts/lib.mjs`'s `callClaudeForJson` → `callLLMForJson`, now calling
+  Gemini's `generateContent` REST endpoint directly (no SDK needed — dropped
+  the `@anthropic-ai/sdk` dependency). `ANTHROPIC_API_KEY` → `GEMINI_API_KEY`
+  everywhere. X still has no free tier (confirmed via research — killed
+  entirely for new developers as of Feb 2026); Instagram Graph API itself is
+  free ($0/call, ~200 calls/hour cap) but posting is on hold for now per
+  owner's request to focus on the content pipeline first.
+- Model selection took real trial and error against a live key — worth
+  recording so the next session doesn't repeat it:
+  - `gemini-2.5-flash` / `gemini-2.5-flash-lite` — 404, no longer available
+    to new API keys as of this session.
+  - `gemini-flash-latest` — transient 503 (high demand) when tried.
+  - `gemini-3.5-flash` — works, but is a "thinking" model that leaks
+    chain-of-thought text into the response even with
+    `responseMimeType: "application/json"` set, breaking JSON parsing.
+  - `gemini-3.1-flash-lite` — the one that works: plain (non-thinking) model,
+    clean JSON output. This is what `lib.mjs` defaults to now.
+  - Also hardened `callLLMForJson` to extract the first balanced JSON object
+    from the response text instead of a bare `JSON.parse`, after hitting an
+    intermittent "unexpected non-whitespace character after JSON" error once
+    (root cause not fully confirmed — possibly a rare multi-part response —
+    but the balanced-brace extraction is a reasonable defensive fix either
+    way).
+- **Ran the real pipeline live against Gemini and it works end-to-end**:
+  generate → judge → guardrail all produced sensible output, and the guardrail
+  correctly passed a clean bureaucracy-committee piece. `publish.mjs`
+  (archive phase only, no posting) ran fully — see
+  `content/archive/2026-08-14-period-drama-slow-motion-runtime/` for a real
+  generated-and-archived example (Bollywood beat, slow-motion period drama
+  joke) with its rendered image. Candidate quality read as genuinely funny
+  in this session's judgment, not just structurally valid — e.g. a piece
+  about a man who moves into a food-delivery app's notification queue, and
+  one about sacrificing a goat to Bengaluru's Silk Board flyover for traffic
+  luck.
+- Next: no strong reason not to just keep running `publish.mjs` against more
+  topics/beats to build a feel for consistency and where the guardrail
+  actually trips (haven't yet seen a `regenerate` or `block` verdict fire —
+  worth deliberately testing that path). Posting (X/Instagram) remains
+  deliberately deferred.
+
 ## 2026-08-14 — Content pipeline + image rendering implemented
 
 - Built out the full repo structure from PLAN.md: `package.json`,

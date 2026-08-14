@@ -1,5 +1,5 @@
 import { pathToFileURL } from "node:url";
-import { readYaml, readText, callClaudeForJson } from "./lib.mjs";
+import { readYaml, readText, callLLMForJson } from "./lib.mjs";
 
 function flattenDenylist(denylist) {
   return Object.values(denylist).flat();
@@ -27,7 +27,7 @@ export function runDenylistPrefilter(article) {
 export async function runGuardrailCheck(article) {
   const system = readText("config/prompts/guardrail.system.md");
   const userMessage = JSON.stringify(article, null, 2);
-  return callClaudeForJson({ system, userMessage, maxTokens: 512 });
+  return callLLMForJson({ system, userMessage, maxOutputTokens: 512 });
 }
 
 export async function checkSafety(article) {

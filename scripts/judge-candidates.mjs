@@ -1,5 +1,5 @@
 import { pathToFileURL } from "node:url";
-import { readText, callClaudeForJson } from "./lib.mjs";
+import { readText, callLLMForJson } from "./lib.mjs";
 import { generateCandidates } from "./generate-candidates.mjs";
 
 export async function judgeCandidates({ beat, candidates }) {
@@ -9,7 +9,7 @@ export async function judgeCandidates({ beat, candidates }) {
     null,
     2
   );
-  const verdict = await callClaudeForJson({ system, userMessage, maxTokens: 1024 });
+  const verdict = await callLLMForJson({ system, userMessage, maxOutputTokens: 1024 });
   const winner = candidates[verdict.winnerIndex];
   if (!winner) {
     throw new Error(`Judge returned invalid winnerIndex: ${verdict.winnerIndex}`);
