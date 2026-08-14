@@ -69,9 +69,18 @@ jobs:
             # No -e: a failing publish.mjs falls through to the commit logic
             # below rather than aborting the whole loop -- one bad run (a
             # Gemini 503, a Pollinations timeout) shouldn't kill a 5h20m loop.
+            #
+            # Deliberately NOT `if ! timeout ...; then code=$?; fi` -- bash's
+            # `!` negates the exit status used for the `if` test itself, so
+            # `$?` inside that block is always 0 or 1 (the negated result),
+            # never the command's real exit code. That silently broke the
+            # `code = "3"` clean-skip check below and misreported real
+            # failures as "exit 0" -- run the command plain and read $? right
+            # after instead.
+            timeout "${RUN_CAP}" node scripts/publish.mjs > publish-result.json
+            code=$?
             run_ok=1
-            if ! timeout "${RUN_CAP}" node scripts/publish.mjs > publish-result.json; then
-              code=$?
+            if [ "$code" -ne 0 ]; then
               if [ "$code" = "3" ]; then
                 echo "Guardrail blocked/exhausted this iteration -- nothing to archive, that's fine."
               else
