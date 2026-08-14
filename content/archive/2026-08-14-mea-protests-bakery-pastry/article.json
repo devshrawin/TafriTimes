@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T18:12:02.934Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Ministry of External Affairs Issues Formal Protest Against Local Bakery for Selling 'Norwegian Bun' Without Proper Diplomatic Clearance",
+  "slug": "mea-protests-bakery-pastry",
+  "body": "The Ministry of External Affairs today issued a strongly worded demarche to a suburban bakery chain, demanding an immediate withdrawal of its 'Norwegian Almond Bun' after the product was allegedly displayed without prior coordination with the South Block’s confectionery protocol division. The Ministry clarified that while they enjoy a good pastry, any reference to a sovereign nation’s culinary output must first pass through a three-stage vetting process to ensure no unintended geopolitical signaling occurs through the density of the dough.\n\n“We are not saying the cardamom-to-almond ratio is inherently provocative,” explained Ministry spokesperson Ravi Deshmukh, while adjusting his tie. “However, when you market a bun under a specific national label during a sensitive week, you are engaging in unauthorized gastro-diplomacy. We have asked the bakery to rename the item to a generic ‘Nordic-Adjacent Swirl’ until further notice to maintain regional stability in the snack aisle.”\n\nBakery managers, who were reportedly stunned to see officials in dark suits inspecting their sourdough starter, have agreed to comply with the request. The shop has since rebranded the item as a ‘Neutral Territory Breakfast Treat,’ which the Ministry has tentatively approved, provided the sugar glaze does not inadvertently resemble any disputed boundary lines on a map.",
+  "caption": "Diplomacy is a delicate balance, especially when it comes to morning snacks. The Ministry steps in to ensure our breakfast remains geopolitically neutral. #MEA #BakeryDiplomacy #SourdoughStandoff #DiplomaticPastry (satire)",
+  "imagePrompt": "A close-up photograph of a professional-looking bakery display case filled with various golden-brown pastries and sweet buns, with no visible brand logos or recognizable signage.",
+  "sourceHeadline": {
+    "title": "India rejects Norwegian foreign minister's remarks on Kashmir",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTThHcXVkX3JyMFQ5SVJnS3EzcU1fLVpvRXNfNlJxZGlLdldvaTRhRmdLbm9KSmUzZm9jRk1NUm8zMmdfUTQ1QlFXMUJBWnhSOVlNYTFieGEwNF8yU1hEcG5aZnFwZ3JENkdTbkVzU2trRWFUdDd5SlFtLVJvRkZmcENlREU2dWFWV1RnQ01mRVB2RG1XdzJXeHNDVEhra0NBQTQwS1hycWNCY3FOT3ZqNHc0TUpiRTljd1hPcjBqRDZsMFd0eWdQaDh4ZHlNV0Z2dWUxbC1RNVJ5UdIB3wFBVV95cUxQb1BsZVV6cG1VZGNuNmNXdG5xa2xDcldEM0lJNHFiYlJmb3lJYkgybFhEeGJUdjdzaWlUSnVJWXdwcTJkTC1md0h5dldaYkRhOW5DZTBJY1dhenFaUWhKNHBJMzlxSm5zN1laa1U5Vk05b2NpcktMbjdJd1FmU2JvbVJCcDRub1Bvdm5sd2R6TnRiZkFsRUxzdnZzbFI3cjZTOWpKdkdiZHlUVEJBTXRZYWNIVlVtTmhjb2RuNXZjVlE3WWl6V0ZCVUk4MW1sTFVZWUw2SDdPZEUwMl9yNTEw?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 16:53:59 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 takes the strongest premise by applying high-level diplomatic bureaucracy to an absurdly mundane task like labeling a pastry, complete with a hilarious 'Neutral Territory Breakfast Treat' compromise. Its specificity regarding 'geopolitical signaling' through 'density of the dough' creates a perfect, affectionate satire of institutional overreach without descending into cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of clearly satirical fiction involving a fictional spokesperson and absurd bureaucratic overreach. It avoids real-world harm, does not target protected groups, and the image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
