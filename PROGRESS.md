@@ -41,10 +41,8 @@ meaningful step.
   Is Written" (X + Instagram developer/API setup is not done yet — this is a
   blocker for the posting scripts, though content-generation scripts can be
   built and tested independently first).
-- Session note: this session could not get push access approved via the
-  GitHub MCP tool (`add_repo` with `access: push` repeatedly errored with
-  "MCP tool call requires approval" even after switching to Accept Edits
-  permission mode) — worked locally instead and handed off a git bundle /
-  commands for the repo owner to push manually. If a future session hits the
-  same wall, don't loop on retrying `add_repo` — fall back to local work +
-  handoff immediately.
+- Session note: an earlier cloud Claude Code session could not get GitHub push
+  access approved via its MCP tooling, and file handoff via chat attachment
+  also had friction — so the project moved to local Claude Code entirely from
+  this point on. If you're a future session reading this: just use normal
+  local git, no special handoff needed.
