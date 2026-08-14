@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "workplace-corporate",
+  "headline": "Tech firm introduces 'Digital Presence' subscription allowing employees to pay for automated LinkedIn activity",
+  "slug": "tech-firm-launches-automated-linkedin-subscription",
+  "body": "A Bengaluru-based software firm has launched a mandatory internal service dubbed 'Corporate Aura,' which allows employees to pay a monthly subscription fee to have AI-generated, thought-leadership posts automatically shared on their LinkedIn profiles. The subscription package, starting at 1,500 rupees per month, guarantees three posts a week on 'hustle culture resilience' and 'synergistic growth mindset,' ensuring staff members maintain a high-performance personal brand without the inconvenience of actually opening the app.\n\n\"The objective is to eliminate the cognitive load of crafting meaningful career updates while simultaneously demonstrating commitment to our growth trajectory,\" said the company’s Chief Happiness Officer, Vikram Malhotra. \"Our proprietary algorithm scrapes the employee's calendar to post comments about 'meeting milestones' or 'learning from failures' during times they were actually just staring blankly at a spreadsheet, providing a truly seamless experience of professional delusion.\"\n\nEmployees who opt for the premium tier receive the 'Global Thought Leader' add-on, which includes automated, unsolicited replies to senior executive posts using phrases like 'Brilliant perspective, sir!' and 'So much to learn from this vision.' The firm claims that since the pilot program began last month, the collective 'engagement rate' of the company’s workforce has increased by 400%, despite a 15% decline in actual project deliverables.\n\nHuman Resources has clarified that while the service is currently optional, it will be integrated into the annual performance review process as a key metric for 'digital cultural fit.' Those who choose to manually write their own posts will be required to submit a 500-word justification explaining why their personal tone is more aligned with the company’s vision than the pre-approved AI templates.",
+  "caption": "Your boss can now automate your professional identity, leaving you free to focus on the one thing that really matters: doing the actual work that doesn't show up on your feed. #LinkedInCulture #HustleHarder #CorporateLife #DigitalPresence",
+  "imagePrompt": "A close-up shot of a smartphone screen displaying a professional social media feed on a wooden office desk, with a blurred modern corporate workspace in the background.",
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "total": 37
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures the mundane absurdity of modern corporate LinkedIn culture with sharp, specific details like the 'Global Thought Leader' add-on and the 1,500 rupee subscription tier. It feels the most authentic to the current tech zeitgeist, maintaining a perfect deadpan tone throughout. The other candidates lean into slightly more cartoonish tropes, whereas Candidate 0 feels like a press release that could realistically be mistaken for the truth."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a classic satirical take on corporate culture and LinkedIn trends. The mentioned name 'Vikram Malhotra' is a generic, common Indian name used as a fictional character, and the scenario is clearly framed as a satirical critique rather than a factual report.",
+    "flaggedIssues": []
+  }
+}

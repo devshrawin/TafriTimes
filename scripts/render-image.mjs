@@ -68,16 +68,19 @@ const PULL_QUOTE_MAX_CHARS = 200;
  * Scanning all quoted spans and truncating (rather than rejecting) long
  * ones avoids that failure mode.
  */
+function truncateAtWordBoundary(text, maxChars) {
+  if (text.length <= maxChars) return text;
+  const truncated = text.slice(0, maxChars);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + "…";
+}
+
 function extractPullQuote(body) {
   if (!body) return null;
   const matches = [...body.matchAll(/"([^"]{15,})"/g)];
-  if (matches.length > 0) {
-    const text = matches[0][1];
-    return text.length > PULL_QUOTE_MAX_CHARS ? text.slice(0, PULL_QUOTE_MAX_CHARS) + "…" : text;
-  }
+  if (matches.length > 0) return truncateAtWordBoundary(matches[0][1], PULL_QUOTE_MAX_CHARS);
   const firstSentence = body.split(/(?<=[.!?])\s/)[0];
-  if (!firstSentence) return null;
-  return firstSentence.length <= PULL_QUOTE_MAX_CHARS ? firstSentence : firstSentence.slice(0, PULL_QUOTE_MAX_CHARS) + "…";
+  return firstSentence ? truncateAtWordBoundary(firstSentence, PULL_QUOTE_MAX_CHARS) : null;
 }
 
 function formatTopicLabel(topicKey) {

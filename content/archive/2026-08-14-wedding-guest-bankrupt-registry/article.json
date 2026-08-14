@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "festivals-culture",
+  "headline": "Wedding Guest Declared Bankrupt After Receiving 'Mandatory' RSVP Gift-Registry Notification",
+  "slug": "wedding-guest-bankrupt-registry",
+  "body": "Local software engineer Rahul Verma filed for personal insolvency on Tuesday morning, just minutes after his cousin’s digital wedding invitation redirected him to a luxury e-commerce portal demanding a 1.2-ton Italian marble coffee table as a mandatory 'blessing gift'. Verma, who had already committed his entire annual bonus to venue travel and high-end festive attire, found himself unable to cover his monthly rent after the automated system flagged his account for failing to select a 'Premium Platinum Tier' gift item.\n\n'I honestly thought I was just paying for a buffet plate, but the link sent me to a portal that calculates your gift contribution based on your LinkedIn job title,' Verma explained from his cubicle, while unsuccessfully trying to cancel a subscription to a gold-plated cutlery set he accidentally purchased via a one-click checkout. 'The invite clearly stated that failure to purchase a registry item would be interpreted as a public rejection of the couple's matrimonial union, and I really couldn't afford the social shaming that comes with bringing a store-bought bouquet to a destination wedding.'\n\nFamily elders have defended the aggressive digitalization of gift-giving, noting that it brings much-needed transparency to the ancient tradition of transactional hospitality. 'We simply want to ensure that every guest understands their precise market value in the extended family hierarchy,' said Shanti Devi, a self-appointed family event consultant. 'If a distant relative cannot afford to provide the couple with a modular kitchen renovation, it naturally forces us to question the authenticity of their familial bonds.'\n\nWedding planners confirm that the trend of itemizing domestic assets through QR codes has led to a 400% increase in 'Guest Productivity' metrics. Those unable to fulfill their registry obligations are now being offered the alternative of 'Emotional Solidarity Loans,' which allow guests to pay off their wedding presence in monthly installments with a 14% interest rate, ensuring that the couple’s honeymoon in the Maldives remains entirely crowd-funded.",
+  "caption": "The true cost of love is now payable in 12 easy monthly installments. #WeddingSeason #RegistryBlues #IndianWeddings #ModernEtiquette",
+  "imagePrompt": "A wide-angle shot of a minimalist, modern living room featuring a digital tablet sitting on a coffee table, displaying a complex online payment interface with gold-colored icons.",
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 10,
+        "structure": 9,
+        "punchiness": 8,
+        "total": 36
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the most absurd yet grounded premise, using highly specific invented details like '1.2-ton Italian marble coffee table' and 'Emotional Solidarity Loans' to lampoon modern Indian wedding culture. Its structure is impeccable, treating the extreme monetization of personal relationships with the clinical, deadpan tone required for effective satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a common, relatable satirical premise about the absurdity of modern wedding gifting and social pressure. The characters and situations are generic archetypes rather than specific real-world individuals or entities, and the satire targets consumerist behavior rather than protected groups or religious practices.",
+    "flaggedIssues": []
+  }
+}
