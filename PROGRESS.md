@@ -13,6 +13,39 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Hourly workflow verified live end-to-end (two real bugs found + fixed)
+
+- Owner added `GEMINI_API_KEY` as a repo secret and manually triggered the
+  workflow three times while debugging, surfacing two real bugs one after
+  the other (both now fixed, see commits `fdd4074` and `f2cc8be`):
+  1. `if ! timeout ...; then code=$?; fi` captured bash's *negated* exit
+     status for the `if` test (always 0/1), never the command's real code —
+     broke the guardrail-blocked (exit 3) clean-skip check and misreported
+     the actual `GEMINI_API_KEY not set` failure as "exit 0" in the first run.
+  2. Bigger one: GitHub Actions runs every `run:` step as `bash -eo
+     pipefail {0}` by default — errexit was already ON before our own `set
+     -uo pipefail` line executed, and that line only *adds* `-u`/pipefail,
+     it cannot turn off an `-e` already active. A single transient Gemini
+     503 killed the whole step in 29s on the second run, before any of the
+     error-handling logic ran at all. Needed an explicit `set +e`.
+  3. Also worth remembering for next time: GitHub's public REST API
+     (`/actions/runs`, `/actions/runs/{id}/jobs`) works without auth for a
+     public repo's run *metadata*, but actual job **logs** need an admin
+     token (403 without one) — no `gh` CLI in this environment either, so
+     verifying a workflow's actual failure reason needed the owner to paste
+     the log text directly, or opening the run in the Browser tool (which
+     shows step names/conclusions and short annotations, but not full logs,
+     without being signed in).
+- Third trigger succeeded cleanly: real trending story ("Supreme Court
+  Directs Bar Council To Issue 'Official Protest Permits'...", genericized
+  from a real Bar Council/Nalsar/court story), guardrail passed, image
+  rendered with photo background, archived, committed, and pushed
+  automatically by the workflow itself — the whole pipeline confirmed
+  working unattended, not just in local manual tests.
+- Loop is now sleeping ~1h before its next iteration, as designed. Next
+  session should check accumulated archive quality after it's had a
+  day or two to run per the owner's original test-phase plan.
+
 ## 2026-08-14 — Fixed unreliable hourly cron using NewsDigest's self-loop pattern
 
 - Confirmed live: `hourly-trending-publish.yml`'s naive `schedule: cron: "0
