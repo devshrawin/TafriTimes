@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Delhi Airport Security Installs 'Complimentary Bomb' Kiosk to Streamline Threat Processing",
+  "slug": "delhi-airport-security-kiosk",
+  "body": "In a move aimed at reducing the administrative burden on intelligence agencies, the Delhi International Airport has introduced a self-service kiosk where passengers can register their mandatory Independence Day bomb threats electronically before heading to the check-in counter.\n\nThe initiative, dubbed 'Operation Constant Panic,' allows travelers to select their preferred threat intensity—ranging from 'Mildly Concerning' to 'Total Chaotic Shutdown'—directly via a touchscreen interface. Airport authorities hope this will prevent the traditional bottleneck of last-minute emailed threats causing unscheduled evacuation drills.\n\n'Processing a bomb threat manually takes an entire afternoon of paperwork and panic,' explained an airport spokesperson who requested anonymity to avoid being promoted to a desk job. 'With the new system, we print a token, send out a standard tweet about being on high alert, and everyone goes back to their lattes within forty-five minutes. It’s efficiency at its peak.'\n\nThe airport has also integrated a loyalty program, offering frequent threat-emitters a complimentary beverage voucher at the terminal cafe. While critics argue this may incentivize more threats, the airport management maintains that it is simply providing a structured outlet for the annual surge in civic anxiety.",
+  "caption": "Delhi airport finds a way to automate the chaos. Convenience is finally reaching the security sector. #DelhiAirport #IndependenceDay #Efficiency #SecurityUpdate (satire)",
+  "imagePrompt": "A wide, eye-level shot of an empty departure terminal corridor featuring a generic, free-standing information kiosk with a digital interface in the foreground, blurred passengers walking in the distant background.",
+  "sourceHeadline": {
+    "title": "Delhi High Court, Airport Receive Bomb Threat Day Before Independence Day",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS0RpaXQwSGpSeHZ5cU96RUlFcEg2RHE4V3J2Q1UwSVRXTTRpTHpCQlRBWkliQTJCZk90N0pXekJmRTVlY1J4ZDVQOG9Pa09wa0t0WnJKOWM5dlZhQThmUXNtM0JkdWM1OXhEbS1Xd0hSY05OcTRmVmlaZjg2VFdBdTZRVzV4eXlVdjJhc1lVLURhUFNGUjBYQ2N4TlBpWUN2RlpzZk9YbVQwU29KWl80SHhFYw?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 07:41:56 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 10,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels because it treats the absurd premise of an automated bomb threat kiosk with the deadpan, bureaucratic tone of a mundane airport upgrade. It provides specific, hilarious details like 'Operation Constant Panic' and the 'complimentary beverage' loyalty program, maintaining perfect structural fidelity to a real news report."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd satire to poke fun at the recurring issue of bomb threats at airports, clearly framing the institution rather than specific people. The image prompt is generic and avoids identifiable details.",
+    "flaggedIssues": []
+  }
+}
