@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T15:02:27.119Z",
+  "topicKey": "cricket",
+  "headline": "Parliamentary Committee Proposes Mandatory 'Hug-to-Handshake' Conversion Chart for Lawmakers",
+  "slug": "parliament-hug-handshake-chart",
+  "body": "A specially appointed Parliamentary Subcommittee on Physical Greetings has unveiled a 40-page technical manual designed to regulate interpersonal contact within the Lok Sabha. The document, which includes detailed geometric diagrams for appropriate arm-angle positioning during floor confrontations, suggests that all future non-verbal interactions be categorized as either 'Strategic Pat', 'Aggressive Embrace', or 'Constitutional Handshake'.\n\n'We noticed that the lack of standardized protocol was leading to significant confusion regarding the emotional intent behind legislative physical gestures,' said Rameshwar Singh, the Joint Secretary of the Bureau of Formal Etiquette. 'Under the new guidelines, if a member wishes to express disagreement, they are encouraged to utilize a stiff, two-second nod instead of lunging for a hug, which the current rulebook classifies as an unauthorized display of tactical affection.'\n\nTo ensure compliance, the Speaker’s office will install motion-capture sensors near the aisles to flag any 'excessive lunging' or 'unprompted tactile proximity.' The committee noted that the guidelines are intended to foster a more predictable environment where members can focus on shouting over one another without the distracting uncertainty of whether a colleague is approaching to offer a hug or merely attempting to adjust their microphone.",
+  "caption": "Lawmakers to undergo mandatory training on the difference between a hug and a political jibe. Parliament is finally formalizing the physics of the floor embrace. #Parliament #Etiquette #IndianPolitics (satire)",
+  "imagePrompt": "A wide-angle, slightly blurred photo of the interior of a legislative chamber showing empty wooden desks and rows of green upholstered chairs under bright ceiling lights.",
+  "sourceHeadline": {
+    "title": "\"When Will You Grow Up?\" BJP Slams Rahul Gandhi Over 'Hug' Jibe At PM Modi",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlZTbWxYRkZrQ3JTY0diaXVwOWdRRU9ISVlwNExOM1lhU3l3Z3VVbUM4aVIyRkVUR2J4N3dpV1ZWc0lSNUM0S0pqZzNGOU52anpfdkJlT09QNTRscG5BZmt5eVZ3dlJOM1cxbjVJQU5rVWJlN3dxb0xQc2dRM2N3ei1uOXRXNlhTaG9sdDg2MkpJc2wwMldZd0FMckw4aXp5dG9acWRDYTcyUDFxNmhj?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 03:47:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding the absurdity in technical, bureaucratic detail (geometric diagrams, arm-angle positioning) while maintaining a warm, observational tone rather than a cynical one. It treats the ridiculous premise with perfect deadpan seriousness and structure, making it the most believable and delightful entry."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical piece about parliamentary etiquette. The individual named, Rameshwar Singh, appears to be a generic placeholder name for a bureaucratic official rather than a specific real-world figure, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
