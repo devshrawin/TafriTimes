@@ -26,12 +26,13 @@ export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict,
     slug: article.slug,
     body: article.body,
     caption: article.caption,
+    imagePrompt: article.imagePrompt,
     judgeVerdict,
     safetyVerdict,
   };
   writeFileSync(path.join(dirPath, "article.json"), JSON.stringify(record, null, 2) + "\n");
 
-  const png = await renderImage(article);
+  const png = await renderImage(article, { topicKey: beat.key, date: dateStr });
   const imagePath = path.join(dirPath, "image.png");
   writeFileSync(imagePath, png);
 

@@ -13,6 +13,57 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Photorealistic photo backgrounds + design feedback pass
+
+- Owner feedback on the first rendered image: too plain (flat black box +
+  headline, empty middle third), and wanted the card to look like a real
+  photo at first glance with satire only visible on a closer look (the
+  SATIRE pill). Two rounds of changes:
+  1. Redesigned the no-photo template first: added a per-beat accent color
+     (`BEAT_ACCENTS` in `render-image.mjs`), a category+date row, and a
+     pull-quote (extracted from the article body) filling what used to be
+     dead space, with a colored left-border quote card.
+  2. Then the bigger change — real photo backgrounds. Tried Gemini's
+     image-generation models first (`gemini-3-pro-image`,
+     `nano-banana-pro-preview`, etc., discovered via `GET /v1beta/models` on
+     the same free key) — every one of them returned `RESOURCE_EXHAUSTED`
+     with an explicit `limit: 0` for the free tier. Image generation is not
+     actually free on Gemini even though text generation is. Switched to
+     **Pollinations.ai** (`https://image.pollinations.ai/prompt/...`) —
+     genuinely free, no API key, no signup at all, confirmed working.
+- Added `imagePrompt` as a new field the writer LLM produces alongside
+  headline/body/caption/slug (`generation.system.md`) — a short, generic,
+  anonymous scene description (a location/object/crowd, never a named
+  person, real logo, or readable sign text). The guardrail prompt
+  (`guardrail.system.md`) now also checks `imagePrompt` for the same
+  real-person/logo leakage as the article text, treating it as a
+  `regenerate`-worthy issue if it slips through.
+- `render-image.mjs` now: fetches the Pollinations photo for `imagePrompt`
+  (30s timeout, returns `null` on any failure so a Pollinations outage falls
+  back to the old flat-gradient design rather than blocking a publish),
+  embeds it as a base64 data URI background via Satori, adds a dark gradient
+  scrim for text legibility, and layers the masthead/category/headline/
+  pull-quote/SATIRE-mark content on top — same safeguard, new background.
+- Verified this actually works and looks convincing at a glance: rendered
+  the "ergonomic governance committee" piece with a generated photo of an
+  empty government meeting room. Known quality gap: Pollinations sometimes
+  tiles/mirrors the image at this aspect ratio (visible on the test render)
+  — acceptable for a POC, worth revisiting before this goes further.
+- Updated `PLAN.md` §3 to document this design change and the reasoning
+  (owner wants "looks real at first glance, satire on closer look," not the
+  original flat-graphic-only design), plus a new Known Risks entry: this
+  intentionally increases the "mistaken for real news" risk that was already
+  flagged as The Fauxy's actual problem, and Pollinations itself has no
+  uptime/SLA guarantee.
+- Also re-rendered the existing archived Bollywood example
+  (`content/archive/2026-08-14-period-drama-slow-motion-runtime/`) with the
+  new template for consistency, though without a photo since that entry
+  predates the `imagePrompt` field.
+- Next: run `publish.mjs` again on a fresh topic now that `imagePrompt` is
+  wired into generation, to see a real end-to-end example with a photo
+  background from a single pipeline run (everything shown so far was
+  assembled by hand from an earlier text-only generation run).
+
 ## 2026-08-14 — Swapped to Gemini (free), pipeline verified live end-to-end
 
 - Owner doesn't want to spend money yet, and Anthropic has no free tier at

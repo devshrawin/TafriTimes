@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-14",
+  "topicKey": "cricket",
+  "headline": "National Cricket Board mandates 40-hour work week for fans to ensure 'full-time support' during off-season",
+  "slug": "cricket-board-mandates-fan-work-week",
+  "body": "The national cricket board announced today that all registered fans must now clock in at least 40 hours a week of engagement, including mandatory study sessions on pitch maps and deep-dive analysis of domestic tournament strike rates to prevent a dip in viewership metrics.\n\n\"It was observed that during the two-month gap between major leagues, fans were dangerously close to developing interest in other activities, such as reading books or interacting with their families,\" said board spokesperson Rajesh Varma. \"This new policy ensures that the national discourse remains firmly locked on hypothetical team combinations, even when there isn't a ball being bowled anywhere in the world.\"\n\nUnder the new guidelines, fans will be required to submit weekly reports via a mobile application, proving they have spent at least twelve hours arguing on social media about the selection criteria for a tournament that is still six months away. Those who fail to meet the quota will face a suspension of their streaming privileges and a temporary ban on purchasing official team jerseys.\n\nIndependent analysts have lauded the initiative, noting that the national economy is essentially tethered to the emotional stability of the fan base. \"If the average citizen isn't constantly stressed about the middle-order batting collapse of a franchise, consumer spending on stress-relief snacks and sedative teas will plummet,\" explained market strategist Anjali Iyer.",
+  "caption": "New rules issued today ensure that your devotion to the sport doesn't falter just because there’s no match on TV. Stay focused, stay stressed. #CricketFans #NationalDuty #GameOn #OffSeasonGrind",
+  "imagePrompt": "A wide shot of a modern glass-fronted office building during the day with several people standing on the sidewalk looking at their smartphones.",
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "total": 37
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures the 'mundane bureaucratization of the absurd' by framing cricket fandom as a mandatory corporate job. Its specific invented details—like the requirement to study pitch maps and the social media argument quota—create a deadpan, believable reality that is funnier and more structurally sound than the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear satirical take on sports fandom culture and corporate overreach. It uses fictionalized, non-specific spokesperson names and scenarios, posing no risk of defamation or targeting of real private individuals.",
+    "flaggedIssues": []
+  }
+}

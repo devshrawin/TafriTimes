@@ -31,6 +31,24 @@ real news.
 - No sexual content involving minors, no content that could be mistaken for
   inciting real-world violence.
 
+## Image prompt
+
+Also write `imagePrompt`: a short (1-2 sentence) literal visual scene
+description for a photorealistic press-style photo to accompany the piece —
+the kind of generic stock/editorial photo a real news article on this topic
+would run. This photo is background dressing, not the joke itself.
+
+- Describe a generic scene only: a location, an object, an activity, a crowd
+  from behind/at a distance. Never describe a specific named person, a real
+  brand logo, a real building's identifiable facade, or any readable text/sign
+  content.
+- No invented named individuals from the article body should appear
+  described/depicted in the image prompt, even fictionally — describe the
+  *setting* the story is about, not a "photo of [character]."
+- Keep it plausible and mundane-looking (an office corridor, a stadium crowd,
+  a traffic jam, a festival market) — the incongruity is the headline's job,
+  not the photo's.
+
 ## Output format
 
 Return ONLY a JSON object matching this shape, no markdown fences, no other text:
@@ -40,6 +58,7 @@ Return ONLY a JSON object matching this shape, no markdown fences, no other text
   "headline": "string",
   "slug": "kebab-case-string",
   "body": "string, 3-5 paragraphs separated by \n\n",
-  "caption": "string, 1-3 sentences, suitable as a social media caption, may include 2-4 relevant hashtags"
+  "caption": "string, 1-3 sentences, suitable as a social media caption, may include 2-4 relevant hashtags",
+  "imagePrompt": "string, see Image prompt section above"
 }
 ```
