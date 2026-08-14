@@ -1,0 +1,35 @@
+# Rule-based prefilter, checked before the LLM guardrail call (scripts/safety-check.mjs).
+# Cheap, deterministic first line of defense — case-insensitive substring match
+# against the generated headline/body/caption. Anything that matches is an
+# automatic `block` regardless of what the LLM guardrail would have said.
+#
+# This list is deliberately generic (protected-category slurs, communal
+# flashpoints) rather than a name list of current politicians — real-name
+# avoidance is handled by generation-time system-prompt instructions plus the
+# LLM guardrail call, since a static name list goes stale immediately and a
+# missing name gives false confidence.
+
+slurs_and_hate_terms:
+  - "chink"
+  - "chinky"
+  - "paki"
+  - "madrasi" # used as slur in some contexts; err toward blocking
+
+communal_flashpoint_terms:
+  - "love jihad"
+  - "beef ban"
+  - "cow slaughter"
+  - "conversion racket"
+
+caste_terms_used_pejoratively:
+  - "lower caste"
+  - "upper caste"
+
+# Real, currently-serving national-level office holders — a small, deliberately
+# minimal list of the handful of names most likely to accidentally slip into a
+# generated headline. Not exhaustive; the LLM guardrail is the real check for
+# "is this a real named private/public individual."
+high_risk_real_names:
+  - "narendra modi"
+  - "amit shah"
+  - "rahul gandhi"

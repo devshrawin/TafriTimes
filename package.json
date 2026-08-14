@@ -1,0 +1,27 @@
+{
+  "name": "indianonion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fully automated India-specific satire bot — X + Instagram only, no site.",
+  "scripts": {
+    "generate": "node scripts/generate-candidates.mjs",
+    "judge": "node scripts/judge-candidates.mjs",
+    "safety-check": "node scripts/safety-check.mjs",
+    "render-image": "node scripts/render-image.mjs",
+    "write-archive": "node scripts/write-archive.mjs",
+    "post-x": "node scripts/post-to-x.mjs",
+    "post-instagram": "node scripts/post-to-instagram.mjs",
+    "refresh-instagram-token": "node scripts/refresh-instagram-token.mjs",
+    "collect-engagement": "node scripts/collect-engagement.mjs",
+    "publish": "node scripts/publish.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "js-yaml": "^4.1.0",
+    "libsodium-wrappers": "^0.7.15",
+    "satori": "^0.10.13",
+    "twitter-api-v2": "^1.18.2"
+  }
+}

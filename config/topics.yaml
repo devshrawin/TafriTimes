@@ -1,0 +1,49 @@
+# Rotated satire beats. No live-news ingestion by design (see PLAN.md Risks) —
+# these are evergreen categories of Indian public life, not specific current events.
+#
+# weight: starting sampling weight. Once data/engagement-log.json has enough
+# rows, scripts/generate-candidates.mjs re-weights these based on historical
+# engagement per topic key (see PLAN.md §6).
+
+beats:
+  - key: politics-bureaucracy
+    label: "Politics & bureaucracy"
+    weight: 1.0
+    angle: >
+      Satirize the machinery of Indian governance and bureaucracy in general —
+      committees, red tape, government offices, civic processes, policy
+      announcements. Target institutions and behaviors, never a real named
+      politician or private individual.
+  - key: cricket
+    label: "Cricket culture"
+    weight: 1.0
+    angle: >
+      Satirize the culture around Indian cricket fandom, commentary, franchise
+      cricket, and the sport's outsized role in daily life. Do not depict a
+      real named current player.
+  - key: bollywood-entertainment
+    label: "Bollywood & entertainment"
+    weight: 1.0
+    angle: >
+      Satirize Bollywood/entertainment industry tropes, film promotion cycles,
+      celebrity culture in the abstract. Do not depict a real named current
+      celebrity.
+  - key: urban-life
+    label: "Urban life & infrastructure"
+    weight: 1.0
+    angle: >
+      Satirize daily urban Indian life — traffic, metro/local trains, real
+      estate, civic infrastructure, apartment societies, gig-economy apps.
+  - key: festivals-culture
+    label: "Festivals & culture"
+    weight: 1.0
+    angle: >
+      Satirize the commercialization and social dynamics around Indian
+      festivals and cultural events, family gatherings, matrimonial culture —
+      without mocking any specific religious practice or belief itself.
+  - key: workplace-corporate
+    label: "Workplace & corporate India"
+    weight: 1.0
+    angle: >
+      Satirize Indian corporate/startup culture, IT services, work-from-home
+      norms, LinkedIn culture, hustle culture.

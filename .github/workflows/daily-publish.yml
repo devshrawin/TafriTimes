@@ -1,0 +1,100 @@
+name: Daily publish
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # ~11:00 IST
+  workflow_dispatch:
+    inputs:
+      topic_key:
+        description: "Force a specific topic beat (config/topics.yaml key). Leave blank for weighted random."
+        required: false
+      dry_run:
+        description: "If true, generate/judge/guardrail/render/archive and commit, but skip posting to X/Instagram."
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm ci
+
+      # Phase 1: generate -> judge -> safety guardrail (bounded regenerate
+      # loop) -> render templated image -> write to content/archive/. Exit
+      # code 3 means the guardrail blocked the topic or exhausted regenerate
+      # retries — a clean no-publish exit, not a workflow failure.
+      - name: Generate, judge, guardrail, render, archive
+        id: archive
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TOPIC_KEY: ${{ github.event.inputs.topic_key }}
+        run: |
+          set +e
+          node scripts/publish.mjs > archive-result.json
+          code=$?
+          set -e
+          if [ "$code" != "0" ] && [ "$code" != "3" ]; then
+            exit "$code"
+          fi
+          echo "archived=$(node -e "console.log(require('./archive-result.json').archived)")" >> "$GITHUB_OUTPUT"
+          echo "dir_name=$(node -e "const r=require('./archive-result.json'); console.log(r.dirName ?? '')")" >> "$GITHUB_OUTPUT"
+
+      # Commit + push so the image is on `main` before Instagram's Graph API
+      # tries to fetch it via the jsDelivr CDN mirror (see PLAN.md §4).
+      - name: Commit archive
+        if: steps.archive.outputs.archived == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/archive
+          git commit -m "Archive: ${{ steps.archive.outputs.dir_name }}"
+          git push
+
+      - name: Purge jsDelivr cache for new image
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/content/archive/${{ steps.archive.outputs.dir_name }}/image.png" || true
+
+      # Phase 2: post to X (direct byte upload, no CDN dependency) and
+      # Instagram (needs the push above to have landed first).
+      - name: Post to X and Instagram
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          ARCHIVE_DIR_NAME: ${{ steps.archive.outputs.dir_name }}
+        run: node scripts/post-published.mjs > post-result.json
+
+      # Persist the tweet/media IDs written into article.json by
+      # post-published.mjs, so collect-engagement.yml can find them later.
+      - name: Commit post IDs
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/archive
+          git diff --staged --quiet || git commit -m "Record post IDs: ${{ steps.archive.outputs.dir_name }}"
+          git push
+
+      - name: Upload run artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-run
+          path: |
+            archive-result.json
+            post-result.json
+          if-no-files-found: ignore
