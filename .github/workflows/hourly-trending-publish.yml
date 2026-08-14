@@ -100,7 +100,8 @@ jobs:
             fi
 
             if [ "$run_ok" -eq 1 ]; then
-              git add content/archive data/trending-used.json
+              node scripts/build-gallery.mjs || echo "::warning::gallery build failed -- archive still committed below, gallery just won't reflect this iteration yet"
+              git add content/archive data/trending-used.json docs
               if git diff --staged --quiet; then
                 echo "No change this iteration -- nothing to commit."
               elif ! git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')"; then
@@ -133,7 +134,13 @@ jobs:
                   cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
                   [ -f "$TMP/trending-used.json" ] && cp "$TMP/trending-used.json" data/trending-used.json
                   rm -rf "$TMP"
-                  git add content/archive data/trending-used.json
+                  # Rebuild docs/ from the now-restored content/archive rather
+                  # than trying to stash/replay the docs tree itself --
+                  # index.html and the images/ copies are always fully
+                  # regenerated from content/archive anyway, so this keeps
+                  # them consistent instead of risking a stale docs snapshot.
+                  node scripts/build-gallery.mjs || true
+                  git add content/archive data/trending-used.json docs
                   if git diff --staged --quiet; then
                     echo "Origin already matches this iteration's output -- nothing to re-commit."
                     pushed=1
