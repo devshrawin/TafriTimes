@@ -51,69 +51,40 @@ function parseRssItems(xml) {
   });
 }
 
-// --- Fuzzy dedupe -----------------------------------------------------
-// Same problem the NewsDigest project solved for merging the same wire
-// story run near-verbatim by multiple publishers: an exact title-string
-// match misses "X resigns" vs "X steps down amid pressure" for what's
-// really the same real event, and each rephrasing would otherwise get
-// satirized as if it were a fresh story. Ported the same shape of fix —
-// normalize + a string-similarity ratio above a threshold, gated to a
-// recency window — but scoped down for our scale: NewsDigest compares
-// ~3,000 articles/run against each other (needed a token-index to avoid
-// O(n²)), we compare one candidate headline against a used-log that grows
-// by a few entries per day, so a plain per-title scan is fine here.
+// --- Dedupe -----------------------------------------------------------
+// History worth keeping (2026-08-14 audit): this started as a character-
+// bigram Dice-coefficient similarity check with a 0.72 threshold, ported in
+// spirit from the NewsDigest project's headline-clustering. Measured against
+// this repo's own trending-used.json, that approach provably cannot work:
 //
-// NewsDigest used Python's difflib.SequenceMatcher (Ratcliff/Obershelp).
-// No dependency-free JS equivalent exists, so this uses character-bigram
-// Dice coefficient instead — a different but comparably standard
-// string-similarity measure for exactly this "same headline, reworded"
-// case, without adding a new npm dependency for it.
-const DEDUPE_TITLE_THRESHOLD = 0.72; // starting point, not independently tuned — see note above
+//   same story, reworded   ("BCI threatens Nalsar students" vs
+//                           "CJI disapproves BCI action against NALSAR")  0.394
+//   unrelated pair         ("US shadow transhipment network" vs
+//                           "Great scam: US after India named...")        0.482
+//
+// The duplicate band sits BELOW the unrelated band, so no threshold
+// separates them — it isn't a tuning problem, character bigrams are just the
+// wrong measure for short headlines that reword aggressively and use
+// abbreviations ("BCI" for "Bar Council of India"). With the threshold at
+// 0.72 nothing was ever caught, and three duplicate pairs got satirized
+// twice each in the first day of live running.
+//
+// Replaced with semantic dedupe folded into the LLM suitability call that
+// already runs per candidate (see below) — no extra API cost, and a model
+// resolves abbreviations and rewordings that string distance can't. A cheap
+// exact-match check runs first so an identical repost never costs a call.
 const DEDUPE_WINDOW_HOURS = 168; // 7 days — a topic recurring weeks later is fair game again, not a duplicate
 
-const TITLE_NOISE_RE = /[^\w\s]/g;
-
-function normalizeTitle(title) {
-  return title.toLowerCase().replace(TITLE_NOISE_RE, " ").replace(/\s+/g, " ").trim();
-}
-
-function bigrams(str) {
-  const result = [];
-  for (let i = 0; i < str.length - 1; i++) result.push(str.slice(i, i + 2));
-  return result;
-}
-
-/** Sørensen–Dice coefficient over character bigrams, 0 (nothing shared) to 1 (identical). */
-function diceCoefficient(a, b) {
-  const bgA = bigrams(a);
-  const bgB = bigrams(b);
-  if (bgA.length === 0 || bgB.length === 0) return bgA.length === bgB.length ? 1 : 0;
-  const remaining = new Map();
-  for (const bg of bgB) remaining.set(bg, (remaining.get(bg) ?? 0) + 1);
-  let matches = 0;
-  for (const bg of bgA) {
-    const count = remaining.get(bg) ?? 0;
-    if (count > 0) {
-      matches++;
-      remaining.set(bg, count - 1);
-    }
-  }
-  return (2 * matches) / (bgA.length + bgB.length);
-}
-
-/**
- * True if `title` is close enough to any recently-used title to be treated
- * as the same real-world story rather than a fresh one — catches "same
- * event, different headline wording" that an exact-string check would miss.
- */
-function isDuplicateOfRecentlyUsed(title, usedEntries) {
-  const normTitle = normalizeTitle(title);
+/** Used entries still inside the dedupe window, newest first. */
+function recentUsedEntries(usedEntries) {
   const cutoff = Date.now() - DEDUPE_WINDOW_HOURS * 60 * 60 * 1000;
-  return usedEntries.some((entry) => {
+  return usedEntries.filter((entry) => {
+    if (!entry?.title) return false; // a malformed row must not throw and kill trending mode entirely
     const usedAt = Date.parse(entry.usedAt ?? "");
-    if (!Number.isNaN(usedAt) && usedAt < cutoff) return false;
-    if (entry.title === title) return true;
-    return diceCoefficient(normTitle, normalizeTitle(entry.title)) >= DEDUPE_TITLE_THRESHOLD;
+    // Unparseable/missing usedAt: keep it in the window rather than aging it
+    // out, so a corrupt row over-rejects (safe) instead of silently
+    // reopening an already-used story.
+    return Number.isNaN(usedAt) ? true : usedAt >= cutoff;
   });
 }
 
@@ -121,14 +92,20 @@ function isDuplicateOfRecentlyUsed(title, usedEntries) {
 // phrased without a trigger word — confirmed live: "Air India A320 briefly
 // lost key flight controls" (a real safety incident) passed the keyword
 // list clean since it contains none of UNSUITABLE_KEYWORDS. This LLM check
-// runs only on the keyword-and-dedupe survivor(s), not every RSS item, to
-// keep the added cost to one call in the common case.
+// runs only on the keyword survivors, not every RSS item, to keep the added
+// cost to one call in the common case. It now also answers "is this the same
+// underlying story as one we already used" in the same call.
 const MAX_SUITABILITY_CHECKS = 8; // bound worst-case LLM calls if several top candidates all get rejected
 
-async function checkSuitabilityWithLLM(title) {
+export async function checkCandidateWithLLM(title, recentTitles) {
   const system = readText("config/prompts/trending-suitability.system.md");
-  const verdict = await callLLMForJson({ system, userMessage: title, maxOutputTokens: 256 });
-  return verdict.suitable === true;
+  const usedList = recentTitles.length
+    ? recentTitles.map((t, i) => `${i}. ${t}`).join("\n")
+    : "(none used recently)";
+  const userMessage = `Candidate headline:\n${title}\n\nRecently used headlines:\n${usedList}`;
+  const verdict = await callLLMForJson({ system, userMessage, maxOutputTokens: 256 });
+  const isDuplicate = Number.isInteger(verdict.duplicateOfIndex);
+  return { ok: verdict.suitable === true && !isDuplicate, verdict };
 }
 
 /**
@@ -136,9 +113,9 @@ async function checkSuitabilityWithLLM(title) {
  * PLAN.md for the ToS caveat: this feed's own terms restrict it to personal,
  * non-commercial feed-reader use, which an automated pipeline doesn't
  * strictly satisfy). Returns the first headline that passes the keyword
- * prefilter, isn't a near-duplicate of a recently-used one (see fuzzy
- * dedupe above), and passes an LLM suitability check, or null if the feed
- * is unreachable or nothing passes within MAX_SUITABILITY_CHECKS attempts.
+ * prefilter, isn't an exact repeat, and clears the LLM suitability +
+ * semantic-dedupe check — or null if the feed is unreachable or nothing
+ * passes within MAX_SUITABILITY_CHECKS attempts.
  */
 export async function fetchTrendingHeadline({ usedEntries = [] } = {}) {
   try {
@@ -146,15 +123,21 @@ export async function fetchTrendingHeadline({ usedEntries = [] } = {}) {
     if (!response.ok) return null;
     const xml = await response.text();
     const items = parseRssItems(xml);
+
+    const recent = recentUsedEntries(usedEntries);
+    const recentTitles = recent.map((e) => e.title);
+    const exactUsed = new Set(recentTitles);
+
     const candidates = items.filter(
-      (item) => item.title && isSuitableForSatire(item.title) && !isDuplicateOfRecentlyUsed(item.title, usedEntries)
+      (item) => item.title && isSuitableForSatire(item.title) && !exactUsed.has(item.title)
     );
 
     let checked = 0;
     for (const candidate of candidates) {
       if (checked >= MAX_SUITABILITY_CHECKS) break;
       checked++;
-      if (await checkSuitabilityWithLLM(candidate.title)) return candidate;
+      const { ok } = await checkCandidateWithLLM(candidate.title, recentTitles);
+      if (ok) return candidate;
     }
     return null;
   } catch {

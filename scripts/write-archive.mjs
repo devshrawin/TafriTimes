@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { ROOT } from "./lib.mjs";
@@ -9,18 +9,41 @@ function todayIsoDate() {
 }
 
 /**
+ * `date-slug` collides silently once there are ~24 posts/day (2026-08-14
+ * audit found three near-miss slugs in a single day already). A collision
+ * overwrote the earlier post's article.json and image.png with no error.
+ * Appends -2, -3, ... until a free directory name is found, so a same-slug
+ * post never destroys an earlier one.
+ */
+function findAvailableDirName(archiveRoot, baseName) {
+  if (!existsSync(path.join(archiveRoot, baseName))) return baseName;
+  for (let n = 2; ; n++) {
+    const candidate = `${baseName}-${n}`;
+    if (!existsSync(path.join(archiveRoot, candidate))) return candidate;
+  }
+}
+
+/**
  * Writes the archived article record + rendered image into
  * content/archive/YYYY-MM-DD-slug/ — the audit trail and the data source the
  * feedback loop (collect-engagement.mjs) later attaches engagement metrics to.
  */
 export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict, date }) {
   const dateStr = date ?? todayIsoDate();
-  const dirName = `${dateStr}-${article.slug}`;
-  const dirPath = path.join(ROOT, "content/archive", dirName);
+  // Real timestamp, not just the day-level `date` — the gallery previously
+  // sorted/grouped by git checkout mtime, which `actions/checkout` resets
+  // to checkout time for every pre-existing file, collapsing the whole
+  // archive into one "day" on every fresh CI run. This is the field
+  // build-gallery.mjs should read instead.
+  const publishedAt = new Date().toISOString();
+  const archiveRoot = path.join(ROOT, "content/archive");
+  const dirName = findAvailableDirName(archiveRoot, `${dateStr}-${article.slug}`);
+  const dirPath = path.join(archiveRoot, dirName);
   mkdirSync(dirPath, { recursive: true });
 
   const record = {
     date: dateStr,
+    publishedAt,
     topicKey: beat.key,
     headline: article.headline,
     slug: article.slug,

@@ -12,24 +12,77 @@ const X_CAPTION_LIMIT = 280;
 const SATIRE_SUFFIX = "(satire)";
 
 /**
+ * X does NOT count JavaScript's `String.length` (UTF-16 code units). It uses
+ * a weighted count: code points in U+0000–U+10FF, U+2000–U+200D,
+ * U+2010–U+201F and U+2032–U+2037 weigh 1, everything else weighs 2.
+ *
+ * This bit us concretely (2026-08-14 audit): the previous implementation
+ * measured `.length`, so it produced captions of exactly 280 code units that
+ * X counted as 281+ and rejected — including via the "…" (U+2026) the
+ * function appends itself, which weighs 2. A "₹" (U+20B9), near-guaranteed
+ * in Indian-satire captions, also weighs 2. The function whose entire job
+ * was preventing an over-length rejection was reliably causing one.
+ */
+function xWeightedLength(str) {
+  let total = 0;
+  for (const ch of str) {
+    const cp = ch.codePointAt(0);
+    const light =
+      cp <= 0x10ff ||
+      (cp >= 0x2000 && cp <= 0x200d) ||
+      (cp >= 0x2010 && cp <= 0x201f) ||
+      (cp >= 0x2032 && cp <= 0x2037);
+    total += light ? 1 : 2;
+  }
+  return total;
+}
+
+/** Truncates to at most `maxWeight` in X's weighted units, never splitting a code point. */
+function sliceToWeight(str, maxWeight) {
+  let total = 0;
+  let out = "";
+  // Iterating the string yields whole code points, so this can't split a
+  // surrogate pair the way `.slice()` on code units could.
+  for (const ch of str) {
+    const w = xWeightedLength(ch);
+    if (total + w > maxWeight) break;
+    total += w;
+    out += ch;
+  }
+  return out;
+}
+
+/**
  * Hard code-level enforcement of X's 280-char limit — the generation prompt
- * already asks for <=260 chars, but that's instruction-following, not a
- * guarantee, and X's API rejects the post outright if it's ever over. Keeps
- * the "(satire)" marker intact by truncating the body before it rather than
- * just hard-cutting the whole string, since that marker is the one that
- * survives a caption being screenshotted/quoted without the image.
+ * asks for <=260, but that's instruction-following, not a guarantee (one
+ * archived caption already came in at 263). Keeps the "(satire)" marker
+ * intact by truncating the body before it rather than hard-cutting the whole
+ * string, since that marker is what survives a caption being screenshotted
+ * or quoted without the image.
  */
 export function enforceXCaptionLimit(caption) {
-  if (caption.length <= X_CAPTION_LIMIT) return caption;
-  const hasSuffix = caption.trim().endsWith(SATIRE_SUFFIX);
-  let body = hasSuffix ? caption.slice(0, caption.length - SATIRE_SUFFIX.length).trimEnd() : caption;
-  const reserve = hasSuffix ? SATIRE_SUFFIX.length + 2 : 1; // +2 for the space + ellipsis join, +1 for a bare ellipsis
+  if (xWeightedLength(caption) <= X_CAPTION_LIMIT) return caption;
+
+  const trimmed = caption.trim();
+  const hasSuffix = trimmed.endsWith(SATIRE_SUFFIX);
+  // Slice from `trimmed`, not `caption` — slicing the untrimmed string by
+  // the suffix length left the suffix intact when there was trailing
+  // whitespace, and the function then appended a second "(satire)".
+  let body = hasSuffix ? trimmed.slice(0, trimmed.length - SATIRE_SUFFIX.length).trimEnd() : trimmed;
+
+  // Reserve weighted room for what gets appended after truncation:
+  // the ellipsis (weight 2), plus — when a suffix is present — a space and
+  // the suffix itself (all weight-1 ASCII).
+  const ELLIPSIS_WEIGHT = 2;
+  const reserve = ELLIPSIS_WEIGHT + (hasSuffix ? SATIRE_SUFFIX.length + 1 : 0);
   const maxBody = X_CAPTION_LIMIT - reserve;
-  if (body.length > maxBody) {
-    const truncated = body.slice(0, maxBody);
+
+  if (xWeightedLength(body) > maxBody) {
+    const truncated = sliceToWeight(body, maxBody);
     const lastSpace = truncated.lastIndexOf(" ");
-    body = (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + "…";
+    body = (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated).trimEnd() + "…";
   }
+
   return hasSuffix ? `${body} ${SATIRE_SUFFIX}` : body;
 }
 

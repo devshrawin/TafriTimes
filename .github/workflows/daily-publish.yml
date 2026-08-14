@@ -1,15 +1,33 @@
-name: Daily publish
+name: Daily publish (POSTS TO SOCIAL — manual trigger only)
+
+# THIS IS THE ONLY WORKFLOW THAT POSTS TO X AND INSTAGRAM.
+#
+# The `schedule:` trigger was REMOVED deliberately (2026-08-14 audit). It
+# previously ran daily at 05:30 UTC, and its posting steps were gated on
+# `github.event.inputs.dry_run != 'true'` — but on a `schedule:` trigger
+# `inputs` is empty, so that condition evaluated TRUE and a scheduled run
+# took the posting path by default. The gate is now `post == 'true'`, so
+# the default is fail-safe: absent/empty input means archive only. The only thing preventing unreviewed
+# autonomous posting was that the workflow passed ANTHROPIC_API_KEY while
+# the code requires GEMINI_API_KEY, so it crashed at step one every morning.
+# Fixing that env-var name — an obvious-looking one-line bug — would have
+# silently switched on live posting to X and Instagram.
+#
+# Posting is intentionally deferred until after the archive-only test phase.
+# Day-to-day generation runs in hourly-trending-publish.yml, which never
+# posts. Re-enabling a schedule here is a deliberate decision, not a fix.
+#
+# `post` now defaults to "false", so even a manual run archives without
+# posting unless someone explicitly asks for it.
 
 on:
-  schedule:
-    - cron: "30 5 * * *" # ~11:00 IST
   workflow_dispatch:
     inputs:
       topic_key:
         description: "Force a specific topic beat (config/topics.yaml key). Leave blank for weighted random."
         required: false
-      dry_run:
-        description: "If true, generate/judge/guardrail/render/archive and commit, but skip posting to X/Instagram."
+      post:
+        description: "Set to 'true' to ACTUALLY POST to X and Instagram. Anything else archives only."
         required: false
         default: "false"
 
@@ -35,7 +53,7 @@ jobs:
       - name: Generate, judge, guardrail, render, archive
         id: archive
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TOPIC_KEY: ${{ github.event.inputs.topic_key }}
         run: |
           set +e
@@ -56,18 +74,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/archive
-          git commit -m "Archive: ${{ steps.archive.outputs.dir_name }}"
+          git diff --staged --quiet || git commit -m "Archive: ${{ steps.archive.outputs.dir_name }}"
           git push
 
       - name: Purge jsDelivr cache for new image
-        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.post == 'true'
         run: |
           curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/content/archive/${{ steps.archive.outputs.dir_name }}/image.png" || true
 
       # Phase 2: post to X (direct byte upload, no CDN dependency) and
       # Instagram (needs the push above to have landed first).
       - name: Post to X and Instagram
-        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.post == 'true'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -81,7 +99,7 @@ jobs:
       # Persist the tweet/media IDs written into article.json by
       # post-published.mjs, so collect-engagement.yml can find them later.
       - name: Commit post IDs
-        if: steps.archive.outputs.archived == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.archive.outputs.archived == 'true' && github.event.inputs.post == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

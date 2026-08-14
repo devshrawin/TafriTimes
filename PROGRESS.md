@@ -13,6 +13,84 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Full audit (2 independent agents + manual verification), fixed top 5
+
+Ran a real audit at the owner's request — two agents in parallel (one on
+code correctness, one on safety-chain gaps + docs accuracy), then verified
+every serious claim myself with actual test scripts before trusting it (a
+few agent claims were imprecise; only reporting what I personally confirmed
+by execution). Fixed in priority order:
+
+1. **`daily-publish.yml` was one env-var typo away from live autonomous
+   posting.** Its posting steps were gated on `dry_run != 'true'`, but on a
+   `schedule:` trigger `inputs` is empty so that's always true — a scheduled
+   run took the posting path by default. Only reason it never actually
+   posted: it passed `ANTHROPIC_API_KEY` while the code needs
+   `GEMINI_API_KEY`, so it crashed at step one every morning. **Removed the
+   `schedule:` trigger entirely** (posting stays a deliberate, manual,
+   explicit-opt-in action — new `post` input defaults to `"false"`), fixed
+   the env var, added a `git diff --staged --quiet ||` guard the commit
+   steps were missing.
+2. **`enforceXCaptionLimit` (post-to-x.mjs) produced captions X rejects.**
+   X counts *weighted* length (non-ASCII/emoji/₹ count 2, not 1) — the old
+   implementation measured `.length`, so a caption at exactly 280 code units
+   was often 281-282 weighted, including via the "…" the function itself
+   appends. Verified before and after with real ₹/emoji/no-space-token test
+   cases. Also fixed a real double-`(satire)` bug when trailing whitespace
+   was present (sliced from the untrimmed string).
+3. **The fuzzy dedupe added earlier today doesn't work, and never did.**
+   Measured against our own `trending-used.json`: a genuine duplicate pair
+   ("BCI threatens Nalsar students" / "CJI disapproves BCI action") scored
+   **0.394** on the Dice-coefficient check; an *unrelated* pair scored
+   **0.482**. The duplicate band sits below the noise floor — no threshold
+   fixes this, character bigrams are the wrong measure for short, heavily
+   reworded/abbreviated headlines. Three duplicate pairs got satirized
+   twice each on day one. Replaced with semantic dedupe folded into the
+   existing LLM suitability call (`trending-suitability.system.md` now also
+   returns `duplicateOfIndex` against a list of recently-used titles) — no
+   extra API cost, and a model actually resolves "BCI" = "Bar Council of
+   India" the way string distance can't. Verified against all 4 known
+   duplicate/non-duplicate pairs in the live log: 4/4 correct.
+4. **Archive dir collisions silently destroyed posts.** `date-slug` with
+   ~24 posts/day risks two same-slug posts overwriting each other's
+   `article.json`/`image.png` with no error — already had 3 near-miss slugs
+   in one day. `write-archive.mjs` now appends `-2`, `-3`... on collision.
+5. **Gallery date tabs were wrong on every CI run.** Used file mtime for
+   sorting/grouping, but `actions/checkout` resets every pre-existing
+   file's mtime to checkout time — collapsed the whole historical archive
+   into "today" and showed checkout time as every old post's publish time.
+   Added a real `publishedAt` ISO timestamp written at archive time;
+   `build-gallery.mjs` now reads that, falling back to mtime only for
+   pre-fix posts that don't have it.
+6. **Denylist `"paki"` matched "Pakistan" as a substring** — every
+   legitimate India/Pakistan story was auto-blocked, indistinguishable from
+   the guardrail working correctly. Fixed to whole-word matching; also
+   extended the prefilter to `imagePrompt` (previously unchecked, and the
+   one field sent verbatim to an external image service). Committed
+   separately (`d45fdac`) right after the audit surfaced it.
+
+**Not yet fixed** (lower priority per the audit, still real): guardrail is
+inconsistent on real-named public figures not on the 3-name denylist (Kohli
+→ pass, Ambani → block, same premise); guardrail has never once returned
+`block`/`regenerate` in 13 live posts — PLAN.md's own required verification
+step (deliberately trip it) had never been run before I forced it during
+this audit; `(satire)` caption marker is prompt-only, unenforced in code,
+missing from 6/13 archived captions; `collect-engagement.mjs` dedupes on
+`slug` not `dirName` (collides across days) and loses all progress on one
+API failure mid-loop; `postPublished` only records `xTweetId` if Instagram
+*also* succeeds, silently orphaning successful X posts from the engagement
+feedback loop.
+
+Also researched **The Babylon Bee** as a reference model (owner's request)
+— key transferable lessons: they generate ~500 headlines/week and publish
+~30 (the filter is the actual product, not the writing), every real
+enforcement action against them (Twitter suspension, Facebook removals) was
+under hate-speech/incitement policy, not "mistaken for real news" — satire
+labeling doesn't protect against that category at all. Full brief with
+sources given to owner in chat, not duplicated in this file.
+
+---
+
 ## 2026-08-14 — Tone shift: affectionate, not contemptuous
 
 - Owner flagged the "Supreme Court directs historical figures to file

@@ -20,33 +20,37 @@ function loadPosts() {
       const imagePath = path.join(dirPath, "image.png");
       if (!existsSync(articlePath) || !existsSync(imagePath)) return null;
       const record = JSON.parse(readFileSync(articlePath, "utf8"));
-      // article.json only has a day-level `date`, not a time -- file mtime
-      // is what actually reflects real chronological/hour ordering across
-      // the multiple-posts-per-day the hourly workflow produces.
-      const mtime = statSync(articlePath).mtimeMs;
-      return { dirName: entry.name, record, imagePath, mtime };
+      // record.publishedAt is a real timestamp written at archive time.
+      // File mtime was used originally, but `actions/checkout` resets every
+      // pre-existing file's mtime to checkout time on a fresh CI run — that
+      // collapsed the entire historical archive into one "today" tab and
+      // showed the checkout time as every old post's publish time (found in
+      // the 2026-08-14 audit). Older archived posts predate this field, so
+      // fall back to mtime only for those, not as the general-case source.
+      const timestamp = record.publishedAt ? Date.parse(record.publishedAt) : statSync(articlePath).mtimeMs;
+      return { dirName: entry.name, record, imagePath, timestamp };
     })
     .filter(Boolean)
-    .sort((a, b) => b.mtime - a.mtime);
+    .sort((a, b) => b.timestamp - a.timestamp);
 }
 
 /** Groups posts by calendar date (UTC), newest date first, posts within a date newest-hour first. */
 function groupByDate(posts) {
   const groups = new Map();
   for (const post of posts) {
-    const dateKey = new Date(post.mtime).toISOString().slice(0, 10);
+    const dateKey = new Date(post.timestamp).toISOString().slice(0, 10);
     if (!groups.has(dateKey)) groups.set(dateKey, []);
     groups.get(dateKey).push(post);
   }
   return [...groups.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
 }
 
-function formatTime(mtime) {
-  return new Date(mtime).toISOString().slice(11, 16) + " UTC";
+function formatTime(timestamp) {
+  return new Date(timestamp).toISOString().slice(11, 16) + " UTC";
 }
 
 function renderCard(post) {
-  const { record, dirName, mtime } = post;
+  const { record, dirName, timestamp } = post;
   const topicLabel = (record.topicKey ?? "").replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const sourceLine = record.sourceHeadline
     ? `<p class="source">Based on real trending headline: <a href="${escapeHtml(record.sourceHeadline.link)}" target="_blank" rel="noopener">${escapeHtml(record.sourceHeadline.title)}</a></p>`
@@ -57,7 +61,7 @@ function renderCard(post) {
       <div class="card-body">
         <div class="meta">
           <span class="topic">${escapeHtml(topicLabel || "Trending")}</span>
-          <span class="time">${formatTime(mtime)}</span>
+          <span class="time">${formatTime(timestamp)}</span>
         </div>
         <h2>${escapeHtml(record.headline)}</h2>
         <details>
