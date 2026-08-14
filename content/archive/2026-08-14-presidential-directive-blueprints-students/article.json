@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T17:11:26.764Z",
+  "topicKey": "trending-news",
+  "headline": "Presidential Directive Mandates All Engineering Students Carry Miniature Blueprints for Future India",
+  "slug": "presidential-directive-blueprints-students",
+  "body": "The Union Ministry of Human Resource Development has issued a new circular requiring all undergraduate engineering students to carry physical, paper blueprints of their 'vision for India's future' at all times, following a recent statement by the President regarding the youth's role in nation-building.\n\nUnder the new 'Architectural Readiness Program', students must submit a monthly 1:50 scale schematic of their proposed infrastructure projects, ranging from floating hyperloop networks to solar-powered tea stalls. 'We don’t just want students to study thermodynamics; we want them to physically hold their architectural burden,' said a spokesperson for the National Board of Academic Blueprints. 'If a student cannot produce a detailed cross-section of a smart city while standing in a canteen queue, they are clearly not yet an architect of the nation.'\n\nThe initiative has faced minor hurdles, primarily involving limited storage space in hostel dormitories already packed with dusty textbooks. 'I have to sleep standing up because my model of a high-speed inter-state bridge takes up my entire bed,' complained one final-year student, who remains optimistic that his design for a sentient traffic signal will be reviewed by the cabinet by 2029.",
+  "caption": "Students are now required to carry their future blueprints everywhere. A heavy burden for a bright future. #India #Education #Students #Blueprint (satire)",
+  "imagePrompt": "A wide-angle, photorealistic shot of a busy university campus walkway with students walking while carrying large, rolled-up paper architectural blueprints under their arms.",
+  "sourceHeadline": {
+    "title": "Students are architects of India’s future, says President Murmu",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMWlUd3JKVjhJMkNocVJVUXo5LUFPZXRfdHc2MjRJU254czRxNWtkOFRVTDlMdVo3VkdJMGxROWpmdklnSnFxbF9JaGJGQ25MdjBEZGZKUVFldXppRXFUd00tMEdWbW12RXFHcC0wTjZ6dlVMek5SRjVwREtUMncxQnlwdVB1ZWFnZkJwem1jRnpiaTM0WHBRZ29ZMGtCc0hFTlZYOUhSUWtfQUtqakh2RmpEdWxkNjBBTU5takc4MWl6ZUF6VVUwbXNiRzhXd9IB1AFBVV95cUxPUEZ2Q2lPMVhuVFQyNXZvV2E4bUhxa1d6OExwb3dmQ2E4UWo0ZVc2SEI5SGUzWkJJeERKTzVtRm9WR2g3WGNfcmNkbWtKeUpielpyMUZ3cExaRXNHVWxlRks3cFhBUS1XZ0VuTFBGUmhVekRjalotTElwbW91YWZYVm10ejlEWmdNWjFDc2pyZ3JXUS1XT2xfNllxbW1yRlhvN0hydG1jUER6QXNweFNYN3BnNjlKejVXNGM2ZG5qYV9rMkVrM0dXa0t5bHdZTmUtQXQ0OA?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 16:15:12 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 34
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 43
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 1,
+    "reasoning": "Candidate 1 wins for the perfect balance of absurd bureaucratic requirement and relatable student misery. The specific, hilarious detail of a student being unable to sleep because their model of a sentient traffic signal occupies their bed provides exactly the kind of affectionate, specific ribbing that captures the spirit of the prompt better than the other, more cynical or hyperbolic entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses clear satire to mock academic bureaucracy and student life without naming any specific public figures, private individuals, or targeting any religious/caste/ethnic groups. The image prompt is generic and contains no prohibited content.",
+    "flaggedIssues": []
+  }
+}
