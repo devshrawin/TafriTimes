@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T11:01:30.382Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Clerk Accidentally Files Petition Demanding Apology for Forgotten Tiffin Box",
+  "slug": "supreme-court-clerk-tiffin-petition",
+  "body": "The Supreme Court of India was momentarily thrown into a state of confusion on Thursday after a junior judicial clerk accidentally processed a legal petition demanding a formal apology for a missing paneer-stuffed paratha. The filing, which was mistakenly registered under the docket for high-profile litigation, reportedly contained a detailed account of how the clerk’s lunch disappeared from the staff canteen refrigerator during the hearing of a major state appeal.\n\n“The petition was extremely thorough,” noted one court stenographer, who spent two hours proofreading the clerk’s grievance. “It cited the Indian Penal Code, the law of torts, and even included a signed affidavit from the canteen manager confirming that the paratha was, in fact, prepared with extra ghee. It was formatted so professionally that the registry initially considered it a constitutional challenge before realizing it was just a lunch dispute.”\n\nChief Justice’s office officials confirmed that while the matter has been dismissed for lack of urgency, they are considering an internal inquiry into the canteen’s storage protocols. The clerk has since withdrawn the petition, reportedly satisfied after a Senior Advocate offered to share half of their cucumber sandwich during the tea break. The court has officially returned to its regular business of deciding the fate of the nation.",
+  "caption": "When the legal system is so well-oiled that even a missing lunch gets a docket number. Justice served, one paratha at a time. #SupremeCourt #IndianLaw #CanteenCapers (satire)",
+  "imagePrompt": "A wide, low-angle shot of a grand, domed courtroom building with heavy pillars, showing a few lawyers in black robes walking away from the entrance under a clear, bright sky.",
+  "sourceHeadline": {
+    "title": "Supreme Court quashes hate speech case against Rahul Gandhi over Savarkar remarks after U.P. govt. refuses sanction",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNnJRNHpuR0Jvek1qSnhGdUJ3ODhuNmlXS3VUSkxqZTVwcUpDUVRCRzI3NHFUbm9CdW5sai1vX1FvSVFsWUhaUXlDd0lXQ0MwREo1MjBOZ3F0ZVVCNWZvRWdRT2RfbGVwTlVSQ3FuY0RVaTRsMTRkOURrc09JQWRDTHQzMER3VUVhSDNMSHhkUE5HQ1p6NmlsQmR4SmFQWTNVaTBxWTNBd1liT3g4MFlMT2FHSDNTb1lOUFo3MHdZSkhRMGs1U3ZVSkxKdUU5X2VmV21oZjVFa3EyY0lYWjRObVZpOUpTaHUza3EtOHp0T0zSAfcBQVVfeXFMTUYzeWs2dTRhaWJxVUo1dVU2czBEa3RLc21LVlViV1BjcE9oUXpqWXNxeGVSSHFoTkxkUEZWMGFOeUdEaTdTQmpoRWNuUzhwR3ZHbXNpT1JrSlozekpYS1RNalpYMTAyWE1nYVZqaHF5Z0Z3OWFPNW14TmdsRVhldXItZVowQmJjOGNmZVdxbEhTQTY2UEYtVzNVdGEtenNBdEs5Y01sN1BJT0JaSU1heVNYaUN1TEp4a0h1LUZGbnBUYkhINUViWTJIZFZ3bkEwOGdmaGJ5S1N3YjE5QndRNWE4azBmcUdXQVFEdXh3TldtdEs1MGNPOA?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 07:06:45 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "total": 41
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 wins for its perfect balance of absurd specificity and relatable, warm observational humor. While Candidate 0 is a strong contender for its structural brilliance, the story of the missing paratha filed as a constitutional petition provides a more endearing, human-centric form of satire that feels uniquely grounded."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a lighthearted, clearly fictional piece of satire that does not name any real individuals, target protected groups, or make defamatory claims. The image prompt avoids specific identifiers like logos or names.",
+    "flaggedIssues": []
+  }
+}
