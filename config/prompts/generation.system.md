@@ -84,7 +84,7 @@ Return ONLY a JSON object matching this shape, no markdown fences, no other text
   "headline": "string",
   "slug": "kebab-case-string",
   "body": "string, 3-5 paragraphs separated by \n\n",
-  "caption": "string, 1-3 sentences, suitable as a social media caption, may include 2-4 relevant hashtags",
+  "caption": "string, 1-3 sentences, suitable as a social media caption, may include 2-4 relevant hashtags, MUST end with the plain-text marker '(satire)' — real-world satire outlets have been mistaken for genuine news specifically because a screenshot/quote of the caption or headline circulated without the accompanying image, so the image's SATIRE mark alone isn't a sufficient safeguard; this plain-text marker survives that",
   "imagePrompt": "string, see Image prompt section above"
 }
 ```

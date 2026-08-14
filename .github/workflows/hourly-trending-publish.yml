@@ -1,24 +1,41 @@
 name: Hourly trending publish (test phase — archive only, no posting)
 
 # Test-phase workflow: runs generate -> judge -> guardrail -> render -> archive
-# once an hour (24/day) against a real trending India headline (see
+# once an hour (roughly 24/day) against a real trending India headline (see
 # scripts/fetch-trending.mjs and PLAN.md's "Real trending event mode"
 # section). Deliberately does NOT post to X/Instagram yet — that's a
-# separate, later decision (see PROGRESS.md 2026-08-14). This just builds up
-# a few days of real archived examples in content/archive/ to review before
-# posting is wired back in.
-
+# separate, later decision (see PROGRESS.md 2026-08-14).
+#
+# Scheduling approach ported from the NewsDigest project's check-feeds.yml,
+# which hit this exact problem first: GitHub's `schedule:` trigger is
+# best-effort with no SLA and no catch-up for a dropped tick — that project
+# measured a single *hourly* cron going 4+ hours with zero fires. Their fix,
+# reused here: one long-lived job loops internally via a plain bash `sleep`
+# for the real ~hourly cadence (not dependent on GitHub's scheduler once
+# started), with only a coarse `schedule:` trigger (every 6h) to restart the
+# chain if a job ever dies. Coarse, infrequent triggers are far less prone to
+# the congestion/drop behavior that killed the frequent version.
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # every hour, on the hour
-  workflow_dispatch: {}
+    - cron: "17 */6 * * *" # coarse restart-the-chain trigger, not the real cadence
 
 permissions:
   contents: write
 
+concurrency:
+  group: hourly-trending-publish
+  # true, not false: each loop iteration is a fully independent publish, so
+  # if the 6-hourly restart fires while a previous loop is still alive,
+  # cancelling it and starting fresh loses at most one in-flight iteration
+  # (worst case: one wasted LLM call) and never corrupts anything.
+  cancel-in-progress: true
+
 jobs:
-  publish:
+  publish-loop:
     runs-on: ubuntu-latest
+    # Comfortably under GitHub's 6h hard cap on hosted-runner job duration.
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -28,35 +45,118 @@ jobs:
 
       - run: npm ci
 
-      - name: Generate, judge, guardrail, render, archive from trending headline
-        id: publish
+      - name: Loop publish every ~1 hour
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CANDIDATE_COUNT: "3"
         run: |
-          set +e
-          node scripts/publish.mjs > publish-result.json
-          code=$?
-          set -e
-          cat publish-result.json
-          # Exit code 3 is a clean "blocked/regenerate-exhausted, didn't
-          # publish" outcome (see publish.mjs) — not a workflow failure.
-          if [ "$code" != "0" ] && [ "$code" != "3" ]; then
-            exit "$code"
-          fi
-
-      - name: Commit archive + trending-used log
-        run: |
-          git config user.name "github-actions[bot]"
+          set -uo pipefail
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/archive data/trending-used.json
-          git diff --staged --quiet || git commit -m "Hourly trending archive: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
 
-      - name: Upload run result
+          BRANCH="${GITHUB_REF_NAME}"
+          INTERVAL=3600      # target cadence between iteration *starts*
+          RESERVE=$(( 5 * 60 )) # publish.mjs runs in well under a minute in testing
+          RUN_CAP=5m         # hard ceiling on one publish.mjs run
+
+          # 5h20m of looping -- leaves ~20min of the 350min job budget free
+          # for the last iteration's own commit/push to finish cleanly.
+          END=$(( $(date +%s) + 5*3600 + 20*60 ))
+
+          while true; do
+            ITER_START=$(date +%s)
+
+            # No -e: a failing publish.mjs falls through to the commit logic
+            # below rather than aborting the whole loop -- one bad run (a
+            # Gemini 503, a Pollinations timeout) shouldn't kill a 5h20m loop.
+            run_ok=1
+            if ! timeout "${RUN_CAP}" node scripts/publish.mjs > publish-result.json; then
+              code=$?
+              if [ "$code" = "3" ]; then
+                echo "Guardrail blocked/exhausted this iteration -- nothing to archive, that's fine."
+              else
+                run_ok=0
+                echo "::warning::publish.mjs failed or exceeded ${RUN_CAP} this iteration (exit ${code}) -- will retry next iteration"
+              fi
+            fi
+
+            if [ "$run_ok" -eq 1 ]; then
+              git add content/archive data/trending-used.json
+              if git diff --staged --quiet; then
+                echo "No change this iteration -- nothing to commit."
+              elif ! git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')"; then
+                echo "::warning::git commit failed -- nothing delivered this iteration"
+              else
+                # content/archive and data/trending-used.json only ever grow
+                # (new dirs, appended log entries) -- no meaningful merge, so
+                # don't rebase: on rejection, stash what this iteration built,
+                # hard-reset onto origin, restore it, and re-commit. Avoids a
+                # mid-rebase tree that could break every later iteration.
+                pushed=0
+                for attempt in 1 2 3; do
+                  if git push origin "HEAD:${BRANCH}"; then
+                    pushed=1
+                    break
+                  fi
+                  echo "Push rejected (attempt ${attempt}/3) -- replaying this iteration's output onto origin/${BRANCH}."
+                  TMP="$(mktemp -d)"
+                  cp -r content/archive "$TMP/archive" 2>/dev/null || true
+                  cp data/trending-used.json "$TMP/trending-used.json" 2>/dev/null || true
+                  if ! git fetch origin "${BRANCH}"; then
+                    echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
+                    rm -rf "$TMP"; break
+                  fi
+                  if ! git reset --hard "origin/${BRANCH}"; then
+                    echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
+                    rm -rf "$TMP"; break
+                  fi
+                  mkdir -p content/archive
+                  cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
+                  [ -f "$TMP/trending-used.json" ] && cp "$TMP/trending-used.json" data/trending-used.json
+                  rm -rf "$TMP"
+                  git add content/archive data/trending-used.json
+                  if git diff --staged --quiet; then
+                    echo "Origin already matches this iteration's output -- nothing to re-commit."
+                    pushed=1
+                    break
+                  fi
+                  git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')" || {
+                    echo "::warning::re-commit after replay failed"; break; }
+                done
+
+                git fetch origin "${BRANCH}" >/dev/null 2>&1 || true
+                if [ "$pushed" -eq 1 ] && [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/${BRANCH}")" ]; then
+                  echo "Archive pushed and verified on origin/${BRANCH}."
+                else
+                  echo "::warning::this iteration's archive was not delivered -- next iteration's git state will still include it locally"
+                fi
+              fi
+            fi
+
+            # Cadence measured from iteration START so work time doesn't
+            # stack on top of the sleep.
+            NOW=$(date +%s)
+            ELAPSED=$(( NOW - ITER_START ))
+            SLEEP=$(( INTERVAL - ELAPSED ))
+            [ "$SLEEP" -lt 60 ] && SLEEP=60
+
+            if [ $(( NOW + SLEEP + RESERVE )) -ge "$END" ]; then
+              echo "Not enough budget left for another full iteration -- the next restart picks up from here."
+              break
+            fi
+            echo "Sleeping ${SLEEP}s (iteration took ${ELAPSED}s)."
+            sleep "$SLEEP"
+          done
+
+      - name: Summary
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: publish-result-${{ github.run_number }}
-          path: publish-result.json
-          if-no-files-found: ignore
+        run: |
+          echo "### Hourly trending publish" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f publish-result.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            tail -30 publish-result.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No publish-result.json produced -- check the loop step's log." >> "$GITHUB_STEP_SUMMARY"
+          fi

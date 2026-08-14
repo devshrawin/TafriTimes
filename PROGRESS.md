@@ -13,6 +13,42 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Fixed unreliable hourly cron using NewsDigest's self-loop pattern
+
+- Confirmed live: `hourly-trending-publish.yml`'s naive `schedule: cron: "0
+  * * * *"` fired **zero times** by 07:00+ UTC despite being registered as
+  `active` — checked via `GET /repos/.../actions/runs` (no `gh` CLI in this
+  environment, used the public REST API directly with curl).
+- This is a known GitHub Actions limitation, and the sibling project
+  **NewsDigest** (`K UR Files/Projects/NewsDigest/newsdigest`) hit the exact
+  same thing first and documented it in
+  `.github/workflows/check-feeds.yml`: `schedule:` is best-effort with no
+  SLA and no catch-up for a dropped tick, confirmed there by watching even a
+  single hourly cron go 4+ hours with zero fires on that repo.
+- Ported NewsDigest's fix directly: one long-lived job loops internally via
+  a plain bash `sleep` for the real ~hourly cadence (independent of GitHub's
+  scheduler once the job starts), with only a coarse `schedule:` trigger
+  (every 6h, offset `:17` to avoid the top-of-hour congestion crowd) to
+  restart the chain if a job ever dies. `concurrency: cancel-in-progress:
+  true` is safe here for the same reason it was there — each loop iteration
+  is a fully independent publish, so cancelling a stale chain and starting
+  fresh loses at most one in-flight iteration.
+- Also ported their push-conflict retry logic (stash this iteration's
+  generated output, hard-reset onto `origin`, restore it, re-commit) rather
+  than rebasing, since `content/archive/` and `data/trending-used.json` only
+  ever grow — there's no meaningful merge, so the generated output should
+  always just win.
+- Adjusted for this repo: Node/npm instead of Python/pip, `INTERVAL=3600`
+  (vs their 2700s) since we want ~hourly not ~45min, much smaller
+  `RUN_CAP`/`RESERVE` since `publish.mjs` runs in well under a minute
+  (vs their 20-40 min feed-check runs), and exit code 3 from `publish.mjs`
+  (guardrail blocked/exhausted) is treated as a clean "nothing to archive
+  this iteration," not a failure.
+- Not yet verified live end-to-end (needs `GEMINI_API_KEY` added as a repo
+  secret first — owner was walked through the GitHub UI steps for this).
+  Next session should check the Actions run history to confirm the loop is
+  actually firing roughly hourly and archiving successfully.
+
 ## 2026-08-14 — Real trending-headline mode + hourly test scheduler
 
 - **Repo moved**: this project now lives at
