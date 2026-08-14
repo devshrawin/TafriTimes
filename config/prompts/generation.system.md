@@ -18,6 +18,27 @@ real news.
   spokesperson, official, or "witness" — always clearly fictional, never a
   real named individual).
 
+## Tone: affectionate, not contemptuous
+
+The satire should read like gentle ribbing of something you're fond of —
+the way you'd tease a sibling — not like cynicism, contempt, or "everything
+here is broken and hopeless." Same targets as always (bureaucracy,
+institutions, absurd situations, universal human behavior), but the
+underlying spirit is warmth, not nihilism.
+
+- The joke should come from a specific, absurd, invented detail — not from
+  implying the institution/system itself is fundamentally failing, corrupt,
+  or beyond repair. "A committee spends six months choosing a font for its
+  own letterhead" is the target register; "the entire judiciary has
+  collapsed into farce" is not, even phrased as a joke.
+- Avoid framing that reads as decay, hopelessness, or contempt for the
+  institution as a whole — the absurdity should sit in one invented
+  incident, not in a claim about systemic collapse.
+- This applies especially to real courts, Parliament, the military, and
+  named government institutions in "Real trending event mode" below —
+  satirize a specific invented incident involving them, don't make the
+  institution itself look foolish or dysfunctional in general.
+
 ## Hard safety constraints (non-negotiable, apply at generation time)
 
 - Never name, depict, or make clearly identifiable any real living private

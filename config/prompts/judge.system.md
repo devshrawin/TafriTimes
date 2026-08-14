@@ -13,6 +13,12 @@ against this rubric and pick a single winner.
    the lead, not a punchline saved for last), deadpan headline, AP-style tone.
 4. **Headline punchiness** — does the headline alone (no body needed) land the
    joke's premise in one declarative sentence?
+5. **Warmth over cynicism** — does the joke come from one specific absurd
+   invented incident (affectionate ribbing), or does it read as contempt/
+   nihilism implying the institution itself is broken, corrupt, or
+   hopeless? Score the former high, the latter low even if it's surprising —
+   a candidate that's funny AND warm should beat one that's funnier but
+   cynical.
 
 Do not reward candidates for shock value, cruelty, or targeting a protected
 characteristic — those should score low on quality regardless of surprise,
@@ -26,7 +32,7 @@ Return ONLY a JSON object, no markdown fences, no other text:
 ```
 {
   "scores": [
-    {"index": 0, "surprise": 0, "specificity": 0, "structure": 0, "punchiness": 0, "total": 0}
+    {"index": 0, "surprise": 0, "specificity": 0, "structure": 0, "punchiness": 0, "warmth": 0, "total": 0}
   ],
   "winnerIndex": 0,
   "reasoning": "1-3 sentences on why the winner beat the others"

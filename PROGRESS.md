@@ -13,6 +13,30 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Tone shift: affectionate, not contemptuous
+
+- Owner flagged the "Supreme Court directs historical figures to file
+  defamation from the afterlife" piece as reading "anti-India" — clarified
+  via a direct question that this wasn't about safety/targeting (guardrail's
+  job) but tone: same targets (bureaucracy, institutions) are fine, but the
+  *spirit* should be affectionate ribbing, not cynicism implying a system is
+  broken/hopeless/corrupt.
+- Added a new "Tone: affectionate, not contemptuous" section to
+  `generation.system.md` — explicit contrast example ("a committee spends
+  six months choosing a font" vs. "the judiciary has collapsed into farce"),
+  and an explicit note that this applies especially to real courts/
+  Parliament/military/named government institutions in Real trending event
+  mode — satirize one invented incident involving them, don't make the
+  institution look generally foolish/dysfunctional.
+- Added a 5th judge rubric dimension, `warmth`, to `judge.system.md` —
+  among candidates, prefer the warmer one even over a more "surprising" but
+  cynical one.
+- Verified live: same "politics-bureaucracy" beat now produces a piece about
+  a government committee formed to optimize paperclip standardization —
+  genuinely affectionate/whimsical register, not systemic-collapse framing.
+- Did NOT touch the guardrail or denylist — this was a tone/voice change,
+  not a safety change, and the two should stay conceptually separate.
+
 ## 2026-08-14 — Fuzzy dedupe + LLM suitability check for trending headlines
 
 - Owner explicitly ruled out Reddit r/india as an alternate source ("heavily
