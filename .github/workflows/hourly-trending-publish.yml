@@ -50,7 +50,16 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CANDIDATE_COUNT: "3"
         run: |
-          set -uo pipefail
+          # GitHub Actions' default bash shell already runs every `run:`
+          # step as `bash -eo pipefail {0}` -- errexit is ON from the
+          # runner's own invocation before this line ever executes. A live
+          # run confirmed this the hard way: a transient Gemini 503 killed
+          # the whole step in 29s, before any of the error-handling logic
+          # below ever ran, because `set -uo pipefail` only ADDS `-u` and
+          # reaffirms pipefail -- it does not (and cannot) turn off an `-e`
+          # that was already active. `set +e` explicitly is required.
+          set +e
+          set -u
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -66,9 +75,10 @@ jobs:
           while true; do
             ITER_START=$(date +%s)
 
-            # No -e: a failing publish.mjs falls through to the commit logic
-            # below rather than aborting the whole loop -- one bad run (a
-            # Gemini 503, a Pollinations timeout) shouldn't kill a 5h20m loop.
+            # With -e off (see above), a failing publish.mjs falls through
+            # to the commit logic below rather than aborting the whole loop
+            # -- one bad run (a Gemini 503, a Pollinations timeout) shouldn't
+            # kill a 5h20m loop.
             #
             # Deliberately NOT `if ! timeout ...; then code=$?; fi` -- bash's
             # `!` negates the exit status used for the `if` test itself, so
