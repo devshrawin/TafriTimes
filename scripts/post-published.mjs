@@ -6,7 +6,7 @@ import { postToX } from "./post-to-x.mjs";
 import { postToInstagram } from "./post-to-instagram.mjs";
 import { recordPostIds } from "./write-archive.mjs";
 
-const GITHUB_REPO = process.env.GITHUB_REPOSITORY ?? "devshrawin/IndianOnion";
+const GITHUB_REPO = process.env.GITHUB_REPOSITORY ?? "devshrawin/TafriTimes";
 
 /**
  * Phase 2 of the daily pipeline. Takes the dirName from an already-committed

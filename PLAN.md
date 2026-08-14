@@ -1,8 +1,8 @@
-# IndianOnion — Fully Automated Social-Only Satire Bot (POC Plan)
+# Tafri Times — Fully Automated Social-Only Satire Bot (POC Plan)
 
 ## Context
 
-The goal is a POC: an India-specific satirical news brand in the spirit of **The Onion** — and modeled closely on **The Fauxy** (@the_fauxy), India's existing Onion-equivalent (website + social, English/Hindi/Gujarati, satirizing current events/politics/entertainment/sports/public figures) — but published **purely through git and GitHub Actions, with no website at all**. Only two outputs matter: a daily post on **X** and a daily post on **Instagram**. No human writes the content, and no human approves a post before it goes live. The target repo, `devshrawin/IndianOnion`, is currently empty, so this is a from-scratch build, deliberately independent of the `NewsFlick` codebase.
+The goal is a POC: an India-specific satirical news brand in the spirit of **The Onion** — and modeled closely on **The Fauxy** (@the_fauxy), India's existing Onion-equivalent (website + social, English/Hindi/Gujarati, satirizing current events/politics/entertainment/sports/public figures) — but published **purely through git and GitHub Actions, with no website at all**. Only two outputs matter: a daily post on **X** and a daily post on **Instagram**. No human writes the content, and no human approves a post before it goes live. The target repo, `devshrawin/TafriTimes` (renamed from `IndianOnion` — see PROGRESS.md), is currently empty, so this is a from-scratch build, deliberately independent of the `NewsFlick` codebase.
 
 Two things this plan has to solve that a simple "generate and post" pipeline doesn't:
 1. **Real images, not just text.** Plain text cards aren't enough — posts need a genuine visual, in the "parody news graphic / meme-screenshot" style common to Indian satire pages (fake breaking-news banners, fake quote/screenshot cards) rather than photorealistic AI-generated images of real people (which carries deepfake/legal risk and needs a second AI vendor Anthropic doesn't offer).
@@ -37,12 +37,12 @@ Original design (below, kept for context) was a flat templated graphic with no p
 - Known quality gap: Pollinations occasionally tiles/mirrors the image at this aspect ratio — acceptable for a POC, worth revisiting if this goes further.
 - This still avoids the original deepfake/real-person-likeness concern: `imagePrompt` is constrained to generic anonymous scenes, never a depiction of a real or invented named individual.
 - Original flat-graphic-only design (for reference): a small set of reusable fictional graphic templates — a breaking-news-style banner, a fake quote/screenshot card — with headline/quote baked in as text, no photo at all. Needed no image vendor and carried zero deepfake risk by construction, at the cost of reading as a plain graphic rather than "real news at a glance."
-- Either way: must use its **own clearly fictional masthead/branding** ("IndianOnion" or similar) — must not copy a real news channel's actual logo/on-air branding, to avoid trademark issues and to avoid *increasing* the "mistaken for real news" risk The Fauxy has already run into. The permanent "SATIRE" mark is a built-in, always-on design safeguard, not a content-judgment step, so it doesn't reintroduce human review.
+- Either way: must use its **own clearly fictional masthead/branding** ("Tafri Times" — see PROGRESS.md for the rename from "IndianOnion") — must not copy a real news channel's actual logo/on-air branding, to avoid trademark issues and to avoid *increasing* the "mistaken for real news" risk The Fauxy has already run into. The permanent "SATIRE" mark is a built-in, always-on design safeguard, not a content-judgment step, so it doesn't reintroduce human review.
 
 ### 4. Git as the image host (no site, no separate hosting)
 
 - Commit the rendered article record (JSON) and the generated PNG into `content/archive/YYYY-MM-DD-slug/` and push to `main`.
-- For Instagram's Graph API, which requires a public image URL to build a media container, use the **jsDelivr GitHub CDN**: `https://cdn.jsdelivr.net/gh/<owner>/IndianOnion@main/content/archive/.../image.png`. This needs no hosting setup at all — it's a free CDN mirror of any public GitHub repo's content. Call jsDelivr's purge endpoint (`https://purge.jsdelivr.net/gh/<owner>/IndianOnion@main/<path>`) immediately after the push to force-refresh the CDN cache before Instagram fetches it, avoiding stale/404 propagation-delay issues.
+- For Instagram's Graph API, which requires a public image URL to build a media container, use the **jsDelivr GitHub CDN**: `https://cdn.jsdelivr.net/gh/<owner>/TafriTimes@main/content/archive/.../image.png`. This needs no hosting setup at all — it's a free CDN mirror of any public GitHub repo's content. Call jsDelivr's purge endpoint (`https://purge.jsdelivr.net/gh/<owner>/TafriTimes@main/<path>`) immediately after the push to force-refresh the CDN cache before Instagram fetches it, avoiding stale/404 propagation-delay issues.
 - X does **not** need a public URL — the image is uploaded directly as bytes via X's chunked media upload endpoint.
 - Since there's no site to link to, X posts are **text + image only, no outbound link** — this also drops X's per-post cost to the cheaper ~$0.015/post tier (~$0.45/month at 1/day) instead of the ~$0.20/post-with-link tier.
 
@@ -60,7 +60,7 @@ An LLM judge is a **proxy**, not proof of funniness. The real signal is audience
 ## Repo Structure
 
 ```
-IndianOnion/
+TafriTimes/
 ├── .github/workflows/
 │   ├── daily-publish.yml            # generate → judge → guardrail → render image → commit → post-x → post-instagram
 │   ├── refresh-instagram-token.yml  # weekly
@@ -102,13 +102,13 @@ IndianOnion/
 ## Prerequisites Before Any Code Is Written
 
 1. X developer account + app (2026 default is pay-per-use billing, no free tier).
-2. Instagram Professional account linked to a Facebook Page + Meta Developer App, with IndianOnion added as an Instagram Tester.
+2. Instagram Professional account linked to a Facebook Page + Meta Developer App, with Tafri Times added as an Instagram Tester.
 3. Complete the one-time interactive OAuth flows for both platforms to mint initial tokens, store as GitHub repo secrets.
 4. Anthropic API key with billing enabled.
 
 ## Known Risks (explicitly accepted for this POC)
 
-- **Legal exposure is real and not fully solved by the guardrail LLM.** India's 2026 IT Rules synthetic-media amendments have no explicit satire carve-out, and as the *originator* of the content, IndianOnion likely doesn't get safe-harbour treatment the way a host of user content would. The two-call guardrail (generation-time constraints + adversarial review) reduces obvious failure modes but is a probabilistic risk-reducer, not a compliance guarantee. Someone still needs to watch for external complaints/takedown notices even though posting itself is unattended.
+- **Legal exposure is real and not fully solved by the guardrail LLM.** India's 2026 IT Rules synthetic-media amendments have no explicit satire carve-out, and as the *originator* of the content, Tafri Times likely doesn't get safe-harbour treatment the way a host of user content would. The two-call guardrail (generation-time constraints + adversarial review) reduces obvious failure modes but is a probabilistic risk-reducer, not a compliance guarantee. Someone still needs to watch for external complaints/takedown notices even though posting itself is unattended.
 - **"Mistaken for real news" risk is higher here than a plain text-only bot — and higher again since switching to a photorealistic photo background** (2026-08-14), since the whole point of that change was to look real at first glance. This is the same trap The Fauxy has already fallen into (a feature for virality, a risk for misinformation complaints), now deliberately leaned into harder. The built-in "SATIRE" mark and fictional-only masthead are the mitigation, not a cure — this tradeoff should get real scrutiny before this goes beyond a POC.
 - **Pollinations.ai has no uptime/SLA guarantee** (it's the free, keyless option — see PROGRESS.md). Render falls back to a flat gradient background on failure rather than blocking publish, but image quality/availability isn't guaranteed the way a paid vendor's would be.
 - **LLM judging approximates funny, it doesn't guarantee it.** The tournament-and-judge step filters out obviously weak candidates; real quality signal only comes from the post-publish engagement feedback loop, which takes time (weeks) to accumulate before it's useful for re-weighting.

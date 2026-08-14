@@ -1,4 +1,4 @@
-# IndianOnion
+# Tafri Times
 
 An India-specific satirical news brand — in the spirit of The Onion / The Fauxy —
 generated and published entirely through git and GitHub Actions, with no

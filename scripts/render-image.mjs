@@ -159,7 +159,7 @@ function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
                 type: "div",
                 props: {
                   style: { fontSize: 40, fontWeight: 700, letterSpacing: -1 },
-                  children: "THE INDIAN ONION",
+                  children: "TAFRI TIMES",
                 },
               },
               {

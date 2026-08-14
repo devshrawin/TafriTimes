@@ -97,7 +97,7 @@ const PAGE_TEMPLATE = ({ tabs, panels, totalCount, dayCount }) => `<!doctype htm
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>IndianOnion — POC Archive</title>
+<title>Tafri Times — POC Archive</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -147,7 +147,7 @@ const PAGE_TEMPLATE = ({ tabs, panels, totalCount, dayCount }) => `<!doctype htm
 </head>
 <body>
   <header>
-    <h1>The Indian Onion — POC Archive</h1>
+    <h1>Tafri Times — POC Archive</h1>
     <p>${totalCount} generated posts across ${dayCount} day${dayCount === 1 ? "" : "s"} · fictional publication, not real news · auto-updated by the hourly-trending-publish workflow</p>
   </header>
   <div class="tabs">

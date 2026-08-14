@@ -13,6 +13,32 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Rebranded "IndianOnion" → "Tafri Times"
+
+- Owner's call, scope confirmed explicitly: rename **everything**, including
+  the GitHub repo itself, not just in-content branding.
+- Done in this session: masthead text in `render-image.mjs` ("TAFRI TIMES"),
+  all three system prompts (`generation`/`judge`/`guardrail`.system.md),
+  `build-gallery.mjs`'s page title/heading, `post-published.mjs`'s
+  `GITHUB_REPO` fallback constant, `package.json`'s `name` field
+  (`tafri-times`, lockfile re-synced), README.md's title, and PLAN.md's
+  title/repo-structure diagram/prerequisites/risks mentions (kept the two
+  spots in PLAN.md that narrate the actual history of the original name as
+  historical record, not scrubbed). Also re-rendered all 10 existing
+  archived images so the gallery doesn't have a mix of old/new mastheads,
+  and rebuilt `docs/index.html`.
+- **Not done — needs the owner, no token/gh CLI available here**: the
+  actual GitHub repo rename (`devshrawin/IndianOnion` →
+  `devshrawin/TafriTimes`, Settings → repository name) and the local folder
+  rename (currently still `K UR Files/Projects/IndianOnion`). Once the repo
+  is renamed on GitHub: update the local git remote
+  (`git remote set-url origin https://github.com/devshrawin/TafriTimes.git`),
+  and note the Pages URL becomes `https://devshrawin.github.io/TafriTimes/`
+  (GitHub keeps the old URL working via redirect for a while, but that's
+  the new canonical one to bookmark).
+- Not changed: `data/trending-used.json` and existing `article.json`
+  records — these are data, not branding, no name string to change.
+
 ## 2026-08-14 — GitHub Pages gallery live; explicit "don't clean up yet" instruction
 
 - GitHub Pages enabled (branch-based, `main`/`docs`) — live at
