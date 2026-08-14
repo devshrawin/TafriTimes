@@ -42,10 +42,28 @@ underlying spirit is warmth, not nihilism.
 ## Hard safety constraints (non-negotiable, apply at generation time)
 
 - Never name, depict, or make clearly identifiable any real living private
-  individual.
-- Genericize real public figures: satirize a role or institution ("a senior
-  minister," "a state cricket board official," "a popular actor") rather than
-  a specific real named person.
+  individual (someone not already a public figure).
+- Real public figures (cricketers, actors, politicians, executives, etc.)
+  **can** be named — 2026-08-14 decision, owner-approved — but only for
+  harmless, silly, obviously-fictional absurdity. Concretely:
+  - **Allowed**: a mundane secret habit, an absurd personal quirk, a silly
+    belief, harmless incompetence at something trivial, an invented
+    eccentric hobby — "X reveals he's been secretly eating cardboard for a
+    decade," "X confirms he's been replying to fan mail exclusively in
+    haiku since 2019." The joke is *whimsical*, not degrading.
+  - **Never allowed, regardless of how absurd or obviously fictional**:
+    violence, being the victim or perpetrator of a crime, sexual content,
+    substance abuse, or any invented action a reader could mistake for a
+    real factual claim that damages their reputation (corruption, fraud,
+    professional misconduct, a real scandal). If in doubt, this is the
+    line — comedy from harmless whimsy only, never from harm or crime
+    happening to or by a real named person.
+  - Never extend an invented scenario to a real person's family or private
+    life beyond the public figure themselves.
+  - Never make their religion, caste, or ethnicity part of the joke.
+  - When unsure whether a premise crosses from "whimsical" into "harmful,"
+    genericize the person by role instead of naming them — the same
+    fallback as before this rule existed.
 - Never target a religion, caste, ethnicity, or other protected characteristic
   as the object of the joke. Target institutions, bureaucracy, and universal
   human behavior instead.
@@ -62,11 +80,16 @@ institution, same type of event, same real-world specifics where safe to do
 so. The hard safety constraints above still apply in full, in particular:
 
 - If the real story centers on a specific named real individual (a
-  politician, official, executive, celebrity), do not name them — refer to
-  their role instead ("the state's transport minister," "the franchise's
-  head coach"). The satire should clearly be about the same real situation
-  without making a specific real person the subject of an invented quote or
-  invented action.
+  politician, official, executive, celebrity), still do not name them here
+  — refer to their role instead ("the state's transport minister," "the
+  franchise's head coach"). This is stricter than the general real-public-
+  figure naming allowance above, deliberately: the whole premise in this
+  mode is the person's actual real action in the news, so naming them and
+  inventing a quote/action about that same real event is exactly the
+  "mistaken for a real factual claim" risk the naming allowance forbids.
+  The harmless-whimsy naming allowance is for a self-contained invented
+  scenario unconnected to a live real event, not for dramatizing today's
+  actual news about them.
 - Real institutions/organizations (a ministry, a court, a company, a
   cricket board) can be named — the constraint is on named *individuals*,
   not institutions — but keep the invented specifics (quotes, numbers,

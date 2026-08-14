@@ -13,6 +13,41 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Real-name policy: allow harmless whimsy, keep violence/crime hard-blocked
+
+- Owner saw a Babylon Bee headline naming a real athlete in a fictional
+  violent scenario ("...Shooting Sophie Cunningham With Rocket Launcher")
+  and asked to allow that style. Flagged the actual tradeoff first: the Bee
+  operates in the US under real legal protection for absurd public-figure
+  satire (*Hustler v. Falwell*) and still got Twitter-suspended over
+  exactly this category; India has no equivalent doctrine. Gave three
+  options — harmless-naming only, Bee-style violence/crime included, or
+  keep the current no-names rule — owner picked the middle one:
+  **real public figures can be named, but only for harmless whimsy.**
+- This also directly resolves an audit finding from earlier today: the
+  guardrail was inconsistent on real names not covered by the 3-name
+  denylist (Kohli/Tendulkar passed, Shah Rukh Khan/Ambani blocked, same
+  premise) — because the old rule technically said "never name" but the
+  model wasn't reliably enforcing it either way. This makes the actual
+  behavior an explicit, consistent policy instead of an accidental coin
+  flip.
+- `generation.system.md`: real public figures nameable for a "mundane
+  secret habit / silly belief / harmless incompetence" register only.
+  Explicitly still hard-blocked regardless of how absurd or obviously
+  fictional: violence, crime (victim or perpetrator), sexual content,
+  substance abuse, anything reading as a real reputation-damaging factual
+  claim (corruption/fraud/misconduct/scandal), their family/private life,
+  or their religion/caste/ethnicity. "Real trending event mode" stays
+  stricter than this — still don't name someone whose *actual* real news
+  event is the piece's premise, since that's exactly the "mistaken for a
+  real claim" risk; the whimsy allowance is for self-contained invented
+  asides, not for dramatizing today's real headline about them.
+- `guardrail.system.md` check #2 rewritten to match — verified live against
+  4 cases: Kohli/SRK harmless-whimsy pieces now both `pass` consistently;
+  an invented-violence-against-Ambani piece and a fabricated-tax-fraud-
+  against-Tendulkar piece both correctly still `block`. The line holds
+  where it needs to.
+
 ## 2026-08-14 — Full audit (2 independent agents + manual verification), fixed top 5
 
 Ran a real audit at the owner's request — two agents in parallel (one on

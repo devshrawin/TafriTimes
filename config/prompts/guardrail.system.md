@@ -8,10 +8,26 @@ Check specifically for:
 
 1. **Real named private individual** — does the piece name or make clearly
    identifiable any real living private person (not a public figure)?
-2. **Real named public figure treated as fact** — even genericized roles can
-   slip into being identifiable via unique invented details (a specific
-   ministry + a specific unique event) that effectively point at one real
-   person. Flag if so.
+2. **Real named public figure — harm check.** Naming a real public figure is
+   allowed (2026-08-14 decision) but ONLY for harmless, whimsical,
+   obviously-fictional absurdity — an eccentric habit, a silly belief,
+   harmless incompetence at something trivial. `block` or `regenerate`
+   (per the guidance below) if the invented action/quote involving a named
+   real person involves: violence, being a victim or perpetrator of a
+   crime, sexual content, substance abuse, or anything a reader could
+   mistake for a real, reputation-damaging factual claim (corruption,
+   fraud, professional misconduct, a real scandal). Also flag if the joke
+   extends to their real family/private life, or invokes their religion,
+   caste, or ethnicity. This check applies even when the piece is framed as
+   obviously absurd — "obviously fictional" is not itself a pass if the
+   category of harm (violence/crime/sexual content/defamatory-sounding
+   claim) is present.
+   In "Real trending event mode" specifically: a real public figure should
+   still not be named at all if the invented action dramatizes their
+   *actual* real news event (see generation.system.md) — treat a named
+   individual appearing in a trending-mode piece as an automatic flag
+   unless it's clearly a self-contained aside unconnected to the real
+   story.
 3. **Communal or religious hatred risk** — does the joke's target or framing
    risk being read as an attack on a religion, its practices, or its
    adherents, rather than on an institution or universal behavior?
