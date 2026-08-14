@@ -160,11 +160,20 @@ jobs:
             fi
 
             # Cadence measured from iteration START so work time doesn't
-            # stack on top of the sleep.
+            # stack on top of the sleep. A failed iteration (run_ok=0 --
+            # Gemini 503, Pollinations timeout, etc.) retries every 3
+            # minutes instead of waiting out the full hour -- once an
+            # iteration actually succeeds, cadence goes back to the normal
+            # ~hourly interval.
             NOW=$(date +%s)
             ELAPSED=$(( NOW - ITER_START ))
-            SLEEP=$(( INTERVAL - ELAPSED ))
-            [ "$SLEEP" -lt 60 ] && SLEEP=60
+            if [ "$run_ok" -eq 0 ]; then
+              SLEEP=$(( 3 * 60 ))
+              echo "Iteration failed -- retrying in ${SLEEP}s instead of waiting the full interval."
+            else
+              SLEEP=$(( INTERVAL - ELAPSED ))
+              [ "$SLEEP" -lt 60 ] && SLEEP=60
+            fi
 
             if [ $(( NOW + SLEEP + RESERVE )) -ge "$END" ]; then
               echo "Not enough budget left for another full iteration -- the next restart picks up from here."
