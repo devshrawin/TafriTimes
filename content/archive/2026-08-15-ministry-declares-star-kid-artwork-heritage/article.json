@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:38:06.472Z",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Ministry of Culture to declare star-kid’s crayon drawing as national heritage monument",
+  "slug": "ministry-declares-star-kid-artwork-heritage",
+  "body": "The Union Ministry of Culture has issued a formal gazette notification announcing that a sketch of a tricolor balloon, drawn by a famous actor's young son, will be classified as a protected national monument under the Ancient Monuments and Archaeological Sites Act. The decision follows a viral social media post featuring the crayon-on-paper work, which officials claim captures the ‘unfiltered essence of nationalistic fervor’ better than any structural landmark.\n\n“We have already dispatched a team of ASI experts to the residence with climate-controlled display cases and specialized lighting equipment to ensure the preservation of the waxy edges,” said Joint Secretary of Heritage Preservation, Brijesh Varma. “When we saw the way the green crayon crossed the black outline, we knew this was not just a drawing, but a cultural document that future generations need to study for its raw, post-modern interpretation of Independence Day.”\n\nThe ministry has confirmed that visitors will be allowed to view the artwork by appointment only, provided they remove their footwear and maintain absolute silence. Plans are already underway to replace the current display of historic colonial-era scrolls at the National Museum with the A4-sized masterpiece, which is expected to see a footfall of over 50,000 selfie-taking tourists within the first week of its inauguration.",
+  "caption": "Forget the Red Fort, the newest monument to our history is an A4 sheet with a shaky saffron crayon stroke. Cultural pride has officially peaked. #Heritage #IndependenceDay #ArtHistory #India (satire)",
+  "imagePrompt": "A medium shot of an empty, minimalist museum pedestal illuminated by a bright white spotlight in a dimly lit, professional gallery space.",
+  "sourceHeadline": {
+    "title": "Kareena Kapoor shares son Taimur Ali Khan’s adorable Independence Day artwork | Bollywood",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQc3ZZTEVDZnNXSkRGdm5vVnZwODA2bENTQ3ZVcUw3Qm1KUHM0LV90WTEwUTA0TGlHblNvSzlWQjF0QWRDRnZ2MzFxRTU3VWx2VGhaeTlUOWx1S0RVNFJGZlNYY2xFWXlnaUxNeFg1eTAtQVB2U3JKTlg4cU1OcHlLV1lXc21iQlFqd2lJeU9ZTHN3Ql80MHJ0YnZUWkVITHZzWG8zVjUwaFRhVkVWU0NrOUYwOUFpZXlnYkZ5cUVNSjhNZlROV1dvbHN5UlhIM0xLcE1pNlZUNVFaNnB6QVpGM0tpYXh4bHpo0gHuAUFVX3lxTE9Eb05kVHN6Y2cxQ3ZyRVEzcFo5YlZmX1dzX0R2UVVhTnVWYUFmTlZtSm4yMGRfZ3k0Z2tpWXlfcDFOUnF4X1l5SEd6VHpobGpXTkpJLVhlZDdxT2xiV1hLQVRXR3RkdnNIRFdScGMzeG5BV3NUY3hLWllXV242eGxuTmVzSjlkZzB5T0h3dS1HOVRKbVh3NFU5eFAyRXJnbkZTSEh0V0pGWjhDNVNrNDdrV0ZLRU4yRGlyNGhqSHdTTjVSbDlMMjFTNXJGR1FnM05TSWZsbGQzUk1idXNxNUZ4Y01KUXpjMm1wY2VnYWc?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 15:40:19 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 9,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 executes the premise with the best structural fidelity, treating the absurd administrative procedure of declaring a child's drawing a national monument with a perfect deadpan tone. It balances the specific, ridiculous bureaucratic details—like the ASI team preserving waxy edges—with an affectionate, lighthearted observation of celebrity culture."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses the trope of a 'star-kid' without naming any specific real-life child, making it a general satire of celebrity culture and bureaucratic excess. It does not target private individuals or violate any of the specified safety criteria.",
+    "flaggedIssues": []
+  }
+}
