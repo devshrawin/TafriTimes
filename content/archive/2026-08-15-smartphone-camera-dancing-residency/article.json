@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T20:18:48.206Z",
+  "topicKey": "trending-news",
+  "headline": "New Smartphone With 'Dancing' Camera Lens Ordered Into Mandatory Two-Week Classical Dance Residency",
+  "slug": "smartphone-camera-dancing-residency",
+  "body": "The Ministry of Digital Arts and Technology has issued a formal directive requiring the newly launched smartphone with a dancing camera module to undergo a compulsory 14-day intensive training in Kathak at a government-approved cultural institute. Officials claim that the device’s spontaneous, motorized lens adjustments were lacking 'proper rhythmic discipline' and 'appropriate graceful transition between frames.'\n\n'We observed the device attempting a quick-shutter maneuver that was structurally closer to a clumsy hop than a sophisticated pirouette,' explained Chief Tech-Choreographer Dr. Sanjay Vyas. 'If a piece of hardware is going to incorporate performance art into its zoom function, it must first demonstrate a deep, soulful understanding of traditional rhythmic cycles. We cannot have a phone recording wedding videos with such amateurish footwork.'\n\nThe manufacturer has reportedly complied, assigning two software engineers to sit in the front row of the dance academy to ensure the smartphone’s autofocus system maintains the correct 'mudras' while capturing 4K video. Customers expecting delivery of their handsets have been informed that their units are currently mid-rehearsal and will only be shipped once they receive a passing grade from the state’s Senior Dance Examiner.",
+  "caption": "The government says a dancing phone needs proper training before it can be trusted to film your dinner. Don't worry, the units are mastering their footwork as we speak. #TechNews #DancingPhone #Innovation #TafriTimes (satire)",
+  "imagePrompt": "A close-up photograph of a smartphone resting on a wooden studio floor, with a blurred background showing a dance rehearsal space and exercise bars.",
+  "sourceHeadline": {
+    "title": "Honor Robot Phone Is Live: Hands-on, a Camera Can Dance and Price Details",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YNVo0RlVKWUtfMWxmS3RkcjBqR0ZlOVFrQnZ4a0hfLWMybHVGOGtSbW02YzJoZVpDbkh0bm1aUm9CdlJkejNBUjlVSFpKemdlcFBfTDFvRjBfeEdEdnRQNkFYTGszMXhqVnc?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 06:32:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 10,
+        "structure": 10,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by committing fully to an absurd premise with delightful, specific bureaucratic detail, such as the 'Chief Tech-Choreographer.' It frames the government interference with a warm, affectionate tone that makes the bizarre premise feel like a lovable local news human-interest story rather than cynical commentary."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless piece of absurdity that satirizes government bureaucracy and technology. It does not name real private individuals, and the invented character 'Dr. Sanjay Vyas' is a generic, fictional role in a clearly satirical context. The image prompt is generic and avoids real-world branding or identifiable people.",
+    "flaggedIssues": []
+  }
+}
