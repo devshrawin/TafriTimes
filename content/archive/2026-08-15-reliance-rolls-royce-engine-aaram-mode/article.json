@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T18:08:32.978Z",
+  "topicKey": "trending-news",
+  "headline": "Reliance-Rolls Royce Engine Joint Venture To Feature Mandatory 'Aaram' Mode For Pilots",
+  "slug": "reliance-rolls-royce-engine-aaram-mode",
+  "body": "The joint venture between Reliance and Rolls-Royce to develop fighter jet engines in India will debut a proprietary 'Aaram' mode, designed to automatically throttle back engine noise if the pilot feels like listening to an ad-free podcast or taking a mid-sortie power nap. Engineers claim the system will use advanced AI sensors to detect if the pilot is currently enjoying a flight snack, instantly engaging a cruise-control setting that keeps the jet at a steady, vibration-free speed.\n\n“The goal is to bring the luxury experience of a chauffeur-driven sedan to the cockpit,” explained Ramesh Jha, a senior consultant for the aerospace collaboration. “We realized that high-G maneuvers often interfere with the pilot’s ability to properly enjoy their mid-air tea. With our new engine architecture, the plane will now prioritize the smoothness of the coffee cup’s surface tension over supersonic acceleration.”\n\nMilitary analysts have praised the initiative, noting that the inclusion of an 'Eco-Gala' setting—which saves fuel by utilizing the jet's momentum to drift through the clouds—could revolutionize modern air combat. The engines are expected to be fitted with custom gold-plated turbine blades, ensuring that even if the jet is intercepted, the enemy is forced to acknowledge the sheer refinement of the machinery before any engagement occurs.",
+  "caption": "Luxury meets Mach speed as the new Reliance-Rolls Royce fighter engines promise to prioritize pilot comfort over pesky things like gravity. #Reliance #Aerospace #TechTrends #NewIndia (satire)",
+  "imagePrompt": "A wide-angle, photorealistic shot of an empty, high-tech aeronautical assembly hangar with metallic flooring and bright overhead lighting, focusing on a set of large, stainless steel engine prototypes resting on heavy-duty industrial pedestals.",
+  "sourceHeadline": {
+    "title": "Billionaire Mukesh Ambani’s Reliance, Rolls-Royce To Develop Fighter Jet Engines In India",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVUpPeFhlZWU1TmFYQ2p1V1RxbnhTUzNtdFBjTVZrSk9ZRENwdnhEb2prdXU5Q21zVUNiajRNSWtybHRJZjUzZS10ZFpuLVFiTmkwQzhXc3RuSldjMjM4blAwZjhxeU55OVZqY2haalNXaHZlNWI1R1dfa3pPTVI4VDB3SUNZajJEZEh2QWQ3UDB4aWNIMloteXdrdUFaUVgtN0s4eDFyOFZyMDdWTnp1Q2tFTlY1eGFoSHdjX2JHZXdKYTBzNHNBWEM1YzdRM3lzcktFc1I1QW5Jb00?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 15:16:20 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 wins for its masterful use of specific, absurd details like 'surface tension of a coffee cup' and the 'Aaram mode,' which perfectly captures a humorous, gentle cultural critique. It maintains the deadpan news structure throughout and succeeds by treating these preposterous luxury additions as earnest engineering requirements."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted satire involving corporate entities and generic concepts. It does not name real private individuals or public figures, avoids sensitive communal or ethnic themes, and the image prompt describes a generic industrial setting without specific branding or identifiable individuals.",
+    "flaggedIssues": []
+  }
+}
