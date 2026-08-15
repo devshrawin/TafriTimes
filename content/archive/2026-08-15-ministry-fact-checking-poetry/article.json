@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T16:04:22.310Z",
+  "topicKey": "cricket",
+  "headline": "Ministry of Interior Establishes 'Department of Fact-Checking Poetry' to Monitor Metaphor Usage in Literary Circles",
+  "slug": "ministry-fact-checking-poetry",
+  "body": "The Union Ministry of Interior has officially launched a dedicated ‘Department of Fact-Checking Poetry and Allegory’ (DFCPA) to ensure that creative writing and intellectual discussions do not accidentally violate national semantic guidelines. The new body will require all published poets and essayists to submit their metaphors for a pre-clearance check to ensure no artistic flourishes could be misinterpreted as veiled dissent or subversive critique.\n\n“We have noticed that many intellectuals prefer to speak in riddles and flowery prose, which is a clear tactical advantage for those wishing to hide their true intent,” said a senior bureaucrat who requested to remain anonymous while holding a copy of a translated Persian ghazal. “By applying a rigorous three-tier vetting process to every stanza, we ensure that a ‘mountain’ remains just a geological feature and is never allowed to signify a movement or an uprising against the status quo.”\n\nThe department plans to deploy specialized AI tools trained to flag any use of the word ‘darkness’ if it is not immediately followed by a descriptive phrase regarding a power outage or a lack of streetlights. Authors who fail to comply with the new guidelines will be issued a stern notice and invited to a compulsory workshop on ‘Literalism and Its Benefits to Public Order.’",
+  "caption": "The new DFCPA is ready to ensure your metaphors stay within the lines. Because if it can’t be measured, it’s clearly a threat to national stability. #PoetryPolice #LiteralLiving #BureaucracyAtWork (satire)",
+  "imagePrompt": "A wide-angle, eye-level shot of a sterile, brightly lit government office corridor with rows of wooden desks piled high with stacks of paper and stamps, viewed from the end of a long hallway.",
+  "sourceHeadline": {
+    "title": "Modi threatens to target ‘intellectual Naxals’ in Independence Day speech",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUW5QTmhKOHdWX1pBWnVkV1pFMjhyZHE4dFhDS21HQk9QLXAwZmlxT2MtUDA2b2NiLXBjOF9uUDE5ck5OVFZPMHFXeDNveGFUM2ZRYnpBV2FrT1pleTMxMXBtajdFUE1QOThvd0tyZm5EZGxhdHNBMmlwaGI3LUZXQWM2blgxRTAxSTBlN19udGh6dFNiU0hkaXNCalhwM1J3M2hmWTB2QVQzdU51V0h4SjNn0gG3AUFVX3lxTE9iU1JIbHhYT3dpSmR0WkwycnBxbXozdUN3NUVGTTBfLXVOX2liaUo3dkJKWkxwbDlnUUh1SUxNVHlaa0JBaEhmMHg1d3BJVkxQTFZGSXBGR0VpRFUtQnFyaFc0ZXM1ekxtMGJCZS1ZcWNGWGVVcVpjZkpsTWxFVnFmWGFaQ3NzZHVZY0pQSndaWDZZdGZPQk9VVDA5NnNlMUsySHVLcklXQU92X2MzMnlFa3Faa010SQ?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 11:42:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the strongest because it treats a surreal, absurd premise—fact-checking metaphors—with a deadpan, bureaucratic intensity that perfectly captures the tone of professional satire. It avoids the more aggressive, cynical tropes found in the other two candidates, opting for a smarter, more specific critique that feels like a playful, affectionate jab at overbearing regulatory systems rather than a cynical attack on the state."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The piece is a clear work of satirical fiction that critiques bureaucratic overreach without targeting any specific real-world individual, religious group, or protected category.",
+    "flaggedIssues": []
+  }
+}
