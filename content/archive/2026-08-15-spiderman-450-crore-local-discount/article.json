@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:48:45.590Z",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Multiplex Association Declares Spider-Man Officially Eligible For 'Local Resident' Discount After Record-Breaking 450 Crore Run",
+  "slug": "spiderman-450-crore-local-discount",
+  "body": "The Multiplex Association of India issued a circular on Wednesday announcing that the wall-crawling hero, Spider-Man, will now be entitled to senior citizen and local resident discounts at all domestic theater chains following the film's historic 450 crore box office collection. Theater owners reached the decision after noting that the protagonist has spent more consecutive days swinging through Indian cinema screens than the average suburban commuter spends stuck in peak-hour traffic.\n\n'We realized that at this point, he isn't just a visitor from Queens,' said Ramesh Subramaniam, a regional manager for a major national cinema chain. 'He has officially contributed more to our quarterly earnings than our popcorn machine, which is legally considered an Indian permanent resident. If he wants to see the next milestone, he should be able to do it while enjoying a subsidized ticket and a discounted samosa.'\n\nTicket counters have been instructed to accept a digital copy of the web-shooter permit as valid proof of identity for future bookings. Meanwhile, analysts are debating whether the film’s failure to hit the 500-crore milestone is due to audience fatigue or simply because the protagonist has finally decided to settle down and apply for a permanent Aadhaar card in Bengaluru.",
+  "caption": "Spider-Man is now officially eligible for local discounts after hitting 450Cr at the box office. Should he apply for a voter ID next? #SpiderMan #BoxOffice #Cinema #TafriTimes (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a crowded cinema lobby with people standing in long queues at a ticket counter, focused on the polished floor and feet of patrons.",
+  "sourceHeadline": {
+    "title": "Spider-Man: Brand New Day India Box Office Day 16: Becomes First Hollywood Film To Reach 450 Crore, Likely To Miss The Next Historic Milestone?",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPbWl3WVBMekY4eEFzazZsbmUwcFFsWTR1MlZGdTh5bEJDbE45LW9FWWlyTmNZUmxFeFBaV2lzTGUwT2h2NVN2ZDhtTE9hVlk5cWZIblA1SzUtU05maXhzY2x3ZVp1d0xnQXNwbzNLN3lJNXhCS1ZkUDJUQlFlanBjWkx6TjZsS3J2em9JMUlhUmUwYkFsYVRpalUtV3E4U0VoX3pUTW84bFBCaDV1bzlhSE1xQ0VvTFZEMEdKMURVUWJUbmpZSnNVak1OeHNIOV9fWUYtRHBsY3JnU0Z2c0dkR0FfUDNreHpEMlNreGNlSnBIdVoxRk9sOTdhQUdvMGZycUI2Tg?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 06:58:29 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures the 'Tafri Times' voice by treating a blockbuster movie's success as an absurd, relatable residency issue. It maintains a perfect deadpan tone, uses specific local cultural touchpoints like Aadhaar and popcorn machines, and balances the satire with a charming, affectionate tone that avoids cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a lighthearted piece of satire involving a fictional comic book character. It does not name any real private individuals or public figures, avoids sensitive cultural topics, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
