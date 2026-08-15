@@ -34,19 +34,35 @@ function loadPosts() {
     .sort((a, b) => b.timestamp - a.timestamp);
 }
 
-/** Groups posts by calendar date (UTC), newest date first, posts within a date newest-hour first. */
+// This is an India-audience gallery — all display (day grouping and time
+// labels) is in IST, not UTC. IST has no DST and is a fixed UTC+5:30, so a
+// flat offset is exact, not an approximation.
+const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000;
+
+function istDateKey(timestamp) {
+  return new Date(timestamp + IST_OFFSET_MS).toISOString().slice(0, 10);
+}
+
+/**
+ * Groups posts by IST calendar date, newest date first; posts within a date
+ * ascending (morning to evening) — matches how a reader scans a day's news.
+ * Grouping by IST rather than UTC matters here specifically: a post made at
+ * 00:30 IST is 19:00 UTC the *previous* day, so UTC-based grouping was
+ * splitting a single IST morning across two date tabs.
+ */
 function groupByDate(posts) {
   const groups = new Map();
   for (const post of posts) {
-    const dateKey = new Date(post.timestamp).toISOString().slice(0, 10);
+    const dateKey = istDateKey(post.timestamp);
     if (!groups.has(dateKey)) groups.set(dateKey, []);
     groups.get(dateKey).push(post);
   }
+  for (const dayPosts of groups.values()) dayPosts.sort((a, b) => a.timestamp - b.timestamp);
   return [...groups.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
 }
 
 function formatTime(timestamp) {
-  return new Date(timestamp).toISOString().slice(11, 16) + " UTC";
+  return new Date(timestamp + IST_OFFSET_MS).toISOString().slice(11, 16) + " IST";
 }
 
 function renderCard(post) {

@@ -13,6 +13,22 @@ meaningful step.
 
 ---
 
+## 2026-08-14 — Gallery: IST display, ascending sort, IST day boundaries
+
+- Owner flagged the live gallery: times should be IST not UTC, posts within
+  a day should read ascending (morning→evening), and the day tabs looked
+  "random." Root cause of the last one: `groupByDate` used the UTC calendar
+  date as the tab key — a post made at, say, 00:30 IST is 19:00 UTC the
+  *previous* day, so a single IST morning was getting split across two
+  date tabs.
+- Fixed all three in `build-gallery.mjs`: added a fixed `IST_OFFSET_MS`
+  (IST has no DST, so a flat +5:30 offset is exact), switched both the
+  day-grouping key and the displayed time label to IST, and sort posts
+  within each day ascending by timestamp (tabs themselves stay newest-day-
+  first, which is the normal "recent posts" convention).
+- Verified against the live 14-post archive: times now read 11:45 → 15:44
+  IST in order, all under one correctly-bounded day tab.
+
 ## 2026-08-14 — Real-name policy: allow harmless whimsy, keep violence/crime hard-blocked
 
 - Owner saw a Babylon Bee headline naming a real athlete in a fictional
