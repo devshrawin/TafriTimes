@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T22:04:38.149Z",
+  "topicKey": "trending-news",
+  "headline": "Energy Ministry mandates all malls to switch to ‘candle-lit shopping’ to bridge national power deficit",
+  "slug": "malls-switch-to-candle-lit-shopping",
+  "body": "The Ministry of Power has issued a new directive requiring commercial shopping centers to abandon overhead LED lighting in favor of traditional paraffin wax candles, following a sudden nationwide shortage of electricity. Under the new ‘Shimmer and Shop’ protocol, retailers must dim all displays by 8:00 PM to conserve grid capacity for high-priority infrastructure.\n\n“We are encouraging a romantic, medieval retail atmosphere that consumers didn’t know they needed,” said Assistant Secretary of Energy, Rajesh Varma, who suggested that the move would turn standard grocery runs into ‘adventurous subterranean explorations.’ The ministry confirmed that the shift is purely about grid load management, though it admitted that the smell of burning wick is a ‘soothing alternative to the hum of HVAC systems.’\n\nSecurity personnel at major urban malls have been issued specialized night-vision goggles to ensure patrons do not bump into mannequins during the mandatory blackout hours. Retail associations have responded with cautious optimism, noting that while credit card terminals currently require electricity, the shopkeepers are happy to accept payment in gold coins or barter-based livestock exchanges until the power returns.",
+  "caption": "Malls across the country are trading fluorescent lights for vintage candlelight to manage energy demand. It’s not a blackout, it’s a ‘curated ambiance’ experience. #EnergySaving #MallLife #CandlelightShopping #PowerCrisis (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a modern, multi-story indoor shopping mall atrium at night, with only the dim, flickering orange glow of several large pillar candles visible on the marble floor.",
+  "sourceHeadline": {
+    "title": "Bangladesh turns to India for help as power crisis forces 8pm shutdown for malls, shops | India News",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQa1VpaEpiMFFIN0lsaUxhdTBWYUw2RXREaXBxbWZmZEIxZnBuN3RSRXlVQTdKbjBMRXY0Nkc5bGZvNzZ3ekRWUzNUcGp2QmY3d2hrOEMwLTlGbVVRbExkMTB6SVBsREtDeUV2YkxUNmFkMUYwVzRaWVB1NFVzUUw2QW9pbHdZMmREUTRmN3FWOFVZb1dGS2k1dW50TG9WMlRDdGhuZDVBaTdtRHpVSjRPVnZiQUhlUW1WOThETzBuQzQ2NjhscjN6WjJuTkxOUzBDN3RxTl84SC1xR2NvQTUyQWRSRFlDWDh2YXVIbWdEckRkMVRHYmJzRWJRNlQ4U0I4cGdwU2gyV1lWRE15NkHSAZMCQVVfeXFMTmR5M2Y5dnM3ZEI1Z1RfQmt1YWNmdEJWa3pJZ2RfNkRxaXlNVGJ5QTVSbl9adWJENXN0bDlRUVY2OXpQQkZrb3Z1TGg0U2hicU5lSVViYjJQTUphRTVZaUc3WTBPenpGalZ0Vl9UWWIyUllyMWctdXhnRUVpblFnQmlpTlV6QndTUzBIaXNQRWJnZEpDdXE1OGpielhtRU5aeXBKOGxiTzYzOVNUeHJXNWloMnNxdzFoWGdqYUpqY29OajhlZjh3Ry1FMUw4dnd6eWhsUnJPSFRZTXZnX1lYU3k4RkQteHJhbnJ1d0Mta2dadGc1bDBfdFNYc0s2U19JVVVZblp4SVozMVBHU1NwS2RJTUk?oc=5",
+    "pubDate": "Thu, 13 Aug 2026 14:53:05 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 9,
+        "warmth": 7,
+        "total": 40
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances absurd premise with delightful, warm imagery, effectively treating a bleak infrastructure failure as a whimsical lifestyle trend. Its specificity—ranging from 'Shimmer and Shop' protocols to accepting livestock as currency—creates a rich, humorous world without resorting to political cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear piece of political satire featuring a fictionalized government official. The content avoids targeting real people, protected groups, or making defamatory claims, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}

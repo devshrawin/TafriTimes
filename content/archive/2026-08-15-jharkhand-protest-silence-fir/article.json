@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T00:05:01.991Z",
+  "topicKey": "trending-news",
+  "headline": "Jharkhand Police File FIR Against 500 Unidentified Protesters For Accidentally Being Too Quiet",
+  "slug": "jharkhand-protest-silence-fir",
+  "body": "The Jharkhand state police have registered an FIR against 500 unidentified individuals after the group failed to make any noise during a three-hour protest, leading authorities to suspect a 'clandestine attempt at non-disruptive civil agitation.' Law enforcement officials noted that the absence of chanting or traffic obstruction created an 'unnatural level of tranquility' that hindered the normal functioning of local bureaucratic confusion.\n\n'Usually, a protest involves shouting, banner-waving, and at least one person arguing with a tea stall owner,' said Senior Superintendent of Police, Brijesh Kumar, who supervised the filing. 'When we arrived, the 500 protesters were simply standing in a park reading pocket editions of the Constitution. By not breaking any laws, they have created a massive administrative void. We had to file the FIR just to ensure that the district filing system had something to process for the afternoon.'\n\nLegal experts suggest that the move is part of a new departmental initiative to ensure that silence does not become a trend, as it makes it nearly impossible for local authorities to claim that order has been restored. 'If they aren't causing a ruckus, how are we supposed to successfully disperse them and return to our desks?' asked a junior constable assigned to the case. The unidentified group remains at large, presumably because they were too polite to leave their contact information when the police requested it.",
+  "caption": "Police baffled as protesters choose peace over chaos, leading to a paperwork crisis. Silence is now officially a suspicious activity in the region. #Jharkhand #ProtestNews #Bureaucracy (satire)",
+  "imagePrompt": "A wide shot of a public park with dozens of people standing neatly in rows under the afternoon sun, holding small, folded sheets of paper, with a police barricade visible in the blurred foreground.",
+  "sourceHeadline": {
+    "title": "Jharkhand exam stir: Police lodge FIR against more than 500 unidentified protesters",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcUdvdmhrLTh2RGJlZ3REdXpmTXNoenB1U21fMDhLUTlQOEQ5Q0NLUnpfNXU0bWhIWlFMaGFrLWRtcmI4Q0psWjNVb09uTmUyZjVOZFkzam5jMWRST0JJR19rR3JTSDEwZndrYkFVYnJYTE5PZDBNU2U3em1nM00xRTkzaTQyZ3VHX096ei1ESWNGV19jOHJSbktraWFVby1fVzE3R3N5OGZwMGVhVDRjWVFET29hQlN1SFkxNy1XWnBVUjF1ZVJEME9Vc2o0WnUtanVuSzlTaXVfR1o3bFRab3ViTnFUd3lKU1RXbDZTa1VZWUJsWmtkSmhMU0LSAYMCQVVfeXFMUHdVRWhocnRUYVhpVlMzLVZubldYSmZZTDUyR0Y4Q2d0RU1GRFNiVC1WU1RLSFVobjVLakFpdnhWdk9GaEZPYldqSURON29NcEY4WjFpNnl0U2ZjRHljcWk3eDdHVG1xZlEyUEJlMHlaVTJnZXBvelN3VmE5d3BUdVRiZnowQTloUWR6LU9mb2xBSWsya2thSmRkTDhCaFIyUlB5ZjR4SWs3NE90azFQMTJjYl92bGliUU5BNlZ4RlE1bE1zLVI3WU1SY0FaUTNDNWtiQ2dxOWJ5aGxmS0JhRkVQS2xCaWxUTkhhR1VTX0laeUIyS3l2bUNEQ2c2emd5RTJ6MA?oc=5",
+    "pubDate": "Thu, 13 Aug 2026 11:07:48 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 43
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 takes the core premise and applies a delightful, absurd logic—'protesting too quietly'—which highlights the performative nature of bureaucracy with affection rather than cynicism. Its deadpan tone regarding the 'administrative void' created by peaceful citizens is structurally tighter and feels like a classic piece of observational satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a work of clear, whimsical satire regarding bureaucratic absurdity. The police official named, Brijesh Kumar, is a generic name used to represent an archetype rather than a real public figure, and the piece poses no risk of defamation or real-world harm.",
+    "flaggedIssues": []
+  }
+}

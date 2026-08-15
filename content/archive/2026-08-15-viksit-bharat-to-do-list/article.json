@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T04:07:53.054Z",
+  "topicKey": "cricket",
+  "headline": "Government Unveils 'Viksit Bharat 2047' Official To-Do List, Includes Learning to Fold Fitted Sheets",
+  "slug": "viksit-bharat-to-do-list",
+  "body": "The Ministry of Future Optimism has released an ambitious 23-year roadmap to achieve a developed nation status by 2047, headlined by a mandatory requirement for all citizens to master the art of folding a fitted sheet without turning it into a ball of fabric.\n\n'Self-reliance isn’t just about manufacturing semiconductors; it is about reclaiming the independence lost to domestic linen management,' said an undersecretary at the Department of Domestic Logistics. The manual, titled 'Viksit Linen: A New Dawn,' suggests that if a nation can perfectly corner a mattress cover, there is no logistical challenge in the global supply chain it cannot conquer.\n\nIn addition to laundry proficiency, the document outlines a strategy to eliminate traffic congestion by replacing all car horns with the polite sound of a gentle cricket chirp. 'A quieter road is a more developed road,' the official added, noting that the 2047 target is contingent on every household successfully locating their misplaced TV remote by the end of this decade.",
+  "caption": "The path to 2047 is paved with perfectly folded linens and chirping cars. Are you ready for the big transition? #ViksitBharat #LinenReform #SelfReliance #FutureIndia (satire)",
+  "imagePrompt": "A neatly folded stack of white linen bedsheets sitting on a wooden table in a brightly lit, sterile government office setting.",
+  "sourceHeadline": {
+    "title": "Independence Day LIVE updates: PM Modi urges self-reliance, calls upon citizens to realise 'Viksit Bharat' by 2047",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOVRTVGlBampaX0hIUGp2dkprdlhsSFlGOVFsSUJtbFZHT280RndMVWJqOE1wY01ING5NMlZfRERUWEpkbkpXVHBtdWlhcHJaMTM3Q0RBbkJFcVF6ZmczaVlaQ2g0ZHY5eGViYXBGd2NCM2NVT2NYRjlsbm9GVXJhVTRBYS1BMnlnZ0dETFR2NWRrOElCUjhxcE90ck4wYmR1RFRVY1BZY2xKbi15eG5CdVVNSXNVVUhJN0s4TDdMNG9ZY0I1NEl2bUp0RVQ0X2loN2VGd3BqQUXSAd8BQVVfeXFMTk94R08tU3FWM0QzN3lmS2FpZ2pHV1ZjbVZzd2VNeWJCeXhydFNUUy0wUkttN3B5VTBpX3lPRGIzT1pzX215a2ctLVg0NDIwRUhxdGZlS0VvSmw0dXVKRjl4anRTQzVDRllYZS03YkQtV0VtMThiODgyd2U3LWRCOGRnNXZLOWJ3Rmh2OWExNkFaSUpoM29PUjdXaTBoZi12eWRjTzBQN1Z0OWU0aEhQRW55VmRPNmJsVmtUTlgxZzR5MXdVZU55eUlGQXZmMEkyXzZGRUgzOHhGczBSYkx0VQ?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 02:52:57 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 9,
+        "warmth": 6,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 43
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 wins by perfectly balancing administrative satire with a whimsical, relatable absurdity that feels affectionate rather than cynical. While all three had strong structures, the pivot to domestic chores like folding fitted sheets provided the most delightful cognitive dissonance and genuine warmth."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a satirical premise regarding a government initiative to poke fun at domestic trivialities. It avoids real people, religious or ethnic targeting, and the image prompt describes a generic scene.",
+    "flaggedIssues": []
+  }
+}

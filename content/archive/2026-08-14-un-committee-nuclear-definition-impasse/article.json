@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T21:05:08.058Z",
+  "topicKey": "trending-news",
+  "headline": "UN Committee on Global Definitions Stalls After Member Insists 'Nuclear Power' Refers Only to Kitchen Appliances",
+  "slug": "un-committee-nuclear-definition-impasse",
+  "body": "The United Nations subcommittee tasked with standardizing geopolitical terminology has entered its sixth month of gridlock, following a sharp dispute over whether the term 'nuclear power' refers to uranium-enriched armaments or high-end microwave ovens. The impasse began when a senior delegate refused to sign off on a routine security communique, arguing that any country with a premium convection setup should technically be categorized as a nuclear-capable state.\n\n\"We are trying to maintain order, but the bureaucracy is effectively arguing about toast settings,\" said Rajeshwar Singh, a spokesperson for the administrative council. \"The debate reached a fever pitch last Thursday when a representative from a landlocked nation insisted that their state-of-the-art air fryers grant them 'unparalleled deterrent capabilities' against their neighbors.\"\n\nThe committee has now requested an additional budget of 4.5 million dollars to hire a linguist who can clarify the difference between ballistic capabilities and programmable defrost cycles. As of Tuesday, the meeting remains suspended while delegates debate whether a toaster with an adjustable browning dial constitutes a violation of international non-proliferation treaties.",
+  "caption": "When international diplomacy hits a wall, it’s usually because someone is arguing about the wrong type of power. Are your home appliances classified as international threats yet? #Geopolitics #UN #Diplomacy #Satire (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a long, mahogany boardroom table with empty chairs, numerous microphones, and scattered stacks of paper in a dimly lit, high-ceilinged conference room.",
+  "sourceHeadline": {
+    "title": "‘First Islamic republic with nuclear weapons’: Netanyahu’s sharp rebuke of UK",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNc0xkZ0tQZWtqbjBiazRLb3dKeVJDRjA0cVhqcUQ5X3V5R0lrZVR4VHgwNkp3Z2RmR2JaVVlId3pwZmxQVU8xQW9tZzNkTHhGbHJXand3ZDNYdFo0b2VUVEhXSm05aWFUdHZya2FlZ3ZEdjM5dXgxZlRzeTZuMkJITTlUQ2Zlem82cm9idnB3SFVUWl9McklGQlVnOU00cTBSZG1ScUU3RG5DRHU1UXhTT2xvQ2VDNllMTmg5UDJqTVpZV3NXS1hNNy1Hd3R2MUlaeEZmMjI3aDlDVHhubjcxY3FDV1BTZ1lZ?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 19:55:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 38
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding its absurdity in a recognizable bureaucratic environment, using concrete details like the '4.5 million dollar' budget request and specific 'toast settings' to heighten the dissonance. It maintains a perfect AP-style tone throughout, treating the ridiculous premise as a genuine diplomatic crisis without descending into cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of harmless, absurdist satire about bureaucratic inefficiency. It uses a generic spokesperson name, avoids real public figures, and poses no risk of defamation or communal harm. The image prompt is appropriately generic and contains no identifiable entities.",
+    "flaggedIssues": []
+  }
+}

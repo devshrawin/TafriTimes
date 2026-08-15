@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T06:07:55.077Z",
+  "topicKey": "trending-news",
+  "headline": "Maharashtra Food Safety Official Mandates Poha Must Be Served at Exactly 45 Degrees Celsius",
+  "slug": "maharashtra-food-safety-poha-temperature",
+  "body": "The state's food safety commissioner has issued a circular requiring all roadside eateries to install high-precision thermal sensors to ensure that Poha is served at exactly 45 degrees Celsius. The directive, aimed at optimizing the breakfast experience, notes that any dish served at 44 or 46 degrees will be considered a breach of 'culinary structural integrity.'\n\n'We are moving toward a more disciplined snack culture where the crunch of the sev does not succumb to premature sogginess due to temperature negligence,' said a spokesperson for the food safety department. The order further stipulates that the yellow hue of the dish must be verified by a calibrated spectrometer to maintain uniform aesthetic standards across all districts.\n\nLocal restaurant owners have been given 48 hours to replace their traditional iron kadais with smart-heating induction vessels linked to the commissioner’s office. To ensure compliance, inspectors will arrive unannounced with thermal-imaging cameras to grade every plate of Poha on a scale of one to ten, with low-scoring establishments facing immediate conversion into temporary filing offices.",
+  "caption": "Your morning Poha is now subject to strict thermal regulations to ensure peak breakfast efficiency. Eat responsibly, or don't eat at all. #Maharashtra #PohaProtocol #FoodSafety #Bureaucracy (satire)",
+  "imagePrompt": "A close-up of a plate of Poha on a wooden table, with a professional digital infrared thermometer held nearby to measure the heat of the dish.",
+  "sourceHeadline": {
+    "title": "Tukaram Mundhe, the no-nonsense IAS officer leading Maharashtra’s food safety crackdown",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSmxxRzdyQzZ3ME5OZ296a0VWWTQ1Q0tqUFAtMjQ2b2psSjl3al9fRnA0anRpQTNzMHVBUFFrblV5cUJoTkZCODRfZi1DOG1QQzE5b2hmM2o0WWc3ZkFUNWNSanRGN3dxZVFCemwyaEFuYjdRTnFfWjQ0YVJRWEdTajhXX3BsUGR4cFZ6S2tOa0xsejFsQVc3Zm5HYmQ0akltWUZxYUZOVEF3ZFhtY1lyazA5NlBvY0xUVUFFWGd2VW9pa0F4b1I4UURHZU1SVVIxa1hzc21fWHFtOHNzbHl1VTVFSTk3OVQ5eUU1NV9nVDLSAfYBQVVfeXFMTnBFZUNESGJnZk5YYlVEUmVtdkYtV3RLOXZHN080RGt6SlUxSjBac29WZjhIZkc3S0xYMEJCZ3o3QTI0NWhwaG01cWxjU0hra2xyY25zYXJ5V25pRGZqa1dkSmFHTVVXN0tDR1YwdUFxYkFEQkJlSnNPRWF1NzhpcjljNUs5UWs1STRwTzgtZ2Q3M1lMMEYxMF8wdW40QnBXUnlzTm9XMEd6TVB1VjloZERzZ3FwY01BcWV2RGg1RlZCMGs1QXk5bllzbWphRGpreUUxM2lwV3hPX3hydGRiWHRuXzdDaDJPVGhJNlpHd2N6MWJ1SVpB?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 10:55:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances the absurd bureaucracy with a warm, affectionate understanding of the specific cultural attachment to Poha, making the 'temperature compliance' premise feel like a delightfully logical extension of a pedantic official. It hits the perfect deadpan tone and incorporates specific details like 'calibrated spectrometers' and 'temporary filing offices' that ground the satire in high-quality, non-cynical observation."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear, lighthearted satire about bureaucratic overreach and food regulations. It uses a generic 'food safety commissioner' without naming any real individuals, and the image prompt describes a generic scene without identifiable entities or text.",
+    "flaggedIssues": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T23:05:01.802Z",
+  "topicKey": "trending-news",
+  "headline": "Government Unveils New 'Exam Reform' Strategy Replacing Pen-and-Paper Tests With Interpretive Interpretive Dance",
+  "slug": "government-unveils-new-exam-reform-strategy",
+  "body": "In a move aimed at modernizing India’s examination landscape, the Union Ministry of Education has announced that traditional written papers are being replaced by a holistic system of expressive arts, starting with a compulsory Kathak-based calculus final.\n\n“The goal is to move beyond rote learning and help students embody the mathematical variables they are studying,” explained Ramesh Shastri, the newly appointed Commissioner of Academic Aesthetics. “It is much harder to cheat when you are required to perform a three-minute sequence demonstrating the laws of thermodynamics while maintaining perfect mudra positioning.”\n\nTo accommodate this, classrooms across the country will be renovated into soundproof auditoriums equipped with spotlights and state-funded percussionists. Students who fail to reach the minimum 'tempo-accuracy' threshold will be granted a grace period to practice their pirouettes during a mandatory summer bootcamp dedicated to the integration of trigonometry and choreography.\n\nWhile critics suggest that this might affect technical placements, the government insists that the 'Holistic Kinetic Assessment' will produce graduates with superior spatial awareness and stage presence, qualities that are clearly lacking in the current corporate workforce.",
+  "caption": "Goodbye bubble sheets, hello ballroom blitz. The new education reform is here, and it demands rhythm over memory. Are you ready to dance for your degree? #EducationReform #NewIndia #ExamStress #DanceClass (satire)",
+  "imagePrompt": "A wide, realistic shot of a modern, empty school auditorium featuring rows of wooden desks arranged in a semi-circle beneath bright stage lighting.",
+  "sourceHeadline": {
+    "title": "Govt taking comprehensive steps for exam reforms, says President Murmu in address to nation | Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZGdYR0pJWlZjd0VncTVra1oxNnZ5dWVNWWJ2ODNsOFhObFhxeWZKb1otWkhVMkF3dkxkb1UxejFzOFI3cjl4elFvY1JzWGxibzdjMHdKOWpQNWJwaERib2VfLWlZbkR1b1dCanB4azVjQXBoUjVSa1BPNEV2NXZoSDhrLUR5UW5rZ0lXN3BGSGJTQUxPQWpFTmtHMGQ1WEpZbndJUGhMNkpXZzZuT19yZ1hick1fbTk4TWhHRW1kSjBXOWNfdlZfZkZZcWJ0Q2tKeEh3cWtXRjlvMDVlVzlOOW40MG95cHJJakl1WUprYWhpQ2Jvc3ZLbEtqeUUzNW5oZV9mVktBNThjZ9IBjwJBVV95cUxNQlpiSkc5TUt5akp1VTBtVjBqeTR3dkZFczdlSU9pTEc4M3ZjRTE3SlVGSkZwWi05Zy0yV25idkZkSjRMMlEzZEZkb09WZjVZb01YbEZPdG1qMzloaEZHaVExLXppMENJczhSaG5ITm1xSmNiYXFIWlYtTllYei1pakFfX18tWEc2T3FKWVVUWHZLQ2V5SWtnS0F0RmtWWk1IbmZ6QXRWV1ByOUk3WHAzbTlRUVdJMlpJejBseUIxZ3BlY2hVMWRiUGNTbmtCbDYyRHUwZWdrcnlieWpuVmtiYkVuNThoYWhhMXpPLU5IcEtJZ2hDYWl3c1R0QllwVVp5WGZkUldYbF8yLVd3Qy1J?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 16:10:14 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances a bizarre, highly specific premise with a tone of earnest administrative delusion that feels genuinely satirical rather than cynical. The invented details—such as the 'Kathak-based calculus final' and the 'Commissioner of Academic Aesthetics'—provide a rich, absurd mental image that maintains warmth by gently ribbing the bureaucratic obsession with reform."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted, clearly fictional satire that uses a generic, invented character to mock educational trends. It does not target any specific real individuals, protected groups, or make defamatory claims.",
+    "flaggedIssues": []
+  }
+}

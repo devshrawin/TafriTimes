@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T14:01:21.676Z",
+  "topicKey": "trending-news",
+  "headline": "Parliamentary Archives Committee to Introduce 'Historical Photo Sensitivity Training' for Lawmakers",
+  "slug": "parliamentary-archives-committee-photo-training",
+  "body": "The Parliamentary Archives Committee announced today that all members of the House must undergo a mandatory three-day workshop on the proper use of historical photography in heated debates. The initiative comes after a frantic week where legislators spent more time scouring the 1970s microfiche archives for vintage political handshakes than discussing the actual floor agenda.\n\n\"We noticed a disturbing trend where the speed of a retort is being measured in black-and-white print resolution,\" said Brijesh Kumar, the Committee’s newly appointed Director of Visual Retorts. \"Lawmakers are currently neglecting their committee reports because they are busy arguing over whether a grainy 1974 handshake in Havana constitutes a diplomatic breach or merely a very enthusiastic greeting.\"\n\nUnder the new guidelines, any member attempting to use a photograph of a historical figure to deflect a contemporary jab will be required to submit a notarized 'contextual affidavit.' This document must explain why a forty-year-old photo of a state dinner is legally relevant to a heated argument about current infrastructure projects. If a member cannot explain the connection, they are limited to using modern stock photos of generic high-fives.\n\n\"The goal is to move the House from a 'Vintage Instagram Account' model of governance to a more policy-focused approach,\" added Kumar. \"Our archives department is currently overwhelmed by requests for photos of world leaders sitting on furniture that no longer exists. We have had to put a moratorium on requests for anything involving 70s-era neckties to prevent further confusion in the lower house.\"",
+  "caption": "MPs ordered to stop treating legislative debates like a Pinterest mood board of the Cold War era. Time to put the scrapbooks away and pick up the policy papers. #Parliament #HistoryBuffs #LegislativeHumor #IndiaPolitics (satire)",
+  "imagePrompt": "A wide shot of a dusty, dimly lit government archives room featuring rows of metal filing cabinets and piles of unsorted black and white photographs spread across a mahogany table.",
+  "sourceHeadline": {
+    "title": "Nishikant Dubey digs out Indira-Castro pics to counter Rahul Gandhi's PM 'hug' jab",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPM0kzN1dENnN3SXM0QV9XQWR4RjcxbWp4ZjNhaWd0UVo5RVpfTF9EUmZrQmpVQW1hQjFYOW9qMVBKa2VrU0ctUFlYRlhLMkJmVEEzUjA0UnRpRGVHckhSSVBETHhOVkNmOG5zLWdwdFoyOV92anUzTEkzMnVBdFdvczMxNldJekJjOE85ZkNoZnNMUVk2RW5vYWR3TFF3ZEtBdFFuSmFmdFpFSkhHZjUxSTRESkZ6ZGVOQWt5emdUTzRkTnlOdmVJWlJleXV1Q2psSU9xa2J4US05NUFGakhYbHhHZVFaRHFVRTkzb1FGZTRjY2s?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 05:28:47 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding the absurdity in a specific, bureaucratic initiative—the 'Historical Photo Sensitivity Training'—and providing hilarious invented details like the 'notarized contextual affidavit.' It maintains a perfect deadpan tone throughout, positioning the archive department as a relatable, overwhelmed institution rather than a target of cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional committee official and generalized, humorous scenarios about parliamentary conduct to create satire. It does not name specific real-world politicians or institutions in a way that suggests actual misconduct or harm, and the image prompt describes a generic, non-identifiable scene.",
+    "flaggedIssues": []
+  }
+}

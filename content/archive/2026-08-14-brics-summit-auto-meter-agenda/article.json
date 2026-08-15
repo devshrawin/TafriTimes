@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T15:11:28.600Z",
+  "topicKey": "trending-news",
+  "headline": "Visiting Head of State Requests BRICS Summit Agenda Include Discussion on Why Delhi Auto Drivers Never Use Meters",
+  "slug": "brics-summit-auto-meter-agenda",
+  "body": "The visiting head of state, currently scheduled to arrive in New Delhi for the upcoming BRICS summit, has officially requested that the bloc’s permanent secretariat add a dedicated session to investigate why local auto-rickshaw drivers consistently refuse to use their digital meters, regardless of the distance traveled or the time of day.\n\n“The delegation was quite moved by the local culture, but after being quoted 400 rupees for a three-kilometer ride to the convention center, it became a matter of international macroeconomic interest,” said Rahul Sharma, a spokesperson for the summit’s logistics committee. “They have prepared a 40-page presentation titled ‘The Elasticity of Metered Fares vs. The Arbitrary Nature of Negotiation,’ which they hope will lead to a G7-level consensus on the matter.”\n\nWhile the Ministry of External Affairs has emphasized that the summit is strictly focused on economic cooperation and energy security, officials confirmed that a compromise may be reached. The proposed side-session, tentatively titled ‘The BRICS Roundtable on Fixed-Fare Fatigue,’ will see members compare notes on informal transit sectors, with delegates from several other member nations reportedly eager to share their own experiences with drivers who claim their machines are permanently broken.",
+  "caption": "BRICS summit diplomats prepare to tackle the toughest negotiation yet: the elusive auto-rickshaw meter. Will a global coalition finally settle the fare? #BRICS2024 #DelhiDiaries #AutoMeter #Diplomacy (satire)",
+  "imagePrompt": "A photorealistic shot of an empty, modern conference room with flags of various nations arranged on a long mahogany table, with a blurred view of a busy city intersection through the window.",
+  "sourceHeadline": {
+    "title": "Iran President Masoud Pezeshkian to travel to Delhi for BRICS Summit | India News",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYlZoZ0dockVvMGhlNGNJVWNlSUhKRHlNQmNkNkNZNXRnUkdoRlJLaG5HUE9obFdDbkpIeVQyOHZFeGdhSkdKZjdJbWRQMDk4bmZHTXBMYmJaUFZoNjV5S1dvWEdUczVSaGZJVlFtZDJFOHRCakVZNUZmRW5FSnU2dnJCWXFVX3JETHNOcm5sdzRMdkw3WjlzWkw0Y2RKSC14cHhuTnBNVkNNa3o0ZmhZZXZYV2FNUV9nNVE0RzhPMjNRMjZQN0x0Vk95RdIB0AFBVV95cUxQdFhmVHUyU25ObTV1N1pRcnpTSjE1elZiZUhtQ1FoR1UwUFgtOVVINk5oakdVZlVfdTE0b2RQTnVMRm5SWEJ5Qk1BUjV1eHl6M0FhX295VERwNkFYU194a3J2Z204WXJZbFBQUEVDNlY2ZmRjUHVITjJIdnBGcFEtT1F5ejNmN2pJRGxOVG80THF6R3pna0k1aW9WZmlJcjJRaExzQjlYbEhBakJlcURhbWFBLWRHRHctZVhRQXRUQ2xYWE9JVUVpUFg5YXJLdWFZ?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 09:14:09 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 43
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 takes a universal, relatable urban frustration and elevates it to the absurd level of international diplomacy with excellent specific details like the 40-page presentation title. It captures the spirit of Delhi's unique culture with affection rather than cynicism, striking the perfect balance between the mundane and the geopolitical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional situation to satirize a common urban experience in Delhi. It does not name any specific real individual, politician, or entity in a harmful way, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}

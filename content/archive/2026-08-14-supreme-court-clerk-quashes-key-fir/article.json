@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-14",
+  "publishedAt": "2026-08-14T13:01:42.179Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Clerk Successfully Files Motion To Quash FIR Filed Against His Own Misplaced Car Keys",
+  "slug": "supreme-court-clerk-quashes-key-fir",
+  "body": "The Supreme Court registry saw an unprecedented legal maneuver on Tuesday when a senior clerk officially filed a petition to quash an internal 'First Information Report' regarding his missing car keys. Citing the 'Amaravati precedent' of procedural efficiency, the clerk argued that the keys were not stolen but merely 'temporarily relocated' by the laws of physics, rendering any investigation into their disappearance legally redundant.\n\n'Once you realize that a missing item is simply a matter of jurisdictional ambiguity between the sofa cushions and the floor, you really don't need a formal FIR process,' stated Brijesh Kumar, a junior legal consultant who assisted with the filing. The court accepted the motion within minutes, noting that since the clerk had already found the keys in his own coat pocket while filing the petition, the entire case had effectively become a moot point under constitutional principles of existential convenience.\n\nLegal experts suggest this move could pave the way for a more streamlined approach to everyday inconveniences. The Supreme Court canteen has already begun drafting a similar motion to quash a pending investigation into a particularly burnt batch of samosas, citing that since the potatoes were technically 're-interpreted' by the heat, no actual crime against culinary standards had occurred.",
+  "caption": "From courtrooms to coat pockets, the art of quashing is evolving. The latest legal innovation suggests that finding things is just a state of mind. #LegalHumor #Judiciary #SupremeCourt #Efficiency (satire)",
+  "imagePrompt": "A photorealistic shot of an empty mahogany desk in a government office building with a stack of legal documents and a set of car keys resting on top of a file folder.",
+  "sourceHeadline": {
+    "title": "Supreme Court Affirms Quashing Of FIR Against Andhra CM Chandrababu Naidu & Ex-Minister Over Amaravati...",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUkJCUm1QWEpSanBQMWY1UlFwRWlmYXVpeVFCeXlIOVQ3OEU3U1l4ZFlhRzhxaU9neXgyQTdQYzBaNjZHWGkzQ2dpdzhYdlE3SHlmdGVCZHVtX3E2cm1wNXJiYlc5RXRvWEJtQUpIRmdTMllUZnhOVjEyYmNCNmtZYW03Zl9LODlCdmJoQkFIZ2trVVZnRnF3elpMbWJ2eU5lSm1oYkJoUG1mUHAwOE5rblFFcHJiRV9Fejk2R3V1NXBTLXZyTldlTE5HMG5jU0V6X0Z1eEphZGRpeFdGcmtlOHp5ZHJEdXFVb0FN0gHwAUFVX3lxTFBZZUgxYWp5VWRtRkYtMlZnS0UzUGlzcFZqQ0FtZ3ZMWm50OW1JLVR6RzBEclA3SmdScHhMLW5ZazBnTUdTTnhoaGdUd01KS2dVM0JlelRILXVkTTFEcUs2UUJoZ0xIcFFPblhZaHR3LWxHcWxzaHA1aTNod2pOVXJRaEp0UnpEWG1tZlRHS1NlS1AwZnN2UGZDRjZQTXZMaEpDa25NSkc3QjJUV2I1YTY2UnhXZ0dMQjBBQ3NwX0pkVEFyVm56amZKU1l6dmtpWkR0U1BlOGpPaWY0bEVQaHRvM1RFTUloSktZUllLTGxCMQ?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 07:37:37 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 9,
+        "total": 45
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 stands out because it takes the absurdity of high-level legal proceduralism and applies it to the mundane domestic sphere of missing keys and burnt samosas. The tone is delightfully absurd and affectionate toward the bureaucratic process, making it funnier and more warm-hearted than the other options."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is clearly satirical, uses a generic 'clerk' role, and does not target any specific real individual, religion, or community. The image prompt is generic and does not contain any restricted elements.",
+    "flaggedIssues": []
+  }
+}

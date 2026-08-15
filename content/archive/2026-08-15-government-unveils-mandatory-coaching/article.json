@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T11:46:41.288Z",
+  "topicKey": "cricket",
+  "headline": "Government Unveils Mandatory Coaching For Competitive Exams To Teach Students How To Meditate During Power Outages",
+  "slug": "government-unveils-mandatory-coaching",
+  "body": "The Union Ministry of Human Resource Development announced today that it will provide free, state-sponsored coaching for all competitive exam aspirants, with a primary focus on mastering the 'Zen-like stillness' required to remain calm during sudden, inexplicable power outages while in the middle of a high-stakes test. The initiative follows recent concerns from students regarding environmental distractions at examination centers, which officials are now officially classifying as 'unplanned wildlife interaction drills.'\n\n'We want every student to view a flickering light or a buzzing insect not as a disruption, but as an opportunity to practice deep, meditative breathing techniques,' said a senior spokesperson for the Ministry. 'The new curriculum includes intensive modules on ignoring ambient noise, maintaining focus while sitting on rickety plastic chairs, and developing a telepathic connection with invigilators who have stopped paying attention to the clock.'\n\nTo support the rollout, the government will deploy thousands of 'Distraction Consultants' to local coaching centers. These consultants will be tasked with intentionally creating mild, non-threatening inconveniences during mock tests to simulate real-world conditions, including occasionally walking past desks to drop heavy stacks of paper or humming softly during the final ten minutes of the exam period.",
+  "caption": "A new govt initiative aims to help students stay calm during exams by training them to ignore all life-related distractions. Who knew silence was a skill? #ExamStress #EducationReform #StudyHacks #StudentLife (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a large, brightly lit examination hall filled with rows of desks and students sitting quietly during a test, taken from the back of the room.",
+  "sourceHeadline": {
+    "title": "Modi promises free exam coaching after India’s ‘cockroach’ protests",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOFhrWjFmbmRQRk5FdE5QbHlUOTJUbjNIdjdJRHhHR1o3WDk2eG5yRFRHblNMejdleFlEM3RPczMyckZsNkdIY3JNX2NiM29uXzdsM2FLUF8yS3dQQjdRSEdpX3JjdHhZLVliUjRUNWdGbHc1SWhJQmVJa1Y5cVpvNUQ0UHY?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 05:08:54 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures the 'Tafri Times' spirit by framing an absurd bureaucratic response to a mundane problem with perfect deadpan delivery. It treats the government's ridiculous solution as a helpful, earnest initiative rather than just mocking the institution, maintaining a charmingly absurd, affectionate tone."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurdity to satirize bureaucratic responses to systemic infrastructure issues in education. It does not name any real individuals, target protected groups, or make defamatory factual claims.",
+    "flaggedIssues": []
+  }
+}

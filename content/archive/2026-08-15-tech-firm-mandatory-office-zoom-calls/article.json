@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T08:47:30.396Z",
+  "topicKey": "workplace-corporate",
+  "headline": "Tech Firm Makes Attendance Mandatory for Employees to Join Zoom Calls from Inside Office Cubicles",
+  "slug": "tech-firm-mandatory-office-zoom-calls",
+  "body": "A prominent Bengaluru-based software consultancy has mandated that all staff must report to the office specifically to attend their company-wide Zoom meetings, arguing that the 'synergy of physical proximity' is essential for muting one another efficiently. The new policy, titled 'Project Together-Apart,' requires employees to travel for up to two hours in peak traffic just to sit in their designated pods and engage in breakout rooms with colleagues sitting three desks away.\n\n'We noticed that when employees were at home, their Wi-Fi signals were too reliable, leading to a lack of authentic corporate anxiety,' said Rajesh Varma, the Chief Synergy Architect. 'By bringing everyone back, we can recreate the classic office experience of having someone’s keyboard clacking loudly in your ear while you try to present a slide deck, which is the cornerstone of professional excellence.'\n\nTo ensure total compliance, the office has installed noise-canceling headsets that are remotely controlled by HR to play a looped recording of ambient office chatter and printer jams. Employees are also encouraged to occasionally stand up and walk to the coffee machine mid-call to maintain the authentic experience of experiencing a spotty internet connection despite being on a high-speed corporate network.",
+  "caption": "Back to basics! Because nothing says productivity like commuting 15km to talk to a screen. The future of work is finally here, and it looks suspiciously like the past. #OfficeLife #CorporateIndia #WFH #BengaluruDiaries (satire)",
+  "imagePrompt": "A wide shot of a modern, brightly lit open-plan office space featuring rows of identical grey cubicles with ergonomic chairs and monitors, with no people visible in the frame.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 10,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 masterfully nails the structural requirements, presenting a truly absurd premise (commuting to an office to sit on a Zoom call) with deadpan authority. It provides specific, relatable details like the 'Chief Synergy Architect' and the forced ambient office noise, while maintaining an affectionate, ribbing tone that captures the irony of modern corporate culture without turning cynical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of mild, relatable satire about corporate culture and RTO (Return to Office) policies. It uses a fictional character name and does not target any specific real individual, religion, caste, or ethnicity, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
