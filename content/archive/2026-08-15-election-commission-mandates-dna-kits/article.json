@@ -58,5 +58,7 @@
     "verdict": "pass",
     "reasoning": "The article uses a satirical premise to poke fun at Indian political rhetoric without naming any real individuals, targeting specific communities, or violating safety policies. The image prompt describes a generic laboratory object and microphones, which does not contain identifiable real-world branding or individuals.",
     "flaggedIssues": []
-  }
+  },
+  "xTweetId": null,
+  "igMediaId": "17967940719129510"
 }
