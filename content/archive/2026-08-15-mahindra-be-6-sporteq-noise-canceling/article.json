@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T23:06:57.103Z",
+  "topicKey": "trending-news",
+  "headline": "New Electric SUV Features Dedicated 'Spouse Argument' Noise-Canceling Mode",
+  "slug": "mahindra-be-6-sporteq-noise-canceling",
+  "body": "The automotive manufacturer launched its latest electric SUV, the BE 6 SPORTEQ, this week, introducing an industry-first 'Domestic Harmony' setting that utilizes external microphones to phase-cancel the specific frequency of a passenger explaining how the driver took the wrong turn at a flyover.\n\n'We spent three years in the laboratory studying the exact pitch of marital frustration,' said a senior product engineer at the company’s R&D center in Chennai. 'The system detects the keywords \"always,\" \"listen,\" and \"I told you so,\" and instantly reroutes the audio output to a soothing loop of lo-fi beats and simulated rain sounds.'\n\nWhile critics have questioned the utility of the feature, early testers claim the vehicle’s ability to remain serenely quiet during intense navigation debates is worth every rupee of the Rs 19.45 lakh starting price. The car also features an optional 'Aggressive Tailgating Warning' that plays a pre-recorded audio clip of a disappointed grandfather sighing loudly.\n\nFuture software updates are expected to include a 'Teenage Music Filter' which automatically lowers the bass when the car senses the driver’s blood pressure rising above 140 bpm. Dealerships have already reported a surge in test drives from husbands seeking a peaceful commute.",
+  "caption": "The new BE 6 SPORTEQ is here to save your sanity, one argument at a time. Finally, a car that ignores your family as much as you do. #Mahindra #EV #CarTech #DrivingPeace (satire)",
+  "imagePrompt": "A photorealistic shot of a modern, sleek electric SUV parked on a paved driveway during a sunny afternoon, with the focus on the vehicle's futuristic taillight design and clean aerodynamic lines.",
+  "sourceHeadline": {
+    "title": "2026 Mahindra BE 6 SPORTEQ Launched: Prices Start At Rs 19.45 Lakh",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWjhFSE1UWG5sSklGMmNVOV8xT2psNHhRT3VjRVBLd3RjVVlkanI4TWNHbFpvTXNPMUszUzZQRDBYMkhHQTNMTEUtcjhHQi02RGRGT2Y1NkRuOHc4Q1JjcERNZFJHekxsZkU4S2VHcjVFaWlDUTk1blV3YnYxbjUyblV0VUhvdHdRcFdGOHJsNTl0d0Z3dDkxcUZUNTVZLUpGOTBXTEdqT1E2RE9HejNkd1V4a0HSAbwBQVVfeXFMTXZBdmZ3WDBpeHJyQXhmdlRURkFLTXo1cUlxNEYtWlBiYVU3bGVYMXFXNUV1TDJBUk9xTHM0a25ISDg4SXgyNDdycUtDQmVRVXNlS2w5elRaYWhOSTFmVWJDdFB2TWEySF91QWJpckhLdFlfaGg3WnpHYUNPNHNtQUw0UTM0cFI2X0xGZnJaclBHbWNKaXl3dldVcW4yTnhCSk1qNldrdG9wLVdPQnByZEZXeW04bUlpZlVrLVE?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 07:59:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "warmth": 9,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 8,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels because it identifies a relatable, universal domestic tension and applies a high-tech 'solution' that is absurd yet feels like something a modern manufacturer might actually over-engineer. It manages to be genuinely funny while maintaining a lighthearted, observational tone about family dynamics, avoiding the cynical or aggressive notes found in the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a lighthearted satirical take on automotive features and marital dynamics. It uses a fictional feature set to poke fun at universal human experiences without targeting specific individuals, protected groups, or making defamatory claims about a real company.",
+    "flaggedIssues": []
+  }
+}
