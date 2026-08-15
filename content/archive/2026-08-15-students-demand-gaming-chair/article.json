@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T19:05:14.289Z",
+  "topicKey": "trending-news",
+  "headline": "State Students Demand CM Resign Only So They Can Use His Office Chair For A Gaming Setup",
+  "slug": "students-demand-gaming-chair",
+  "body": "A group of protesting students in Ranchi today officially demanded the Chief Minister's immediate resignation, primarily to clear the office space for a high-end, ergonomic gaming station. The students, who have been camping near the administrative block, claim that the current seating arrangements in the state capital are 'not conducive to late-night ranked matches of battle royale titles.'\n\n'We have already drafted a proposal to replace the legislative files with a dual-monitor setup and a mechanical keyboard,' said an unnamed student representative. 'The CM’s office has the best air conditioning in the district and the Wi-Fi router is perfectly positioned for zero-latency gameplay. We feel it’s time for the leadership to step aside so that proper e-sports infrastructure can be installed for the benefit of the youth.'\n\nMeanwhile, opposition members have been observed hovering near the students, offering to help draft the 'resignation request' as long as they get a guaranteed spot in the new gaming clan. Local authorities have responded by promising to increase the internet bandwidth at the protest site, provided the students promise not to host their inaugural tournament during office hours.",
+  "caption": "Students demand CM resign, citing better ping rates and lumbar support in his office chair. The future of gaming is here. #JharkhandProtest #GamingSetup #RanchiNews (satire)",
+  "imagePrompt": "A wide shot of a group of young people standing peacefully with colorful handmade cardboard signs near a gated government complex entrance during the daytime.",
+  "sourceHeadline": {
+    "title": "Jharkhand protest: Students demand CM Hemant Soren's resignation, ask Congress to ‘withdraw support’ | India News",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNanFCZG4wVjhCNGRJS0J4aEtISHZDcUV3T293ZlB1aHdwNlJPcTJfX3dEbVlXWjBTMkNRR2p1YTRYZkRPZXJEaTg2STVBV2ZsUy15bDVIMmZoeVRqZlRkMEFKcnk5Z2g2cE5NLUY4eUV6R2RQM0RNb0ZzM0FlcjNoWlMwN3dOallBM3Q5MVdWdlhqU0JUUDY3WWJkUUxfYm5BY1dOREFwcmNUYkt1VEduaVVLVGRkQ3llYzY5TWVITXJ1d0p2QVJKNmZybk5EQ1dEdE5jWHZINVV4S29rVzNiQTdrUkJpcFFaOGF6dW41TdIB9AFBVV95cUxNTjFZSEpXRjVwUkJJUGpsM0lhWGtEVFBza0RxNXQySWhRM3ByOHVvU29ON0YyZFBfYUk3dHE5dGVtd3RUMUtzTEhDV2h4dU1vQUo3eGZRUUpoazF6SlFMQ2xmbVEyVWtnQU84NVhXX1B1cFY3RTBtMVlHd1hXT1NZQlp4ZmQwcTdQNHJDODdfenVhcnN2dlJDQ2lRMDJDa2hvMjExbGhnQXdKeWlJdXB4TV9KN3BEeXRxTm9tUHBRMG9fNEdmd05iR2dtY1pJd3ByYUtDNk1ZLTk0RU1OanM1N1JiQkpRQzV1aG9tTFhoNVU1dllV?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 16:56:20 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 excels by grounding the absurd demand in the tangible reality of gaming culture and specific office amenities, creating a hilarious yet affectionate image of youth priorities. The structure is perfectly deadpan, maintaining a formal journalistic tone while detailing the 'gaming clan' negotiations with the opposition."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted satire that uses a generic 'Chief Minister' role without naming a specific real-life individual. It does not target any specific religious, ethnic, or caste group, and the image prompt is generic and free of prohibited content.",
+    "flaggedIssues": []
+  }
+}
