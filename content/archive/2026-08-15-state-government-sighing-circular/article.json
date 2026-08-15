@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T13:45:36.884Z",
+  "topicKey": "trending-news",
+  "headline": "State Government Issues Circular Requiring All Citizens to Physically Sigh Loudly Whenever They Pass a Construction Site",
+  "slug": "state-government-sighing-circular",
+  "body": "The state administration has officially mandated that all citizens must perform a 'audible expression of moral disapproval'—specifically a long, weary sigh—whenever they pass a public infrastructure project to signal their zero-tolerance stance toward corruption. The initiative, titled 'The Breath of Integrity,' aims to ensure that no road, bridge, or sidewalk is constructed without a synchronized soundtrack of collective public skepticism.\n\n'We believe that true transparency starts with the lungs,' explained a senior official from the Department of Civic Vigilance. 'If every taxpaying citizen exhales in disappointment while walking past an under-construction flyover, the sheer volume of air pressure will naturally inhibit any potential for bribery by making the contractors feel slightly awkward.'\n\nThe circular further notes that high-decibel sighs will be recorded by local traffic cameras, with the data being uploaded to a central 'Integrity Dashboard.' Citizens who fail to demonstrate adequate levels of respiratory disapproval may be sent a soft-copy notification asking them to consider if they are doing enough to build a cleaner future. \n\nConstruction companies have welcomed the move, noting that the constant background sighing has significantly improved the mood of their workers, who now feel they are working in a perpetual, dramatic movie scene.",
+  "caption": "New govt circular asks citizens to sigh at construction sites to combat corruption. Who knew transparency was just a deep breath away? 💨🏗️ #TamilNadu #Governance #CivicDuty #Transparency (satire)",
+  "imagePrompt": "A wide-angle, photorealistic shot of a busy urban sidewalk next to a construction barricade, with blurred pedestrians walking past and generic safety signage visible.",
+  "sourceHeadline": {
+    "title": "We want people of Tamil Nadu to develop zero tolerance for corruption: CM Vijay",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa1RIVWNIem1qMF9DQmZLSHlFdVNCc1NIZTBxT1p3OWhuQ0FXTDZZZXh1QnV1WkVCSV9UbnIxUlN1ZURUT2NYdlZDZTdIVkxUaEFpSWtDeGVkM0ZIYkNfVTc3M3FpdERiTlJ0MTNmN0ZVdURtZko2VXdoM3phYXFkSHd3dE4wcmtWMmxWVnRBaG5OcjJhX3dVVEJCclNta2Z4N0gweVJUaFhDdkxQY1E3NS1nQUVYYmJSNm03bHQ3V1F3RVNRQ0hjTFI3bGF1UnFaSUxZZV9WQ2NTOUFYUmNKWUlB0gHoAUFVX3lxTFBTdU5VS0d1MFVkclJFNExORXNFRURXM3g5UE4tb09tVFJLT0lDU3JGNEtFWTJZZV9haExIckdtbW84QzZsbzBMVmhRMVhGTW4wdE9ZMFpQbERvU081aXRvN05VanJqVXZjOExKS0xmaG1WdV96eF9SN20zaThvMWU3TWJoaElpLW5OUXMyd3FBYnNwTC1ZTndSVDl2ZzJjbElOaUYxSUVkYk1PZnY3LURaSWJfUWd3YkpEcHc3NWxZcVVrbHctSmVMbjNUUks4RmlYRHRmM3M1N3A3MzVtdHJqeHozXzhNYnc?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 10:42:49 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 achieves the perfect balance of deadpan bureaucratic absurdity, using a concrete and relatable civic activity (sighing at construction) to lampoon anti-corruption efforts. It maintains a consistent, warm tone that mocks the theater of governance without devolving into cynical bitterness."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of clearly satirical political commentary that targets generic government bureaucracy and universal human experiences. It does not name any real individuals, target protected groups, or describe an identifiable person or specific logo in the image prompt.",
+    "flaggedIssues": []
+  }
+}
