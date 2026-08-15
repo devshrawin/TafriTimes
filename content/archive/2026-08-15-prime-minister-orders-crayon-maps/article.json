@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T13:15:01.153Z",
+  "topicKey": "cricket",
+  "headline": "Prime Minister Directs Ministry to Replace All Geography Textbooks with Maps Drawn in Crayon",
+  "slug": "prime-minister-orders-crayon-maps",
+  "body": "In a bold move to encourage creative participation in the nation’s growth trajectory, the Prime Minister has officially directed the Ministry of Education to replace all printed geography textbooks with hand-drawn maps made using primary-colored wax crayons. The initiative, announced during a youth engagement session, aims to ensure that students focus less on rigid cartographic accuracy and more on the vibrant potential of India’s economic expansion.\n\n“Standardized printing presses are too formal for a country that dreams in technicolor,” said a senior official from the Ministry of Human Resource Development, who requested anonymity while sharpening a blunt red crayon. “By asking students to redraw the state boundaries themselves, we are essentially crowdsourcing the future of the nation’s infrastructure. If a student decides that a highway should cut through a mountain range because it looks better in glitter-blue, then who are we to argue with such bold industrial planning?”\n\nEducational experts have already begun drafting new assessment criteria where students are graded on their enthusiasm for spatial development rather than the actual location of river basins. The government has reportedly placed an emergency order for 400 million boxes of non-toxic crayons, signaling a significant shift toward what officials are calling ‘imaginative governance.’",
+  "caption": "Geography is just a matter of perspective, and clearly, the government wants that perspective to be bright, waxy, and very colorful. New national curriculum incoming. #EducationReform #NewIndia #CrayonsRule (satire)",
+  "imagePrompt": "A close-up shot of an open school desk featuring several colorful wax crayons and a sheet of paper with a hand-drawn, slightly inaccurate map of a region.",
+  "sourceHeadline": {
+    "title": "Modi Maps India’s Growth Push as He Reaches Out to Students",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZDQ0NEYydzdaVTFOUUJOVFJuWGVaNC16MkVScEN6Q2djVC14VnVrTmIwcU9ucklVOEVhZDRUbkl3YTVYTDRYT2pObDFaTjJyNHBoR3BmMG9uam13cDFydFhLRnZmaGxxZHZxZ05oVXhSTXdOejZXc3FJWTVrTGZtcGJrWHBTTzNUMXRKMndOSkpPWlN1czI2VjgzOEYwek5ud1ctbEx3TlJwSm41ekl3?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 06:21:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 38
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances a whimsical, absurd premise with perfect deadpan execution and specific, evocative details like 'glitter-blue' highways and a 400-million-box crayon order. It maintains a playful, affectionate tone that satirizes bureaucratic overreach without descending into mean-spirited cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses satire to criticize governance and education policy. It avoids naming specific real-world politicians or private individuals, relies on absurd and whimsical premises rather than real news events, and does not target religious, ethnic, or caste-based groups. The image prompt is generic and avoids identifiable imagery.",
+    "flaggedIssues": []
+  }
+}
