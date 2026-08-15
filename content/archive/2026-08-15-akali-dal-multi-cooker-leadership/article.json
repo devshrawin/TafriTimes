@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:26:34.164Z",
+  "topicKey": "trending-news",
+  "headline": "Akali Dal Announces Plan to Replace Party Chairperson With a High-Efficiency Multi-Cooker",
+  "slug": "akali-dal-multi-cooker-leadership",
+  "body": "The Shiromani Akali Dal leadership confirmed on Tuesday that the party will transition to a 'Sauté-and-Simmer' governance model, effectively replacing the current chairperson with a high-end, 12-in-1 electric pressure cooker. Party spokespeople noted that the appliance offers a more consistent policy output and possesses the unique ability to actually finish its tasks without requiring a mid-term state convention.\n\n'We have spent decades dealing with the unpredictable heat of coalition politics, and quite frankly, a programmable cooker is far more disciplined,' said Gurcharan Singh, a senior party strategist. 'The device has settings for dal, rice, and even slow-cooked manifestos. Unlike our previous leadership arrangements, it doesn't get distracted by press conferences or tea-time debates; it simply beeps when the objective is achieved.'\n\nCritics have questioned how a kitchen appliance will navigate complex state legislative sessions, but party insiders remain confident. 'The cooker is surprisingly intuitive,' one aide remarked while adjusting the appliance's 'keep warm' function. 'It provides the same level of comfort to the electorate as our traditional approach, with the added benefit of being able to perfectly steam vegetables for the annual langar.'",
+  "caption": "The Akali Dal is taking 'kitchen cabinet' to a whole new, literal level. Who needs a manifesto when you have a 'delay timer' setting? #AkaliDal #PunjabPolitics #KitchenCabinet #Innovation (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a stainless steel kitchen appliance sitting on a large wooden mahogany desk inside a formal conference room, with empty leather office chairs surrounding it.",
+  "sourceHeadline": {
+    "title": "As Sukhbir Badal Recovers, Harsimrat Steps Up: Woman Leading Akalis' Fight",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUzdKcEF2dlI0SmpaSXRiaHRVNWxnczlRSUQ3YUxMMklKYWc0NzlEUm1oaFpSckFiSGRKVi1OT0M0OWFjMGNGMFRWc1BleXRoWnZOOUM3bUZrejk1Y0htaWNtX0pvYUZlQW9hbHc4dUVwV0dhUWlYNWw0c1QyNEhRdjg4d3ZpVFRGTWRrR0poWHc2NnA2bVZyc09oYlFMTXQyTHpaYTNZdU0yREtmQ1RTdWhXMVR4U09vUENVc1lDT3ZQeFN4ajZVTXN5V3pHV3htR0VTcHROWk9tb05FSGfSAeYBQVVfeXFMTjR5LUw5Ym9hNF9QV3BucmszM3BpWFJFWXVQSWdJSmZaQVhmZE9sd3I5TlU1ZzM1VUNwMHo5RXV1Tnl1dGd4Yy1KNF9Kb1VONUZERWx2M3B0VzdSWktXYTFua1JEQzJZbkRQUG5rSVRlbk8tbkxZVm12Zkd1Q1VaY3U3SklxcTMyR01UUzlCZ1o1cWw1UHJzWWQ2ZWZTQTRQUEFrRXRaN0pVdkRkSW1yWFIwWjlmX21ieDRQS0pyS2swVFpMRXFjdUFrd2JFdXZoQzRJaTh0d2ZLd2kwZ3NnNUR0aXNYZ0E?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 18:10:33 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 44
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 1,
+    "reasoning": "The multi-cooker premise excels in absurdity, specificity, and tone. By framing the replacement of a politician with a kitchen appliance as a logical, efficiency-driven 'upgrade,' it achieves a perfect deadpan satire that treats the ridiculous as mundane while maintaining a lighthearted, non-cynical tone."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a classic satirical piece on political party dynamics using an absurd, non-harmful premise. It does not name a real living person as the target of the satire, nor does it involve violence, crime, or offensive religious themes.",
+    "flaggedIssues": []
+  }
+}
