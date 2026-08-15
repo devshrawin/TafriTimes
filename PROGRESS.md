@@ -13,32 +13,20 @@ meaningful step.
 
 ---
 
-## 2026-08-15 — Intro carousel generator + a real LLM robustness fix
+## 2026-08-15 — LLM robustness fix: don't discard valid JSON on MAX_TOKENS
 
-- Owner wants a pinned "what is Tafri Times" onboarding carousel (5-7
-  slides) as the account's first Instagram post — images to be generated
-  manually via ChatGPT, one slide prompt at a time, then assembled into a
-  carousel by hand (not part of the automated pipeline). Built
-  `scripts/generate-intro-carousel.mjs` + `config/prompts/intro-carousel.system.md`
-  — one LLM call producing 6 ready-to-paste ChatGPT image prompts (cover,
-  what-this-is, why-it-exists, how-it's-made, what-to-expect,
-  follow+disclaimer), consistent visual style across all 6, output written
-  to `content/intro-carousel.json` and printed to the terminal.
-- Hit a real failure live on the first run: Gemini generated a complete,
-  valid 6-slide JSON object, then degenerated into an infinite repetition
-  of closing brackets (`]}]}...`) until it hit `maxOutputTokens` and
-  finished with reason `MAX_TOKENS`. `callLLMForJson` (`lib.mjs`) was
-  throwing unconditionally on any non-`STOP` finish reason *before* ever
-  attempting to parse — discarding perfectly valid leading JSON because of
-  garbage that came after it. Fixed: on a non-STOP finish, try
-  `parseLeadingJsonObject` (which already exists for balanced-brace
-  salvage) first, and only throw if that also fails. This is a general
-  pipeline robustness fix, not specific to the carousel script — the same
-  degenerate-repetition failure mode could in principle hit any
-  `callLLMForJson` call.
-- Also bumped this script's `maxOutputTokens` to 8192 (6 slides of prompt
-  text is a lot) as a second layer of headroom on top of the parse fix.
-- Verified: rerun produced a clean 6-slide result with no repetition.
+- Caught live (one-off local test, unrelated to the daily pipeline): Gemini
+  generated a complete, valid JSON object, then degenerated into an
+  infinite repetition of closing brackets (`]}]}...`) until it hit
+  `maxOutputTokens` and finished with reason `MAX_TOKENS`. `callLLMForJson`
+  (`lib.mjs`) was throwing unconditionally on any non-`STOP` finish reason
+  *before* ever attempting to parse — discarding perfectly valid leading
+  JSON because of garbage that came after it.
+- Fixed: on a non-STOP finish, try `parseLeadingJsonObject` (which already
+  exists for balanced-brace salvage) first, and only throw if that also
+  fails. General pipeline robustness fix — this degenerate-repetition
+  failure mode could in principle hit any `callLLMForJson` call, not just
+  the one that surfaced it.
 
 ## 2026-08-15 — First real Instagram post; fixed gallery not updating from daily-publish
 
