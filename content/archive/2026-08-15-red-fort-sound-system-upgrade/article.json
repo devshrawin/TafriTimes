@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T01:04:31.184Z",
+  "topicKey": "cricket",
+  "headline": "Red Fort Sound System Upgraded to ‘Cloud Nine’ Setting for Independence Day Address",
+  "slug": "red-fort-sound-system-upgrade",
+  "body": "The Archaeological Survey of India has announced that the sound system at the Red Fort has been fitted with an experimental ‘Cloud Nine’ acoustic setting, specifically designed to ensure the Prime Minister’s speech resonates at exactly 432 Hertz to promote national tranquility.\n\n“We weren't just looking for volume,” explained Chief Sound Engineer Ramesh Sharma. “We wanted a frequency that makes the pigeons leave their perches in a synchronized, patriotic formation rather than just scattering in random directions. The new drivers are made from recycled 1990s brass instruments to give the audio a ‘vintage governance’ texture.”\n\nTo test the system, the Ministry of Information and Broadcasting reportedly spent the last week playing recordings of historical speeches at varying pitches to local goats, which officials claim were visibly mesmerized. The new setup also includes a localized ‘echo-cancel’ feature that automatically removes the sound of any distant pressure cooker whistles from the broadcast feed.",
+  "caption": "The Red Fort is set for the big speech with a high-tech sound upgrade that promises to soothe the nation. Will the birds play along? #IndependenceDay #RedFort #Technology #NewIndia (satire)",
+  "imagePrompt": "A wide, low-angle shot of the historic red sandstone ramparts against a bright blue morning sky, with several modern, professional-grade audio speakers mounted discreetly on decorative iron stands.",
+  "sourceHeadline": {
+    "title": "India Ushers In 80th Independence Day, PM Modi To Address Nation From Red Fort",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQamltNElqZDZfS0tWLXFkY2V0T195RlZzMFA3WHNsSVFGMlVxeGV5Z05jWW9yeVFXOThLcTBzTjllbmxYd0VyNFdEaVdETFpSUnBYeXdMN19PbEVWMFRfNHRnUVd6MVFUanVkaTlOcGFCQ21NTzVKMGp1N0JUWUJzSU5aTUd6ZlRGUkdtTXBLaTdzTEkzU1VGb3JIcmREcld3SXNUTFU5TnlKMGczVVU4aFhRV0M2ek5zNnc?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 18:32:38 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels because it balances a highly specific, absurd premise—audio engineering meant to influence bird behavior—with a warm, deadpan tone that feels like a genuine, quirky government initiative. Its structural fidelity is perfect, and it avoids the cynical tone of the other candidates, opting instead for a charmingly bureaucratic obsession with 'patriotic pigeon formation'."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, whimsical piece of satire involving fictionalized technical upgrades to a public space. It does not name a real living private individual, nor does it subject public figures to harmful or defamatory claims; the mention of the Prime Minister is generic and situational, not targeting specific real-world actions or scandals.",
+    "flaggedIssues": []
+  }
+}
