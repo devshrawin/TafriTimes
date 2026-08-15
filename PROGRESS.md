@@ -13,6 +13,33 @@ meaningful step.
 
 ---
 
+## 2026-08-15 — Instagram credentials live; decoupled X/Instagram posting
+
+- Owner completed Instagram setup: Meta app "Tafri Times - IG" (use case:
+  "Manage messaging & content on Instagram", the correct Instagram-API one,
+  not the legacy Pages API), added `instagram_business_content_publish` +
+  `instagram_business_manage_insights` permissions, generated a token via
+  the dashboard's "API setup with Instagram login" page.
+- Verified the token live (`GET graph.instagram.com/v25.0/{IG_USER_ID}`)
+  before it went into any secret — resolves correctly to `@tafritimes`.
+  `IG_USER_ID` / `IG_ACCESS_TOKEN` added as GitHub repo secrets (owner did
+  this manually — no `gh` CLI/token available in this environment to verify
+  or set repo secrets directly).
+- `post-published.mjs` previously posted to X and Instagram as one
+  all-or-nothing step — would have thrown immediately on missing X
+  credentials before ever attempting Instagram. Decoupled: each platform
+  now checks its own required env vars are *all* present and skips (not
+  fails) if not, so Instagram can be tested/enabled independently of X
+  being set up at all. A platform whose credentials ARE present still
+  fails loudly on a genuine posting error — only a fully-absent credential
+  set is treated as "skip."
+- X setup deliberately not pursued further for now (owner: "remove x for
+  now") — `daily-publish.yml`'s manual `post: true` trigger will currently
+  post to Instagram only.
+- Not yet done: an actual live test post via `daily-publish.yml` with
+  `post: true` hasn't been run yet — next step once the owner wants to
+  verify the real end-to-end Instagram publish, not just the token check.
+
 ## 2026-08-15 — Fixed Instagram code: wrong API host entirely
 
 - Owner asked for genuinely detailed, current Meta/Instagram setup steps
