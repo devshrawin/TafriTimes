@@ -68,12 +68,18 @@ jobs:
 
       # Commit + push so the image is on `main` before Instagram's Graph API
       # tries to fetch it via the jsDelivr CDN mirror (see PLAN.md §4).
+      # Also rebuilds the gallery site (docs/) -- this workflow previously
+      # never touched docs/ at all, so a post made here never appeared on
+      # the live Pages gallery until some later hourly-loop run rebuilt it
+      # incidentally. Building it here means this workflow's own output is
+      # visible immediately, not dependent on another workflow's timing.
       - name: Commit archive
         if: steps.archive.outputs.archived == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/archive
+          node scripts/build-gallery.mjs
+          git add content/archive docs
           git diff --staged --quiet || git commit -m "Archive: ${{ steps.archive.outputs.dir_name }}"
           git push
 

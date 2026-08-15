@@ -13,6 +13,23 @@ meaningful step.
 
 ---
 
+## 2026-08-15 — First real Instagram post; fixed gallery not updating from daily-publish
+
+- **First live post**: owner manually triggered `daily-publish.yml` with
+  `post: true`. Confirmed via the archive record (`igMediaId:
+  17967940719129510`, `xTweetId: null` — X correctly skipped per the
+  previous decoupling fix) and independently via the actual account,
+  instagram.com/tafritimes. Headline: "Election Commission Mandates DNA
+  Kits For All Political Debates To Resolve Parental Attribution Disputes."
+- Owner immediately noticed the post wasn't showing on the gallery
+  (devshrawin.github.io/TafriTimes/). Cause: `daily-publish.yml` never
+  called `build-gallery.mjs` or touched `docs/` at all — only
+  `hourly-trending-publish.yml` did. So anything archived via the daily
+  workflow was invisible on the gallery until some unrelated hourly run
+  happened to rebuild it. Added the gallery build + `docs` to the commit
+  step, and rebuilt locally right away so the post shows up immediately
+  rather than waiting for the next hourly iteration.
+
 ## 2026-08-15 — Instagram credentials live; decoupled X/Instagram posting
 
 - Owner completed Instagram setup: Meta app "Tafri Times - IG" (use case:
