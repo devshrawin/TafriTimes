@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T13:55:15.839Z",
+  "topicKey": "trending-news",
+  "headline": "Election Commission Mandates DNA Kits For All Political Debates To Resolve Parental Attribution Disputes",
+  "slug": "election-commission-mandates-dna-kits",
+  "body": "In a move aimed at curbing the rising trend of metaphorical genealogy in Indian political discourse, the Election Commission has officially mandated that all press conferences be equipped with portable DNA testing kits. The new guidelines stipulate that any politician invoking a rival's family tree to dodge a policy question must immediately undergo a cheek swab to provide empirical evidence of the claimed lineage.\n\n\"The era of 'Ask your mother' or 'Where is your father' as a substitute for a white paper on inflation or road connectivity is officially over,\" said a Chief Administrative Officer of the commission, while demonstrating the high-speed centrifuge now installed in the press briefing room. \"If you insist on bringing parents into the argument, we now have the technical capability to verify your claim within three minutes, ensuring that political debates remain strictly about heredity rather than actual governance.\"\n\nOpposition spokespersons have tentatively welcomed the ruling, though they raised concerns about the long waiting times at the state-funded genetic verification counters. The commission has clarified that while the kits are mandatory, the results are legally binding only for social media arguments and do not currently override any pending legislative motions or budget proposals.",
+  "caption": "Politics is getting scientific. DNA kits are now the must-have accessory for every press conference to verify all those 'who is your daddy' arguments. #IndianPolitics #ElectionCommission #Satire (satire)",
+  "imagePrompt": "A close-up of a laboratory-style plastic centrifuge device placed on a wooden press conference desk, surrounded by several microphones from various news organizations.",
+  "sourceHeadline": {
+    "title": "‘Ask Your Mother’: Row Over Nainar Nagendran’s Reply To Vijay’s ‘Where Is Father’ Jibe",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPam1FcndodUtwYmd1N052YnN2Q0czUTAySUtlcHMwOGtMOU1ZQkRUQ1lZLUw1UlBVN2xkUXM0aUNVT3dRNktuNG9DU1V1U0JHZ1p6bVd6TWd2bnpyNXFybVFZbnY0eS1ySGFlRlQzeFRHX0d2N3lkeUFQTHlQNm5vaUMtT3ZFOTZ5MFBDUkoyZm5EZ3Q0bDZNNEk4NjQwQUFWa08wRmxxdEllamc1T2VSQnB0T1dWakNOeGpkcFBnTlVReURiWVFLStIBzgFBVV95cUxOUEpXenBNS1J5VlhlX3NzSWROYW1ONjZ4ZDBDRFZwR3I1bl80U3F1NGZUakZLM1NZVUhnY1hjMHJraVZ3cGltWXZCMHltZmJ6Z3JOWkQ5TGpsalgxRFY3V3lFSVQxWmpCNVE2cFpydlR6bVU3LW1CR2J3NkZTNkpsNTJOSkVZcmlybWRzUEFNa01KaVUwNzd4QVVzYXNVaHNmZFlUU19yMzdtNGstcEYwQmR2VkNUUnV2eGx4eEZjNUZ4eDhEVHFOVWljVmhMUQ?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 13:38:47 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 excels by immediately treating the absurd, high-tech solution (a portable centrifuge in a press room) as a mundane administrative upgrade. It captures the spirit of the 'Tafri Times' by focusing on the farce of bureaucracy rather than just making a cynical jab at politicians, and it maintains a consistent, AP-style deadpan tone throughout."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a satirical premise to poke fun at Indian political rhetoric without naming any real individuals, targeting specific communities, or violating safety policies. The image prompt describes a generic laboratory object and microphones, which does not contain identifiable real-world branding or individuals.",
+    "flaggedIssues": []
+  }
+}
