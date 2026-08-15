@@ -49,5 +49,7 @@
     "verdict": "pass",
     "reasoning": "The article is a lighthearted, clearly fictional piece of satire. It does not target any specific real individual, religious, or ethnic group, and the image prompt uses generic descriptors that do not violate the safety guidelines.",
     "flaggedIssues": []
-  }
+  },
+  "xTweetId": null,
+  "igMediaId": "17911429413263415"
 }
