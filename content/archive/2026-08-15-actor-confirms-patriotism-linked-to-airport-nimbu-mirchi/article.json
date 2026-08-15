@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:41:42.760Z",
+  "topicKey": "trending-news",
+  "headline": "Nation’s Leading Actor Confirms Independence Day Patriotism Primarily Driven by Ability to Find 'Nimbu-Mirchi' at Every Airport Terminal",
+  "slug": "actor-confirms-patriotism-linked-to-airport-nimbu-mirchi",
+  "body": "A veteran Bollywood superstar revealed this Independence Day that the true essence of being Indian is perfectly encapsulated by the constant availability of fresh lemons and green chilies at every airport arrival lounge in the country. The actor, currently scouting locations for his next project, noted that no other international terminal offers such a seamless transition from landing a private jet to encountering the protective agricultural charms hanging near the exit gates.\n\n“The special feeling of being Indian isn't just about the history or the culture, it's about the deep, spiritual comfort of knowing that the local airport staff has your back with traditional warding-off-evil aesthetics,” the actor remarked while disembarking from a flight. He further clarified that while he enjoys luxury travel, he finds global airports rather bland and suspicious for their total lack of tied-together vegetable talismans.\n\nMinistry of Civil Aviation sources were quick to confirm that the 'Nimbu-Mirchi' initiative is indeed the only policy that enjoys 100% bipartisan support among domestic travelers. The actor’s observation has since sparked a nationwide trend, with several other celebrities confirming that their love for the country is inextricably linked to the localized snacks and superstitions found strictly within the three-mile radius of domestic departure terminals.",
+  "caption": "From red carpets to airport arrivals, turns out the secret to national pride is just some well-placed lemon and chilies. Who knew? 🍋🌶️ #IndependenceDay #Bollywood #AirportVibes #India (satire)",
+  "imagePrompt": "A photorealistic shot of a modern, clean airport arrival gate with a glass door in the foreground, showing a blurry, busy terminal interior bustling with travelers in the background.",
+  "sourceHeadline": {
+    "title": "Shah Rukh Khan says there's something special about being Indian as he drops Independence day wishes with",
+    "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOUEwtOVVHU09RQnBaWHlqMUFJN2NtNjAxUk55NmNFbFItdUozeTVWM0RSZTJUOVkzQmRWV0pVaE5fMUZaWV95NjZCVUVCN0hHVlJMZk01NnpkY2JvSXRuWlE4eHk0dlRLNk1NVWhQTENMTTdJMkxXNWlsTmxPOTZBZnBlRU5JYWxJTlpLVWYwVkNHcFdvLWQ0VjdqRHNaUk1EY1BEcFJZb3lIRlRoZEF1c3A4ejhnZzgxc0VJT3F0MjJRdGFEREljZmdNUThnV0pTeS1qVEtSZ18yT2hzbnZ6Tk1KdjkzMUVfNzFwWFMtcml2RFpfSzc0NUdoWGxxQmx3Q3RubTNSUkhsWVBCTl9WVjNiVC1lZF83YmYteHYxR1FnUTV5NnJaNkljU3hhSXZnVTVzZkFKb29LdVRkOHFNUnpHZ0pXakxDVzU1S0hiREs3YktNZnZRYVRfQUZWS2VuaHNmck9CcE1qaUtGQ0JURkpGaTgzUjY5cTVtWElnU212YW5QQUE?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 13:32:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 perfectly captures a mundane, hyper-specific cultural observation that feels both absurd and deeply relatable to the Indian airport experience. Its tone is affectionate rather than cynical, effectively lampooning celebrity behavior while grounding the joke in a shared, recognizable reality."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'veteran Bollywood superstar' archetype without naming a specific real person. The image prompt is generic and avoids identifiable people or brands, and the content is whimsical satire that does not target religious groups or sensitive demographics.",
+    "flaggedIssues": []
+  }
+}
