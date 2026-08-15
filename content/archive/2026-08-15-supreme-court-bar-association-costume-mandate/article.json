@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T16:07:47.226Z",
+  "topicKey": "trending-news",
+  "headline": "Supreme Court Bar Association Mandates Historical Costume Requirements For All Bail Applications",
+  "slug": "supreme-court-bar-association-costume-mandate",
+  "body": "The Supreme Court Bar Association has issued a new circular requiring all lawyers filing for bail to wear authentic 1940s-era khadi attire and a Gandhi cap to better honor the legal fraternity’s role in the freedom struggle. The notification, titled 'Project Satyagraha-at-the-Registry,' insists that the court’s ambiance must reflect the gravity of pre-independence legal battles, even during routine domestic litigation.\n\n\"We noticed that modern litigation lacks the dramatic flair of a colonial-era courtroom drama,\" said Deputy Registrar P.K. Mishra, who has been tasked with inspecting the stitching of lawyers' outfits before they can approach the clerk's desk. \"If a counsel is seeking a stay order on a property dispute, it is only appropriate that they appear to be arguing for the dissolution of the British Raj. It brings a certain gravitas that a polyester blazer simply cannot provide.\"\n\nTo facilitate the transition, the court canteen has been converted into an emergency tailoring service where juniors are currently being trained to sew protest banners into their robes. Lawyers struggling to source authentic vintage footwear have been advised that walking barefooted through the security checkpoint is also an acceptable form of historical reenactment, provided they maintain a stoic, contemplative expression throughout the proceedings.",
+  "caption": "Lawyers are now required to channel their inner freedom fighter during every court appearance. History is being made, one bail application at a time. #SupremeCourt #LegalLife #FashionForward #HistoryReenacted (satire)",
+  "imagePrompt": "A wide-angle, eye-level shot of a bustling, wood-paneled courtroom corridor filled with lawyers in traditional robes, walking with stacks of paper files under their arms.",
+  "sourceHeadline": {
+    "title": "CJI Surya Kant Highlights Lawyers' Role In Freedom Struggle, Says Legal Fraternity Must Keep...",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbHdrZWQ5Umx3eTg3TDJpNnBiZy1JM0ozVlliS3lPeGFtbHEwU2kzQXRKTmFfMndzSmxibTQta3lIUlU3dXo5X3B2c0FoaWxoQXl2NlJWaXNlMHFaVjc1QTFCUlptU0xzQWRIaEZpYTA5M2FYV3gxMnlUbmRlNmVZdkJCVHk2dldHc0hlV3ZZWjdxUllLd2tGTW82eGV5dFFHc3A1Q2NnYV9hQ2t1T0V1c1MwRVVVWXpER2lEYVM1UERoTjk2NURVWUFuUHNBV0lGQTJqQW1PMWQwSW11MUFVLXpXV3B0em1pT2VNTFhGdFltaGvSAfgBQVVfeXFMT3VTVzRLdjRJM29VWllRc1lpX2dkNjVJREtPLTRSX1ZsTFllWW5zZjZmT2ZLSkxaeXdBOFgxT0YzTFZNejRVY2F2TE1IUzhnXzZ0OGZiazNxNFBDV0pEUjFVbWNha2hwejZLWFVhRE9NN1d2WlBOdThLQk01MTdwU2lkWVJOSld6M0dEcWVJM0RaY3lySi0tci1EcGp0aVc0SmpEWGVNeEtfVUNwdXNVRF9mMmlabHdSLWRPRm9xdEM5MGg2RkM2LWNiV1ZLV1l2Z1EydWpMNDV4elB2clZLV3YyNFVsNXZ6TEV4d21CaV95ZXBRMEdLN1A?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 09:07:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding the absurdity in concrete, inventive details like the 'Project Satyagraha-at-the-Registry' and the bureaucratic absurdity of a Deputy Registrar inspecting stitching. It maintains a deadpan, professional tone that treats the ridiculous premise as a genuine policy shift, and the inclusion of the barefoot reenactment detail adds a level of specific, affectionate comedy that elevates it above the others."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional internal circular and a non-existent bureaucratic role (Deputy Registrar P.K. Mishra) to satirize legal pretensions. It does not target any specific real individuals or violate the listed safety constraints.",
+    "flaggedIssues": []
+  }
+}
