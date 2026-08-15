@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T20:10:08.531Z",
+  "topicKey": "cricket",
+  "headline": "Government to Mandate Semiconductor Plants Include Dedicated Stalls for Making Jalebis to Boost Local Productivity",
+  "slug": "semiconductor-plants-jalebi-mandate",
+  "body": "The Ministry of Electronics and Information Technology has announced that the 5-8 upcoming semiconductor plants, slated for construction over the next seven years, will be legally required to feature integrated 'Jalebi Zones' to ensure optimal engineer morale. According to a senior policy advisor, the synergy between micro-circuitry and the art of deep-frying sugar-soaked batter is essential for national technological self-reliance.\n\n'We realized that waiting for a transistor to cool down is the perfect window to prepare a batch of crispy, syrup-laden jalebis,' explained the ministry’s newly appointed Director of Snack-Integrated Manufacturing, Ramesh Varma. 'Our research indicates that the steam from the frying pan actually acts as a natural flux that stabilizes high-frequency wafer yields, provided the batter is whisked by someone with a minimum of ten years of experience in regional halwai techniques.'\n\nThe initiative, internally dubbed 'Chip-n-Chai 2.0,' will require every clean-room facility to dedicate at least 40% of its floor space to traditional cookware. Foreign chip manufacturers looking to partner with local firms have reportedly been sent a mandatory checklist that includes procurement of high-quality ghee and the recruitment of at least three master chefs per shift. \n\nIndustry experts have welcomed the move, noting that while the global chip shortage remains a complex challenge, the addition of fresh snacks will likely ensure that engineers remain at their workstations for at least 18 hours a day. The government expects this localized approach to yield not only high-performance processors but also the world's most sugar-dusted silicon wafers.",
+  "caption": "The future of Indian tech is looking sweet. New chip plants to feature mandatory Jalebi zones for peak efficiency. #TechNews #MakeInIndia #Semiconductors #Innovation (satire)",
+  "imagePrompt": "A photorealistic shot of a sterile, brightly lit industrial corridor in a high-tech facility, where a stainless steel counter featuring a traditional wok filled with syrup sits next to rows of complex, glowing laboratory equipment.",
+  "sourceHeadline": {
+    "title": "India may get 5-8 more semiconductor plants in 7-8 years, says PM Modi",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUxQZ2xuaGNBcUlaRm9yYmVWc1hMWlA3RERnV2VvMnloVE15Y3NwVTNtNzNGS1Q0MGdSeG5zYWtTQXVHZjJqUHdPSS1xSlRNbjBxdVlDa01DUV90YUE4M0lNSHJxTWlVSVUzOV9UeGphU0loWl9Ga0VfeUlqT1E1NmR6NG80S00yejVSSkxBN1FjbmJmcWtQNGQyaHdiNEpMNUM5d0NsYjk5eHlNYTJWYlMyZmVaQnVkZFVoNExKc3o2QzBoTTNoWHJKZXl1YzdS0gHWAUFVX3lxTE5aSlhOc2hGbVYxelJxQlpUb3pLVXNzR3lKbzNfR19KckNLY2tTM2tpV0NUeXlrSEtZeG8taHBDS2lIMk85WkhNSlE4VzYyS3FqVV90Vm0zZFZHUEFFWENsQ3RnaFc2OU4tMm5XV1RsOWlVOTk1MjI2R0J4VzU0bFFGdVRJUDJJbEFEczcxWGJUTVFnNHZkcnRFZ0VGQl9vdWFqSHhhSWgtbFZmVm1HRk1heWNBM3Z5Z1JIenBaeFVwZEFhd1Q0SWtXbi1ZTkFsOENRU1cwbkE?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 04:22:31 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by pairing high-tech manufacturing with a completely incongruous domestic ritual, creating a delightful absurdity that feels rooted in a warm, observational style of humor rather than cynical tech-bashing. Its invented details—like the 'Director of Snack-Integrated Manufacturing' and the specific use of steam as a natural flux—provide the perfect level of deadpan commitment to the bit."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear, whimsical satire about Indian technology policy. The character Ramesh Varma is presented as a generic bureaucratic role, and the content avoids attacking real individuals, religions, or protected groups. The image prompt is generic and does not contain identifying details.",
+    "flaggedIssues": []
+  }
+}
