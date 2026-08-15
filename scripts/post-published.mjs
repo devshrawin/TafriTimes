@@ -12,6 +12,32 @@ const X_ENV_VARS = ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SEC
 const IG_ENV_VARS = ["IG_USER_ID", "IG_ACCESS_TOKEN"];
 const hasAllEnv = (names) => names.every((name) => Boolean(process.env[name]));
 
+// X's 280-char limit can't fit more than the short caption (enforced
+// separately in post-to-x.mjs), but Instagram allows up to 2200 chars —
+// plenty of room for the full piece, not just the caption line. Owner
+// wanted the full headline + body visible on the post itself, not
+// truncated to the one-line caption X is stuck with.
+const IG_CAPTION_LIMIT = 2200;
+
+function truncateAtWordBoundary(text, maxChars) {
+  if (text.length <= maxChars) return text;
+  const truncated = text.slice(0, maxChars);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + "…";
+}
+
+export function buildInstagramCaption(record) {
+  // Instagram doesn't render caption URLs as clickable links (a platform
+  // limitation, not something we can fix) -- included as plain text anyway
+  // since it's still useful as a citation/credibility reference for anyone
+  // who wants to look up the real story this piece was inspired by.
+  const sourceLine = record.sourceHeadline
+    ? `\n\nInspired by real news: ${record.sourceHeadline.title}\n${record.sourceHeadline.link}`
+    : "";
+  const full = `${record.headline}\n\n${record.body}\n\n${record.caption}${sourceLine}`;
+  return truncateAtWordBoundary(full, IG_CAPTION_LIMIT);
+}
+
 /**
  * Phase 2 of the daily pipeline. Takes the dirName from an already-committed
  * and pushed archive entry (written by publish.mjs / generateAndArchive) and
@@ -44,7 +70,7 @@ export async function postPublished({ dirName }) {
 
   if (hasAllEnv(IG_ENV_VARS)) {
     const cdnImagePath = `${GITHUB_REPO}@main/${relImagePath}`;
-    igResult = await postToInstagram({ caption: record.caption, cdnImagePath });
+    igResult = await postToInstagram({ caption: buildInstagramCaption(record), cdnImagePath });
   } else {
     console.error("Skipping Instagram: credentials not configured.");
   }

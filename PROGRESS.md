@@ -13,6 +13,36 @@ meaningful step.
 
 ---
 
+## 2026-08-15 — Hid inactive workflows; Instagram caption now has full text + source link
+
+- Owner: "7 workflows are creating confusion," wants exactly one visible —
+  the hourly loop. Moved `daily-publish.yml`, `collect-engagement.yml`, and
+  `refresh-instagram-token.yml` out of `.github/workflows/` into a new
+  `.github/workflows-disabled/` folder (with a README explaining why each
+  is there and how to reactivate) — GitHub Actions only scans the exact
+  `.github/workflows/` path, so this fully removes them from the Actions
+  tab rather than just graying them out. Nothing deleted, just relocated.
+  **Flagged clearly: `refresh-instagram-token.yml` needs reactivating
+  before the current `IG_ACCESS_TOKEN` is ~60 days old**, or posting will
+  silently start failing.
+- Owner noticed the Instagram bio only fit a short description — Instagram
+  caps profile bios at 150 chars hard, there's no separate long-form field
+  the way Facebook Pages have (the bio drafted earlier this session was
+  sized for FB's ~255, not IG's real 150).
+- Owner also noticed live posts only carried the short caption on
+  Instagram, not the full headline/body — asked to fix. Chose (over
+  short-caption-plus-comment, which would've needed a new
+  `instagram_business_manage_comments` permission and token regen) to just
+  put everything in the caption itself, since IG's 2200-char cap comfortably
+  fits our ~1000-1700-char pieces. Added `buildInstagramCaption()` in
+  `post-published.mjs`: headline + body + original caption + (if the piece
+  was trending-sourced) a plain-text "Inspired by real news: <title>
+  <link>" line — Instagram doesn't render caption URLs as clickable links
+  (a platform limitation), included anyway as a citation/credibility
+  reference. X's caption stays short/unchanged (280-char limit can't fit
+  this anyway). Verified against the live DNA-kits post: 1737 chars, well
+  under the cap, reads cleanly.
+
 ## 2026-08-15 — Automatic hourly posting to Instagram enabled
 
 - Owner explicitly wants hourly posts fully automatic — no more manual
