@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T15:00:56.612Z",
+  "topicKey": "trending-news",
+  "headline": "Ministry of Parentage Announces New Mandatory Verification Process for All Political Rhetoric",
+  "slug": "ministry-of-parentage-announces-new-mandatory-verification-process",
+  "body": "The Union Ministry of Parentage and Lineage has unveiled a new administrative protocol requiring all political leaders to submit a certified DNA-verified family tree before making any public reference to parents in their speeches. The move comes after a week of intense parliamentary debate where lawmakers struggled to identify exactly whose mother or father was being referenced during routine heated exchanges.\n\n\"We want to ensure that when a leader says 'Ask your mother,' they are not inadvertently directing the opposition to an elderly woman in a distant village who has no interest in current fiscal policy,\" explained Senior Documentation Officer Suresh Pothan. \"Under the new guidelines, every rhetorical flourish involving a parent must include a notarized copy of the birth certificate and a formal written statement confirming the parent’s current availability for consultations.\"\n\nOpposition members have tentatively welcomed the policy, though they have requested an additional clause that mandates a secondary verification if the parent in question is unavailable due to being in the kitchen or busy with household chores. The Ministry is expected to launch a dedicated mobile application next month that will allow citizens to instantly verify if the parent being invoked by a politician is legally authorized to provide the requested advice.",
+  "caption": "Now, every political argument requires a signed affidavit of parental consent. Bureaucracy is reaching new levels of home-cooked efficiency. #Politics #Bureaucracy #ParentalAdvice #IndiaNews (satire)",
+  "imagePrompt": "A wide-angle, photorealistic shot of a busy government office corridor filled with stacks of beige paper files and government clerks working at wooden desks, illuminated by bright overhead fluorescent lighting.",
+  "sourceHeadline": {
+    "title": "After Vijay's \"Father\" Remark, Row Over BJP Leader's \"Ask Mother\" Comment",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2dOZDRtWDN6MFJxWFBKZmZ4akFSNDZvZ2ZHTlFXV2piZ1lPXzc0djBFb0twRUJJbXFKa0pFYzc4WTNXdEdqOVk3dVZheUVjVDZSdHktNWNwUEpQTFFRMkpCRTBvWHdMSW9BZlBTSjlTUzlwTzZnRmRFYURWZ3l5RVNZM3JfcDJmZVdOaHhmWDVYZUs5MHliNlFUZm9vOUhwc3Vza1B4NkNYdmt6VkdaYXRSb3lHV3ZFYVE?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 13:07:09 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 36
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 stands out for its superior specificity and comedic timing, particularly the absurdly mundane detail about the parent being 'in the kitchen' or 'busy with chores.' It captures the warmth of an affectionate parody of Indian bureaucratic obsession without descending into total cynicism, maintaining a tight AP-style structure throughout."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of political satire targeting the general nature of political rhetoric and bureaucratic inefficiency. It uses a fictional character name and does not target any specific real individuals, protected groups, or entities, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
