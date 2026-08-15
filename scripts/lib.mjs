@@ -61,12 +61,24 @@ export async function callLLMForJson({ system, userMessage, model, maxOutputToke
   if (!candidate) {
     throw new Error(`Gemini returned no candidates: ${JSON.stringify(body)}`);
   }
-  if (candidate.finishReason && candidate.finishReason !== "STOP") {
-    throw new Error(`Gemini finished with reason ${candidate.finishReason} (likely hit maxOutputTokens or was filtered): ${JSON.stringify(body)}`);
-  }
-
   const text = (candidate.content?.parts ?? []).map((p) => p.text ?? "").join("");
   const cleaned = text.trim().replace(/^```(?:json)?/i, "").replace(/```$/, "").trim();
+
+  // A non-STOP finish (commonly MAX_TOKENS, sometimes a safety filter) used
+  // to throw unconditionally here, before ever attempting to parse — but a
+  // real observed failure mode is the model emitting a complete, valid JSON
+  // object and then degenerating into a repetition loop that eats the rest
+  // of the token budget. parseLeadingJsonObject already exists to salvage a
+  // balanced object out of trailing garbage, so try that first and only
+  // throw if it can't find one — don't discard genuinely valid output.
+  if (candidate.finishReason && candidate.finishReason !== "STOP") {
+    try {
+      return parseLeadingJsonObject(cleaned);
+    } catch {
+      throw new Error(`Gemini finished with reason ${candidate.finishReason} (likely hit maxOutputTokens or was filtered): ${JSON.stringify(body)}`);
+    }
+  }
+
   return parseLeadingJsonObject(cleaned);
 }
 

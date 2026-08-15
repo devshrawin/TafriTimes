@@ -1,0 +1,34 @@
+{
+  "slides": [
+    {
+      "slideNumber": 1,
+      "title": "Cover Slide",
+      "imagePrompt": "A minimalist, high-contrast Instagram carousel cover. The background is a solid, deep, near-black (#0b0b0c) with a subtle, distressed torn-newspaper-clipping texture overlay. Centered in bold, cream-colored (#f5f5f5) condensed sans-serif typography, the text reads: 'TAFRI TIMES'. Below it, in a smaller, punchy red/orange accent font, the tagline: 'Because real news is boring.' The aesthetic is sharp, edgy, and editorial."
+    },
+    {
+      "slideNumber": 2,
+      "title": "What is this",
+      "imagePrompt": "A slide with a deep #0b0b0c background and torn-newspaper texture. The text, rendered in bold cream-colored sans-serif, is centered: 'WHAT IS THIS?'. Underneath, a paragraph in clean, readable text: 'We are India’s premier source of absolute nonsense. Think The Onion, but for the chaotic reality of Indian life. We write fake news headlines that are so absurd, you’ll know they’re definitely not real.'"
+    },
+    {
+      "slideNumber": 3,
+      "title": "Why it exists",
+      "imagePrompt": "A slide with a deep #0b0b0c background. Large, bold cream-colored text at the top reads: 'WHY DO WE EXIST?'. Below, stylized bullet points in red/orange accent: '1. Reality is depressing. 2. Your news feed needs a detox. 3. Because laughing at the absurdity of everyday life is cheaper than therapy. We don’t do doom-scrolling; we do laugh-scrolling.'"
+    },
+    {
+      "slideNumber": 4,
+      "title": "How it is made",
+      "imagePrompt": "A slide with a deep #0b0b0c background. At the top, bold cream text: 'THE BEHIND-THE-SCENES'. The text below reads: 'We use AI to cook up these headlines, then run them through a strict safety filter. No hate, no communal stuff, no punching down. We add a big \"SATIRE\" tag to every single post so you never get confused. We keep it light, clean, and strictly fictional.'"
+    },
+    {
+      "slideNumber": 5,
+      "title": "What to expect",
+      "imagePrompt": "A slide with a deep #0b0b0c background. Bold cream text reads: 'WHAT TO EXPECT'. A list of icons with text: 'Cricket meltdowns, Bollywood madness, Bureaucracy gone wild, and Urban chaos. We are poking fun at the system like a sibling teasing a sibling—nothing mean, just pure, affectionate ribbing of the desi experience.'"
+    },
+    {
+      "slideNumber": 6,
+      "title": "Follow and Disclaimer",
+      "imagePrompt": "A slide with a deep #0b0b0c background. At the top, a large bold CTA: 'FOLLOW FOR DAILY TAFRI'. At the bottom, a small, distinct disclaimer box with a thin red border containing the text: 'DISCLAIMER: Everything on this page is 100% fictional. Any resemblance to actual people or events is purely coincidental and intended for satire only. Real news? Not here.'"
+    }
+  ]
+}
