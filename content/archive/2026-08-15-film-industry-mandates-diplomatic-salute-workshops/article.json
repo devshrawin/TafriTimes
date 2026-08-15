@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T09:46:44.940Z",
+  "topicKey": "trending-news",
+  "headline": "Regional Film Industry Mandates 'Diplomatic Salute' Workshops to Prevent Awkward Gala Encounters",
+  "slug": "film-industry-mandates-diplomatic-salute-workshops",
+  "body": "The South Indian Film Chamber of Commerce has introduced mandatory three-day 'Professional Salutation and Posture Workshops' for all A-list stars following a week of highly publicized public interactions. The curriculum, titled 'Graceful Acknowledgment in High-Stakes Environments,' aims to provide actors with a standardized set of hand gestures and polite nodding techniques to ensure that public events remain free of social ambiguity.\n\n“We realized that a simple wave just doesn't carry the weight of current industry developments,” said Rajeev Menon, a spokesperson for the newly formed Department of Celebrity Optics. “Our goal is to ensure that when a superstar acknowledges another professional at a flag-hoisting ceremony, the gesture is so precise it leaves no room for social media analysts to draft ten-page threads about the meaning behind the angle of the elbow.”\n\nThe workshops include rigorous modules such as ‘Smiling Without Creating A Narrative’ and ‘Maintaining Eye Contact While Looking Through Someone.’ Industry veterans are reportedly worried, however, that the new protocols might be too restrictive. “If I can’t salute with the perfect amount of calculated respect, how will the public know that I am both a patriot and a person who has read the latest entertainment news?” noted one lead actor currently enrolled in the program.\n\nInstructors have clarified that the training is not meant to limit artistic expression, but rather to standardize the ‘Red Carpet Salute’ as a neutral, tax-deductible social signal. Future modules are expected to cover complex maneuvers, including the ‘Casual High-Five During A Legal Settlement’ and the ‘Deep Bow for Public Relations Equilibrium.’",
+  "caption": "Stars are now officially enrolling in classes to master the art of the perfect public salute. Because why leave anything to the imagination when you can choreograph it? #CinemaNews #PublicRelations #Salute101 (satire)",
+  "imagePrompt": "A photorealistic medium shot of a modern, sterile office training room with rows of chairs and a professional projector screen showing an infographic about body language.",
+  "sourceHeadline": {
+    "title": "Trisha salutes Vijay at Independence Day event days after Sangeetha withdraws divorce petition",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVFh4ZENsc1FkNHd5WkJxS1BmNUUwZG9sLW1NTmdKQ1NSb2tJOFVZTHpzTS12VVItZUl6aE0tNlVoY0pCOU9pTzE3Qm1XT2tOR3cxeUxHODctQmIxOGFlREdfU3poRzh0WlFaOVBWUmxYNVFKU0lKNVRoVjVwVkJabmk1Z183N3VwQXpGSFdCVzNxVGphaXdoandFZzFlaGxBSVluZmYyVzRLMUw2bzdfNmhKNV92RzNqOG0zdUNrQ0JGZjc2SzJkbzhCYnU2ckRuOTZJYnpPTXg1XzNxb3JYM21n0gHoAUFVX3lxTFBFT1gwcEU4dEcwa3JBdVNmemVDY2d4Vnk3TEt1Q3F0dXJWaDdKQXdFeHJiM0tsNTlhYlcwM2NidWU0eTgzRXlWTXFDMGR0eEFsb1FEcGJNbjZSd0xKY3BCM1ROQ3huYUtjU1dsQ1p0ZWYyZGtpUmUwNEZNbmxQcWFrMkVKNzZVUGpwVTdRSHZaUUhuTmc3QWJLbFczQy1pYWNLWGVwSUxoSl9RQ1ZMQlk2RHNrcFFuNlk5blY1NFdLaUhzc3NGdGtXUnNLMVNvcVN6eTFoNU1mOTZvTkZYUzVaZzJoYUdNRGQ?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 05:21:51 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 10,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding its absurdity in a recognizable, bureaucratic institutional response (the 'Department of Celebrity Optics') and uses specific, hilarious invented modules like 'Smiling Without Creating A Narrative'. Its tone is affectionate and observant, perfectly capturing the specific madness of fan-driven celebrity discourse without feeling mean-spirited."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted satire about the performative nature of celebrity public appearances. It uses generic personas rather than real individuals and poses no risk of harm, defamation, or targeting of protected groups.",
+    "flaggedIssues": []
+  }
+}
