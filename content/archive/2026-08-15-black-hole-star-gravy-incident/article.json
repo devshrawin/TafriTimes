@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T22:06:30.463Z",
+  "topicKey": "trending-news",
+  "headline": "Space Research Agency Forced to Reclassify Discovery of ‘Black Hole Star’ After Intern Accidentally Stains Telescope Lens with Butter Chicken Gravy",
+  "slug": "black-hole-star-gravy-incident",
+  "body": "The national space research body issued a formal clarification today confirming that the much-publicized ‘black hole star’ recently observed in the early universe is, in fact, an oily smudge located on the lens of the deep-space telescope. The anomaly was first reported as a gravitational singularity before senior scientists realized the ‘event horizon’ was actually a streak of makhani gravy resulting from an intern’s lunch break mishap in the observation bay.\n\n“We were initially puzzled by the immense mass and infinite density of the object, which seemed to defy standard stellar evolution models,” said the project’s lead optical technician, Dr. S. K. Murthy. “However, once we attempted to clean the lens with a microfiber cloth, the supermassive black hole vanished entirely, leaving behind only the faint scent of fenugreek and a lingering doubt about our cafeteria’s strict no-food policy near sensitive equipment.”\n\nThe agency noted that while the loss of the celestial discovery is disappointing, the incident has provided invaluable data on how butter chicken residue interacts with industrial-grade glass surfaces. Astronomers are now pivoting their research to focus on whether the smudge may have inadvertently created a localized ‘aromatic singularity’ that has made the entire laboratory smell like a wedding banquet for the past forty-eight hours.",
+  "caption": "Astronomers confirm the latest cosmic breakthrough was just lunch on the lens. Science is messy, but at least it tastes good. #SpaceNews #Science #ButterChicken #Oops (satire)",
+  "imagePrompt": "A close-up, slightly out-of-focus shot of a high-tech telescope lens with a small, greasy orange smudge on the glass, set in a dimly lit, high-tech laboratory environment.",
+  "sourceHeadline": {
+    "title": "Astronomers discover a possible ‘black hole star’ in the early Universe, with a supermassive black hole h",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMXMxTnJXQkV5V1gyZTAzVDROVFFMYUVDejRSdTJIT2w3S2pwa3gxNjZNNHRtOEg2R29lTzhEVEZYREMwNWNub1FiLURaQ3JQSHpaWXhOSFRMUGNCeHM0dVhPbTU4NnBTS0NXby1abkhEQVEyWHJZZHJ1eHdTS2tqYy10N2J0VXNGbFhFdnBWa3Ywdzd4Ymp1MUtMUmNtMU54ZlVJVkR3OXV1OFhVcGVlWnNnT29iOVJZenFIRzBLZFVVMjdNMWxGdEwxUTBueEhVZjdQS0FVZ1g2Slp4OEZHZUpFNGMwUWE2Y2ozd3dNR2hWVUc2RmJ1eTlLbWVpb21MT19VYU1nXzlYaERaV0lmejhwTXlLaXNleFdJSdIBogJBVV95cUxNMjJpY0ZzUjA2Z1lrU3Y5QWplYnc3RXY5UnRyVGFqZG5OZ2lkUEZ0S0RxeU1OazJsekNmMC1iekc4QjNmdU1wdkdhU0NGaThhT2xSUlJ0NzJ4LTNFc01JenBjX2RSa2lMQ0RYMXEwUUljSTRMOEtIZmVURHg5cjBHd3Znc0Q3T0VLckhyeWtnRWx3TFQ5MlhBbk9Tb2VUZlVWYmlnMzZ5V2JzNEJ3dGNJSVhjQzZzRGRBUFQwQmJGWURFVXZHRUhMN3FwOERxclJYdXluQmdRVjF4VDhPcGREUC0xdUZqemhQbkQ0ekpVdExqY1JJT19RR1E1UE4wZHJOb3pCWXp1RW1IMWZxcmRoemVHMGhCc0Q4OGFTNVN5V2VOdw?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 12:14:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 takes the gold because it perfectly executes the 'mundane error creates epic discovery' trope with hilarious, specific detail (butter chicken, fenugreek, aromatic singularity). Its structure is the most authentic to real news writing, and the absurdity is grounded in a relatable workplace accident rather than cynical commentary."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a lighthearted, clearly fictional piece of satire. It does not target any specific real individual, religious, or ethnic group, and the image prompt uses generic descriptors that do not violate the safety guidelines.",
+    "flaggedIssues": []
+  }
+}
