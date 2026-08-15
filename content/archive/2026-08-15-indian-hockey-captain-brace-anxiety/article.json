@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:45:17.476Z",
+  "topicKey": "trending-news",
+  "headline": "Indian Hockey Captain Declares He Only Scores Braces Because Prime Numbers Give Him Anxiety",
+  "slug": "indian-hockey-captain-brace-anxiety",
+  "body": "The Indian men's hockey team captain confirmed today that his consistent habit of scoring exactly two goals per match is a strategic move to avoid the mental instability he associates with prime numbers. Speaking after his latest brace, the captain noted that finishing with a total of three or five goals would disrupt his equilibrium for the rest of the tournament.\n\n“Anything other than an even pair feels mathematically cluttered,” explained the team’s lead sports psychologist, Dr. Ramesh Varma, who has been training the squad to view the hockey pitch as a giant, symmetrical graph. “When he scores once, he feels a crushing need to balance the scoreboard, like a man who has accidentally put on two different colored socks.”\n\nOpposition teams have reportedly expressed confusion, with Welsh defenders claiming they were prepared for high-octane attacks but weren't ready for a striker who apologizes every time he accidentally misses a second shot. The team management is now debating whether to allow a third goal if the match situation becomes dire, though they worry it might trigger a full-scale existential crisis for the captain.",
+  "caption": "India's captain prefers his goals in pairs, citing a deep-seated fear of odd numbers. Hockey experts are confused but impressed. #HockeyWorldCup #IndianHockey #SportsHumour #TeamIndia (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a hockey field at night with stadium floodlights illuminating the turf. Several players are seen in the distance, out of focus, running toward a goal post.",
+  "sourceHeadline": {
+    "title": "Harmanpreet Singh's brace powers India to 3-1 win over Wales in FIH World Cup opener",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPeDVkd1lpM014ZjlrVW50UEMzVWo0UHg1VEY5dXdrTFowbklWZktPUXU0VG9xS0tRbEtNd051WDFrSXQxQkFQSE8xZlJseG5nNTRPMkN3d2xZNW1LSm1XaElXTmNuVHNDQzRuc3ctbDV6RzlkYWNWNFVndUZlWHBzTUFVbkprcjBvUDFIUTg5NGNocjJaVUlxYVFjZHF2dU1JLWp0RDktbEg0blZwbGU2aGlKZl8xMEtsUlFmU2dEV0VKdXVsV2JaSS1NLXRLV3RXNVg4NG9rcE90V3c2cUxPZHVmTG05cHdSWDRVeDZ6b3ZTdkhDdmg2NHNlOGFFY1Jh?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 13:23:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the most cohesive and grounded absurd premise, treating a whimsical neurosis as a serious tactical choice with perfect deadpan execution. It balances the 'Tafri Times' tone by keeping the absurdity affectionate and character-focused rather than undermining the sport itself."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictionalized scenario involving a generic, unnamed captain. While it mentions the Indian hockey team, it does not name any real players or public figures, and the premise is harmless, whimsical satire.",
+    "flaggedIssues": []
+  }
+}
