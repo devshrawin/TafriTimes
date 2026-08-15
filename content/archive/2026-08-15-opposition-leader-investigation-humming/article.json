@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T10:47:01.438Z",
+  "topicKey": "festivals-culture",
+  "headline": "Opposition Leader Faces Investigation After Allegedly Failing to Hum Along to Vande Mataram",
+  "slug": "opposition-leader-investigation-humming",
+  "body": "A national political party has been forced to issue a formal clarification after a parliamentary panel launched a preliminary inquiry into whether a senior opposition leader failed to achieve the mandatory decibel level while humming during a recent Vande Mataram rendition. The controversy erupted after social media analysts claimed the leader’s lips moved at a tempo 0.4 seconds slower than the official government-sanctioned backing track.\n\n“We have submitted a 400-page dossier containing audio spectrograms and lip-sync analysis to prove that the leader was, in fact, humming in a frequency that only dogs and highly trained nationalists can hear,” said party spokesperson Ramesh Varma. “The accusation that she was merely contemplating her grocery list during the anthem is a malicious fabrication aimed at distracting from our actual policy debates.”\n\nTo prevent further scrutiny, the party has announced that all future public events will require attendees to wear throat-mounted microphones that transmit their humming performance directly to a centralized server in Delhi. The government has welcomed the proposal, suggesting that a 'Patriotic Pitch' score should now be included in all candidates' annual performance appraisals alongside their voter turnout statistics.",
+  "caption": "New guidelines suggest that standard singing is no longer sufficient; citizens must now provide a digital humming certificate to prove their devotion. #VandeMataram #Politics #HummingPolicy #India (satire)",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a group of people in formal attire standing in a row at a public event, facing away from the camera toward a flag pole.",
+  "sourceHeadline": {
+    "title": "Did Sonia Gandhi ‘Insult’ Vande Mataram During I-Day Celebration? Here’s What Congress Said",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU3RrN0dUNE0wV0xnclpaQ01SSG85X05iVGZCeHBVOXh5RlN0N0FJRG1KWHpjYngxZHJTSDZOV3BrNkt6SVhZdTljUnBRU2RCZFBZUms3X19tVTNBTlFtbE1naXpBekxMZ0xUeGEzREktRXNlUW4yQkQyV0MxZFhOaENfLTVNVmVSaThERGVWbkhSVVNDRDljNlRnLU1ndXFOSDhYaDM0NzFtR0w5Vnp5d01pYjJNb2NFYS1ycGpSLWh6a3RlRTB6WU14X0dmbThZ0gHWAUFVX3lxTE9lQXdQYmtPQXg2TmxZTUtIb0NMMnZ5a0pxZXlfLUVoZVJHVDFEelE0ZzdwRnNXcm1nTXNBQUZ0YmliMnE1eWp4eUxqSGFTWDh3Q2s0Y3h0b1NHclYxUUZuenBMZnVGWlhEa2tEYzdsUFR6N2VSaTRVNGo0cTF1Tk1RdkpBRTRQWk9DWlpPdThlY2g1cmdXQjdmQTY4SGdvNUVxYzFxTG5pV3h0MHhPYUs1NVNnUjBGSVV5UE9SblF6aHBMZFlPOFNmMVlLZFQ3X2JJcFRVcmc?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 07:13:52 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding an absurd premise in plausible administrative bureaucracy, creating a coherent narrative arc from the investigation to the proposed policy solution. Its specific details, such as the 400-page dossier and the throat-mounted microphone requirement, elevate the satire into a clever commentary on performative patriotism that feels both imaginative and affectionately ribbing rather than merely cynical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, absurd premise to satirize political overreach and performative nationalism. It avoids targeting specific real-world individuals, religious groups, or protected identities, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}
