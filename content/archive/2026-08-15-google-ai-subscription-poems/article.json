@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T20:26:56.470Z",
+  "topicKey": "trending-news",
+  "headline": "Google Announces AI Pro Subscription Will Eventually Require Users To Pay In Original Handwritten Poems",
+  "slug": "google-ai-subscription-poems",
+  "body": "The tech giant revealed today that once the complimentary 12-month trial period for its AI Pro services expires, users will no longer be able to settle their invoices with traditional currency. Instead, subscribers must submit a daily, original four-line rhyming couplet praising the efficiency of cloud computing to the company’s new ‘Poetic Revenue Department’.\n\n‘We realized that money is far too transactional for such an advanced artificial intelligence,’ said a spokesperson for the company’s product division. ‘By requiring users to write poetry about latency and data centers, we are fostering a more soulful ecosystem where the human-machine interface is built on the foundation of artistic struggle rather than just simple banking transactions.’\n\nExisting users are currently undergoing frantic workshops to improve their meter and rhyme schemes before their trial period lapses. Some have expressed concern regarding the company’s strict submission guidelines, which currently reject any poem that does not contain at least one stanza dedicated to the beauty of a fully optimized server rack.",
+  "caption": "From cash to couplets: Google redefines the subscription model. Time to brush up on those haikus. #GoogleAI #TechNews #PoetryInMotion #Innovation (satire)",
+  "imagePrompt": "A person sitting at a desk in a brightly lit modern office, intently typing on a laptop while surrounded by crumpled pieces of paper with handwritten notes.",
+  "sourceHeadline": {
+    "title": "Pixel 11: Google Still Offers 12 Months Of AI Pro, But Not For Long",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1FLM0ZjOHJObUVndDNJV2ZSZXZnOGlDZm9nZjJhYVNNa1d6VUpKbGJGNkNZUncyREpxRE1tOTFoYUtkU09xeGZ0U3ZRcUNpM2x2NXprZEtLZmRLWnU0WkFZVEZnSExPdWt3c0JzS0wxWnNiWWdoMXgwS01PSm9BZFMxT2xqV3MtX0dkNE5PSkJxNTlJeHlRVkxXT05ZZDFNQjZfSUpvbGh1NE5mY0RZMw?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 19:03:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the strongest satirical premise by framing the absurdity as a corporate 'soulful' initiative, which perfectly mirrors real-world tech-industry jargon. The detail about a 'Poetic Revenue Department' and the requirement for poems about 'optimized server racks' adds a layer of specific, affectionate absurdity that feels more creative and cohesive than the alternatives."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of clearly identifiable satire involving a corporate entity (Google) and fictionalized corporate policies. It does not target private individuals, protected groups, or make realistic defamatory claims.",
+    "flaggedIssues": []
+  }
+}
