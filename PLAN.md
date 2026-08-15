@@ -49,7 +49,7 @@ Original design (below, kept for context) was a flat templated graphic with no p
 ### 5. Social posting integration
 
 - **X**: OAuth 1.0a user-context (static consumer key/secret + access token/secret, no refresh-token rotation needed for a single bot account) via the `twitter-api-v2` npm package — handles chunked media upload and the v2 tweet endpoint.
-- **Instagram**: requires an Instagram Professional (Business/Creator) account linked to a Facebook Page, a Meta Developer App, and the account added as an **Instagram Tester** (avoids full App Review since the app only ever posts to its own account). Publish flow is two plain HTTPS calls: create a media container (jsDelivr image URL + caption) → publish the container. Long-lived token (60-day expiry) is refreshed automatically via a no-interaction weekly workflow that calls Meta's refresh endpoint and writes the new token back into the GitHub secret via the GitHub API (fine-grained PAT with this-repo secrets:write). The one truly manual, non-automatable step is the *first* token issuance (one-time interactive Facebook OAuth consent) and recovery if refresh is ever missed for 60+ days.
+- **Instagram**: requires an Instagram Professional (Business/Creator) account and a Meta Developer App, with the account added as an **Instagram Tester** (avoids full App Review/Business Verification since the app only ever posts to its own account — Standard Access is sufficient). Uses the current **"Instagram API with Instagram Login"** flow (`graph.instagram.com`, not `graph.facebook.com`) — **no linked Facebook Page required**, a genuine 2026 architecture change from the older Facebook-Login-for-Business flow most older tutorials describe (see PROGRESS.md for the research that caught this — an earlier version of this codebase pointed at the wrong host entirely). Publish flow is two plain HTTPS calls: create a media container (jsDelivr image URL + caption) → publish the container. Long-lived token (60-day expiry, and dashboard-generated tokens for a Tester account are already long-lived — no separate exchange step needed if issued that way) is refreshed automatically via a no-interaction weekly workflow that calls `/refresh_access_token` and writes the new token back into the GitHub secret via the GitHub API (fine-grained PAT with this-repo secrets:write). The one truly manual, non-automatable step is the *first* token issuance (one-time interactive Instagram login consent, via the app dashboard's "Generate token" button) and recovery if refresh is ever missed for 60+ days.
 
 ### 6. The feedback loop — the actual answer to "how do we know it's funny"
 
@@ -102,7 +102,7 @@ TafriTimes/
 ## Prerequisites Before Any Code Is Written
 
 1. X developer account + app (2026 default is pay-per-use billing, no free tier).
-2. Instagram Professional account linked to a Facebook Page + Meta Developer App, with Tafri Times added as an Instagram Tester.
+2. Instagram Professional account + Meta Developer App (no Facebook Page needed — see §5), with Tafri Times added as an Instagram Tester.
 3. Complete the one-time interactive OAuth flows for both platforms to mint initial tokens, store as GitHub repo secrets.
 4. Anthropic API key with billing enabled.
 

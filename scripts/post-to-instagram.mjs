@@ -1,7 +1,12 @@
 import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 
-const GRAPH_BASE = "https://graph.facebook.com/v20.0";
+// "Instagram API with Instagram Login" (current as of 2026) uses its own
+// host and doesn't require a linked Facebook Page, unlike the older
+// "Facebook Login for Business" flow this used to point at
+// (graph.facebook.com) — see PROGRESS.md for the research that caught this.
+// v25.0 chosen for stability margin; v23.0 reached end-of-life June 2026.
+const GRAPH_BASE = "https://graph.instagram.com/v25.0";
 
 function requireEnv(name) {
   const value = process.env[name];

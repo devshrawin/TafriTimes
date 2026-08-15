@@ -1,6 +1,8 @@
 import { pathToFileURL } from "node:url";
 
-const GRAPH_BASE = "https://graph.facebook.com/v20.0";
+// Same host/version rationale as post-to-instagram.mjs — the current
+// Instagram Login API, not the legacy Facebook-Page-linked flow.
+const GRAPH_BASE = "https://graph.instagram.com/v25.0";
 
 function requireEnv(name) {
   const value = process.env[name];
@@ -11,11 +13,12 @@ function requireEnv(name) {
 /**
  * Long-lived Instagram tokens expire after 60 days. This refresh must run at
  * least once within that window (weekly cron gives large margin) — if missed
- * entirely, recovery requires redoing the one-time interactive Facebook OAuth
- * consent (see PLAN.md §5, Prerequisites).
+ * entirely, recovery requires redoing the one-time interactive OAuth consent
+ * (see PLAN.md §5, Prerequisites). Endpoint is `/refresh_access_token`, not
+ * `/oauth/access_token` — the latter is the legacy Facebook Login path.
  */
 async function refreshToken(currentToken) {
-  const url = `${GRAPH_BASE}/oauth/access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(currentToken)}`;
+  const url = `${GRAPH_BASE}/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(currentToken)}`;
   const response = await fetch(url);
   const body = await response.json();
   if (!response.ok) throw new Error(`Token refresh failed: ${JSON.stringify(body)}`);

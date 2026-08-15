@@ -30,6 +30,20 @@ function loadFont() {
   return _fontData;
 }
 
+// Cropped from the owner-supplied full logo artwork (a torn-newspaper-style
+// square design with tagline/icons) down to just the "TAFRI TIMES"
+// wordmark + red accent stripe, since the full square doesn't read legibly
+// at the small size a per-post masthead bar needs.
+const LOGO_ASPECT_RATIO = 700 / 356; // source crop dimensions
+let _logoDataUri;
+function loadLogo() {
+  if (!_logoDataUri) {
+    const buffer = readFileSync(path.join(ROOT, "config/image-templates/logo.png"));
+    _logoDataUri = `data:image/png;base64,${buffer.toString("base64")}`;
+  }
+  return _logoDataUri;
+}
+
 /**
  * Fetches a generic photorealistic scene photo from Pollinations (free,
  * keyless, no signup) based on the writer LLM's `imagePrompt` — a generic
@@ -90,11 +104,12 @@ function formatTopicLabel(topicKey) {
 }
 
 /**
- * Fictional masthead + a permanent "SATIRE" mark baked into every image as a
- * built-in, always-on safeguard against being mistaken for real news
- * (see PLAN.md §3). This is a design safeguard, not a content-judgment step —
- * it stays even when a photo background is present specifically because the
- * photo is what makes this need the safeguard most.
+ * Fictional masthead (owner-supplied logo artwork, cropped — see loadLogo)
+ * + a permanent "SATIRE" mark baked into every image as a built-in,
+ * always-on safeguard against being mistaken for real news (see PLAN.md
+ * §3). This is a design safeguard, not a content-judgment step — it stays
+ * even when a photo background is present specifically because the photo
+ * is what makes this need the safeguard most.
  */
 function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
   const accent = BEAT_ACCENTS[topicKey] ?? DEFAULT_ACCENT;
@@ -156,10 +171,11 @@ function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
             },
             children: [
               {
-                type: "div",
+                type: "img",
                 props: {
-                  style: { fontSize: 40, fontWeight: 700, letterSpacing: -1 },
-                  children: "TAFRI TIMES",
+                  src: loadLogo(),
+                  width: Math.round(72 * LOGO_ASPECT_RATIO),
+                  height: 72,
                 },
               },
               {
@@ -220,12 +236,29 @@ function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
           props: {
             style: {
               display: "flex",
-              fontSize: 24,
-              color: "#d0d0d0",
+              flexDirection: "column",
               borderTop: "2px solid rgba(255,255,255,0.3)",
               paddingTop: 24,
             },
-            children: "Fictional publication. Not real news.",
+            children: [
+              {
+                type: "div",
+                props: {
+                  style: { display: "flex", flexDirection: "row", gap: 8, fontSize: 22, fontWeight: 700, color: "#f0f0f0" },
+                  children: [
+                    { type: "div", props: { style: { display: "flex" }, children: "BECAUSE REAL NEWS IS" } },
+                    { type: "div", props: { style: { display: "flex", color: accent }, children: "BORING." } },
+                  ],
+                },
+              },
+              {
+                type: "div",
+                props: {
+                  style: { display: "flex", fontSize: 18, color: "#8a8a8a", marginTop: 4 },
+                  children: "Fictional publication. Not real news.",
+                },
+              },
+            ],
           },
         },
       ],

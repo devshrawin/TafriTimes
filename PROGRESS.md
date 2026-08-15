@@ -13,6 +13,65 @@ meaningful step.
 
 ---
 
+## 2026-08-15 — Fixed Instagram code: wrong API host entirely
+
+- Owner asked for genuinely detailed, current Meta/Instagram setup steps
+  (fair complaint — earlier instructions were generic). Research turned up
+  something more important than better instructions: **our own Instagram
+  code was pointing at the wrong API architecture.**
+- Meta has split Instagram posting into two separate flows: the old
+  "Facebook Login for Business" (requires a linked Facebook Page, host
+  `graph.facebook.com`) and the current **"Instagram API with Instagram
+  Login"** (no Facebook Page needed at all, host `graph.instagram.com`).
+  `post-to-instagram.mjs`, `refresh-instagram-token.mjs`, and
+  `collect-engagement.mjs` were all built against the old host/version
+  (`graph.facebook.com/v20.0`) — would have failed outright against tokens
+  minted the current way, and `refresh-instagram-token.mjs` was also
+  calling the wrong endpoint path (`/oauth/access_token` instead of
+  `/refresh_access_token`).
+- Fixed all three to `graph.instagram.com/v25.0` (v23.0 reached
+  end-of-life June 2026; v25 chosen over the very new v26 for stability
+  margin) and the corrected refresh endpoint. Updated `PLAN.md` §5 and the
+  prerequisites list to drop the now-incorrect "linked Facebook Page"
+  requirement.
+- Scope names also changed (`instagram_basic`/`instagram_content_publish` →
+  `instagram_business_basic`/`instagram_business_content_publish`,
+  deprecated Jan 2025) — relevant when the owner requests the token via
+  Graph API Explorer or the app dashboard's permission picker, not
+  something our code references directly.
+- Confirmed via research: for this exact use case (posting to one's own
+  account only, via script), **Standard Access via Instagram Tester is
+  sufficient** — no Business Verification or full App Review needed, and
+  tokens generated directly from the App Dashboard's "Generate token"
+  button (for a Tester account) come out already long-lived, skipping the
+  separate short-to-long token exchange step for that path.
+
+## 2026-08-15 — Real logo integrated into every generated image
+
+- Owner supplied final branding: a full square logo design (torn-newspaper
+  art style, "TAFRI TIMES" wordmark, tagline "BECAUSE REAL NEWS IS BORING.")
+  via a WhatsApp-exported JPEG. The full square doesn't read legibly at the
+  small size a per-post masthead bar needs, so cropped it down to just the
+  wordmark + red accent stripe (`sharp`, new dependency, used only for this
+  one-time crop/resize — not part of the runtime pipeline) and saved as
+  `config/image-templates/logo.png` (700px wide, ~45KB).
+- `render-image.mjs`: masthead now embeds this real logo image (via Satori's
+  `img` node type, base64 data URI) in place of the plain-text "TAFRI TIMES"
+  wordmark that was there before. The "SATIRE" pill stays next to it
+  unchanged. Footer now shows the new tagline ("BECAUSE REAL NEWS IS
+  BORING.", accent-colored) above the existing "Fictional publication. Not
+  real news." disclaimer — kept both since the tagline is brand voice, the
+  disclaimer is the actual safety-mitigation text from PLAN.md.
+- Hit and fixed a real Satori quirk: splitting the tagline into two `span`
+  children with a trailing space in the first ("...IS ") collapsed the
+  space entirely, running the words together ("ISBORING."). Flex containers
+  don't preserve inter-element whitespace this way — fixed with an explicit
+  `gap` on a flex row instead of relying on text-node spacing.
+- This changes every post going forward; old archived posts keep their
+  original plain-text masthead (images are static, never regenerated
+  retroactively unless explicitly requested, per the "keep everything"
+  instruction from the test-phase).
+
 ## 2026-08-14 — Gallery: IST display, ascending sort, IST day boundaries
 
 - Owner flagged the live gallery: times should be IST not UTC, posts within

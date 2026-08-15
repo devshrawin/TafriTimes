@@ -25,7 +25,10 @@ async function fetchXMetrics(tweetId) {
 
 async function fetchInstagramMetrics(mediaId) {
   const accessToken = requireEnv("IG_ACCESS_TOKEN");
-  const url = `https://graph.facebook.com/v20.0/${mediaId}/insights?metric=likes,comments,reach,saved&access_token=${encodeURIComponent(accessToken)}`;
+  // graph.instagram.com, not graph.facebook.com -- same host fix as
+  // post-to-instagram.mjs/refresh-instagram-token.mjs (current Instagram
+  // Login API, no linked Facebook Page required).
+  const url = `https://graph.instagram.com/v25.0/${mediaId}/insights?metric=likes,comments,reach,saved&access_token=${encodeURIComponent(accessToken)}`;
   const response = await fetch(url);
   const body = await response.json();
   if (!response.ok) throw new Error(`Instagram insights error: ${JSON.stringify(body)}`);
