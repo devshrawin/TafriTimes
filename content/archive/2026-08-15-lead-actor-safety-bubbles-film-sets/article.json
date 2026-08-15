@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T21:52:18.126Z",
+  "topicKey": "trending-news",
+  "headline": "Lead Actor Announces Plan To Protect Co-Stars By Installing 'Safety Bubbles' Around Every Film Set",
+  "slug": "lead-actor-safety-bubbles-film-sets",
+  "body": "Following concerns regarding the intense dedication displayed by colleagues during high-stakes shoots, the lead actor of a major upcoming production has officially proposed the implementation of industrial-grade 'Safety Bubbles' to ensure co-stars remain shielded from the rigors of professional acting. The actor, known for his protective instincts on set, suggested that these translucent, soundproof domes would allow performers to commit to their roles without the risk of accidentally becoming 'too talented' or 'excessively dedicated' in his presence.\n\n'I watched my co-star deliver a performance so focused it made my own coffee go cold, and I immediately felt the need to intervene,' the actor stated during a press briefing. 'We are looking into installing these protective enclosures to ensure that no one works harder than a comfortable, pre-approved limit. I’ve already commissioned a team of engineers to design a remote-control dimmer switch for emotional intensity, just in case someone decides to tap into their inner Oscar-winner mid-take.'\n\nThe production house has reportedly agreed to trial the bubbles on the next schedule, provided they do not interfere with the lighting rigs or the craft services table. An anonymous grip on the project noted that the safety measures are being taken very seriously, with rehearsals now involving mandatory naps and mandatory snacks to ensure no one overexerts themselves while perfecting a scene. 'It’s really for the best,' the source added. 'Last week, a junior actor looked at the script with such concentration that we had to call a hydration break immediately.'",
+  "caption": "Actors are now officially too dedicated for their own good. Time to install bubble wrap on all film sets! #CinemaSafety #ActorLife #BollywoodUpdates (satire)",
+  "imagePrompt": "A wide shot of a modern, bustling film set filled with lighting equipment and camera crews, focusing on a generic, empty, clear plastic structure standing in the center of the stage.",
+  "sourceHeadline": {
+    "title": "Yash Praises Kiara Advani's Dedication In Toxic, Reveals He Was \"Worried\" For Her",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1htZ0V3V2JxRUI1ZGtRdThNTFVPYnNFemdGc3pvd2xINURTYXBKcUV2LWtSOHBHeHczNnNXVzhLa3YxRTV5dHNRT3ZnSTVZd0VPdXpkRHhSdzBPRGx4ZnI5UUJFdjhScXdLN0tRcE5xc05kdUZpbTE0LWdYN3pvQ3JmNXJjVkdqQmh3cG1VZ3JrVEhqUEFLVTJFZVVJckFGMXBpQ3BDcFhqaE9xeVI2T1pTZmlaa3VWc0tOZS1TdkVad2t1S2Z30gHPAUFVX3lxTFBqYUZPM0ZuZzcyVTlRWmhIVDBjb2RjZE15anV2X2RLREFSRURTOTVYQm9CaGxxczVsOHI5blhqQWM4Z182b0NsakM0ZlREaURiYy1UTGZUQzNUUDVoS2ZIeFRVNzhxZEVObWVNNE82bXY4RjBEZndWM2tOSGRXZkVOVGxqWTVtT1gxUTNaRm5MZXBydDliNzh4cVBVSWdBMFRMQ1dTTEp0VkdaMnVVY1F6S2dFUU90c3dGNzVXNnktcld1U0NGUk02XzF5OGpVWQ?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 09:12:18 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 33
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 41
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 takes the strongest lead by centering the joke on the absurd premise of protecting co-stars from 'too much talent,' maintaining a playful, deadpan tone throughout. It excels in structural fidelity by detailing the implementation of the bubbles and includes excellent, specific invented details like the remote-control 'dimmer switch for emotional intensity' and the mandatory nap rehearsals."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a generic, satirical piece about workplace absurdity in the film industry. It does not name any specific public figures, private individuals, or target any protected groups, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
