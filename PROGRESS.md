@@ -13,6 +13,42 @@ meaningful step.
 
 ---
 
+## 2026-08-15 — Automatic hourly posting to Instagram enabled
+
+- Owner explicitly wants hourly posts fully automatic — no more manual
+  `daily-publish.yml` trigger. Extended `hourly-trending-publish.yml`'s
+  existing self-loop (rather than resurrecting a schedule on
+  `daily-publish.yml`, which was deliberately removed as a security fix
+  earlier and is the manual-only, explicit-opt-in workflow) so each
+  successful iteration now, after the archive is committed+pushed+verified
+  on origin: purges the jsDelivr CDN mirror of the new image, runs
+  `post-published.mjs`, and — on success — commits the resulting
+  `igMediaId`/`xTweetId` back into `article.json` and pushes, reusing the
+  same stash/hard-reset/reapply-on-rejection push pattern already used for
+  the archive commit.
+- All four X secrets are wired into the loop step's env alongside the
+  Instagram ones, even though unset — `post-published.mjs`'s existing
+  per-platform `hasAllEnv` check already skips a platform with any missing
+  var, so this posts to Instagram only for now and will start posting to X
+  automatically the moment those four secrets are added, with no further
+  workflow change.
+- A posting failure (bad/expired token, transient Instagram API error) sets
+  `run_ok=0` so the loop's existing "retry in 3 minutes" logic kicks in,
+  same as a `publish.mjs` failure — but note the specific archived post
+  from that iteration does NOT get retried for posting; the next iteration
+  generates fresh content instead. The archive itself is never at risk
+  either way (already committed before the post attempt), just that one
+  post's `igMediaId`/`xTweetId` link is what's lost. Acceptable for now,
+  not solved.
+- Updated `README.md` (posting is live, X pending only credentials) and
+  `PLAN.md` (the live-news-ingestion risk noted 2026-08-14 is no longer
+  hypothetical now that every piece posts automatically).
+- Not yet verified: the currently-running loop job has the pre-change code
+  checked out (same caveat as every prior workflow edit this session) —
+  needs a cancel + manual re-trigger via Actions before this actually takes
+  effect. Next session (or later this session) should confirm a real
+  automatic post lands without a manual `daily-publish.yml` trigger.
+
 ## 2026-08-15 — LLM robustness fix: don't discard valid JSON on MAX_TOKENS
 
 - Caught live (one-off local test, unrelated to the daily pipeline): Gemini

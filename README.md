@@ -4,10 +4,11 @@ An India-specific satirical news brand — in the spirit of The Onion / The Faux
 generated and published entirely through git and GitHub Actions, with no
 human reviewing a piece before it's archived.
 
-**Status (2026-08-14): content pipeline is live and running unattended.**
-Posting to X/Instagram is deliberately not wired up yet — see "What's not
-done" below. Read `PROGRESS.md` for the full dated history; this file is
-just the current end-to-end shape of the system.
+**Status (2026-08-15): content pipeline is live and running unattended, and
+posts automatically to Instagram every cycle.** X posting is wired in too
+but stays off until its credentials are configured — see "What's not done"
+below. Read `PROGRESS.md` for the full dated history; this file is just the
+current end-to-end shape of the system.
 
 ## View the output
 
@@ -79,22 +80,28 @@ not already on; it auto-republishes on every push, no separate deploy step.
    successful publish, so the Pages site above always reflects the latest
    state.
 
-8. **Scheduling** (`.github/workflows/hourly-trending-publish.yml`) — runs
-   the above roughly hourly, unattended. GitHub's plain `schedule:` cron
-   trigger is unreliable in practice (confirmed live: a naive hourly cron
-   fired zero times) — this instead uses the same fix as the sibling
-   NewsDigest project: one long-lived job that loops internally via `sleep`
-   for the real cadence, with only a coarse 6-hourly `schedule:` trigger to
-   restart the chain if a job ever dies.
+8. **Posting** (`scripts/post-published.mjs`) — after the archive is
+   committed and pushed (and, for Instagram, after purging the jsDelivr CDN
+   mirror of the just-pushed image), posts to whichever platforms have
+   credentials configured. Each platform checks its own required env vars
+   are *all* present and is skipped — not failed — if not, so Instagram can
+   run live while X's credentials are still pending. Post IDs (`igMediaId`/
+   `xTweetId`) get written back into the archive record and committed.
+
+9. **Scheduling** (`.github/workflows/hourly-trending-publish.yml`) — runs
+   the whole pipeline above roughly hourly, unattended. GitHub's plain
+   `schedule:` cron trigger is unreliable in practice (confirmed live: a
+   naive hourly cron fired zero times) — this instead uses the same fix as
+   the sibling NewsDigest project: one long-lived job that loops internally
+   via `sleep` for the real cadence, with only a coarse 6-hourly `schedule:`
+   trigger to restart the chain if a job ever dies.
 
 ## What's not done
 
-- **Posting to X/Instagram** — scripts exist (`post-to-x.mjs`,
-  `post-to-instagram.mjs`, `post-published.mjs`) but the hourly workflow
-  deliberately only archives, per an explicit decision to review output
-  quality over a multi-day test phase first. X also has no free tier as of
-  2026 (pay-per-use only); Instagram's Graph API is free but needs a
-  one-time Meta Developer App + Instagram Tester setup.
+- **Posting to X** — the workflow already wires in all four X secrets and
+  will start posting the moment they're added, no code/workflow change
+  needed. Not done yet because X has no free tier as of 2026 (pay-per-use
+  only) and setup was deliberately deferred. Instagram is live.
 - **Human review of the archive** — the pipeline is fully unattended by
   design, but nothing currently surfaces `regenerate`/`block` verdicts for
   periodic human spot-checking (a "layered moderation" best practice from

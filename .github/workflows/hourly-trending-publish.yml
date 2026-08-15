@@ -1,10 +1,12 @@
-name: Hourly trending publish (test phase — archive only, no posting)
+name: Hourly trending publish (archives + posts to Instagram)
 
-# Test-phase workflow: runs generate -> judge -> guardrail -> render -> archive
-# once an hour (roughly 24/day) against a real trending India headline (see
+# Runs generate -> judge -> guardrail -> render -> archive -> post, once an
+# hour (roughly 24/day), against a real trending India headline (see
 # scripts/fetch-trending.mjs and PLAN.md's "Real trending event mode"
-# section). Deliberately does NOT post to X/Instagram yet — that's a
-# separate, later decision (see PROGRESS.md 2026-08-14).
+# section). Posts automatically to whichever platforms have credentials
+# configured (see post-published.mjs's per-platform check) -- currently
+# Instagram only; X will start working the moment its four secrets are
+# added, with no further change needed here.
 #
 # Scheduling approach ported from the NewsDigest project's check-feeds.yml,
 # which hit this exact problem first: GitHub's `schedule:` trigger is
@@ -28,7 +30,8 @@ concurrency:
   # true, not false: each loop iteration is a fully independent publish, so
   # if the 6-hourly restart fires while a previous loop is still alive,
   # cancelling it and starting fresh loses at most one in-flight iteration
-  # (worst case: one wasted LLM call) and never corrupts anything.
+  # (worst case: one wasted LLM call, or one skipped post) and never
+  # corrupts anything.
   cancel-in-progress: true
 
 jobs:
@@ -45,10 +48,16 @@ jobs:
 
       - run: npm ci
 
-      - name: Loop publish every ~1 hour
+      - name: Loop publish + post every ~1 hour
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CANDIDATE_COUNT: "3"
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: |
           # GitHub Actions' default bash shell already runs every `run:`
           # step as `bash -eo pipefail {0}` -- errexit is ON from the
@@ -65,7 +74,7 @@ jobs:
 
           BRANCH="${GITHUB_REF_NAME}"
           INTERVAL=3600      # target cadence between iteration *starts*
-          RESERVE=$(( 5 * 60 )) # publish.mjs runs in well under a minute in testing
+          RESERVE=$(( 5 * 60 )) # publish.mjs + post-published.mjs run in well under a minute combined in testing
           RUN_CAP=5m         # hard ceiling on one publish.mjs run
 
           # 5h20m of looping -- leaves ~20min of the 350min job budget free
@@ -100,12 +109,15 @@ jobs:
             fi
 
             if [ "$run_ok" -eq 1 ]; then
+              DIR_NAME="$(node -e "const r=require('./publish-result.json'); console.log(r.dirName ?? '')")"
+
               node scripts/build-gallery.mjs || echo "::warning::gallery build failed -- archive still committed below, gallery just won't reflect this iteration yet"
               git add content/archive data/trending-used.json docs
               if git diff --staged --quiet; then
                 echo "No change this iteration -- nothing to commit."
               elif ! git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')"; then
                 echo "::warning::git commit failed -- nothing delivered this iteration"
+                run_ok=0
               else
                 # content/archive and data/trending-used.json only ever grow
                 # (new dirs, appended log entries) -- no meaningful merge, so
@@ -153,18 +165,79 @@ jobs:
                 git fetch origin "${BRANCH}" >/dev/null 2>&1 || true
                 if [ "$pushed" -eq 1 ] && [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/${BRANCH}")" ]; then
                   echo "Archive pushed and verified on origin/${BRANCH}."
+
+                  # Purge jsDelivr's CDN mirror of the image we just pushed --
+                  # Instagram's media container fetch depends on that mirror
+                  # being fresh (see PLAN.md §4). Best-effort: a purge failure
+                  # shouldn't block the post attempt below.
+                  curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/content/archive/${DIR_NAME}/image.png" >/dev/null 2>&1 || true
+
+                  # post-published.mjs itself skips any platform whose
+                  # credentials aren't fully configured (see its hasAllEnv
+                  # check) -- X's four secrets are wired into this step's env
+                  # above but currently unset, so this posts to Instagram
+                  # only until X is set up, with no further workflow change
+                  # needed then.
+                  ARCHIVE_DIR_NAME="$DIR_NAME" node scripts/post-published.mjs > post-result.json
+                  post_code=$?
+                  if [ "$post_code" -ne 0 ]; then
+                    run_ok=0
+                    echo "::warning::post-published.mjs failed (exit ${post_code}) -- archive is safe, but this post's IDs won't be recorded; will retry with fresh content next iteration"
+                  else
+                    git add content/archive
+                    if git diff --staged --quiet; then
+                      echo "No post IDs to record (nothing was posted this iteration)."
+                    elif ! git commit -m "Record post IDs: ${DIR_NAME}"; then
+                      echo "::warning::commit of post IDs failed"
+                    else
+                      post_pushed=0
+                      for attempt in 1 2 3; do
+                        if git push origin "HEAD:${BRANCH}"; then
+                          post_pushed=1
+                          break
+                        fi
+                        echo "Push rejected (attempt ${attempt}/3) -- replaying post-IDs commit onto origin/${BRANCH}."
+                        TMP="$(mktemp -d)"
+                        cp -r content/archive "$TMP/archive" 2>/dev/null || true
+                        if ! git fetch origin "${BRANCH}"; then
+                          echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
+                          rm -rf "$TMP"; break
+                        fi
+                        if ! git reset --hard "origin/${BRANCH}"; then
+                          echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
+                          rm -rf "$TMP"; break
+                        fi
+                        mkdir -p content/archive
+                        cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
+                        rm -rf "$TMP"
+                        git add content/archive
+                        if git diff --staged --quiet; then
+                          echo "Origin already matches -- nothing to re-commit."
+                          post_pushed=1
+                          break
+                        fi
+                        git commit -m "Record post IDs: ${DIR_NAME}" || {
+                          echo "::warning::re-commit of post IDs after replay failed"; break; }
+                      done
+                      if [ "$post_pushed" -eq 1 ]; then
+                        echo "Post IDs recorded and pushed."
+                      else
+                        echo "::warning::post IDs commit was not delivered -- next iteration's git state will still include it locally"
+                      fi
+                    fi
+                  fi
                 else
-                  echo "::warning::this iteration's archive was not delivered -- next iteration's git state will still include it locally"
+                  echo "::warning::this iteration's archive was not delivered -- skipping post attempt (image not confirmed on origin), next iteration's git state will still include it locally"
                 fi
               fi
             fi
 
             # Cadence measured from iteration START so work time doesn't
             # stack on top of the sleep. A failed iteration (run_ok=0 --
-            # Gemini 503, Pollinations timeout, etc.) retries every 3
-            # minutes instead of waiting out the full hour -- once an
-            # iteration actually succeeds, cadence goes back to the normal
-            # ~hourly interval.
+            # Gemini 503, Pollinations timeout, a posting failure, etc.)
+            # retries every 3 minutes instead of waiting out the full hour
+            # -- once an iteration actually succeeds, cadence goes back to
+            # the normal ~hourly interval.
             NOW=$(date +%s)
             ELAPSED=$(( NOW - ITER_START ))
             if [ "$run_ok" -eq 0 ]; then
@@ -194,4 +267,10 @@ jobs:
             echo '```' >> "$GITHUB_STEP_SUMMARY"
           else
             echo "No publish-result.json produced -- check the loop step's log." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f post-result.json ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            tail -30 post-result.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi
