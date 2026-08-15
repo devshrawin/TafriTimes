@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "publishedAt": "2026-08-15T12:11:44.076Z",
+  "topicKey": "trending-news",
+  "headline": "Local Protest Leader Refused Entry to Tiranga Yatra for Carrying Three-Foot-Long Telescopic Selfie Stick",
+  "slug": "protest-leader-selfie-stick-yatra-row",
+  "body": "A local protest leader was barred from participating in a state-level Tiranga Yatra on Tuesday after security personnel at the entry checkpoint flagged a collapsible telescopic pole as a potential threat to national aesthetics. Despite the leader’s impassioned pleas that the device was essential for capturing 'cinematic low-angle shots' of his own participation, officials maintained that no tripod-adjacent equipment is permitted within the secure zone of the procession.\n\n'We have clear guidelines regarding flags, banners, and footwear, but the rulebook says nothing about high-definition gimbal support systems,' said the Chief Coordination Officer of the event, Rameshwar Lal. 'He argued that he was merely documenting the event for his social media followers, but when he attempted to attach an external ring light to the pole, the perimeter security had no choice but to intervene for the sake of the parade's visual integrity.'\n\nFollowing the standoff, the leader reportedly staged a peaceful protest against the 'anti-influencer policies' of the organizing committee while sitting on the pavement outside the barricades. Supporters were seen providing him with a portable power bank as he livestreamed his grievances, eventually agreeing to collapse his equipment to a 'regulation size' of six inches before being granted entry to the periphery of the march.",
+  "caption": "A peaceful Tiranga Yatra took a turn for the dramatic when a local leader’s selfie-stick ambitions clashed with parade security protocols. The struggle for the perfect angle continues. #TirangaYatra #Drama #SocialMediaLife #Jharkhand (satire)",
+  "imagePrompt": "A wide-angle shot of a metal police barricade set up on a city street during a sunny day, with a crowd of people in the background and plastic orange cones in the foreground.",
+  "sourceHeadline": {
+    "title": "Video: Drama At Hospital As Jharkhand Protest Leader Stopped From Joining Tiranga Yatra",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQODRDdHJkelZTMlo5dUdJbVJacTJ5ZXZzTTNncDUtdUJ5c2dycEJ3Mm1qZVp4VW9MbFhwdFRXUzBmTUs0c3F5TW5JSWNLWUtwTWRuOVFReU5vTzNrdGxfVXRuSzUxSE1uSWdFODY4aWZPR0JpZl9xVm5Ia2NtRGVRMUNmWGtuRDcxX2tMWDFJRjh3cG81YjJOZE9wcW9OX19iaHpnVWJCU0k1QnZnVVBkd3FmRUcwd2czM2EwUkY0NXZEWlkzWjdrUW9zSk01VS15bjlNSGdPOHpTODVTS3pZRk1lenB2WlRFT3l0Vg?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 09:24:12 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 9,
+        "warmth": 7,
+        "total": 40
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the strongest because it perfectly balances a mundane, relatable nuisance (the influencer selfie-stick) with an absurd administrative reaction, creating a lighthearted, observational comedy. While Candidate 2 is very funny, it leans more towards slapstick, whereas Candidate 0 captures the specific, petty friction of modern local event management with perfect deadpan delivery."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, unnamed individual to satirize influencer culture in the context of a public event. No real public figures, private individuals, or protected groups are targeted, and the image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
