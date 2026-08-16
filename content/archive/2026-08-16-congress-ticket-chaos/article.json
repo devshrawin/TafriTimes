@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T21:00:22.374Z",
+  "topicKey": "trending-news",
+  "headline": "Congress State Leader's Official Ticket List Immediately Replaced By 'Suggestion Box' Found At Local Tea Stall",
+  "slug": "congress-ticket-chaos",
+  "body": "The state party head’s finalized candidate list was officially retracted today after high-command officials discovered the documents had been replaced by a stack of napkins containing names of random patrons from a nearby roadside cafe. The party has now confirmed that any further candidate disputes will be settled via a live-streamed arm-wrestling match between local faction leaders.",
+  "caption": "When the high command and the state unit have two very different ideas about who should get the ticket. 🗳️🤼‍♂️ #Congress #PunjabPolitics #ElectionDrama (satire)",
+  "igHook": "Who would win in a tag-team match for the ticket—the state chief or the party observers?",
+  "imagePrompt": "A close-up shot of a weathered wooden table at a roadside Indian tea stall, covered with crumpled paper napkins and empty tea cups, with a blurred political poster in the background.",
+  "sourceHeadline": {
+    "title": "In Congress vs Congress, Punjab Chief's Ticket Stance Publicly Contradicted",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdlFOTWlIR0M1c1pnS1JBQUl3aWpCUzJLZk9yUVdfanpobzJPX2htczBaT3Nva2UwTW1iblNzdDFra3g4NlQ0YUhqZk1nd0VxVUUwbTR4N1lRblpYMlhmQWF1NmE3Y1VacmlVVjZSc1RyZmM4cXNobm5YOHBJSllSOXRPRlFXZllfdUl2WEVRUnlKUEJJeGZLTXExS3ZHUWZ2TEZsT3l5bkJoWDVZR1AzMjY2VWnSAbwBQVVfeXFMUFZiVUlpdmV2dFpCZDI2V3YySDR3ZUEwUEpiM3IxRm54R0RUbUhaMFB6Vm5OLVc4Z2xSUUpCaWVxR2tIRG44dHMzNGt4cXdfTmF0ZW1EMjZ1Q0hLaE00cXVXdTJsdTg4YU5DcmZvZDA1SVhiNW5abUplRjRhRHgzMHh2azlnV0pxcHJMS2tSbHJfa1RZb0cta05Bbld5a2pCVTJaZUZ1cDFVaGlnbVBDNFp4RHd1T1BqUTZpN18?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 15:12:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 9,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      }
+    ],
+    "winnerIndex": 9,
+    "reasoning": "Candidate 9 wins by grounding its absurdity in a concrete, relatable image (napkins at a tea stall) and providing a punchy, distinct resolution (arm-wrestling) that feels more character-driven than the template-heavy 'dual-position' jokes found in the other candidates. It manages to feel like a specific, ridiculous local news event rather than a generic institutional critique."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a generic satire of political infighting without naming specific real individuals, political parties in real-world scenarios, or sensitive groups. The image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
