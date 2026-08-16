@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T00:06:53.958Z",
+  "topicKey": "trending-news",
+  "headline": "RBI Governor Mandates Everyone Stop Using The Word 'Forex' After Accidentally Spending Entire Reserve On Custom Keychains",
+  "slug": "rbi-forex-keychain-policy",
+  "body": "The Reserve Bank of India has issued an urgent circular requesting that all non-resident Indians and domestic traders cease using the term 'forex' immediately, following a clerical error that saw the central bank’s recent $52.3 billion deposit influx spent entirely on commemorative 'I Love Monetary Policy' keychains. The order, which takes effect at midnight, stipulates that the currency is no longer to be referred to as 'foreign exchange' but instead as 'the shiny metal tokens we keep in the big drawer.'\n\n'It was a simple procurement oversight,' said a deputy official who requested anonymity while polishing a surplus plastic fob. 'We were trying to place a bulk order for 500 promotional items for the annual staff picnic, and thanks to a missing decimal point and a very enthusiastic summer intern, we ended up with enough keychains to gift one to every man, woman, child, and stray cow in the subcontinent.'\n\nThe central bank has assured the public that the economy remains robust, noting that the sheer weight of 1.4 billion keychains could technically be used as a physical ballast to stabilize the Rupee against global fluctuations. Citizens are currently being encouraged to visit their nearest bank branch to collect their share of the deposit, provided they bring their own keychain storage solutions.",
+  "caption": "RBI shifts focus from fiscal policy to promotional merchandise after a minor procurement mishap. Who needs liquid assets when you have a keychain of the governor? 🔑📈 #RBI #Economy #Keychains #Finance #India (satire)",
+  "imagePrompt": "A wide-angle, slightly blurred photo of a brightly lit bank lobby featuring stacks of cardboard boxes labeled with generic logistics codes, with a single metal keychain resting on a polished marble reception desk in the foreground.",
+  "sourceHeadline": {
+    "title": "RBI closes forex deposit window for NRIs early after $52.3 billion rush",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ2d6SmFHNHpRS0dpRTBlYWJRb1FfeHFDTVBpU0R0TXhSNE1HOHlneEtLVnBMRm5STHpsWjUzb19rUDRZTThLQVhPS2F0NnpSU1VTMDZfZXBSbG5UYzMwWWZQbmhPNjZ1c0hUZUlsVlR3ZjJKOEVwaE14Zy1WN1RkZk45RzExZ2QyS1lmM3A1U1l6cGNqMURHQ1Y4UlB0VnFFbWc0aGEwdm5VOHREWjRRTWl4bnVUekdsZi1Z0gHCAUFVX3lxTE84YmVoQi1TV3JSR3VFcXQzWHJ6V2VFZXlGdWE3VEU5Z1N1Qkg1aUpOWjVKR0ViRzI0alc3d05BZ0pRYmVmenc1dkdNaHhLcE9jaWJ6MUw0OTY0WlJTRTlCTDVOZjc1Y0VGRHY0VkxfQ1NYYVM1N1V5eUREWXlkUTBrLUxtRlRmVDdYc01ZaFZUY1l1MlpsbTMzelp4NlhQekVxWmtGOC1mTjREcmhFOE9KTkhvUlllNnJMaUhmaFk0c3BR?oc=5",
+    "pubDate": "Fri, 14 Aug 2026 14:47:26 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 10,
+        "warmth": 8,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 is the clear winner because it adopts the most absurd, high-stakes premise and follows through with delightful, specific details like the physical ballast of keychains. It maintains a perfect deadpan journalistic tone while delivering a genuinely funny, warm-spirited image of bureaucracy run amok, whereas the others rely on slightly more tired tropes about internet culture."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a public institution and generic bureaucratic figures to create a harmless, absurd premise. It does not name a specific individual, avoids sensitive communal or social topics, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
