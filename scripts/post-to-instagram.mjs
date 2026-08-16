@@ -27,6 +27,36 @@ function purgeUrl(cdnPath) {
   return `https://purge.jsdelivr.net/gh/${cdnPath}`;
 }
 
+const CONTAINER_POLL_INTERVAL_MS = 3000;
+const CONTAINER_POLL_TIMEOUT_MS = 90_000;
+
+/**
+ * Diagnosed live (2026-08-16): publishing a container immediately after
+ * creating it intermittently fails with error code 9007 / subcode 2207027,
+ * "Media ID is not available" / "The media is not ready for publishing" --
+ * Instagram needs time to actually fetch and process the container's
+ * image_url after creation, before it's publishable. A real failed post
+ * succeeded on a manual retry ~9 minutes later, confirming this is a
+ * processing-readiness race, not a permanent error. Poll the container's
+ * own `status_code` field until it reports `FINISHED` (or `ERROR`/timeout)
+ * instead of publishing blind -- fixes the race at its source rather than
+ * relying on the caller retrying the whole post minutes later.
+ */
+async function waitForContainerReady(containerId, accessToken) {
+  const deadline = Date.now() + CONTAINER_POLL_TIMEOUT_MS;
+  while (Date.now() < deadline) {
+    const status = await graphFetch(
+      `${GRAPH_BASE}/${containerId}?fields=status_code&access_token=${encodeURIComponent(accessToken)}`
+    );
+    if (status.status_code === "FINISHED") return;
+    if (status.status_code === "ERROR") {
+      throw new Error(`Instagram container ${containerId} failed processing: ${JSON.stringify(status)}`);
+    }
+    await new Promise((resolve) => setTimeout(resolve, CONTAINER_POLL_INTERVAL_MS));
+  }
+  throw new Error(`Instagram container ${containerId} did not finish processing within ${CONTAINER_POLL_TIMEOUT_MS}ms`);
+}
+
 /**
  * Instagram's Graph API requires a public image URL to build a media
  * container — jsDelivr mirrors the just-pushed GitHub content for free, no
@@ -48,6 +78,8 @@ export async function postToInstagram({ caption, cdnImagePath }) {
       body: JSON.stringify({ image_url: imageUrl, caption }),
     }
   );
+
+  await waitForContainerReady(container.id, accessToken);
 
   const published = await graphFetch(
     `${GRAPH_BASE}/${igUserId}/media_publish?access_token=${encodeURIComponent(accessToken)}`,

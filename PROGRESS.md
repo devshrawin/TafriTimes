@@ -13,6 +13,45 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Both open bugs fixed: image tiling (real cause) + posting failure root cause
+
+**Image tiling**: first hypothesis (1080x1080 vs Pollinations' documented
+1024x1024 native size, no model pinned) was WRONG — tested live and
+1024x1024 with `model=flux` explicitly pinned still tiled, on both a
+complex prompt (conference room) and a trivial one (a coffee cup),
+ruling out both resolution mismatch and prompt complexity. Isolated via
+direct curl comparison: `flux` itself is the one that tiles on Pollinations'
+endpoint; `model=turbo` at the same 1024x1024 produced a single coherent
+image on both test prompts. Switched `render-image.mjs` to `model=turbo`.
+Kept the 1024 size as good practice even though it turned out not to be
+the actual fix.
+
+**Posting failures (only ~10/33 posts reaching Instagram)**: got the real
+error text from a live run for the first time — Instagram error code
+`9007`/subcode `2207027`, "Media ID is not available" / "The media is not
+ready for publishing, please wait for a moment." Root cause: `post-to-instagram.mjs`
+was calling `media_publish` immediately after creating the container, with
+no wait — Instagram needs time to actually fetch/process the container's
+`image_url` before it's publishable. Confirmed as a processing-readiness
+race, not a permanent failure: the retry-fix from earlier today (posting
+failure retries the same archived post instead of generating new content)
+caught this in the wild — the same post succeeded on its 4th retry, ~9
+minutes after the first attempt.
+
+Real fix, at the source rather than relying on the outer workflow-level
+retry: added `waitForContainerReady()` in `post-to-instagram.mjs` — polls
+the container's own `status_code` field (every 3s, up to 90s timeout)
+until it reports `FINISHED` before calling `media_publish`. This should
+make most posts succeed on the first attempt instead of needing multiple
+3-minute workflow retries; the workflow-level `PENDING_DIR` retry logic
+from earlier today stays as a safety net for genuine failures (expired
+token, rate limit, etc.), not as the primary fix for this specific race.
+
+Not yet verified live — needs the loop restarted (same caveat as every
+workflow/script change this session) and a few real posts to confirm the
+polling actually eliminates the 9007 errors rather than just papering over
+one instance of them.
+
 ## 2026-08-16 — Fixed: posting failure was generating new content instead of retrying
 
 - Owner reported the post count "seemed too low." Audited every archived

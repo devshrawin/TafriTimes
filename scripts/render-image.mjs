@@ -44,6 +44,22 @@ function loadLogo() {
   return _logoDataUri;
 }
 
+// Investigated 2026-08-16: observed backgrounds were mirrored/tiled (visible
+// as a repeating 2x2 pattern). First hypothesis -- requesting 1080x1080
+// against Pollinations' documented 1024x1024 native size, with no model
+// pinned -- turned out to be WRONG when tested: 1024x1024 with `model=flux`
+// pinned explicitly still tiled, on both a complex prompt (a conference
+// room) and a trivial one (a single coffee cup), ruling out both the
+// resolution mismatch and prompt complexity as the cause. Confirmed via
+// direct curl comparison that `flux` itself is the one that tiles on this
+// endpoint -- `model=turbo` at the same 1024x1024 produced a single coherent
+// image on both test prompts. `turbo` is the fix; the resolution change
+// wasn't actually necessary but 1024 (their documented native size) is kept
+// as good practice. No downstream template change needed either way: the
+// background is applied with `backgroundSize: "cover"`, so a 1024px source
+// scaling up ~5.5% to fill the 1080x1080 canvas is visually seamless.
+const POLLINATIONS_SIZE = 1024;
+
 /**
  * Fetches a generic photorealistic scene photo from Pollinations (free,
  * keyless, no signup) based on the writer LLM's `imagePrompt` — a generic
@@ -57,7 +73,7 @@ async function fetchBackgroundImageDataUri(imagePrompt) {
   if (!imagePrompt) return null;
   try {
     const encoded = encodeURIComponent(imagePrompt.trim());
-    const url = `https://image.pollinations.ai/prompt/${encoded}?width=${WIDTH}&height=${HEIGHT}&nologo=true`;
+    const url = `https://image.pollinations.ai/prompt/${encoded}?width=${POLLINATIONS_SIZE}&height=${POLLINATIONS_SIZE}&model=turbo&nologo=true`;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 30_000);
     const response = await fetch(url, { signal: controller.signal });
