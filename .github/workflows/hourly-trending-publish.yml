@@ -60,9 +60,19 @@ jobs:
           # repetition visibility -- see PROGRESS.md), then raised back to
           # ~12/day (1 every 2h) per owner request once the content-quality
           # fixes (format rotation, quality floor, anti-repetition) were in
-          # place. 12/day x ~10-12 Gemini calls/post is still comfortably
-          # inside the free tier's ~1,500 req/day.
-          CANDIDATE_COUNT: "8"
+          # place. Raised 8->14 same day: owner found only ~2/10 published
+          # pieces actually funny -- more candidates per judged batch is one
+          # of the two levers pulled for that (the other is the judge
+          # prompt's new "AI comedy tells" section, see judge.system.md).
+          # Gemini's real free-tier cap, confirmed live the same day via an
+          # actual 429 quota error, is 500 req/day per project per model --
+          # NOT the 1,500 this repo assumed earlier (never verified live,
+          # wrong). 12/day x ~16-18 calls/post (14 generate + judge + 1-3
+          # safety/regenerate) is ~200-215/day, under half of the real 500
+          # cap -- fine for the workflow alone, but manual local testing
+          # against the same GEMINI_API_KEY on the same day eats into this
+          # same daily budget and can 429 both.
+          CANDIDATE_COUNT: "14"
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}

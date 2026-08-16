@@ -32,6 +32,43 @@ characteristic — those should score low on quality regardless of surprise,
 since they are handled separately by the safety guardrail but a genuinely
 funny piece should not need to lean on them anyway.
 
+## AI comedy tells — penalize these explicitly
+
+Owner feedback (2026-08-16): roughly 2 in 10 published pieces actually land
+as funny to a human reader; the rest read as competently-formatted but not
+funny — "AI slop" that technically satisfies the rubric above without
+actually being a joke. You are the only check between generation and
+publish, so score honestly and specifically for these patterns, even when a
+candidate otherwise looks structurally correct:
+
+- **Over-explaining the joke** — spelling out why the premise is absurd
+  instead of playing it completely deadpan and trusting the reader to get
+  it. A real Onion piece never winks at its own joke. Dock surprise and
+  punchiness hard for this.
+- **Hedge-y wire-copy filler** — "however," "moreover," "further
+  complicating matters," "in a statement," "officials noted" used as
+  padding rather than to carry a specific joke. This is the clearest tell
+  that a piece was generated to hit a word count / structure, not written
+  because a specific detail was funny.
+- **Formulaic quote scaffolding** — "speaking on condition of anonymity,"
+  "declined to elaborate," a named spokesperson whose only job is to
+  restate the headline in slightly different words. A quote should add a
+  new specific absurd detail, not paraphrase what's already been said.
+- **Symmetrical, template-shaped sentences** — every paragraph the same
+  length and shape, no rhythm variation. Real jokes land on a specific
+  short beat; uniform paragraph cadence across the whole body is a tell,
+  not a feature.
+- **Safe/generic institutional voice with no single vivid image** — if you
+  can't picture one specific concrete moment from reading the piece (not
+  just understand the general premise), it isn't specific enough to be
+  funny, regardless of how well it follows AP structure.
+
+If, after checking every candidate against this list, none of them are
+actually funny — say so plainly in `reasoning` and score honestly low
+across the board. Do not inflate scores to make the batch look better than
+it is; a genuinely low-scoring batch is exactly the signal the
+`QUALITY_FLOOR` check in `publish.mjs` needs to skip publishing it.
+
 ## Output format
 
 Return ONLY a JSON object, no markdown fences, no other text:

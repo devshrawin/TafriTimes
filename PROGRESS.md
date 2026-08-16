@@ -13,6 +13,40 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Humor quality push + real Gemini quota discovered (500/day, not 1,500)
+
+Owner feedback: only ~2/10 published pieces actually land as funny, rest
+read as competent-but-not-funny "AI slop." Root cause framing: the judge is
+an LLM scoring its own kind of writing — it can rate a piece as
+structurally correct per the rubric while missing that it just isn't a
+joke. Chose to stay fully autonomous (no manual approval gate, owner's
+call) and pull the two levers available within that constraint:
+
+- `judge.system.md`: added an explicit "AI comedy tells" section — over-
+  explaining the joke, hedge-y wire-copy filler ("however," "moreover," "in
+  a statement"), formulaic quote scaffolding ("speaking on condition of
+  anonymity"), uniform template-shaped sentence rhythm, safe/generic voice
+  with no single vivid concrete image. Judge is now told explicitly to
+  score these low even when the piece otherwise looks structurally correct,
+  and to say plainly in `reasoning` if none of the batch is actually funny
+  rather than inflating scores — this is what actually makes the existing
+  `QUALITY_FLOOR` check meaningful instead of decorative.
+- `CANDIDATE_COUNT` raised 8 → 14 (more shots per judged batch = better odds
+  the judge has something genuinely funny to pick from).
+
+**Real Gemini free-tier limit, confirmed live via an actual 429 error while
+testing the above**: 500 requests/day per project per model
+(`gemini-3.1-flash-lite`), not the 1,500 this repo had assumed everywhere
+since the Gemini switch — that number was never actually verified against
+a live quota error before now, and was wrong. Corrected the claim in
+`scripts/lib.mjs`'s doc comment and the workflow's `CANDIDATE_COUNT`
+comment. Real daily math: ~12 posts/day x ~16-18 calls/post (14 generate +
+1 judge + 1-3 safety/regenerate) ≈ 200-215/day, still under half of the
+real 500 cap for the workflow alone -- but manual local testing against
+the same `GEMINI_API_KEY` on the same day draws from the same daily
+budget and can 429 both, as happened live during this session's own
+verification testing.
+
 ## 2026-08-16 — Cadence raised back up: 1 post every ~2 hours (owner request)
 
 After the earlier cut from ~24/day to ~3/day (reach suppression + repetition
@@ -26,7 +60,8 @@ visibility), owner asked for a middle ground once the content-quality fixes
   even across a restart boundary (a job at full budget can fit ~2-3
   iterations before its own budget check breaks the loop).
 - ~12 posts/day x ~10-12 Gemini calls/post (`CANDIDATE_COUNT=8` +
-  judge + guardrail) stays well inside the ~1,500 req/day free-tier limit.
+  judge + guardrail) — see the next entry below for the real free-tier
+  number this was checked against (500/day, not 1,500).
 - Also fixed the step label ("every ~3 hours") and stray comments that were
   already stale before this change (leftover from the 8h edit) — this was
   the actual source of the owner's "why is it running every hour" confusion

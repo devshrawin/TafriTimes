@@ -47,8 +47,10 @@ const GEMINI_MODEL = "gemini-3.1-flash-lite";
  * Calls Gemini with a system prompt + user message, expecting a raw JSON
  * object back. Uses responseMimeType: "application/json" so Gemini itself
  * guarantees valid JSON (no markdown fences to strip). Chosen over Anthropic
- * here specifically because it has a real free tier (1,500 req/day on
- * Flash, no card) — see PROGRESS.md for why this pipeline runs on Gemini
+ * here specifically because it has a real free tier — confirmed live
+ * 2026-08-16 via the actual 429 quota error: 500 req/day per project per
+ * model (Flash/Flash-lite), no card. Earlier docs in this repo said 1,500;
+ * that number was never verified live and was wrong — see PROGRESS.md.
  * for now instead of the ANTHROPIC_API_KEY assumed in PLAN.md.
  */
 const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
