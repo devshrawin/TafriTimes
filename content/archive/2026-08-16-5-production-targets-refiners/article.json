@@ -163,5 +163,7 @@
     "verdict": "pass",
     "reasoning": "The article uses absurd, satirical premises regarding industrial production targets. It does not name private individuals, public figures, or target any protected groups, and the image prompt is sufficiently generic.",
     "flaggedIssues": []
-  }
+  },
+  "xTweetId": null,
+  "igMediaId": "18112991306074026"
 }
