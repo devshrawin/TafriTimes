@@ -13,6 +13,25 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Cadence raised back up: 1 post every ~2 hours (owner request)
+
+After the earlier cut from ~24/day to ~3/day (reach suppression + repetition
+visibility), owner asked for a middle ground once the content-quality fixes
+(format rotation, anti-repetition, quality floor) were in place. Settled on
+1 every 2h (~12/day):
+
+- `hourly-trending-publish.yml`: `INTERVAL` 8h → 2h; restart cron `17 */6 *
+  * *` → `17 */4 * * *` so a fresh job always starts well inside the
+  previous job's ~5h20m budget, keeping the gap between posts close to 2h
+  even across a restart boundary (a job at full budget can fit ~2-3
+  iterations before its own budget check breaks the loop).
+- ~12 posts/day x ~10-12 Gemini calls/post (`CANDIDATE_COUNT=8` +
+  judge + guardrail) stays well inside the ~1,500 req/day free-tier limit.
+- Also fixed the step label ("every ~3 hours") and stray comments that were
+  already stale before this change (leftover from the 8h edit) — this was
+  the actual source of the owner's "why is it running every hour" confusion
+  this session: the workflow's own labels never matched its real cadence.
+
 ## 2026-08-16 — Image storage cleanup (first hard-tier item, partial)
 
 First piece of the previously-deferred "hard tier": repo/Pages storage

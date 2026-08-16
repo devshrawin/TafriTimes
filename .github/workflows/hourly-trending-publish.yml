@@ -20,7 +20,11 @@ name: Hourly trending publish (archives + posts to Instagram)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *" # coarse restart-the-chain trigger, not the real cadence
+    # Tightened 6h -> 4h to comfortably fit inside a single job's ~5h20m
+    # budget at the current 2h post interval -- a restart landing well
+    # before the previous job's budget runs out keeps the gap between
+    # posts close to 2h even across a restart boundary.
+    - cron: "17 */4 * * *" # coarse restart-the-chain trigger, not the real cadence
 
 permissions:
   contents: write
@@ -49,17 +53,15 @@ jobs:
 
       - run: npm ci
 
-      - name: Loop publish + post every ~3 hours
+      - name: Loop publish + post every ~2 hours
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Raised from 3: audited 2026-08-16 found ~24 posts/day was
-          # actively suppressing Instagram reach (posts compete with each
-          # other for the same small seed audience, dragging down the
-          # account's rolling engagement average) and made the LLM's
-          # repetitive "[institution] mandates [thing]" shape maximally
-          # visible. Cutting cadence frees up the same daily Gemini budget
-          # to spend on more candidates per post instead -- more
-          # selectivity per post, not more posts.
+          # 2026-08-16: cut from 24/day to ~3/day first (reach suppression,
+          # repetition visibility -- see PROGRESS.md), then raised back to
+          # ~12/day (1 every 2h) per owner request once the content-quality
+          # fixes (format rotation, quality floor, anti-repetition) were in
+          # place. 12/day x ~10-12 Gemini calls/post is still comfortably
+          # inside the free tier's ~1,500 req/day.
           CANDIDATE_COUNT: "8"
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -82,7 +84,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           BRANCH="${GITHUB_REF_NAME}"
-          INTERVAL=$(( 8 * 3600 ))  # ~3 posts/day -- see CANDIDATE_COUNT comment above for why
+          INTERVAL=$(( 2 * 3600 ))  # ~12 posts/day (1 every 2h) -- see CANDIDATE_COUNT comment above for why
           RESERVE=$(( 5 * 60 )) # publish.mjs + post-published.mjs run in well under a minute combined in testing
           RUN_CAP=5m         # hard ceiling on one publish.mjs run
           POST_CAP=5m        # hard ceiling on one post-published.mjs run (was unbounded -- a single hung socket could stall the whole job for hours)
