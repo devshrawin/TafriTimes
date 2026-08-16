@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T03:29:09.891Z",
+  "topicKey": "trending-news",
+  "headline": "Opposition MP demands permanent residency in Circuit House citing ‘unmatched quality’ of ginger tea",
+  "slug": "mp-demands-permanent-residency-in-circuit-house",
+  "body": "A prominent opposition lawmaker has formally petitioned the Lok Sabha Speaker to declare the local circuit house an official long-term residence, citing the establishment's ‘unparalleled’ ginger tea as the primary basis for her refusal to vacate the premises.\n\nAccording to the petition, the MP has already begun moving her personal library into the facility, noting that the specific brand of biscuits served during evening meetings has ‘harmonized’ with her legislative drafting process. She insists that the transition from temporary guest to permanent resident is a necessary step to ensure the continued efficiency of her parliamentary duties.\n\n‘I have developed a deeply spiritual connection with the lobby’s creaky ceiling fan,’ the MP wrote in her letter to the Speaker. ‘To remove me now would be an act of administrative cruelty that ignores the fundamental compatibility between my workflow and the establishment’s erratic Wi-Fi connectivity.’\n\nAdministrative officials confirmed that while the booking was originally for three nights, the room has now been redecorated with several indoor plants and a collection of artisanal rugs. The facility manager remains optimistic, stating they are currently negotiating a ‘breakfast-inclusive’ lifetime lease to avoid further formal correspondence.",
+  "caption": "When the ginger tea is just that good, you stay forever. The perks of public service are evolving rapidly. #CircuitHouseLife #TeaLovers #ParliamentaryPerks (satire)",
+  "imagePrompt": "A wide, eye-level shot of a generic, colonial-era government guesthouse entrance featuring high ceilings, a tiled verandah, and several wooden chairs lined up against a white-washed wall.",
+  "sourceHeadline": {
+    "title": "‘Not going to move out’: Mahua Moitra alleges late-night order to vacate Nadia circuit house, writes to LS Speaker",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMmhfdWhNMHg1VTBLTzBrYTNmajl5MmZieTBVM3A5ZHAtZ3pGQ3lweU5rSTJWcmQ1YjdOeHlJNkNDMkNHMzl5Z2pablh5dGwxaHplRDhVN1AxRnlVakJQTnhHS0ZaR2U5NWE2WlIwY1RzREc4VEFoR3NnOVoxN3p2NUluTGFKYjZXMDhFTVRaNzRQbTdrXzAwOHZ6MDlQRVEyNnVZNXBvSVJRS0x5N0VsOGtVeUtDaGFLb0Ftc05rUXN4NllZY1FkMU5qeFd6bHlPckpZOVZn0gHbAUFVX3lxTFBRWFFkWUNBYm9MQm9ScXlXYU52eWQtWGFlbnNYVXcydFY3Tl96Q0xPZ0hMb2M3YUFUWWRhbkNONzFFOXZCX2FhYWQyeHBZbDljdjFGcU5mWGt5UGJIODJUN2NYd3hLVU5RVy1tU0VSSHlTZ0pxQnVuRllCcmltY0pyYVZBWE1VMVlMQW00RlRsUlhadUluSXFTNGJVN1h3NXVMZVJzS3NqU3B1RWNiY3N0d0RNeDhhQzRfbUVaMHRMZ0lqZWd1RGh2YzlYUjVIMTFQOHZvdjlzYUk0OA?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 04:03:30 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "total": 39
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 1,
+    "reasoning": "Candidate 1 wins for its focus on a universally relatable, endearing quirk—the attachment to 'good ginger tea'—which provides a charming, warm satirical premise. While Candidate 2 is highly specific regarding the decor, Candidate 1's narrative flows with a more cohesive deadpan logic that feels like a classic, affectionate observation of bureaucratic absurdity."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of generic political satire that does not name any specific individual, group, or religious/caste identity. The humor is aimed at the absurdity of bureaucratic entitlements rather than a specific real-world scandal or individual.",
+    "flaggedIssues": []
+  }
+}
