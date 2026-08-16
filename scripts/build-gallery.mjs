@@ -19,7 +19,19 @@ function loadPosts() {
       const articlePath = path.join(dirPath, "article.json");
       const imagePath = path.join(dirPath, "image.png");
       if (!existsSync(articlePath) || !existsSync(imagePath)) return null;
-      const record = JSON.parse(readFileSync(articlePath, "utf8"));
+      // Audited 2026-08-16: one corrupt article.json (a killed write, a
+      // partial commit) used to throw here and permanently break the
+      // gallery build on EVERY run from then on (the `||` at the call site
+      // only logs a warning and moves on -- the archive still commits, so
+      // docs/index.html silently freezes at the last good build forever).
+      // Skip the bad entry instead of taking down every future rebuild.
+      let record;
+      try {
+        record = JSON.parse(readFileSync(articlePath, "utf8"));
+      } catch (err) {
+        console.error(`::warning::skipping ${entry.name} in gallery build -- article.json is corrupt/unparseable (${err.message})`);
+        return null;
+      }
       // record.publishedAt is a real timestamp written at archive time.
       // File mtime was used originally, but `actions/checkout` resets every
       // pre-existing file's mtime to checkout time on a fresh CI run — that

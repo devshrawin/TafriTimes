@@ -19,6 +19,13 @@ against this rubric and pick a single winner.
    hopeless? Score the former high, the latter low even if it's surprising —
    a candidate that's funny AND warm should beat one that's funnier but
    cynical.
+6. **Freshness vs. recent pieces** — you are given a list of recently
+   published headlines below the candidates. Score low if a candidate
+   rhymes structurally with several of them (same "[Institution]
+   mandates/announces [absurd thing]" shape, same kind of target, a
+   near-identical premise) even if none is an exact duplicate. Score high
+   only if the premise and structure feel genuinely distinct from that
+   recent list.
 
 Do not reward candidates for shock value, cruelty, or targeting a protected
 characteristic — those should score low on quality regardless of surprise,
@@ -32,9 +39,11 @@ Return ONLY a JSON object, no markdown fences, no other text:
 ```
 {
   "scores": [
-    {"index": 0, "surprise": 0, "specificity": 0, "structure": 0, "punchiness": 0, "warmth": 0, "total": 0}
+    {"index": 0, "surprise": 0, "specificity": 0, "structure": 0, "punchiness": 0, "warmth": 0, "freshness": 0, "total": 0}
   ],
   "winnerIndex": 0,
   "reasoning": "1-3 sentences on why the winner beat the others"
 }
 ```
+
+`total` is the sum of all six dimensions for that candidate (max 60).

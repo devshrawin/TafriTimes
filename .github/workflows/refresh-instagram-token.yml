@@ -1,0 +1,52 @@
+name: Refresh Instagram token
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # weekly, well inside the 60-day expiry window
+  workflow_dispatch: {}
+
+# Re-enabled 2026-08-16 (was disabled) -- IG_ACCESS_TOKEN expires ~60 days
+# after issue, roughly 2026-10-14 from the current token. Without this job
+# running, the token silently expires and every post afterward fails.
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+      - name: Refresh long-lived token and write back as a repo secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_PAT_FOR_SECRETS: ${{ secrets.GH_PAT_FOR_SECRETS }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/refresh-instagram-token.mjs
+
+      # Audited 2026-08-16: this job previously had zero alerting on failure
+      # beyond the run showing red in the Actions tab, which nobody watches
+      # proactively -- a silent failure here means the token expires with no
+      # warning until posting itself starts failing weeks later. A GitHub
+      # issue is real alerting: it shows in the repo's issue list and,
+      # because the repo owner watches their own repo by default, triggers
+      # GitHub's normal email/notification delivery. Reuses an existing open
+      # issue (by title search) instead of opening a new one every week a
+      # failure recurs.
+      - name: Open/update an issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Instagram token refresh failed"
+          EXISTING="$(gh issue list --search "in:title \"$TITLE\"" --state open --json number --jq '.[0].number' || true)"
+          BODY="The refresh-instagram-token workflow failed on $(date -u '+%Y-%m-%d %H:%M UTC'). IG_ACCESS_TOKEN expires ~60 days after issue -- if this keeps failing, Instagram posting will silently stop working once it expires. See the failed run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi

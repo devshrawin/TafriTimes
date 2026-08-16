@@ -13,6 +13,109 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Full end-to-end audit + easy/moderate fix batch ("do all")
+
+Ran two parallel deep-audit agents (reliability/code-quality, content-
+quality/growth) over the whole pipeline, personally verified the highest-
+priority findings live, then implemented every easy + moderate item from
+the consolidated list in one batch (hard-tier items — image storage
+overhaul, engagement loop wiring, Reels/carousel — deliberately deferred,
+they need an architecture decision on image hosting first).
+
+**Reliability/correctness fixes:**
+- Fixed the real root cause of 44 posts/day instead of ~24: a guardrail
+  block (`publish.mjs` exit code 3) left `run_ok=1` with an empty
+  `DIR_NAME`, but `data/trending-used.json` still changed, so the archive-
+  commit block committed+pushed anyway, `should_attempt_post` got set with
+  no dir to post, posting failed, and the loop dropped into the 3-minute
+  fast-retry — turning every guardrail block into rapid-fire fresh
+  generation. Fixed by gating the archive-commit block on a non-empty
+  `DIR_NAME`, not just `run_ok`.
+- Cut cadence from ~hourly (~24/day) to ~8h (~3/day), raised
+  `CANDIDATE_COUNT` 3→8 — audit found 24/day was suppressing Instagram
+  reach (posts competing for the same seed audience) and made repetition
+  maximally visible; same daily Gemini budget now buys more selectivity
+  per post instead of more posts.
+- `post-published.mjs`: throws if BOTH X and Instagram are unconfigured
+  (previously returned `posted: true` while posting nothing, silently
+  burning Gemini/Pollinations/storage forever); added an idempotency guard
+  that re-reads already-recorded `xTweetId`/`igMediaId` before posting, so
+  a `PENDING_DIR` retry never double-posts to a platform that already
+  succeeded.
+- `lib.mjs`/`build-gallery.mjs`: `readJson`/per-post `article.json` parses
+  now catch-and-fallback instead of throwing, so one corrupt/truncated
+  file (plausible given the workflow's `timeout` kills) can't permanently
+  wedge the whole pipeline or gallery build.
+- Added `timeout` caps around `post-published.mjs` (5m) and the jsDelivr
+  purge curl (10s) in the workflow — both were previously unbounded and
+  could stall the whole 5h20m job on one hung socket.
+
+**Content-quality fixes** (audit found ~76% of archived headlines were the
+same "[Institution] mandates/announces [absurd thing]" shape):
+- `publish.mjs`: added weighted format rotation (`standard-report` 35%,
+  `wire-brief`/`vox-pop`/`listicle`/`first-person`/`fake-interview` 13%
+  each) — all candidates in one judged batch share a format so the judge
+  compares apples-to-apples. Verified live: a forced test run picked
+  `listicle` and produced a genuine numbered-list piece, not the usual
+  AP-report shape.
+- `publish.mjs`: feeds the last 20 published headlines back into every
+  generation call with an explicit instruction not to rhyme with the
+  institution-mandate shape if several already do — previously the model
+  had zero memory of its own prior output.
+- `generation.system.md`: rewrote the tone section's worked examples (the
+  sole prior example was itself an institution-mandate joke), added an
+  explicit "don't default to institution-mandates-X" instruction, and
+  added a new `igHook` output field — a standalone hook/question for
+  Instagram's pre-truncation preview line, since the old caption led with
+  the headline (pure redundancy with the image). Wired `igHook` through
+  `write-archive.mjs` (record) and `safety-check.mjs` (denylist haystack).
+  `post-published.mjs`'s Instagram caption now leads with `igHook` instead
+  of repeating the headline.
+- `judge.system.md`/`judge-candidates.mjs`: added a 6th rubric dimension,
+  "freshness vs. recent pieces" (scored against the same last-20-headlines
+  list fed to generation), and `publish.mjs` now skips archiving entirely
+  if the winning candidate scores below 40/60 — previously the judge
+  always picked a winner regardless of how weak the whole batch was.
+- All of the above verified together in one live end-to-end run
+  (`TOPIC_KEY=urban-life`): format rotation, anti-repetition context, and
+  `igHook` generation all worked correctly in combination, producing a
+  genuine listicle about apartment-society bylaws with a distinct IG hook.
+
+**Reliability, cont'd:**
+- `lib.mjs`: `callLLMForJson` now retries transient Gemini failures (429,
+  5xx, network errors) up to 3x with exponential backoff (2s/4s/8s)
+  in-process, instead of propagating immediately and relying on the
+  workflow's 3-minute fast-retry (which only made rate-limit pressure
+  worse).
+- Re-enabled `refresh-instagram-token.yml` (was in
+  `.github/workflows-disabled/`) — `IG_ACCESS_TOKEN` expires ~60 days from
+  issue, roughly 2026-10-14. Added real alerting on both this workflow and
+  the hourly loop's post-abandoned-after-5-retries branch: opens (or
+  comments on an existing open) GitHub issue via `gh issue create`,
+  instead of only an `::warning::` annotation that nobody watches
+  proactively.
+
+**Deferred (hard tier, needs a separate decision before starting):**
+- Image storage overhaul — repo commits ~2MB/post forever; GitHub Pages'
+  1GB limit and the repo's own growth both become a real constraint around
+  early-to-mid September at current post volume.
+- Wiring the engagement feedback loop (`data/engagement-log.json` is
+  empty, `collect-engagement.yml` is disabled).
+- Carousel/Reels support in Instagram posting.
+
+Also still open, lower priority, not yet addressed: the post-IDs-commit
+replay loop only copies `content/archive`, not `data/trending-used.json`
+(asymmetric with the archive-commit replay loop); non-atomic archive
+writes; "lower/upper caste" denylist terms are hard `block` instead of
+`regenerate`; `guessCategory` rarely fires so most posts get the generic
+accent color; `collect-engagement.mjs` dedupes on `slug` instead of
+`dirName`.
+
+**Next session must remember**: cancel the currently-running hourly loop
+and re-trigger it via Actions → Run workflow so it picks up everything in
+this batch — same restart caveat as every workflow-file change this
+session.
+
 ## 2026-08-16 — Both open bugs fixed: image tiling (real cause) + posting failure root cause
 
 **Image tiling**: first hypothesis (1080x1080 vs Pollinations' documented

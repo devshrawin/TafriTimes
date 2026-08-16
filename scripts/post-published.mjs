@@ -34,7 +34,12 @@ export function buildInstagramCaption(record) {
   const sourceLine = record.sourceHeadline
     ? `\n\nInspired by real news: ${record.sourceHeadline.title}\n${record.sourceHeadline.link}`
     : "";
-  const full = `${record.headline}\n\n${record.body}\n\n${record.caption}${sourceLine}`;
+  // igHook leads the caption -- it's the only part shown before Instagram's
+  // "...more" truncation, so putting the headline there (which is already
+  // on the image itself) was pure redundancy. Older archived posts predate
+  // this field, hence the fallback to the old headline-first behavior.
+  const hookLine = record.igHook ? `${record.igHook}\n\n` : "";
+  const full = `${hookLine}${record.headline}\n\n${record.body}\n\n${record.caption}${sourceLine}`;
   return truncateAtWordBoundary(full, IG_CAPTION_LIMIT);
 }
 
@@ -59,16 +64,47 @@ export async function postPublished({ dirName }) {
   const imagePath = path.join(dirPath, "image.png");
   const relImagePath = path.relative(ROOT, imagePath).replace(/\\/g, "/");
 
-  let xResult = null;
-  let igResult = null;
+  const xConfigured = hasAllEnv(X_ENV_VARS);
+  const igConfigured = hasAllEnv(IG_ENV_VARS);
 
-  if (hasAllEnv(X_ENV_VARS)) {
+  // Audited 2026-08-16: if IG_ACCESS_TOKEN/IG_USER_ID ever went missing
+  // (secret deleted, renamed, scope changed) while X stays unconfigured (as
+  // it is today), both platforms would be skipped, this function would
+  // still return `posted: true`, and the workflow would treat that as a
+  // full success -- committing an empty "Record post IDs" no-op, sleeping
+  // the normal interval, and burning Gemini/Pollinations/storage forever
+  // while posting literally nothing, completely silently. Zero platforms
+  // configured is a configuration error, not an intentional skip-one path
+  // (skipping exactly one platform while the other works is the normal,
+  // supported case and must NOT throw here).
+  if (!xConfigured && !igConfigured) {
+    throw new Error(
+      "No platform has credentials configured (both X and Instagram env vars are missing) -- refusing to silently report success while posting nothing."
+    );
+  }
+
+  // Re-read any post IDs already recorded on this exact archive entry --
+  // this function is the whole retry unit under the workflow's PENDING_DIR
+  // retry (a post-published.mjs failure retries by calling this again with
+  // the same dirName). Without this guard, if X succeeded but Instagram then
+  // threw, the retry would re-run postToX and post the same tweet again --
+  // up to 5 times under MAX_POST_RETRIES. Skipping a platform that already
+  // has a recorded ID makes every retry idempotent regardless of which
+  // platform failed last time.
+  let xResult = record.xTweetId ? { id: record.xTweetId } : null;
+  let igResult = record.igMediaId ? { id: record.igMediaId } : null;
+
+  if (xResult) {
+    console.error(`Skipping X: already posted as ${xResult.id} (retry of a partially-succeeded attempt).`);
+  } else if (xConfigured) {
     xResult = await postToX({ caption: record.caption, imagePath });
   } else {
     console.error("Skipping X: credentials not configured.");
   }
 
-  if (hasAllEnv(IG_ENV_VARS)) {
+  if (igResult) {
+    console.error(`Skipping Instagram: already posted as ${igResult.id} (retry of a partially-succeeded attempt).`);
+  } else if (igConfigured) {
     const cdnImagePath = `${GITHUB_REPO}@main/${relImagePath}`;
     igResult = await postToInstagram({ caption: buildInstagramCaption(record), cdnImagePath });
   } else {

@@ -2,13 +2,18 @@ import { pathToFileURL } from "node:url";
 import { readText, callLLMForJson } from "./lib.mjs";
 import { generateCandidates } from "./generate-candidates.mjs";
 
-export async function judgeCandidates({ beat, candidates }) {
+export async function judgeCandidates({ beat, candidates, recentHeadlines = [] }) {
   const system = readText("config/prompts/judge.system.md");
-  const userMessage = JSON.stringify(
-    candidates.map((c, index) => ({ index, ...c })),
-    null,
-    2
-  );
+  const recentBlock =
+    recentHeadlines.length > 0
+      ? `\n\nRecently published headlines (score dimension 6, freshness, against these):\n${recentHeadlines.map((h) => `- ${h}`).join("\n")}`
+      : "";
+  const userMessage =
+    JSON.stringify(
+      candidates.map((c, index) => ({ index, ...c })),
+      null,
+      2
+    ) + recentBlock;
   const verdict = await callLLMForJson({ system, userMessage, maxOutputTokens: 1024 });
   const winner = candidates[verdict.winnerIndex];
   if (!winner) {

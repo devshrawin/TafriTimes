@@ -24,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: hourly-trending-publish
@@ -48,10 +49,18 @@ jobs:
 
       - run: npm ci
 
-      - name: Loop publish + post every ~1 hour
+      - name: Loop publish + post every ~3 hours
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          CANDIDATE_COUNT: "3"
+          # Raised from 3: audited 2026-08-16 found ~24 posts/day was
+          # actively suppressing Instagram reach (posts compete with each
+          # other for the same small seed audience, dragging down the
+          # account's rolling engagement average) and made the LLM's
+          # repetitive "[institution] mandates [thing]" shape maximally
+          # visible. Cutting cadence frees up the same daily Gemini budget
+          # to spend on more candidates per post instead -- more
+          # selectivity per post, not more posts.
+          CANDIDATE_COUNT: "8"
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -73,9 +82,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           BRANCH="${GITHUB_REF_NAME}"
-          INTERVAL=3600      # target cadence between iteration *starts*
+          INTERVAL=$(( 8 * 3600 ))  # ~3 posts/day -- see CANDIDATE_COUNT comment above for why
           RESERVE=$(( 5 * 60 )) # publish.mjs + post-published.mjs run in well under a minute combined in testing
           RUN_CAP=5m         # hard ceiling on one publish.mjs run
+          POST_CAP=5m        # hard ceiling on one post-published.mjs run (was unbounded -- a single hung socket could stall the whole job for hours)
 
           # 5h20m of looping -- leaves ~20min of the 350min job budget free
           # for the last iteration's own commit/push to finish cleanly.
@@ -129,7 +139,24 @@ jobs:
 
               if [ "$run_ok" -eq 1 ]; then
                 DIR_NAME="$(node -e "const r=require('./publish-result.json'); console.log(r.dirName ?? '')")"
+              fi
 
+              # Audited 2026-08-16: a guardrail block/regenerate-exhausted
+              # (code=3) left run_ok=1 with an EMPTY DIR_NAME. publish.mjs
+              # still marks the trending headline used even when blocked
+              # (deliberately, so a bad headline isn't retried forever), so
+              # `data/trending-used.json` had a real change -- `git diff
+              # --staged` was non-empty, the commit+push succeeded, and
+              # `should_attempt_post` got set to 1 with DIR_NAME="". Posting
+              # with an empty ARCHIVE_DIR_NAME always failed, which set
+              # run_ok=0 and dropped into the 3-minute fast-retry -- so
+              # every guardrail block silently turned into rapid-fire fresh
+              # generation instead of the intended hourly cadence. This is
+              # what actually produced 44 posts in one day. Guarding the
+              # whole block on a non-empty DIR_NAME closes it: a real
+              # block/exhausted iteration is now a true no-op at normal
+              # cadence, exactly as the log message above always claimed.
+              if [ "$run_ok" -eq 1 ] && [ -n "$DIR_NAME" ]; then
                 node scripts/build-gallery.mjs || echo "::warning::gallery build failed -- archive still committed below, gallery just won't reflect this iteration yet"
                 git add content/archive data/trending-used.json docs
                 if git diff --staged --quiet; then
@@ -198,7 +225,7 @@ jobs:
               # Instagram's media container fetch depends on that mirror
               # being fresh (see PLAN.md §4). Best-effort: a purge failure
               # shouldn't block the post attempt below.
-              curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/content/archive/${DIR_NAME}/image.png" >/dev/null 2>&1 || true
+              curl -s --max-time 10 "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/content/archive/${DIR_NAME}/image.png" >/dev/null 2>&1 || true
 
               # post-published.mjs itself skips any platform whose
               # credentials aren't fully configured (see its hasAllEnv
@@ -206,12 +233,27 @@ jobs:
               # above but currently unset, so this posts to Instagram
               # only until X is set up, with no further workflow change
               # needed then.
-              ARCHIVE_DIR_NAME="$DIR_NAME" node scripts/post-published.mjs > post-result.json
+              #
+              # Wrapped in `timeout` -- this call had no bound at all before
+              # (audited 2026-08-16): a hung socket inside it could stall the
+              # whole 5h20m job silently until the runner's own
+              # timeout-minutes cap eventually killed it.
+              timeout "${POST_CAP}" env ARCHIVE_DIR_NAME="$DIR_NAME" node scripts/post-published.mjs > post-result.json
               post_code=$?
               if [ "$post_code" -ne 0 ]; then
                 POST_RETRY_COUNT=$((POST_RETRY_COUNT + 1))
                 if [ "$POST_RETRY_COUNT" -ge "$MAX_POST_RETRIES" ]; then
                   echo "::warning::giving up posting ${DIR_NAME} after ${POST_RETRY_COUNT} attempts -- it stays archived but unposted; resuming normal generation next iteration"
+                  # Real alerting, not just an annotation nobody watches --
+                  # see refresh-instagram-token.yml for the same pattern.
+                  # Best-effort: GH_TOKEN comes from the default token (gh
+                  # is preinstalled on ubuntu-latest), a failure here must
+                  # never block the loop from moving on.
+                  GH_TOKEN="${{ secrets.GITHUB_TOKEN }}" bash -c '
+                    TITLE="Post abandoned after max retries: '"${DIR_NAME}"'"
+                    BODY="'"${DIR_NAME}"' failed to post to every configured platform after '"${POST_RETRY_COUNT}"' attempts and was abandoned (stays archived, unposted). Check the run: '"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"'"
+                    gh issue create --title "$TITLE" --body "$BODY"
+                  ' || echo "::warning::failed to open an alert issue for the abandoned post -- continuing anyway"
                   PENDING_DIR=""
                   POST_RETRY_COUNT=0
                   # run_ok deliberately left at 1 here: a single unpostable

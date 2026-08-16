@@ -1,4 +1,4 @@
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readdirSync, readFileSync, existsSync, statSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { ROOT, readText, readJson, callLLMForJson, pickWeightedTopic, readYaml } from "./lib.mjs";
@@ -9,6 +9,58 @@ import { fetchTrendingHeadline, getUsedTrendingEntries } from "./fetch-trending.
 
 const MAX_REGENERATE_RETRIES = 2;
 const CANDIDATE_COUNT = Number(process.env.CANDIDATE_COUNT ?? 4);
+
+// Audited 2026-08-16: 76% of headlines followed the same "[Institution]
+// mandates/announces [absurd thing]" AP-report shape. Picking one format
+// per run (all N candidates in a batch share it, so the judge compares
+// apples-to-apples) forces real structural variety instead of leaving it to
+// the model's own discretion, which had settled into one groove.
+// standard-report kept as the largest single slice (~35%) since it's the
+// most reliable shape, per the audit's "cap it, don't eliminate it"
+// recommendation -- the other five split the remaining ~65%.
+const FORMATS = [
+  { key: "standard-report", weight: 35, instruction: "" },
+  {
+    key: "wire-brief",
+    weight: 13,
+    instruction:
+      "Write this as a WIRE BRIEF, not a full report: 1-2 short sentences total for the body, no multi-paragraph structure, punchy and terse like a breaking-news ticker line.",
+  },
+  {
+    key: "vox-pop",
+    weight: 13,
+    instruction:
+      "Write this as a VOX POP: no traditional report paragraphs — instead, 4-5 short invented quotes from different ordinary named-by-role people (a commuter, a shopkeeper, a student, etc.) reacting to the absurd premise, one quote per line in the body.",
+  },
+  {
+    key: "listicle",
+    weight: 13,
+    instruction:
+      'Write this as a LISTICLE: headline should read like "N Things [X] Also Now Regulates/Requires/Includes" (or similar), and the body should be a numbered list of 4-6 short absurd items, one per line, not prose paragraphs.',
+  },
+  {
+    key: "first-person",
+    weight: 13,
+    instruction:
+      "Write this as a FIRST-PERSON account: the body is a short confessional/op-ed narrated by an ordinary invented person directly affected by the absurd premise, in their own voice, not a third-person report.",
+  },
+  {
+    key: "fake-interview",
+    weight: 13,
+    instruction:
+      "Write this as a FAKE INTERVIEW: the body is a short Q&A transcript between an invented interviewer and an invented subject discussing the absurd premise, formatted as alternating Q: / A: lines.",
+  },
+];
+
+function pickFormat() {
+  const total = FORMATS.reduce((sum, f) => sum + f.weight, 0);
+  let r = Math.random() * total;
+  for (const format of FORMATS) {
+    r -= format.weight;
+    if (r <= 0) return format;
+  }
+  return FORMATS[0];
+}
 
 // Best-effort keyword guess so a trending-headline post still gets a
 // per-beat accent color in render-image.mjs — cosmetic only, doesn't affect
@@ -45,29 +97,88 @@ function beatFromTrendingHeadline(headline) {
   };
 }
 
+const RECENT_HEADLINES_LIMIT = 20;
+
+/**
+ * Audited 2026-08-16: 76% of archived headlines followed the same
+ * "[Institution] mandates/announces [absurd thing]" shape, and the judge
+ * has no way to detect this since every dimension scores within-batch only
+ * -- a 22nd mandate joke scores identically to the first. generateOneCandidate
+ * previously had zero memory of anything it had written before, so it
+ * could not avoid repeating itself. Feeding back the last N real headlines
+ * on every single call (not just on a safety regenerate) gives the model
+ * something concrete to differentiate against.
+ */
+function getRecentHeadlines(limit = RECENT_HEADLINES_LIMIT) {
+  const archiveDir = path.join(ROOT, "content/archive");
+  if (!existsSync(archiveDir)) return [];
+  const posts = readdirSync(archiveDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => {
+      const articlePath = path.join(archiveDir, entry.name, "article.json");
+      if (!existsSync(articlePath)) return null;
+      try {
+        const record = JSON.parse(readFileSync(articlePath, "utf8"));
+        const timestamp = record.publishedAt ? Date.parse(record.publishedAt) : statSync(articlePath).mtimeMs;
+        return { headline: record.headline, timestamp };
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.timestamp - a.timestamp)
+    .slice(0, limit);
+  return posts.map((p) => p.headline).filter(Boolean);
+}
+
 function markTrendingHeadlineUsed(headline) {
   const log = readJson("data/trending-used.json", []);
   log.push({ title: headline.title, link: headline.link, usedAt: new Date().toISOString() });
   writeFileSync(path.join(ROOT, "data/trending-used.json"), JSON.stringify(log, null, 2) + "\n");
 }
 
-async function generateOneCandidate({ system, beat, negativeConstraint }) {
+function buildAntiRepetitionBlock(recentHeadlines) {
+  if (recentHeadlines.length === 0) return "";
+  const list = recentHeadlines.map((h) => `- ${h}`).join("\n");
+  return `\n\nAVOID REPEATING RECENT HEADLINES. Here are the last ${recentHeadlines.length} pieces already published:\n${list}\n\nDo NOT write another "[Institution] mandates/announces/introduces [absurd thing]" piece if several of the above already follow that shape — vary the structure: consider a first-person account, an ordinary person as the subject instead of an institution, a listicle, a fake interview, or a wire-brief instead of a full report. Do not invent another "Ministry of [Abstract Noun]".`;
+}
+
+async function generateOneCandidate({ system, beat, negativeConstraint, recentHeadlines, format }) {
   const base = beat.trendingHeadline
     ? `Write one satirical news article using this real trending Indian news headline as your concrete inspiration:\n\n"${beat.trendingHeadline.title}"\n\nFollow the "Real trending event mode" section of your instructions. Invent a fresh, specific satirical premise based on this real story — do not reuse a generic "X is bad" framing.`
     : `Write one satirical news article for the "${beat.label}" beat.\n\nAngle guidance: ${beat.angle.trim()}\n\nInvent a fresh, specific premise — do not reuse a generic "X is bad" framing.`;
+  const withFormat = format.instruction ? `${base}\n\nFORMAT: ${format.instruction}` : base;
+  const withAntiRepetition = withFormat + buildAntiRepetitionBlock(recentHeadlines);
   const userMessage = negativeConstraint
-    ? `${base}\n\nIMPORTANT: a previous attempt on this topic was rejected by the safety guardrail for this reason: "${negativeConstraint}". Write a materially different piece that avoids this issue.`
-    : base;
+    ? `${withAntiRepetition}\n\nIMPORTANT: a previous attempt on this topic was rejected by the safety guardrail for this reason: "${negativeConstraint}". Write a materially different piece that avoids this issue.`
+    : withAntiRepetition;
   return callLLMForJson({ system, userMessage });
 }
 
 async function generateAndJudge({ beat, negativeConstraint }) {
   const system = readText("config/prompts/generation.system.md");
+  const recentHeadlines = getRecentHeadlines();
+  const format = pickFormat();
+  console.error(`Format for this run: ${format.key}`);
   const candidates = [];
   for (let i = 0; i < CANDIDATE_COUNT; i++) {
-    candidates.push(await generateOneCandidate({ system, beat, negativeConstraint }));
+    candidates.push(await generateOneCandidate({ system, beat, negativeConstraint, recentHeadlines, format }));
   }
-  return judgeCandidates({ beat, candidates });
+  return judgeCandidates({ beat, candidates, recentHeadlines });
+}
+
+// Rubric is 6 dimensions x 1-10 = max 60 (see judge.system.md). Audited
+// 2026-08-16: the judge always picked a winner regardless of how weak every
+// candidate was -- winning totals across the archive ranged 34-47/50 under
+// the old 5-dimension/50-max rubric (a ~68-94% range), so a floor around the
+// bottom of that observed range catches genuinely weak batches without
+// rejecting the normal case. Below floor, skip archiving entirely rather
+// than publish a winner nobody would laugh at.
+const QUALITY_FLOOR = 40;
+
+function winnerScore(verdict) {
+  const entry = verdict.scores?.find((s) => s.index === verdict.winnerIndex);
+  return entry?.total;
 }
 
 /**
@@ -112,6 +223,13 @@ export async function generateAndArchive({ topicKey } = {}) {
     const judged = await generateAndJudge({ beat, negativeConstraint });
     winner = judged.winner;
     judgeVerdict = judged.verdict;
+
+    const score = winnerScore(judgeVerdict);
+    if (typeof score === "number" && score < QUALITY_FLOOR) {
+      console.error(`Winner scored ${score}/60, below QUALITY_FLOOR=${QUALITY_FLOOR} -- skipping this iteration rather than publishing a weak batch.`);
+      return { archived: false, reason: "below-quality-floor", judgeVerdict };
+    }
+
     safetyVerdict = await checkSafety(winner);
 
     if (safetyVerdict.verdict === "pass") break;

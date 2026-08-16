@@ -13,10 +13,27 @@ export function readText(relPath) {
   return readFileSync(path.join(ROOT, relPath), "utf8");
 }
 
+/**
+ * Audited 2026-08-16: a bare JSON.parse here meant a truncated/corrupt file
+ * (e.g. a `timeout`-killed write mid-flight, plausible given the workflow's
+ * 5-minute run caps and cancel-in-progress restarts) would throw on EVERY
+ * subsequent call forever -- fetch-trending.mjs's getUsedTrendingEntries()
+ * is called outside any try/catch in publish.mjs, so one corrupt
+ * trending-used.json would permanently hot-loop the whole pipeline (and the
+ * corrupt file gets committed, so a fresh checkout doesn't self-heal
+ * either). Falling back rather than throwing on a parse error trades a
+ * silently-reset dedupe/log for a pipeline that keeps running -- the
+ * former is recoverable, the latter isn't.
+ */
 export function readJson(relPath, fallback) {
   const abs = path.join(ROOT, relPath);
   if (!existsSync(abs)) return fallback;
-  return JSON.parse(readFileSync(abs, "utf8"));
+  try {
+    return JSON.parse(readFileSync(abs, "utf8"));
+  } catch (err) {
+    console.error(`::warning::${relPath} is corrupt/unparseable (${err.message}) -- using fallback instead of crashing`);
+    return fallback;
+  }
 }
 
 // gemini-2.5-* is no longer available to new API keys, and the newer
@@ -34,27 +51,68 @@ const GEMINI_MODEL = "gemini-3.1-flash-lite";
  * Flash, no card) — see PROGRESS.md for why this pipeline runs on Gemini
  * for now instead of the ANTHROPIC_API_KEY assumed in PLAN.md.
  */
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
+const MAX_LLM_RETRIES = 3;
+const RETRY_BASE_MS = 2000;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * Audited 2026-08-16: callLLMForJson used to do one bare fetch -- a
+ * transient 429 (free-tier rate limit) or 503 (Gemini overloaded, observed
+ * live) propagated straight up as a hard failure, which under the workflow's
+ * 3-minute fast-retry actually made rate-limit pressure worse (more retries
+ * per unit time, not fewer). Retrying transient statuses in-process with
+ * exponential backoff (2s, 4s, 8s) absorbs the common case before it ever
+ * becomes a workflow-level failure; a non-retryable error (bad request, auth)
+ * still throws immediately on the first attempt.
+ */
 export async function callLLMForJson({ system, userMessage, model, maxOutputTokens }) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY is not set");
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model ?? GEMINI_MODEL}:generateContent?key=${encodeURIComponent(apiKey)}`;
-  const response = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      systemInstruction: { parts: [{ text: system }] },
-      contents: [{ role: "user", parts: [{ text: userMessage }] }],
-      generationConfig: {
-        responseMimeType: "application/json",
-        maxOutputTokens: maxOutputTokens ?? 2048,
-      },
-    }),
-  });
 
-  const body = await response.json();
-  if (!response.ok) {
-    throw new Error(`Gemini API error: ${JSON.stringify(body)}`);
+  let response;
+  let body;
+  for (let attempt = 0; ; attempt++) {
+    try {
+      response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          systemInstruction: { parts: [{ text: system }] },
+          contents: [{ role: "user", parts: [{ text: userMessage }] }],
+          generationConfig: {
+            responseMimeType: "application/json",
+            maxOutputTokens: maxOutputTokens ?? 2048,
+          },
+        }),
+      });
+    } catch (err) {
+      // Network-level failure (DNS, connection reset) -- also transient.
+      if (attempt >= MAX_LLM_RETRIES) throw err;
+      const delay = RETRY_BASE_MS * 2 ** attempt;
+      console.error(`::warning::Gemini fetch threw (${err.message}), retrying in ${delay}ms (attempt ${attempt + 1}/${MAX_LLM_RETRIES})`);
+      await sleep(delay);
+      continue;
+    }
+
+    if (response.ok) {
+      body = await response.json();
+      break;
+    }
+
+    if (!RETRYABLE_STATUS.has(response.status) || attempt >= MAX_LLM_RETRIES) {
+      body = await response.json().catch(() => ({ status: response.status }));
+      throw new Error(`Gemini API error: ${JSON.stringify(body)}`);
+    }
+
+    const delay = RETRY_BASE_MS * 2 ** attempt;
+    console.error(`::warning::Gemini API returned ${response.status}, retrying in ${delay}ms (attempt ${attempt + 1}/${MAX_LLM_RETRIES})`);
+    await sleep(delay);
   }
 
   const candidate = body.candidates?.[0];

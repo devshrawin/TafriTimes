@@ -30,7 +30,7 @@ function matchesTerm(haystack, term) {
 export function runDenylistPrefilter(article) {
   const denylist = readYaml("config/denylist.yaml");
   const terms = flattenDenylist(denylist);
-  const haystack = [article.headline, article.body, article.caption, article.imagePrompt]
+  const haystack = [article.headline, article.body, article.caption, article.igHook, article.imagePrompt]
     .filter(Boolean)
     .join("\n")
     .toLowerCase();
