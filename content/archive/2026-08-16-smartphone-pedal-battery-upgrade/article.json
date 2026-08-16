@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T00:13:49.692Z",
+  "topicKey": "trending-news",
+  "headline": "Upcoming Smartphone Upgrade Will Include Built-in Emergency Power Bank That Requires Users to Pedal for Four Hours",
+  "slug": "smartphone-pedal-battery-upgrade",
+  "body": "The tech giant’s latest flagship model will feature a revolutionary kinetic-energy battery system, requiring users to manually pedal a detachable mini-crank for four hours to achieve a full charge. This design choice aims to combat the modern epidemic of sedentary screen time by forcing device owners to maintain a steady heart rate while scrolling through social media.\n\n“We realized our users were tired of searching for wall outlets, so we decided to solve that by making them the power grid,” said a senior product engineer who requested anonymity to avoid being assigned to the new ‘Cardio-Sync’ department. “If you want to watch high-definition videos in bed, you’d better be prepared to work your glutes for at least thirty minutes per episode.”\n\nMarket analysts expect the move to be a massive success among fitness enthusiasts, despite early feedback from testers who noted that the device vibrates violently during high-intensity charging intervals. The company has already filed a patent for a proprietary ‘Charging Stool’ accessory that will retail for an additional twenty-five thousand rupees, designed to make the necessary cardio session feel more like a stationary cycling class.",
+  "caption": "Charge your phone and your fitness levels simultaneously. The future of mobile power is officially a workout. #TechNews #FitnessTech #Innovation #Gadgets (satire)",
+  "imagePrompt": "A close-up shot of a modern smartphone resting on a minimalist wooden desk next to a sleek, metallic exercise pedal attachment.",
+  "sourceHeadline": {
+    "title": "IPHONE 18 PRO MAX COULD RECEIVE ITS BIGGEST BATTERY UPGRADE IN YEARS | Techlife News - technology",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDhVblZSVjdCMElHMzVBNW5BVnFFQ3BnQ2tkMFBVaWtOVmZfR1o2cmVsLWxSajZQYmJ6bFM0Nkphd2dzQ3lmR2p0Z01teTMtR2ZvUDNHZ1puYi05cTdybTg5WUtSN3puclg2Zi1DSk5xNVpqci1FX29BOEc1Sk96WWxmQ0lveWxvZTFUalUyOFVPYjQ3U0V1Wk1xemFuVE9NdEJnMjdGT0ttSm1RN1FrQzNuRnlXMnV4SFN3YWtyVTVxbEE?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 04:44:32 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "total": 40
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 40
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances the absurd physical requirement of pedaling with a sharp, satirical observation about sedentary tech culture, effectively capturing the 'warm' irony requested. While candidate 1 is equally strong, the pedal-powered concept provides a slightly higher level of cognitive dissonance regarding the 'future of efficiency'."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless satirical piece about a fictional tech product. It does not name any real individuals, entities, or groups, nor does it violate any safety guidelines regarding communal, religious, or ethnic harm.",
+    "flaggedIssues": []
+  }
+}
