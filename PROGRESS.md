@@ -13,6 +13,40 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Fixed: posting failure was generating new content instead of retrying
+
+- Owner reported the post count "seemed too low." Audited every archived
+  post's `igMediaId`/`publishedAt` for real: only 10 of 33 posts archived
+  since auto-posting shipped actually reached Instagram. Found the actual
+  bug by timestamp pattern — a burst of archived posts every ~3.5 minutes
+  from 21:26-22:03 UTC on 08-15, exactly matching the loop's "failed
+  iteration retries in 3 minutes" cadence, not the normal ~hourly one.
+- Root cause: when `post-published.mjs` failed, the loop set `run_ok=0`
+  and retried in 3 minutes — but the *next* iteration ran `publish.mjs`
+  again from scratch, generating a brand-new headline/image instead of
+  retrying the post for whatever was already archived and unposted. A
+  stretch of Instagram failures therefore sped up content generation (one
+  new archived post every ~3 min) instead of slowing anything down, while
+  actual posting throughput stayed exactly as broken — 77 posts archived
+  in ~36 hours, only ~21 total ever posted.
+- Fixed in `hourly-trending-publish.yml`: added `PENDING_DIR` (persists
+  across `while` loop iterations as a plain bash var) — on a posting
+  failure, the *next* iteration skips `publish.mjs`/archiving entirely and
+  retries posting that exact `PENDING_DIR`, up to `MAX_POST_RETRIES=5`
+  attempts. Only after 5 failed attempts on the same post does it give up
+  (leaves that one archived-but-unposted) and resume normal generation.
+  Verified the control-flow logic with a standalone bash simulation before
+  pushing (mocked `publish`/`post` calls, confirmed a failed post retries
+  the same dir next iteration and a success clears the pending state
+  correctly).
+- **Root cause of the underlying posting failures themselves is still not
+  diagnosed** — this fix stops the failure from wasting generations, it
+  doesn't explain why ~2/3 of post attempts fail. Best guess going in was a
+  jsDelivr CDN propagation race (the purge is best-effort, doesn't confirm
+  the cache is actually warm before Instagram fetches), but that's
+  unconfirmed — next session should pull the actual `::warning::` text
+  from a real failed run to confirm or rule this out.
+
 ## 2026-08-15 — Hid inactive workflows; Instagram caption now has full text + source link
 
 - Owner: "7 workflows are creating confusion," wants exactly one visible —

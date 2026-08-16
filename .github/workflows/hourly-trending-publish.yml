@@ -81,163 +81,201 @@ jobs:
           # for the last iteration's own commit/push to finish cleanly.
           END=$(( $(date +%s) + 5*3600 + 20*60 ))
 
+          # Audited live (2026-08-15): a stretch of posting failures caused
+          # the loop to archive a brand-new post every ~3 minutes instead of
+          # slowing down -- because a posting failure retried by generating
+          # FRESH content next iteration, not by retrying the post for what
+          # was already archived. 77 posts got archived in ~36 hours while
+          # only ~10 ever made it to Instagram. PENDING_DIR carries an
+          # already-archived-but-unposted dirName across iterations so a
+          # posting failure retries POSTING THE SAME POST, not generation.
+          PENDING_DIR=""
+          POST_RETRY_COUNT=0
+          MAX_POST_RETRIES=5
+
           while true; do
             ITER_START=$(date +%s)
-
-            # With -e off (see above), a failing publish.mjs falls through
-            # to the commit logic below rather than aborting the whole loop
-            # -- one bad run (a Gemini 503, a Pollinations timeout) shouldn't
-            # kill a 5h20m loop.
-            #
-            # Deliberately NOT `if ! timeout ...; then code=$?; fi` -- bash's
-            # `!` negates the exit status used for the `if` test itself, so
-            # `$?` inside that block is always 0 or 1 (the negated result),
-            # never the command's real exit code. That silently broke the
-            # `code = "3"` clean-skip check below and misreported real
-            # failures as "exit 0" -- run the command plain and read $? right
-            # after instead.
-            timeout "${RUN_CAP}" node scripts/publish.mjs > publish-result.json
-            code=$?
             run_ok=1
-            if [ "$code" -ne 0 ]; then
-              if [ "$code" = "3" ]; then
-                echo "Guardrail blocked/exhausted this iteration -- nothing to archive, that's fine."
-              else
-                run_ok=0
-                echo "::warning::publish.mjs failed or exceeded ${RUN_CAP} this iteration (exit ${code}) -- will retry next iteration"
+            should_attempt_post=0
+            DIR_NAME=""
+
+            if [ -n "$PENDING_DIR" ]; then
+              DIR_NAME="$PENDING_DIR"
+              should_attempt_post=1
+              echo "Retrying post for previously-archived ${DIR_NAME} (post attempt $((POST_RETRY_COUNT + 1))/${MAX_POST_RETRIES}) -- not generating new content this iteration."
+            else
+              # With -e off (see above), a failing publish.mjs falls through
+              # to the commit logic below rather than aborting the whole loop
+              # -- one bad run (a Gemini 503, a Pollinations timeout) shouldn't
+              # kill a 5h20m loop.
+              #
+              # Deliberately NOT `if ! timeout ...; then code=$?; fi` -- bash's
+              # `!` negates the exit status used for the `if` test itself, so
+              # `$?` inside that block is always 0 or 1 (the negated result),
+              # never the command's real exit code. That silently broke the
+              # `code = "3"` clean-skip check below and misreported real
+              # failures as "exit 0" -- run the command plain and read $? right
+              # after instead.
+              timeout "${RUN_CAP}" node scripts/publish.mjs > publish-result.json
+              code=$?
+              if [ "$code" -ne 0 ]; then
+                if [ "$code" = "3" ]; then
+                  echo "Guardrail blocked/exhausted this iteration -- nothing to archive, that's fine."
+                else
+                  run_ok=0
+                  echo "::warning::publish.mjs failed or exceeded ${RUN_CAP} this iteration (exit ${code}) -- will retry next iteration"
+                fi
+              fi
+
+              if [ "$run_ok" -eq 1 ]; then
+                DIR_NAME="$(node -e "const r=require('./publish-result.json'); console.log(r.dirName ?? '')")"
+
+                node scripts/build-gallery.mjs || echo "::warning::gallery build failed -- archive still committed below, gallery just won't reflect this iteration yet"
+                git add content/archive data/trending-used.json docs
+                if git diff --staged --quiet; then
+                  echo "No change this iteration -- nothing to commit."
+                elif ! git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')"; then
+                  echo "::warning::git commit failed -- nothing delivered this iteration"
+                  run_ok=0
+                else
+                  # content/archive and data/trending-used.json only ever grow
+                  # (new dirs, appended log entries) -- no meaningful merge, so
+                  # don't rebase: on rejection, stash what this iteration built,
+                  # hard-reset onto origin, restore it, and re-commit. Avoids a
+                  # mid-rebase tree that could break every later iteration.
+                  pushed=0
+                  for attempt in 1 2 3; do
+                    if git push origin "HEAD:${BRANCH}"; then
+                      pushed=1
+                      break
+                    fi
+                    echo "Push rejected (attempt ${attempt}/3) -- replaying this iteration's output onto origin/${BRANCH}."
+                    TMP="$(mktemp -d)"
+                    cp -r content/archive "$TMP/archive" 2>/dev/null || true
+                    cp data/trending-used.json "$TMP/trending-used.json" 2>/dev/null || true
+                    if ! git fetch origin "${BRANCH}"; then
+                      echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
+                      rm -rf "$TMP"; break
+                    fi
+                    if ! git reset --hard "origin/${BRANCH}"; then
+                      echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
+                      rm -rf "$TMP"; break
+                    fi
+                    mkdir -p content/archive
+                    cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
+                    [ -f "$TMP/trending-used.json" ] && cp "$TMP/trending-used.json" data/trending-used.json
+                    rm -rf "$TMP"
+                    # Rebuild docs/ from the now-restored content/archive rather
+                    # than trying to stash/replay the docs tree itself --
+                    # index.html and the images/ copies are always fully
+                    # regenerated from content/archive anyway, so this keeps
+                    # them consistent instead of risking a stale docs snapshot.
+                    node scripts/build-gallery.mjs || true
+                    git add content/archive data/trending-used.json docs
+                    if git diff --staged --quiet; then
+                      echo "Origin already matches this iteration's output -- nothing to re-commit."
+                      pushed=1
+                      break
+                    fi
+                    git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')" || {
+                      echo "::warning::re-commit after replay failed"; break; }
+                  done
+
+                  git fetch origin "${BRANCH}" >/dev/null 2>&1 || true
+                  if [ "$pushed" -eq 1 ] && [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/${BRANCH}")" ]; then
+                    echo "Archive pushed and verified on origin/${BRANCH}."
+                    should_attempt_post=1
+                  else
+                    echo "::warning::this iteration's archive was not delivered -- skipping post attempt (image not confirmed on origin), next iteration's git state will still include it locally"
+                    run_ok=0
+                  fi
+                fi
               fi
             fi
 
-            if [ "$run_ok" -eq 1 ]; then
-              DIR_NAME="$(node -e "const r=require('./publish-result.json'); console.log(r.dirName ?? '')")"
+            if [ "$should_attempt_post" -eq 1 ]; then
+              # Purge jsDelivr's CDN mirror of the image we just pushed --
+              # Instagram's media container fetch depends on that mirror
+              # being fresh (see PLAN.md §4). Best-effort: a purge failure
+              # shouldn't block the post attempt below.
+              curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/content/archive/${DIR_NAME}/image.png" >/dev/null 2>&1 || true
 
-              node scripts/build-gallery.mjs || echo "::warning::gallery build failed -- archive still committed below, gallery just won't reflect this iteration yet"
-              git add content/archive data/trending-used.json docs
-              if git diff --staged --quiet; then
-                echo "No change this iteration -- nothing to commit."
-              elif ! git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')"; then
-                echo "::warning::git commit failed -- nothing delivered this iteration"
-                run_ok=0
+              # post-published.mjs itself skips any platform whose
+              # credentials aren't fully configured (see its hasAllEnv
+              # check) -- X's four secrets are wired into this step's env
+              # above but currently unset, so this posts to Instagram
+              # only until X is set up, with no further workflow change
+              # needed then.
+              ARCHIVE_DIR_NAME="$DIR_NAME" node scripts/post-published.mjs > post-result.json
+              post_code=$?
+              if [ "$post_code" -ne 0 ]; then
+                POST_RETRY_COUNT=$((POST_RETRY_COUNT + 1))
+                if [ "$POST_RETRY_COUNT" -ge "$MAX_POST_RETRIES" ]; then
+                  echo "::warning::giving up posting ${DIR_NAME} after ${POST_RETRY_COUNT} attempts -- it stays archived but unposted; resuming normal generation next iteration"
+                  PENDING_DIR=""
+                  POST_RETRY_COUNT=0
+                  # run_ok deliberately left at 1 here: a single unpostable
+                  # item shouldn't stall the whole pipeline in a permanent
+                  # 3-minute fast-retry loop -- move on at the normal cadence.
+                else
+                  PENDING_DIR="$DIR_NAME"
+                  run_ok=0
+                  echo "::warning::post-published.mjs failed (exit ${post_code}), attempt ${POST_RETRY_COUNT}/${MAX_POST_RETRIES} -- archive is safe; will retry POSTING THIS SAME ARCHIVED POST in 3 minutes, not generate new content"
+                fi
               else
-                # content/archive and data/trending-used.json only ever grow
-                # (new dirs, appended log entries) -- no meaningful merge, so
-                # don't rebase: on rejection, stash what this iteration built,
-                # hard-reset onto origin, restore it, and re-commit. Avoids a
-                # mid-rebase tree that could break every later iteration.
-                pushed=0
-                for attempt in 1 2 3; do
-                  if git push origin "HEAD:${BRANCH}"; then
-                    pushed=1
-                    break
-                  fi
-                  echo "Push rejected (attempt ${attempt}/3) -- replaying this iteration's output onto origin/${BRANCH}."
-                  TMP="$(mktemp -d)"
-                  cp -r content/archive "$TMP/archive" 2>/dev/null || true
-                  cp data/trending-used.json "$TMP/trending-used.json" 2>/dev/null || true
-                  if ! git fetch origin "${BRANCH}"; then
-                    echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
-                    rm -rf "$TMP"; break
-                  fi
-                  if ! git reset --hard "origin/${BRANCH}"; then
-                    echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
-                    rm -rf "$TMP"; break
-                  fi
-                  mkdir -p content/archive
-                  cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
-                  [ -f "$TMP/trending-used.json" ] && cp "$TMP/trending-used.json" data/trending-used.json
-                  rm -rf "$TMP"
-                  # Rebuild docs/ from the now-restored content/archive rather
-                  # than trying to stash/replay the docs tree itself --
-                  # index.html and the images/ copies are always fully
-                  # regenerated from content/archive anyway, so this keeps
-                  # them consistent instead of risking a stale docs snapshot.
-                  node scripts/build-gallery.mjs || true
-                  git add content/archive data/trending-used.json docs
-                  if git diff --staged --quiet; then
-                    echo "Origin already matches this iteration's output -- nothing to re-commit."
-                    pushed=1
-                    break
-                  fi
-                  git commit -m "Hourly trending archive $(date -u '+%Y-%m-%d %H:%M UTC')" || {
-                    echo "::warning::re-commit after replay failed"; break; }
-                done
-
-                git fetch origin "${BRANCH}" >/dev/null 2>&1 || true
-                if [ "$pushed" -eq 1 ] && [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/${BRANCH}")" ]; then
-                  echo "Archive pushed and verified on origin/${BRANCH}."
-
-                  # Purge jsDelivr's CDN mirror of the image we just pushed --
-                  # Instagram's media container fetch depends on that mirror
-                  # being fresh (see PLAN.md §4). Best-effort: a purge failure
-                  # shouldn't block the post attempt below.
-                  curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/content/archive/${DIR_NAME}/image.png" >/dev/null 2>&1 || true
-
-                  # post-published.mjs itself skips any platform whose
-                  # credentials aren't fully configured (see its hasAllEnv
-                  # check) -- X's four secrets are wired into this step's env
-                  # above but currently unset, so this posts to Instagram
-                  # only until X is set up, with no further workflow change
-                  # needed then.
-                  ARCHIVE_DIR_NAME="$DIR_NAME" node scripts/post-published.mjs > post-result.json
-                  post_code=$?
-                  if [ "$post_code" -ne 0 ]; then
-                    run_ok=0
-                    echo "::warning::post-published.mjs failed (exit ${post_code}) -- archive is safe, but this post's IDs won't be recorded; will retry with fresh content next iteration"
-                  else
+                PENDING_DIR=""
+                POST_RETRY_COUNT=0
+                git add content/archive
+                if git diff --staged --quiet; then
+                  echo "No post IDs to record (nothing was posted this iteration)."
+                elif ! git commit -m "Record post IDs: ${DIR_NAME}"; then
+                  echo "::warning::commit of post IDs failed"
+                else
+                  post_pushed=0
+                  for attempt in 1 2 3; do
+                    if git push origin "HEAD:${BRANCH}"; then
+                      post_pushed=1
+                      break
+                    fi
+                    echo "Push rejected (attempt ${attempt}/3) -- replaying post-IDs commit onto origin/${BRANCH}."
+                    TMP="$(mktemp -d)"
+                    cp -r content/archive "$TMP/archive" 2>/dev/null || true
+                    if ! git fetch origin "${BRANCH}"; then
+                      echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
+                      rm -rf "$TMP"; break
+                    fi
+                    if ! git reset --hard "origin/${BRANCH}"; then
+                      echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
+                      rm -rf "$TMP"; break
+                    fi
+                    mkdir -p content/archive
+                    cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
+                    rm -rf "$TMP"
                     git add content/archive
                     if git diff --staged --quiet; then
-                      echo "No post IDs to record (nothing was posted this iteration)."
-                    elif ! git commit -m "Record post IDs: ${DIR_NAME}"; then
-                      echo "::warning::commit of post IDs failed"
-                    else
-                      post_pushed=0
-                      for attempt in 1 2 3; do
-                        if git push origin "HEAD:${BRANCH}"; then
-                          post_pushed=1
-                          break
-                        fi
-                        echo "Push rejected (attempt ${attempt}/3) -- replaying post-IDs commit onto origin/${BRANCH}."
-                        TMP="$(mktemp -d)"
-                        cp -r content/archive "$TMP/archive" 2>/dev/null || true
-                        if ! git fetch origin "${BRANCH}"; then
-                          echo "::warning::fetch failed -- keeping local commit, will retry next iteration"
-                          rm -rf "$TMP"; break
-                        fi
-                        if ! git reset --hard "origin/${BRANCH}"; then
-                          echo "::warning::reset to origin/${BRANCH} failed -- leaving tree as-is for the next iteration"
-                          rm -rf "$TMP"; break
-                        fi
-                        mkdir -p content/archive
-                        cp -r "$TMP/archive/." content/archive/ 2>/dev/null || true
-                        rm -rf "$TMP"
-                        git add content/archive
-                        if git diff --staged --quiet; then
-                          echo "Origin already matches -- nothing to re-commit."
-                          post_pushed=1
-                          break
-                        fi
-                        git commit -m "Record post IDs: ${DIR_NAME}" || {
-                          echo "::warning::re-commit of post IDs after replay failed"; break; }
-                      done
-                      if [ "$post_pushed" -eq 1 ]; then
-                        echo "Post IDs recorded and pushed."
-                      else
-                        echo "::warning::post IDs commit was not delivered -- next iteration's git state will still include it locally"
-                      fi
+                      echo "Origin already matches -- nothing to re-commit."
+                      post_pushed=1
+                      break
                     fi
+                    git commit -m "Record post IDs: ${DIR_NAME}" || {
+                      echo "::warning::re-commit of post IDs after replay failed"; break; }
+                  done
+                  if [ "$post_pushed" -eq 1 ]; then
+                    echo "Post IDs recorded and pushed."
+                  else
+                    echo "::warning::post IDs commit was not delivered -- next iteration's git state will still include it locally"
                   fi
-                else
-                  echo "::warning::this iteration's archive was not delivered -- skipping post attempt (image not confirmed on origin), next iteration's git state will still include it locally"
                 fi
               fi
             fi
 
             # Cadence measured from iteration START so work time doesn't
             # stack on top of the sleep. A failed iteration (run_ok=0 --
-            # Gemini 503, Pollinations timeout, a posting failure, etc.)
-            # retries every 3 minutes instead of waiting out the full hour
-            # -- once an iteration actually succeeds, cadence goes back to
-            # the normal ~hourly interval.
+            # Gemini 503, Pollinations timeout, a posting failure under the
+            # retry cap, etc.) retries every 3 minutes instead of waiting
+            # out the full hour -- once an iteration actually succeeds (or
+            # a stuck post is abandoned after MAX_POST_RETRIES), cadence
+            # goes back to the normal ~hourly interval.
             NOW=$(date +%s)
             ELAPSED=$(( NOW - ITER_START ))
             if [ "$run_ok" -eq 0 ]; then
