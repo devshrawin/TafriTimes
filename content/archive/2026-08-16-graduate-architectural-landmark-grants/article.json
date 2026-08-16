@@ -163,5 +163,7 @@
     "verdict": "pass",
     "reasoning": "The piece uses a fictional character to provide social commentary on the job market and is clearly satirical. It does not name a real private person, public figure, or target any protected group, and the image prompt is generic.",
     "flaggedIssues": []
-  }
+  },
+  "xTweetId": null,
+  "igMediaId": "18112123679000835"
 }
