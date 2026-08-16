@@ -1,0 +1,64 @@
+name: Weekly cleanup of old post images
+
+# Deletes just the image.png for posts already delivered to Instagram/X and
+# older than cleanup-old-media.mjs's retention window -- article.json is kept
+# forever (it's the real audit trail / engagement-collection data source, see
+# collect-engagement.mjs, which never touches the image file anyway). Without
+# this, content/archive and docs/images both grow ~2MB per post forever --
+# audited 2026-08-16, GitHub Pages' 1GB limit on docs/ was on track to bite
+# around late September at then-current volume.
+on:
+  schedule:
+    - cron: "30 3 * * 0" # weekly, Sunday early morning UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+
+      - name: Delete old images, rebuild gallery, commit + push
+        run: |
+          set +e
+          set -u
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_REF_NAME}"
+
+          # cleanup-old-media.mjs + build-gallery.mjs are both idempotent
+          # against current repo state -- safe to just re-run them fresh
+          # after a rebase rather than trying to replay a diff, unlike the
+          # hourly workflow's archive commits (which are new content, not a
+          # deterministic function of what's already there).
+          for attempt in 1 2 3; do
+            node scripts/cleanup-old-media.mjs
+            node scripts/build-gallery.mjs
+
+            git add content/archive docs
+            if git diff --staged --quiet; then
+              echo "Nothing to clean up this week."
+              exit 0
+            fi
+
+            if git commit -m "Weekly cleanup: drop images for posts already delivered to Instagram/X"; then
+              if git push origin "HEAD:${BRANCH}"; then
+                echo "Cleanup pushed."
+                exit 0
+              fi
+            fi
+
+            echo "Push rejected or commit failed (attempt ${attempt}/3) -- syncing with origin/${BRANCH} and retrying."
+            git reset --hard HEAD~1 2>/dev/null || true
+            git fetch origin "${BRANCH}"
+            git reset --hard "origin/${BRANCH}"
+          done
+
+          echo "::warning::weekly cleanup could not be pushed after 3 attempts -- next week's run will retry"

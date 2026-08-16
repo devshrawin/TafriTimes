@@ -39,6 +39,11 @@
     overflow: hidden; display: flex; flex-direction: column;
   }
   .card img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+  .card .no-image {
+    width: 100%; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;
+    background: #101012; border-bottom: 1px solid #2a2a2e; padding: 16px; text-align: center;
+    color: #5a5a5e; font-size: 13px;
+  }
   .card-body { padding: 16px 18px 20px; }
   .meta { display: flex; justify-content: space-between; font-size: 12px; color: #ff6b35; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
   .meta .time { color: #7a7a7a; text-transform: none; letter-spacing: 0; font-variant-numeric: tabular-nums; }
@@ -1419,7 +1424,7 @@
     </article>
       </div>
     </section>
-  <footer>Generated 2026-08-16T05:15:56.986Z</footer>
+  <footer>Generated 2026-08-16T05:41:19.409Z</footer>
   <script>
     document.querySelectorAll('.tab').forEach(tab => {
       tab.addEventListener('click', () => {

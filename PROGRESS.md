@@ -13,6 +13,49 @@ meaningful step.
 
 ---
 
+## 2026-08-16 — Image storage cleanup (first hard-tier item, partial)
+
+First piece of the previously-deferred "hard tier": repo/Pages storage
+growth (~2MB/post forever, GitHub Pages' 1GB limit on `docs/` on track to
+bite ~late September at current volume). Reels/carousel and the engagement
+feedback loop are still deferred.
+
+- New `scripts/cleanup-old-media.mjs`: deletes just `image.png` (~2MB) for
+  posts that are (a) already posted to at least one platform (has
+  `xTweetId` or `igMediaId`) and (b) older than `MEDIA_RETAIN_DAYS` (default
+  21 — a 7-day buffer past `collect-engagement.mjs`'s 14-day lookback, even
+  though that script never touches the image file at all, only the IDs).
+  `article.json` is never deleted — it's the permanent audit trail and the
+  only thing engagement collection actually reads. Sets
+  `record.imageDeleted = true` on cleanup.
+- `build-gallery.mjs`: no longer requires `image.png` to exist for a post to
+  appear in the gallery — a post with a deleted image now renders as a
+  text-only card (a small "Image archived to Instagram" note takes the
+  image's place; no placeholder image asset needed, just omit the `<img>`
+  tag). Also deletes the stale `docs/images/<dir>.png` copy once the source
+  is gone — that copy is what GitHub Pages actually serves, so it's the one
+  that counts against the 1GB limit, not just `content/archive`.
+- New weekly workflow `.github/workflows/cleanup-old-media.yml` (Sunday
+  03:30 UTC): runs cleanup → rebuild gallery → commit + push, with a
+  3-attempt fetch/reset/retry loop on push rejection (both scripts are
+  idempotent against current repo state, so re-running them fresh after a
+  rebase is safe, unlike the hourly loop's archive commits which are new
+  content each time).
+- Verified live: forced `MEDIA_RETAIN_DAYS=0` and confirmed the script
+  correctly deleted 13 images across the real archive (posts with a
+  recorded post ID) and left 66 alone (unposted or already-cleaned) —
+  then reverted via `git checkout` since that was a threshold test, not a
+  real run. Re-ran at the real default (21 days): 0 deleted, all 79 posts
+  and images intact (none are old enough yet) — confirmed no regression to
+  the current gallery.
+- **Note this does NOT shrink the actual git repository** — deleting a file
+  in a new commit doesn't remove old blobs from history, only a destructive
+  history rewrite (`git filter-repo`/BFG, force-push) does that. This fix
+  keeps `content/archive`'s and `docs/`'s *working-tree* size (and
+  therefore what Pages serves) from growing forever, which is the part that
+  actually had a deadline; repo-clone size is a separate, lower-urgency
+  problem for later.
+
 ## 2026-08-16 — Full end-to-end audit + easy/moderate fix batch ("do all")
 
 Ran two parallel deep-audit agents (reliability/code-quality, content-

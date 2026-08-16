@@ -1,4 +1,4 @@
-import { readdirSync, statSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from "node:fs";
+import { readdirSync, statSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, unlinkSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { ROOT } from "./lib.mjs";
@@ -18,7 +18,12 @@ function loadPosts() {
       const dirPath = path.join(ARCHIVE_DIR, entry.name);
       const articlePath = path.join(dirPath, "article.json");
       const imagePath = path.join(dirPath, "image.png");
-      if (!existsSync(articlePath) || !existsSync(imagePath)) return null;
+      if (!existsSync(articlePath)) return null;
+      // cleanup-old-media.mjs deletes image.png for posts already delivered
+      // to Instagram/X once they're past the retention window -- article.json
+      // is kept forever, so the post itself must not vanish from the gallery
+      // just because its image did. hasImage below drives a text-only card.
+      const hasImage = existsSync(imagePath);
       // Audited 2026-08-16: one corrupt article.json (a killed write, a
       // partial commit) used to throw here and permanently break the
       // gallery build on EVERY run from then on (the `||` at the call site
@@ -40,7 +45,7 @@ function loadPosts() {
       // the 2026-08-14 audit). Older archived posts predate this field, so
       // fall back to mtime only for those, not as the general-case source.
       const timestamp = record.publishedAt ? Date.parse(record.publishedAt) : statSync(articlePath).mtimeMs;
-      return { dirName: entry.name, record, imagePath, timestamp };
+      return { dirName: entry.name, record, imagePath, hasImage, timestamp };
     })
     .filter(Boolean)
     .sort((a, b) => b.timestamp - a.timestamp);
@@ -78,14 +83,19 @@ function formatTime(timestamp) {
 }
 
 function renderCard(post) {
-  const { record, dirName, timestamp } = post;
+  const { record, dirName, timestamp, hasImage } = post;
   const topicLabel = (record.topicKey ?? "").replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const sourceLine = record.sourceHeadline
     ? `<p class="source">Based on real trending headline: <a href="${escapeHtml(record.sourceHeadline.link)}" target="_blank" rel="noopener">${escapeHtml(record.sourceHeadline.title)}</a></p>`
     : "";
+  // No placeholder image asset needed -- just omit the <img> entirely for a
+  // post whose image was cleaned up. The card still has the full text.
+  const imageBlock = hasImage
+    ? `<img src="images/${escapeHtml(dirName)}.png" alt="${escapeHtml(record.headline)}" loading="lazy" />`
+    : `<div class="no-image"><span>Image archived to Instagram — no longer stored here</span></div>`;
   return `
     <article class="card">
-      <img src="images/${escapeHtml(dirName)}.png" alt="${escapeHtml(record.headline)}" loading="lazy" />
+      ${imageBlock}
       <div class="card-body">
         <div class="meta">
           <span class="topic">${escapeHtml(topicLabel || "Trending")}</span>
@@ -165,6 +175,11 @@ const PAGE_TEMPLATE = ({ tabs, panels, totalCount, dayCount }) => `<!doctype htm
     overflow: hidden; display: flex; flex-direction: column;
   }
   .card img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+  .card .no-image {
+    width: 100%; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;
+    background: #101012; border-bottom: 1px solid #2a2a2e; padding: 16px; text-align: center;
+    color: #5a5a5e; font-size: 13px;
+  }
   .card-body { padding: 16px 18px 20px; }
   .meta { display: flex; justify-content: space-between; font-size: 12px; color: #ff6b35; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
   .meta .time { color: #7a7a7a; text-transform: none; letter-spacing: 0; font-variant-numeric: tabular-nums; }
@@ -210,7 +225,15 @@ export function buildGallery() {
   writeFileSync(path.join(DOCS_DIR, ".nojekyll"), "");
 
   for (const post of posts) {
-    copyFileSync(post.imagePath, path.join(DOCS_DIR, "images", `${post.dirName}.png`));
+    const destPath = path.join(DOCS_DIR, "images", `${post.dirName}.png`);
+    if (post.hasImage) {
+      copyFileSync(post.imagePath, destPath);
+    } else if (existsSync(destPath)) {
+      // docs/images is what GitHub Pages actually serves -- reclaim the
+      // already-published copy too, not just the content/archive source,
+      // since that's the copy actually counting against the 1GB Pages limit.
+      unlinkSync(destPath);
+    }
   }
 
   const groups = groupByDate(posts);
