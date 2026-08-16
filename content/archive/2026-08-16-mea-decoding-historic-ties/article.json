@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T04:48:12.180Z",
+  "topicKey": "cricket",
+  "headline": "Ministry of External Affairs Hires Professional Calligrapher to Decode ‘Value’ of Historic Ties",
+  "slug": "mea-decoding-historic-ties",
+  "body": "The Ministry of External Affairs has officially commissioned a team of master calligraphers and ancient linguists to interpret the precise geometric value of India’s historical ties with foreign nations, following a recent diplomatic greeting from a global head of state that described the relationship as ‘valuable.’ The task force is currently analyzing the scroll length and ink density of the message to determine if ‘valuable’ equates to a mid-sized trade surplus or simply a very polite emoji exchange.\n\n“We are treating this as a high-level diplomatic puzzle,” said Joint Secretary of Diplomatic Semantics, Rajesh Varma, who is overseeing the project from a makeshift office in South Block. “Is it a ‘gold-standard’ valuable or a ‘sentimental-gift-from-a-distant-relative’ valuable? We need to know before we draft our response, which will be hand-delivered on parchment made of recycled policy drafts.”\n\nThe department has already rejected three initial drafts of the reply, citing a lack of ‘historical gravitas’ and insufficient flowery adjectives. Sources suggest the final response will likely include a mention of the shared fondness for spiced tea and long, complicated administrative procedures, ensuring the ‘valuable’ status remains firmly in place for at least another three to five business days.",
+  "caption": "MEA leaves nothing to chance as they decode the exact market price of 'valuable' diplomatic relations. Are we talking precious metals or just good vibes? #Diplomacy #IndiaIran #Geopolitics #MEA (satire)",
+  "imagePrompt": "A wide-angle, photorealistic shot of an ornate, long wooden conference table in a government office, cluttered with stacks of thick paper, antique fountain pens, and magnifying glasses.",
+  "sourceHeadline": {
+    "title": "Iran President Pezeshkian greets PM Modi on Independence Day, calls historic ties with India ‘valuable as",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxONkc1MFNwZU1aWlhSdHpVVzBuQWc4eG1SdFBGODZ5RThzVzlrN2RONFdjTjF0aEJrd1RGWkZJV2tUazBBdzk2Y1JzTnpXbVFEQUZiU0ZqV0djR0dzdXRydm1RU3ZVVVEtOG92M2tWaWRJSExpWmc4azRpbEZ6WnBEUmNxSHN1NXpCU2tUaE5wRGV2WTF2UU9CRlB4XzhRRWczZEg3WW9ueXVMWHVJWGpONmFibXcwRlliaF80SmhEV1hmNjlLb0lONlc5bGNxUXJLMHotVGowVnRtYlZfM0hJLUVySmZXRURDTHdBMElKR2ZQQmh4ZUZBQ2Y3eFk5MjFWaVl0YQ?oc=5",
+    "pubDate": "Sun, 16 Aug 2026 00:33:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 9,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Article 0 balances the perfect blend of bureaucratic absurdity and gentle observation. It hits the inverted-pyramid structure better than the others and treats the premise of 'decoding diplomatic jargon as a literal physical task' with a high degree of warmth and narrative consistency."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd satire regarding bureaucratic processes. The named official is a fictional character within the satirical context, and the image prompt describes a generic office setting.",
+    "flaggedIssues": []
+  }
+}
