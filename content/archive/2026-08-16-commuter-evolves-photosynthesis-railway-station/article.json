@@ -163,5 +163,7 @@
     "verdict": "pass",
     "reasoning": "The article uses a fictional character to satirize railway infrastructure failures. It does not name a real private individual or public figure, avoids identity-based targeting, and the image prompt is generic and free of identifiable landmarks or text.",
     "flaggedIssues": []
-  }
+  },
+  "xTweetId": null,
+  "igMediaId": "17973049610920962"
 }
