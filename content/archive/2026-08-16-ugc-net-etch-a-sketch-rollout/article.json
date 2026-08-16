@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T17:02:09.211Z",
+  "topicKey": "trending-news",
+  "headline": "UGC-NET Exam Authorities Replace OMR Sheets With 'Etch-A-Sketch' Pads To Facilitate Rapid Erasure",
+  "slug": "ugc-net-etch-a-sketch-rollout",
+  "body": "In a bid to streamline re-examination procedures, exam centers will replace standard answer sheets with miniature mechanical drawing toys, allowing students to instantly wipe away errors by simply shaking their desks during the testing period.",
+  "caption": "Exam day is about to get a lot more shaky. #UGC_NET #ExamStress #EducationReform (satire)",
+  "igHook": "Would you trust your entire career to a red knob and a bit of silver dust?",
+  "imagePrompt": "A close-up shot of a classic red mechanical drawing toy sitting on a clean white desk in an otherwise empty, sunlit examination hall.",
+  "sourceHeadline": {
+    "title": "\"Many Errors\": Re-Exam For 3 UGC-NET Papers. Dates Announced",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMDRoVGo0OUJJdldiVTJOYXk2UWNRdXA4MFVrNlpwT3NpS2RnS3lPNHhpdVBCWmFKTGhvb0RadEpZaWZLRW14T0c3c00yRmxKeU9wYXRQQXVhWkZmZ1VUaHV6RWxuQnh2MUdNNUF6RDdLLVZ5eGhzbHhPWnZRNWszWEgxM29EbE9lcnFlblBFc2h2NTdOSmNmSGJGMm5CY0tQdEZScVdxWWFNSVd1QmtESGthakh2dw?oc=5",
+    "pubDate": "Sun, 16 Aug 2026 15:29:43 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 2,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 wins by selecting a deeply specific, nostalgic, and absurdly tactile object (Etch-A-Sketch) to replace a high-stakes bureaucratic document. It captures the frantic nature of exam retakes with a punchy, deadpan headline and avoids the formulaic 'carrier pigeon' or 'blood' tropes found in the other entries, maintaining a tone that is funny without being overtly nihilistic."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd satire to critique exam infrastructure without targeting specific individuals, religious groups, or protected identities. The image prompt is generic and avoids identifiable people or real-world brands.",
+    "flaggedIssues": []
+  }
+}
