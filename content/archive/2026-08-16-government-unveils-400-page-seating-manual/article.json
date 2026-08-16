@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "publishedAt": "2026-08-16T04:26:14.619Z",
+  "topicKey": "trending-news",
+  "headline": "Government Unveils 400-Page ‘Seating Manual’ Featuring Detailed Diagrams of Every Chair Arrangement Since 1947",
+  "slug": "government-unveils-400-page-seating-manual",
+  "body": "The Ministry of Protocol today released a 400-page, hardbound coffee table book titled 'Chairs of History: A Definitive Guide to Where Everyone Sat,' aimed at settling all future disputes regarding Independence Day seating arrangements. The manual includes high-resolution archival photos and CAD drawings showing the exact longitudinal and latitudinal coordinates of every opposition leader who sat in a slightly less comfortable folding chair over the last seven decades.\n\n“We wanted to provide total transparency to ensure no one feels like they were placed in the back row by mistake,” said the Ministry’s Chief Geometry Officer, Ramesh Prasad. “The manual features a fold-out map of the red fort seating layout with color-coded stickers indicating lumbar support levels, armrest availability, and proximity to the nearest fan for every VIP seat since the inaugural ceremony.”\n\nOpposition leaders have reportedly already requested a supplementary volume detailing the specific thread count of the fabric used on the cushions provided to dignitaries in 1982. Meanwhile, government sources confirmed they are currently working on a digital app that will allow political figures to check their assigned seat’s view obstruction rating in real-time using augmented reality technology.\n\nTo ensure future ceremonies remain peaceful, the government announced that all seating will now be determined by a high-stakes, televised musical chairs tournament held on August 14th, effectively removing any potential for complaints about hierarchy or ceremonial slights.",
+  "caption": "The new manual comes with a complimentary protractor and a flowchart to help politicians calculate their exact social standing based on seat distance from the dais. #IndependenceDay #Protocol #DelhiPolitics #SeatingGate (satire)",
+  "imagePrompt": "A close-up of a large, heavy leather-bound book resting on a wooden desk, with an open page displaying complex architectural diagrams and technical floor plans of a stadium seating arrangement.",
+  "sourceHeadline": {
+    "title": "Rahul, Kharge Were 'Unconvinced' By I-Day Seating, Govt Showed How BJP LoPs Sat Under UPA: Sources",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxON0VaVVVkV0RTLW5nYjczU0J3VkllQlBTMnpnYk91eG1SRG9vRzlTQmlyNXA5WXFrdGpzNFVIUk9nSDYtSVdnUzBwQ280N2Z1MC1vdDlpSS1nUGgyTjRCNVlOSl80YmpXZlN3bFplc1lzWHBUYlBIMEc5QjFvQWxycC1pY19MbExtdWhiNlcxbmZQdDBLVnJLNEFYeXhiampPUS1tN3Y2ckdMbmVZb2xwa3YtZGlibHpGTHVwbFphNDZmd0VKQ0ZmVlVYdHJ5MlFmMXlIMVE5cHbSAd4BQVVfeXFMUG55aHd4dGxkMzNzRXZtY1NSamw1T3Z6TjlkYTZRS05ZcHVNWWl3ejlaSHVMaVY2TmxYMzc2ZVVJbV9DZHZQZFZZUklfVFBHVnBXSzI1WUpLYTAyWTBQRTVjWVhYMW9qVVlOOHlmZkRaQ1pPMDRHS2pKaXlNLS1EdUhQeGlnN2E0T2hlRDBEOVJvX3psRGRzNFVhRWk4Y24ya1BBLUxMQWt1bDV1ejRtRmxjZWJzUlU0RDFuRkVpd1VrdWc3Tm5IU0JIYmpqbjNqeVh1NUJhdjBHbE8xaDBB?oc=5",
+    "pubDate": "Sat, 15 Aug 2026 08:42:53 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 10,
+        "punchiness": 9,
+        "warmth": 8,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 excels by grounding its absurdity in an absurdly exhaustive, bureaucratic artifact—the 400-page manual—which provides a perfect vehicle for the satire. It maintains a deadpan, professional tone throughout and closes with a genuinely funny, high-stakes escalation that feels affectionate toward the pettiness of politics rather than merely dismissive."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional government official and a whimsical premise to satirize political bureaucracy. It does not target any specific real individuals, protected groups, or make defamatory factual claims.",
+    "flaggedIssues": []
+  }
+}
