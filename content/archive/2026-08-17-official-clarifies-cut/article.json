@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-17",
+  "publishedAt": "2026-08-17T05:44:51.014Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "State official clarifies '4% cut' is actually just a mandatory 'inconvenience fee' for keeping the file on a desk with a nice view",
+  "slug": "official-clarifies-cut",
+  "body": "The state minister confirmed today that the requested percentage is strictly for 'aesthetic maintenance' of office stationery and premium desk-side chai service. Applicants are encouraged to round up to the nearest whole number to ensure their paperwork remains in the 'priority sunlight' pile.",
+  "caption": "Efficiency is just a matter of perspective (and commission). Would you pay extra for a document to be processed with a better view? #Governance #AdministrativeFees #TransparentGov (satire)",
+  "igHook": "Would you pay a premium just to have your file sit on a desk with a better view?",
+  "imagePrompt": "A cluttered government office desk covered in stacks of dusty paper files, featuring a single ceramic tea cup and an antique rotary telephone.",
+  "sourceHeadline": {
+    "title": "‘Give Me 2%, 3%, 4%’: Annamalai's Big Corruption Claim Against Vijay Govt Ministers",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSHlULTcxd19fLWhRcnNaSjFLcW1OMTFqN3lrNEItT2ZCb1pNUEgtNnVnczlIU1VEWjc2elhINjM5Z0kxVlBlVUttVjZELTkteVNjdHZ0LW9nRE1RY1YzaXRwZUgzQmc5OXM3dVJqT3N0Q1AzRWxxQkZ3WHNHUDhLZ0Q0cVZZVVl0M0NLVkJvcENEVDhERzUtd29GeF8zMjFObFA0dVdaaF9rTDFoem56anNDNGZTVGJJTEtkMjk4MNIBxAFBVV95cUxPUlBzTEFuOENpdUFrV3M4d0cwVEVFcGt1c0RjY3BpNHZTSk9fWnhNZXk0Rjl4dzVqbkVrQWtlay1xaVhsZWxwQkFFX0oySW90TXh1OFFuUHlvVk95TTkyc0RBQmxVcXpXeDdWMmNhSnZ4bk5MTmpEVm1yWlpqWUQ4d3Y5aGFzWEllMXZLUkFCN0pTbDZ5dG5jYUF5LVdGb1g2blVVTThNeTdEekE4SXdmR1NRa05lZGg5Vm40ZnZBcDdaMGUt?oc=5",
+    "pubDate": "Mon, 17 Aug 2026 01:27:08 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 5,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides the most vivid, specific, and absurdly human detail ('priority sunlight' pile and 'aesthetic maintenance' of chai service) which elevates it above the repetitive 'app-launching' trope seen in the other entries. It successfully uses deadpan administrative logic to justify corruption without relying on tech-slop cliches."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'state official' placeholder and depicts universal administrative inefficiency rather than targeting a specific individual or real-world political event. The image prompt is appropriately generic and does not contain any identifying features.",
+    "flaggedIssues": []
+  }
+}
