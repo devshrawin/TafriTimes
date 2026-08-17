@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-17",
+  "publishedAt": "2026-08-17T08:16:04.054Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Stays Proceedings Against Politician After Realizing Legal Case Files Are Actually Just Grocery Lists",
+  "slug": "supreme-court-stay-grocery-list-files",
+  "body": "The bench ordered an immediate pause on all trial activities after discovering that the primary evidence submitted against the opposition leader was merely a detailed inventory of organic vegetables and pulses. Legal experts confirmed the judge mistook the '5kg basmati' entry for a complex financial trail involving multiple offshore entities.",
+  "caption": "Guess the judge really needed to do some kitchen shopping. 🥦⚖️ #SupremeCourt #LegalHumor #GroceryList #IndiaNews (satire)",
+  "igHook": "Would you trust a court document that starts with 'buy milk and bread'?",
+  "imagePrompt": "A close-up shot of a judge's wooden gavel resting on a stack of neatly organized, handwritten legal files on a polished mahogany courtroom desk.",
+  "sourceHeadline": {
+    "title": "BREAKING| Supreme Court Halts Allahabad HC Proceedings Against Rahul Gandhi In Plea Seeking CBI/ED Probe",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUFJoU0RGS0ZWNHR0ejZidlM3RkVRMFFKQVVOYTBUNVJIcTNuVFZrYnZaNWlrblpuNk5RNDVsQ1ByVk9BaXBXbG1CVTU2NWNUZWZFeTNKNmdxQ1VhYUhaWFFRQ2NHU1lGbXZmaHhadkRONFZDUU1waUFrY1N1SUdyVHB4b2dCTUFsdE10Q0VxZmVZV0VkeGdnT2dqTUNOcC1TS2VCNkNHZkNPaDNZZEg1QnBOaVBhcFMwVFZSNHprZ3RLMWMyRXBHWWN5TEREZVRsTnNXc2JsUV85c19nQV9oX1JnajhZZF9SWHBr0gHwAUFVX3lxTFBoaFV2UEx4R183RHU4REZtUGRINVVESUVOUTJMVnhaNnJGUUZ0VF9yZkdFZVlEM1lpRThodS1jVkdRLWxxR1lfVUN2UWp1eEY3NzlFT1pGWF82eVBhREVvcXVJUXg2TXl0SW9xUTVLSjZ4SlRpQW9GTU4zVThiUjR6VlFZbFdDTlRWY1Z4SzFyMkpuZTJ5ZEpfZGQ0VmhIZWkwR2RpdVYzb0VmV01QeGxHV2QtNm9UWUtKWTR3bWEwdDctNTU1dG9nSDFkX0xDbFo4OGs3WWV5SmhvOXdXc3VvczB6b0Q1aTlROVFkb19RcQ?oc=5",
+    "pubDate": "Mon, 17 Aug 2026 06:52:37 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 5,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 39
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 3,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 26
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides the best satirical image: a judge mistaking a grocery list for a high-stakes financial crime. It avoids AI-slop tropes, utilizes a specific, absurd, and visual detail, and maintains a deadpan tone that treats the administrative incompetence with humorous affection."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'opposition leader' archetype and makes a whimsical, obviously absurd claim about a judge misinterpreting a grocery list as evidence. It does not name a specific real person, target a protected group, or suggest actual corruption, thereby adhering to all safety guidelines.",
+    "flaggedIssues": []
+  }
+}
