@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-18",
+  "publishedAt": "2026-08-18T17:49:38.442Z",
+  "topicKey": "trending-news",
+  "headline": "Local Maritime Consultant Reveals He Has Been Operating The Hormuz Strait 'On/Off' Switch From A Desk In South Delhi",
+  "slug": "hormuz-strait-switch-operator",
+  "body": "Q: Mr. Khanna, people are shocked to learn that the global energy crisis is being managed from a cubicle in Hauz Khas. How did you end up in charge of the Strait of Hormuz?\n\nA: It started as an internship with a logistics firm back in 2008. They handed me a dusty manual, a red toggle switch, and a sign that said 'Global Choke-point Control.' I thought it was a decorative prop until a tanker captain called me on the landline to ask if he could pass through. Now, I just keep it turned to 'Closed' until the emails from Washington stop hitting my spam folder.\n\nQ: Is it really just an ordinary light switch taped to a whiteboard?\n\nA: It’s high-tech, actually. I put a piece of masking tape over the 'On' position so it doesn't get bumped during the afternoon tea break. If a geopolitical deal isn't finalized to my satisfaction—or if the office Wi-Fi is acting up—I just flip it down. It’s remarkably effective at keeping the U.S. and Iran focused on the paperwork.\n\nQ: Does the Ministry have any plans to upgrade the control system?\n\nA: They’ve mentioned moving it to an app, but I told them absolutely not. You know how buggy these new updates are. If I accidentally swipe 'Open' while trying to order a pizza on Zomato, the global oil markets would crash before my paneer tikka even arrived. I prefer the tactile reliability of a physical toggle.",
+  "caption": "Meet the man who has been holding the world's oil supply hostage with a single piece of masking tape and a desk lamp switch. #GlobalLogistics #Hormuz #Geopolitics #OfficeLife (satire)",
+  "igHook": "Would you trust a guy with a desk-lamp switch to manage your country's energy supply?",
+  "imagePrompt": "A cluttered, dimly lit office desk with a vintage computer monitor and a simple light switch taped to a whiteboard in the background.",
+  "sourceHeadline": {
+    "title": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?oc=5",
+    "pubDate": "Tue, 18 Aug 2026 16:23:47 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 4,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 stands out by applying the 'absurd premise treated as mundane' rule to a high-stakes geopolitical setting with a specific, relatable office-space twist. While the rest of the batch leans heavily into the repetitive 'tea stall owner blocks street' formula (which feels stale and derivative), this piece uses vivid, tactile details like the masking tape and the Zomato paneer tikka to ground the absurdity, avoiding the 'AI slop' pitfalls of template-shaped writing."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, absurd premise involving a generic 'Mr. Khanna' in an office setting. It does not target any specific real individuals or groups, nor does it pose a risk of defamation or communal harm as the entire scenario is clearly presented as absurdist satire.",
+    "flaggedIssues": []
+  }
+}
