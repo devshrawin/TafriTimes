@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T12:13:04.162Z",
+  "topicKey": "trending-news",
+  "headline": "Regional leader clarifies that U.S. Ambassador will not be invited to participate in his ongoing argument with his local laundry service",
+  "slug": "cm-abdullah-laundry-dispute",
+  "body": "The Chief Minister confirmed that while his struggle to retrieve his favorite kurtas from the local dry cleaner remains a top priority, he refuses to internationalize the matter by involving foreign diplomatic envoys. He clarified that any resolution regarding the missing shirt buttons will be handled strictly at the neighborhood level without external mediation.",
+  "caption": "Local laundry battles remain strictly domestic affairs, regardless of who is visiting the state. No diplomatic cables were harmed in the making of this laundry dispute. #LocalPolitics #LaundryDay #Diplomacy (satire)",
+  "igHook": "Tag someone who would actually escalate a minor dry-cleaning error to the UN level.",
+  "imagePrompt": "A close-up, slightly out-of-focus shot of a stack of neatly folded shirts sitting on a wooden counter inside a dimly lit, traditional clothing shop.",
+  "sourceHeadline": {
+    "title": "CM Abdullah rules out raising internal issues with U.S. Ambassador Sergio Gor",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbzFXdF9teTV2WjNDU1pnMHRXUHN2d2xMTmVQQmRKNnVnRVdzWS1qTXlOSmF4aXU4azFUb3FJOTY2WXBZenVrWHlNclNJSDczVS1nbDVXLUtBbUEzUEtjNmRnem1HVGdQbVBvOVdSVTdNQkZicGZZUFAzd0x4QXR5NUpKUUpmWlVZcGRXdmdBNDNIMzBjVG05c1NRNkdzemdLWWYxY1k4allvdDlXNFBtSHdQNXo0QUhiQUxrZkVQUF8tQTBZSFBHSk5JVVltS000bVdINk42YktUQmFQYXhzRzluR3JoTDDSAe4BQVVfeXFMUDBYMFBjMVJ0WEJwNThfdXVxQWdkQV8wNmhIRDRJYzdXRlA4N1RDV2ZTTmlOLU9ZaFFScDFCNjB0dHpiSDZJN3lDQmtMTkZXSjRTSG05RlRjUUoyUGpYQ2J5TURabUJsQTNSeFl1eVItTzZqRXZBYnZlZUNMTUI3aGdTMlVCNThsNC1PQlVHNl9xQUhLUTA2cVFSRUNUeThIblkyN1JiclFFOUt4R3ZMOHIxMGJVejNVc29fTW5nam9Ib0xPbVF3b3BJeVN6U3RFSm1DTE5rY1RRRkQ5eTZ3VGk2c0ppQTRYdDR2Tkxwdw?oc=5",
+    "pubDate": "Wed, 19 Aug 2026 06:32:06 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Most candidates relied on the tired 'diplomacy-as-food/weather-talk' formula which feels repetitive and lacks punch. Candidate 10 stands out by grounding the absurdity in a mundane, relatable domestic annoyance (a laundry dispute) rather than a generic bureaucratic avoidance, making it both funnier and more human."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'Regional leader' and 'Chief Minister' title without naming a specific real public figure, avoiding risks of defamation or personal harm. The humor is clearly absurd and focuses on bureaucratic over-dramatization, and the image prompt is generic and safe.",
+    "flaggedIssues": []
+  }
+}
