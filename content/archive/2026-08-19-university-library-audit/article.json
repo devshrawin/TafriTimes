@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T06:45:31.197Z",
+  "topicKey": "trending-news",
+  "headline": "Enforcement Directorate investigators at local university find library catalog is entirely composed of vintage grocery lists",
+  "slug": "university-library-audit",
+  "body": "Federal search teams scouring the academic facility discovered that every shelf in the central archive contained only thousands of handwritten notes detailing onion and ginger prices from the late nineties. Officials reported that the university’s exhaustive collection on 'Public Administration' consists exclusively of an uncle's recurring shopping list for wedding catering.",
+  "caption": "Guess the curriculum was strictly 'Market Economics 101'. When the audit turns into a trip to the local mandi. #UniversityLife #AuditDiaries #GroceryEconomics (satire)",
+  "igHook": "Tag a friend who still treats their old grocery lists like a prized academic thesis.",
+  "imagePrompt": "A wide-angle, low-light shot of floor-to-ceiling wooden library shelves filled with dusty, aged pieces of paper rather than books.",
+  "sourceHeadline": {
+    "title": "ED raids SP leader Azam Khan's Trust and university in Uttar Pradesh",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZG9Ha0F0ZUpaMXhPT2lRaERud0pJaHFiY3ByNlhBalBoWjRELURYVlVWUk1RcVh5U2RBVHpDbjNOYTdGTllxOE4wQnA5M0xUZG56a0ZYcHBvWTVPeUNnaGpQQXFkMVRqcTRSSWNHQl9LMWEwclR0blhuR0NnQzlrUVBBNFhjc1RZQzM4OVJXdFRBcm5IbDJOZ1l5U2xQcjhNTHAwSGdXb0RuMS1BNzM4aHZsdHlQRG1qak13OGZoQnhPT1BiSE5Wd0ZoX3dhRHl0Wmp2bk1YNNIB3gFBVV95cUxNWEFXTlFoeXhJZVZNRk5DckhyMEc2R2lHVkQ2c2tDLU10cGkxRGVLT1hEaURWTmI4aHFUQXZMa2l4elQ4TnJrM3lzX09KcS13LUpDNzhqQ1lIOGxLVS1YaDZmZVRzcGpHc1ZCTWJFZS1VN3o0Vmp6akppQV9MMmlLdE5La04zb3c3ZExZZ0xqRTZrQWFmTFZQYmpadFdZaU9WZVY0X0R0SzNCeEczaS03UVRxdzg4OG93cndZVWh6dm5uNGwyN2RhLTY3dmVJVmRxNFp6R1NzRXJkdkRHTUE?oc=5",
+    "pubDate": "Wed, 19 Aug 2026 04:38:08 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 24
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 stood out by providing a specific, absurd, and vivid image (onion and ginger prices on grocery lists in an academic library) that feels grounded and genuinely funny. It avoids the tired 'secret tunnel' and 'late fine' tropes found in the other candidates, offering a much fresher and more human-centric joke."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical piece about a fictional university library. It does not name any real individuals, entities, or religious groups, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
