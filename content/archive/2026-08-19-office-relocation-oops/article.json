@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T01:29:08.178Z",
+  "topicKey": "trending-news",
+  "headline": "Office Manager Resigns After Finding 'Hidden Door' In New Building Leads Directly Into Opposing Political Party’s Breakroom",
+  "slug": "office-relocation-oops",
+  "body": "The relocation process for a prominent administrative department turned into a minor diplomatic crisis this morning when the facilities manager discovered that the architectural plans for their new office had been accidentally inverted, creating a shared wall with the local headquarters of the opposition party. Employees attempting to enter the copier room have instead found themselves emerging directly into the rival group's mid-morning tea break.\n\n“I walked in expecting to staple a few quarterly reports and was immediately handed a samosa and asked for my stance on the upcoming municipal tender process,” said Rajesh Sharma, a junior clerk who has now inadvertently joined three sub-committees of the rival faction. “The coffee is admittedly much better on their side of the wall, which I suppose is why the building committee chose this location in the first place.”\n\nOpposition spokespeople have since issued a formal statement calling the proximity a ‘cynical attempt at intelligence gathering through the medium of catering,’ while the building management maintains the overlap was a purely logistical error caused by a misread blueprint. Contractors are currently attempting to install a heavy velvet curtain to maintain party decorum, though reports suggest employees from both sides have already begun swapping office chairs and printer toner.",
+  "caption": "When the office floor plan is based on a game of Snakes and Ladders. #OfficeHumor #Politics #WorkLife #Relocation (satire)",
+  "igHook": "Would you stay for the free samosas if your office accidentally merged with the competition?",
+  "imagePrompt": "A nondescript, brightly lit office corridor with a slightly off-center door, showing a neutral beige wallpaper and a glimpse of a busy, professional workspace beyond.",
+  "sourceHeadline": {
+    "title": "Vijay Wants To Shift His Office. BJP Alleges Corruption In Tender Process",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVnFfcWtJblZ4VG9mX2lnUWNic1lmckthNDNfZXVNX2k1U0ZYa2FjamlaLWZ4Rkd2UFl0LUNCRzF6S0NNWURtZTh0Wm1jenBqN1IyODRNeVdON0J1TzZGeERVSDl0dUJCSlAtM2NZVnAtaWhyRkhqVW9VbVgzQXEySDNoUVk0UUhaRms1SUxITDgzcVotVXhYQ19ibUpiajI3XzhtVXJQLXJ1emRnMDBlOTRhMA?oc=5",
+    "pubDate": "Tue, 18 Aug 2026 11:46:48 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by presenting an absurd spatial premise that allows for a genuinely human, warm interaction (shared samosas) rather than just cynical bureaucratic mocking. It avoids the repetitive 'corruption probe/tender' tropes found in the rest of the batch, creating a more vivid, funny, and distinct mental image."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, fictional office setting with a made-up character, avoiding any real public figures, private individuals, or hate speech. The image prompt describes a neutral, generic environment without identifying real locations or brands.",
+    "flaggedIssues": []
+  }
+}
