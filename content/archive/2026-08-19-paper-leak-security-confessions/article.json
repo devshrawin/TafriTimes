@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T03:38:51.927Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "I am currently serving as the 14th seal on a single exam paper, and I haven't seen my family in three weeks",
+  "slug": "paper-leak-security-confessions",
+  "body": "My name is Rajesh, and until last month, I was a perfectly happy junior clerk. Now, I am officially classified as 'Human Lockbox #4' in the Education Ministry’s new four-tier security protocol. My job is to sit in a climate-controlled vault in a basement in Delhi, physically hugging a sealed envelope containing the mathematics paper for a competitive exam until the exact minute of the test. I am not allowed to eat, sleep, or even sneeze, because apparently, a sneeze is now considered a 'Tier 2 security breach'.\n\nThey told me this was a temporary measure to prevent leaks, but the paperwork I signed says my tenure lasts until the next assessment cycle, which is in 2028. My colleagues, Locks #1 through #3, are currently stationed in secret locations across the country—one is inside a submarine off the coast of Goa, and another is supposedly living inside a hollowed-out pillar at a railway station. We communicate only through coded taps on the wall that must be approved by three separate parliamentary committees.\n\nYesterday, my supervisor poked his head through the vault air-vent to ask if I’d noticed any leaks. I tried to tell him that my leg had gone numb three days ago and that I’m starting to develop a strange, telepathic bond with the algebraic equations inside the envelope, but he just marked my clipboard as 'Compliant' and sealed the vent back up with industrial-grade wax. I honestly don't even care who wins the exam anymore; I just want to know if, at the end of this, I’m allowed to keep the envelope as a souvenir or if I have to be incinerated along with the scratch paper.",
+  "caption": "Meet the man whose job security is literal, not professional. Are the four tiers of protection enough, or do we need a fifth human seal? #EducationReform #ExamSecurity #BureaucracyLife (satire)",
+  "igHook": "Would you volunteer for this if it meant a government pension?",
+  "imagePrompt": "A dimly lit, cramped concrete room featuring a single wooden chair placed in the center, with a small stack of official-looking, wax-sealed manila envelopes resting on a desk nearby.",
+  "sourceHeadline": {
+    "title": "Education Ministry tightens noose on question paper leak, introduces four-tier checking system",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOTF1RkZaZW9ySjdvY3VhNWd3bGZFMVhVbndQYU1IQ0RRUnFNMDFJYXR1UU5xeXdDX1Btb21VYWxQWUhYY0R4alBRY0gyTHJEYUhEaXJUUEFYYnYybzk3TVA1MGI5UHp4TDB4ckdxZnFjT1FjTFFOc0tZMzJXNUNnYk4zRkUtOFJnNmxDZFdDcGVMRF93LXVGc1ZxbFBQOUVfbmhReGYzTC1ESGlVTmZPbkNZM0lIWEEwdDlfaFhKMElQZmNrMUhUcGhzcXJKUU1XWDJCdHF3WS1IaFd2N0VRdUtINA?oc=5",
+    "pubDate": "Tue, 18 Aug 2026 16:32:53 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 44
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Index 11 captures the perfect 'Tafri Times' balance of absurd, hyper-specific bureaucratic horror with a sense of bizarre human resignation. The imagery of 'Human Lockbox #4' having a telepathic bond with math papers provides the vivid, grounded detail that elevates it above the other repetitive 'isolation' or 'vault' premises."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear piece of satirical fiction about bureaucratic absurdity. It uses a generic, fictional character ('Rajesh') and does not name or target real individuals, religious groups, or castes. The image prompt is appropriately generic and does not contain prohibited content.",
+    "flaggedIssues": []
+  }
+}
