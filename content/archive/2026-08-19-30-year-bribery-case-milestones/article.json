@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-19",
+  "publishedAt": "2026-08-19T23:33:42.517Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "5 Milestones Reached by the 30-Year Corruption Case That Finally Acquitted Two Clerks Over a ₹20 Bribe",
+  "slug": "30-year-bribery-case-milestones",
+  "body": "1. The original ₹20 note, having long since been demonetized, was promoted to a museum artifact and now has its own dedicated security detail. \n2. The two government employees involved have successfully aged through four different prime ministerial terms, five wardrobe shifts, and the entire evolution of the smartphone. \n3. The legal case files have reached a weight of 400 kilograms, requiring the courthouse to construct a new structural support beam specifically for the 'Miscellaneous Petty Transactions' wing. \n4. The primary witness, who was six years old when he saw the bribe occur, is now the presiding judge’s personal yoga instructor. \n5. The inflation-adjusted value of the original ₹20 bribe, factoring in three decades of interest and administrative processing, has now officially exceeded the budget of a small municipality.",
+  "caption": "Thirty years of justice for twenty rupees. At this rate, the paperwork for the canteen bill might take until the 22nd century. #JusticeDelayed #Bureaucracy #India #Law (satire)",
+  "igHook": "Would you wait three decades to be cleared of a ₹20 fine?",
+  "imagePrompt": "A dusty, towering stack of yellowing legal files sitting on a wooden desk inside an old government office, with a single worn-out coin resting on top.",
+  "sourceHeadline": {
+    "title": "30-year corruption case: Supreme Court acquits 2 government employees over ₹20 bribe",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVJoMEhPTGR6Sk1zcm9nRmdzVlJxV3h5VENUbmV1OW90WXR2SjFUMVdwanJ5dnJSTE9fc3J2and5UFNRWmN5eTh0MU81TWxSUzU1eXRuWEpzZ0FKNlU5aFlqdF9FaWlZaE1IZWhzSTRDQnZmY3p5dXVHV0tEZGNLd3B3NkZibVRmYUNEZHVVRGdJSGZLWGxBcC1DV3UzT1NzekFtcnNpMndnd1NYUms1OVJLSVhVQQ?oc=5",
+    "pubDate": "Wed, 19 Aug 2026 14:21:23 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by providing the most concrete and absurd imagery—such as the bribe becoming a museum artifact and the courthouse building structural supports for case files—without relying on meta-commentary. It maintains a consistent, deadpan tone that balances bureaucratic absurdity with a human, almost heartwarming focus on the absurdity of the passage of time."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a satirical commentary on judicial delays and bureaucratic inefficiencies in India. It does not name any real individuals, entities, or religious groups, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
