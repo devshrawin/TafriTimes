@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T16:35:04.854Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "State official adds 'guaranteed return of forgotten pen' to list of demands for visiting Union Minister",
+  "slug": "state-official-adds-pen-demand-to-union-visit",
+  "body": "Following high-level discussions, the state government has officially requested that the visiting Union Minister also personally locate and return a blue-ink ballpoint pen borrowed by his staff in 2017. The item, described as having a slightly chewed cap, remains a top-three priority alongside longstanding policy disputes.",
+  "caption": "Priorities are priorities. The stationery cabinet just hasn't been the same since that delegation visited seven years ago. #Politics #StationeryDrama #Priorities #TamilNadu (satire)",
+  "igHook": "Tag someone who still hasn't returned that pen you lent them in 2017.",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a wooden conference table inside a government office, featuring rows of identical leather folders and half-empty glass water bottles.",
+  "sourceHeadline": {
+    "title": "Tamil Nadu CM Vijay keeps three requests before home minister Amit Shah – delimitation, NEET and… | India News",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMjBnSnBxR2g2QUpmTERocDFDNVRWbm1wV2EwVlZNcVl5TFRTM0cyOFZxZUJ4a3IzMG1KaXlhOUV3cU5LelZ2clJiLVd3MjNEemJTVC1uRjFndHN6dzhUTUVGdzMzZzlMa2dHYnQ4Z3MtY0lMTWZNRkVueHAwMVppUk5ka21OOU1wOXJrTnVwdVl4NGQ3QWE1cDFGOGZUT2w3RTBTZ3RjYXRuRzZVd0ZOWXQtSW1tQWRyTlQ1NFlvNFczMElBbzRheXE3Z2dFYU9maDNNNTBFS1RTRzdRYV9kRHZ3WDQwWlBkT2VlOQ?oc=5",
+    "pubDate": "Thu, 20 Aug 2026 14:33:19 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 19
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 18
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 18
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 6,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 17
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 19
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 3,
+        "total": 18
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 excels because the absurdity is grounded in a specific, relatable, and deeply mundane human experience (the lost, chewed-up pen from 2017). By treating this petty grievance with the formal weight of international diplomacy, it achieves high surprise and structural fidelity without relying on tired 'government office' tropes or over-explaining the joke."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, whimsical piece of satire about petty office bureaucracy. It does not name any specific public figures, targets no protected groups, and uses a generic, anonymous image prompt.",
+    "flaggedIssues": []
+  }
+}
