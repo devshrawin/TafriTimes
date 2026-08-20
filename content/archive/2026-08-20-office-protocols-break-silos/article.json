@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T17:52:31.408Z",
+  "topicKey": "cricket",
+  "headline": "5 New Mandatory Office Protocols Following The Latest Call To 'Break Silos'",
+  "slug": "office-protocols-break-silos",
+  "body": "1. All internal communication must now be conducted exclusively via paper airplanes launched from cubicle partitions to physically 'break' the physical barriers between departments.\n2. Employees are required to spend 45 minutes of their lunch break sitting in a randomly assigned department’s breakroom to confuse their own professional identity.\n3. The office printer will now only print documents in a 'Social Gradient' font that changes size based on how many cross-functional teams were CC’d on the email.\n4. Every Monday morning meeting shall commence with a mandatory five-minute interpretive dance representing the dissolution of departmental walls.\n5. Employees must replace their standard corporate email signatures with a 200-word autobiography to ensure that colleagues know them as 'human beings, not just file-processing units.'",
+  "caption": "Breaking silos just got a whole lot more literal. Check out the new office mandates following the latest high-level directive. #OfficeLife #CorporateSatire #WorkCulture (satire)",
+  "igHook": "Tag the colleague who is definitely going to fail the mandatory interpretive dance portion.",
+  "imagePrompt": "A generic, brightly lit office interior showing rows of empty cubicles with colorful post-it notes attached to the monitors and a stack of paper airplanes resting on a desk.",
+  "sourceHeadline": {
+    "title": "'Break silos, engage more with youth': PM Modi’s message to officials after key high-level meeting | India News",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeGJNOGloZS0yX0owQTBYX2Ixc1BOMjBxdDdMbTVCYTY0RWxYbzJCbWRDRzdVbHdEWklhcU04RnBzQnFvVXkweFFuQnlrekhHNzZUalBUdzV2aEpLZEVVS1lXWVNZd0NqSWQ4SHg4dGI2QW5ELU1PVnVxUTJPSnhyb0tYeW5iMUtGU0drT3Q3V2dmSFJUWS0wWENWcEFoeHF4NmdsMUE0Q1B5dEE1YXViVGwzMy13TWRoN2loT3g0WndCN19VeDV2MUVBVkswTlBOak9HbzZhZUJZWl9JYmk5OWppMVZ1UVNaZ0JFUjdn0gHzAUFVX3lxTFA0cVV1M0lPU29DRFFVRzdndkprSGVkODhjdWNZdHBPYVBkTVA1OWpnQy1PUjdYRjZxRVVQa09zRlU0cXJURWRfYlNnX0YwWVBMQ1V0a3k0LWw5dW5lZ0RqZFJVTGFiV3gtVTZ0UWpJWnZHd1JkT0xSNXgzaGs1UmhqWElueWdtX0dQV1JuMnhRN0h2T3JQNDBZZHl3Q3F1SEY2YVdkeUhhOWlaUFBVLWtndDNkbFNYdS1Bc3NjamhwMzhKTmxQTzFRMEFJRmgtMWFKcG5yUGs3Z2ttc21FaG80QnJrYk9UX28tOFN3YU9YYk82WQ?oc=5",
+    "pubDate": "Thu, 20 Aug 2026 16:41:18 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Most entries suffered from the 'Gen-Z slang in bureaucracy' trope which has become highly repetitive AI slop. Candidate 2 stood out because its premise—bureaucrats trying to 'break silos' by physically launching paper airplanes and misidentifying their own professional identities—felt distinct, creative, and possessed a warmer, more whimsical absurdity than the tired 'government official using Gen-Z slang' joke found in all other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical take on corporate culture and management buzzwords. It does not name any real individuals, entities, or sensitive groups, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
