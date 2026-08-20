@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T05:27:16.556Z",
+  "topicKey": "cricket",
+  "headline": "Foreign Ministry Issues Stern Diplomatic Note Requesting That Visiting Envoys Please Stop Giving Directions To Local Auto-Rickshaw Drivers",
+  "slug": "diplomatic-note-auto-rickshaw",
+  "body": "The Ministry of External Affairs has officially summoned a senior diplomat to clarify that while international envoys are free to sightsee, they remain strictly forbidden from instructing local drivers on the most efficient routes to Srinagar’s main market. The move follows reports of a visiting official insisting on a 'faster shortcut' that resulted in the rickshaw spending three hours stuck in a lane occupied entirely by goats.",
+  "caption": "Guess even world leaders can't escape the local traffic logic. #Diplomacy #SrinagarDiaries #TravelFails #AutoRickshawLife (satire)",
+  "igHook": "Tag the friend who always tries to tell the driver which shortcut to take despite clearly having no idea where they are.",
+  "imagePrompt": "A wide shot of a brightly decorated three-wheeled auto-rickshaw stuck in a narrow, bustling street filled with pedestrians and a few stray animals, taken from behind.",
+  "sourceHeadline": {
+    "title": "Red-faced Pakistan summons top diplomat over US envoy Gor's J&K remark in Srinagar",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRTliRnVKcmJ0WnR0OGZGYjJZeEQ2QmhDaGYwQ29ROElWVC1jUE5pSDhMWXpmcVJfNS1XeWdkWlJsc2NnUTlYWjBWSEtVcjVabUFraGE2cmJoUXJUM3dmWFJXTFE4aU9ZUGRZR21fYUFHMzVZSVFfUUozcm8tdXVnRjlJZ1BJc3VBQzdURUNrNExzNUd0MFY5Z20zX0lPcTE2a0RYZHhIdnBKOFZmcndlaW0yLVpiU3pHc0o3RFZ6Z183YnJoRTJPV2lLS2gwajRRcm50eGlTYjlQc1FaMjdCa0hQd1ZhdXlmNm92bkZR?oc=5",
+    "pubDate": "Wed, 19 Aug 2026 16:31:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 50
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 stands out for its high level of specific detail (the goat-filled lane) and a premise that perfectly captures the absurdity of institutional bureaucracy interfering with mundane life. Unlike the other entries, it avoids repetitive tech-based jokes and offers a vivid, visual, and genuinely warm depiction of bureaucratic overreach."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic satirical premise involving fictional diplomats and local traffic issues. It does not name any real individuals, target specific religious or caste groups, or engage in defamatory claims.",
+    "flaggedIssues": []
+  }
+}
