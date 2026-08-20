@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T08:23:01.643Z",
+  "topicKey": "trending-news",
+  "headline": "I Am A Junior Lawyer Currently Living In A Filing Cabinet Because I Cannot Find A Single Person In The Bar Council Who Is Not Resigning Or Apologizing",
+  "slug": "junior-lawyer-filing-cabinet-protest",
+  "body": "I have not seen my desk in three weeks because it has been converted into a temporary desk-space for a subcommittee tasked with drafting an apology for the previous committee’s apology. My chambers are currently occupied by a rotating roster of officials waiting for their turn to offer a 'belated but sincere' statement of regret regarding a meeting that occurred in 2012. I have taken up permanent residence in the Legal Records Cabinet (Section C, Drawer 4) because it is the only place in the building where no one has yet convened a quorum to discuss professional conduct.\n\nYesterday, I tried to file a simple bail application, but the clerk informed me that the document would first need to be vetted by a three-member panel specifically created to determine if my font choice constitutes a 'veiled expression of institutional dissatisfaction.' Every time I try to talk to a senior member of the bar, they simply hand me a stamped letter of resignation, smile politely, and then ask if I know how to operate a photocopier for their personal memoirs.\n\nI am quite comfortable here among the dusty case files from the late nineties. It is quiet, the humidity is consistent, and the only thing I am required to do is occasionally hand out pens to people who keep arriving to apologize for things they haven't done yet. I have even started charging a small 'shelf-rent' to junior associates who want to store their briefcases near my feet. If the Bar Council Chairman does eventually resign, I plan to move up to the stationery closet, which I hear has excellent ventilation and far fewer internal investigations.",
+  "caption": "When the institutional politics get so messy that the interns are living in the furniture. #LegalHumour #BarCouncilProblems #LawLife #LawyerMemes (satire)",
+  "igHook": "Would you trade your office desk for a filing cabinet just to avoid a committee meeting?",
+  "imagePrompt": "A cramped, cluttered office hallway in an old government building featuring rows of tall, beige metal filing cabinets and piles of weathered legal documents stacked on the floor.",
+  "sourceHeadline": {
+    "title": "Bombay Bar Association Calls Manan Kumar Mishra's Apology Belated, Says He Must Resign As BCI Chairman",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUERlc0FDUlBhdnRwT1lEZmRwSllGU2FwRFgzcEZlZlRMWHdGSTNfQ2dLYWM1TVBnN0Z5a2xhU3FQZ0djcE1tSzA0Q0ExeDA5b1pkQnVhV2hqaHk2azJERU5JRy1WbjFBdkQ2alVObzE3V2VKQ3R5SWJraE1QVEdObXNReTNrRzBZX01SaTVfRkJYbzhLeDBBdWlWTjdoUUdmZGxwcWVjTnJIRFo2VGw1Y1dxZFNXeWxlQmIwdkZaQUhMeWdjNjY1bjFmZjRDelNvLUZ6RlprdnM4b2xvNVc40gHkAUFVX3lxTFBidXQ3RDFpMUtzNXdJZTlFbWZJa0Z4Y0hBd1VFc3BSRVY3cHRBbHFlZ2JUUExoOWFHdHBMME5XWjVtcFZ5dXAxSDYxaUV4ZmFKRXJvdXBXS0tEaEJXM0ZMTWV2RjdPRFpmdldnZ3hvUGNyNENsUmlvQ0tUVUs3a0hXWl9odUc0TFd6NDRBSVFxMUVEQVlmQmMzOWg2VHNYNXlXUjNBQkVKZGducTdySWVyaFJFQUY5V0NQdURycUp3aFpUX1N3cmc3d3ZrUHNBaFlGTjk4a3VVYVQ1XzRIVHJBY0dXTQ?oc=5",
+    "pubDate": "Wed, 19 Aug 2026 10:15:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 provides a vivid, concrete image (living in a filing cabinet) that effectively communicates the absurdity of the institution's gridlock without needing to over-explain the joke. It maintains a warm, character-driven tone rather than devolving into mere cynicism, and its premise feels distinct from the recent headline list."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses the legal profession as a broad, generic setting for satire. It does not name any specific public figures, private individuals, or religious groups, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
