@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-20",
+  "publishedAt": "2026-08-20T23:50:59.302Z",
+  "topicKey": "trending-news",
+  "headline": "University Canteen Reclassifies Scrambled Eggs as 'Political Discourse' Following Campus Protest",
+  "slug": "university-canteen-eggs-political-discourse",
+  "body": "The campus mess hall has officially updated its menu to categorize all egg-based preparations as inflammatory debate material requiring a notarized affidavit for consumption. Students seeking an omelet must now submit a 500-word ideological summary to the canteen manager to ensure the protein intake aligns with current institutional consensus.",
+  "caption": "Forget asking for salt, you might need a lawyer just to get your breakfast order in this morning. Would you pass the politics or the pepper? #UniversityLife #CampusDebate #BreakfastPolitics (satire)",
+  "igHook": "Tag a friend who would definitely get suspended for ordering a sunny-side-up egg without a permit.",
+  "imagePrompt": "A close-up shot of a rustic, stainless steel cafeteria serving tray holding a plastic plate with a plain, unadorned fried egg and a piece of dry toast in a dimly lit, institutional-style dining hall.",
+  "sourceHeadline": {
+    "title": "Three months after BJP win in Bengal, eggs reach Jadavpur University as ABVP lays siege",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxON0pCRzNXMWlYU1EteGxMTEVNeEN3RGZYMlk4OUh1bmZvZ0dFV2JMOWpJTDhoYzRTOHV2SUlTOUJmbHRFSng1ZWo4MWE1OWdnc2RWd19uYmpPb1FObzgtNDdTXzM2N3lrZVRYcXFaQVBIdVEwOXBlLVpSSGljdVBKUkd5d1VuNE4wdXpjU0RIM1dCUHlPWjVYNW9fLU81cGE3b3pCMm9mU1pIQW5wdWhsN3hOdHowYjhJMF9EcDBWM0dId01mUDdmWTB4RnN1NWh4R0JzalVjVFlkd2NFRjNXRjdPMDVzVFByR2steS03X3hMa2Y3bHh3Ungzb9IBgAJBVV95cUxQVDA0UTVvSDFOOVVyY2MxV2I4MV82dHp0MUJ3V09INUJPR2RoS1A0YUpfem5LY2l2M21sUzJvR2g2YmtLOTl0QmtYTldUMHZpWGg5NmlhRzdyZFRaRFpBWGhSaWQ4Q0VZYVJ2OHhGUXM0WEhWSDM5WWlXSXBjbXotX3ZTN2M1ZHRCTmlPWEVTX0w4Qmg3Z0J6X184dUg3Mk41Z3pncGs0dlVtcmlyZC10TXZDUUlhcTFDOG9rZTE4UEIxcGtNUzBPSzBRNXo4LTdDMnNQc3dISGtOanVJMW1qZzJmXzhsODJUaDN0QUJCOEw2eHhaMGRHZFI5QVRnNTNW?oc=5",
+    "pubDate": "Thu, 20 Aug 2026 12:39:40 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 provides the most specific and deadpan bureaucratic expansion of the premise. It avoids the repetitive 'egg-based projectile' trope common in the other entries by focusing on the absurdity of the canteen requiring a notarized affidavit for an omelet, which feels grounded and structurally sound."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, fictional administrative overreach to satirize campus culture and political correctness. It does not name any real individuals, target protected groups, or involve any prohibited content, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
