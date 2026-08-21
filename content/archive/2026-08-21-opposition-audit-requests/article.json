@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-21",
+  "publishedAt": "2026-08-21T08:09:22.698Z",
+  "topicKey": "trending-news",
+  "headline": "5 Unusual Items Opposition Leaders Now Request To Audit By Sitting Outside Government Offices",
+  "slug": "opposition-audit-requests",
+  "body": "1. A detailed schematic of the specific shade of beige used in the interior of the Home Ministry’s reception desk.\n2. The exact number of paperclips consumed by the Delhi Police’s evidence room between the years 1994 and 1998.\n3. A full audit of how many times the office tea vendor sighed while pouring chai for junior-level bureaucrats.\n4. Access to the secret database tracking which printer in the secretariat jams the most frequently during monsoon season.\n5. A comprehensive list of every lunch break duration exceeding 29 minutes taken by the local traffic police department since the last fiscal year.",
+  "caption": "From furniture color codes to the frequency of office tea-breaks, the list of 'essential' information is growing. Which mundane detail should they investigate next? #PoliticalHumor #Opposition #AuditLife #NewDelhi (satire)",
+  "igHook": "Would you wait all day for an answer to one of these ridiculous questions?",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a government building's exterior with a stack of empty plastic chairs lined up against the wall near a heavy metal door.",
+  "sourceHeadline": {
+    "title": "Rahul Gandhi Seeks Info On Pellet Gun Use, Sits Outside Senior Cop's Office",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXBJY1pNZVBSVGNoanloVTluUDlPRVZ3SXlRcnU5cTh1ZF83Z2J1d2ZnR2xLTURFT3M2bUw5ZE91ZVRrTi1pQnpnczhZTFI1Skc5M2JfQmE0Z1B0ZUJqeHhJLTJjaFJ2azFDMWpsQmVzNjlyZTE4aDJIeTNRSk1CWEI0cGVDUVRTelFxSUVuaTlBbXlpRENPMGs5NnpmdUV1MVhFZEF1ZWRINFVCT19PNzQxSks?oc=5",
+    "pubDate": "Fri, 21 Aug 2026 07:18:27 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 best captures the absurd, pedantic nature of bureaucratic obstructionism through its specific and mundane audit requests (like counting paperclips or monitoring tea-vendor sighs). It avoids the over-reliance on camping gear lists seen in the other candidates, opting instead for a sharper, deadpan satirical take on how politicians might weaponize triviality to mirror bureaucratic inefficiency."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, non-specific satire regarding political opposition tactics without naming real individuals, religious groups, or protected entities. The image prompt is generic and avoids identifiable landmarks or real figures.",
+    "flaggedIssues": []
+  }
+}
