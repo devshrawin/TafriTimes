@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-22",
+  "publishedAt": "2026-08-22T09:48:41.940Z",
+  "topicKey": "trending-news",
+  "headline": "Party Social Media Manager Discovers Reels Algorithm Operates Entirely On Sound Of Local Samosa Vendors Frying",
+  "slug": "party-social-media-manager-discovers-reels-algorithm",
+  "body": "Rohan Mehra, a digital communications strategist tasked with cracking the 'Instagram code' for his political party, believes he has finally decoded the secret to viral reach after three weeks of obsessively tracking audio trends. According to Mehra, the algorithm is not driven by policy discourse or high-production campaign videos, but rather by the subtle, rhythmic sizzle of oil and the distant clatter of a metal ladle against a street-side kadhai.\n\n'I spent months crafting 4K graphics and rehearsing perfectly scripted talking points, only to have them flatline at 400 views,' said Mehra, while adjusting his ring light in a cramped makeshift studio. 'Then, last Thursday, I accidentally posted a video of my intern buying a snack with the raw audio of the vendor’s chatter left in. It hit two million views in six hours. Apparently, the secret to reaching the demographic is just high-quality ASMR of a hot frying pan.'\n\nTo pivot their entire national strategy, the team has reportedly decommissioned their expensive teleprompters in favor of a specialized microphone rig currently being installed inside the city's most popular roadside eateries. Mehra confirmed that upcoming campaign reels will feature prominent party spokespeople merely standing in the background, thoughtfully nodding, while the audio focuses exclusively on the crisp, golden bubbling of potatoes hitting the oil.\n\n'We’ve realized that if you want the youth of India to listen to your manifesto, you have to sandwich it between the sound of a chutney bottle being squeezed and a vendor asking if you want extra green chilies,' Mehra added. 'It’s not politics anymore; it’s a culinary-political crossover, and frankly, our engagement rates have never been hungrier.'",
+  "caption": "Forget the manifesto—everyone is here for the snacks. Are we officially moving into the era of Samosa-based policymaking? Let us know what audio trend you think wins the next election. #SocialMediaStrategy #IndiaPolitics #Reels (satire)",
+  "igHook": "Would you actually vote for a party that only communicates through the sound of frying snacks?",
+  "imagePrompt": "A close-up, out-of-focus shot of a street-side metal frying pan filled with oil and snacks, with a blurred smartphone on a tripod stand positioned in the foreground.",
+  "sourceHeadline": {
+    "title": "Gen Z: India's BJP mastered WhatsApp and X. Now it is trying to crack Instagram",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NZ3YwOE5QeE5UQkx6TUtkcFBjVnp4a3dkUHRGUEF2eWZxc0pCUm1EUWJtZkM2amF3bk5PVWxwdEE0NUN2ZzF6LXg5amtXbjczbUhLSUJuZGFvdw?oc=5",
+    "pubDate": "Fri, 21 Aug 2026 22:15:32 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 45
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 wins by finding a genuinely surprising and concrete absurd pivot—relying on the ASMR of frying snacks rather than just 'doing Gen Z trends.' Its specificity (the sound of the ladle, the chutney bottle) and the deadpan implication of 'culinary-political crossover' make it the most original and humorous of the bunch."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional character to satirize digital marketing and social media trends in Indian politics. It does not name real private individuals or public figures, nor does it promote hatred or defamation.",
+    "flaggedIssues": []
+  }
+}
