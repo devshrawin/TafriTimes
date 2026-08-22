@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-22",
+  "publishedAt": "2026-08-22T03:11:53.391Z",
+  "topicKey": "trending-news",
+  "headline": "Local AC technician reports 400% surge in bookings from people trying to cool their entire neighborhoods",
+  "slug": "el-nino-heatwave-ac-bookings",
+  "body": "Air conditioning professional Rajesh Sharma confirmed that he has received over 60 requests this week to install industrial-grade cooling units in public parks and open-air apartment balconies to combat the historically intense El Nino heat forecast. Customers reportedly believe that by pointing a window unit toward the street, they can effectively lower the regional temperature for the entire district.",
+  "caption": "Forget the central AC, this hero is trying to cool the whole colony one window unit at a time. #Heatwave #ElNino #ClimateChange #Indiastories (satire)",
+  "igHook": "Tag the friend who thinks their tiny room cooler can fight a global weather pattern.",
+  "imagePrompt": "A close-up shot of a dusty window air conditioning unit mounted precariously in a concrete wall with a blurred city street scene in the background.",
+  "sourceHeadline": {
+    "title": "El Nino set to be most intense ‘for over a century’: UK forecasters",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWlHa2d5V25veGJmb1hzN0RsNk5yd2FJLThkSlNtaFFwMFVpYnhCbXhtNzI5dEQ2T2lRX0pNWUl6dnhBb1RfRFM0NmxIWUMwSVFwaUM5aENHaXRJSXhXenVmSzJ4SVQ4QzVNZEdWOU9pd3F3Nnk2bnNqWjBRd2tkVThCeDNyY21zODFKZ08zWW9WSzVIZjR4bnpFTUZmUjZNcUJsXzN5clPSAa4BQVVfeXFMTWhNaGFVOVVzY3V4cmpLSVFWUDF1TnU1WlJSM1pwMVMwckhjcmhuOGVrNzFXTFdmaGNmeFFXU1FyelZSSkxWUk92SVo1TVloTFhYU0FYSmllTTlyak9tRnRjdjE0dWNaS2ZwOFAtOFJhV2ZUeHF5Vll0ajFNNVBBMVRfRmI2T3g1THVHRUd3RjBFWkVjMWFJY0hIT3AxWTBvUHEzVndaMEwxakVEbTBn?oc=5",
+    "pubDate": "Fri, 21 Aug 2026 13:45:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 46
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 47
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Index 11 captures the perfect 'absurdity as mundane' tone required for satire. It avoids the repetitive 'Local man cancels plans' trope found in most other candidates and presents a vividly funny, specific image—trying to cool an entire public park with a residential window unit—without winking at the audience."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic name ('Rajesh Sharma') that does not identify a specific private individual. The content is harmless, whimsical satire about a relatable human quirk, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
