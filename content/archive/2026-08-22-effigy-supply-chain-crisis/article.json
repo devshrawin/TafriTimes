@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-22",
+  "publishedAt": "2026-08-22T16:00:23.933Z",
+  "topicKey": "trending-news",
+  "headline": "My Small Business Selling Premade Effigy Kits Is Facing Unprecedented Supply Chain Pressure",
+  "slug": "effigy-supply-chain-crisis",
+  "body": "As the proprietor of 'Burn-It-All Novelty Crafts,' I usually handle a modest flow of orders for foam-core effigies and combustible protest props. However, since the latest round of political rhetoric started hitting the national news cycle, my workshop in West Delhi has turned into a war zone of straw, glue, and unbridled local frustration. I haven't slept in forty-eight hours because the demand for 'Generic Public Figure' kits has skyrocketed, and quite frankly, my suppliers of biodegradable sawdust are struggling to keep up with the current political climate.\n\nMy customers don't just want a face; they want specific facial features that convey a certain level of administrative incompetence. Yesterday, a local activist group demanded an effigy with 'expressive eyebrows of disbelief' and an outfit that accurately mimicked the sartorial choices of a mid-level bureaucrat. When I tried to explain that I am a craftsman, not a political satirist, they threatened to burn my display model of a generic anthropomorphic cartoon character if I didn't comply.\n\nI’ve tried to pivot to 'protest-neutral' effigies—mostly just abstract shapes wrapped in newspaper—but apparently, the public mood is far too specific for minimalism right now. If the current trend of being offended by historical assessments continues, I’m going to have to hire an entire team of portrait artists just to keep up with the changing list of people who are being set on fire by proxy. It’s an honest living, but I never expected my quarterly revenue to be so tightly tethered to the fragility of political reputations.",
+  "caption": "Running a craft shop is hard when everyone wants to burn your inventory. #SmallBusinessProblems #EffigyLife #ProtestCulture (satire)",
+  "igHook": "Would you believe that the 'generic bureaucrat' model is actually my best seller this month?",
+  "imagePrompt": "A cluttered workshop table covered in straw, cardboard cutouts of human features, glue bottles, and stacks of newspapers, with a partially assembled effigy sitting in the background.",
+  "sourceHeadline": {
+    "title": "Sikh protesters burn Rahul Gandhi effigy over Sajjan Kumar ‘role model’ remark",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPelVqSXJSeEpocEswNHAxR1RjeUdMaWtfaEZYXzMySEYtWUVrRUFNcGJwZTkzN3JIYXBJcmg5SDBFTHM0QnhnbDVYTGNTbWNPaWpSYlNOSWJ0UE1LRFZTckZfcE5ocDEzYUMxcnRkM05pVEFpa3ZzZHIzTS0zeUJQQkc5ZnNmdzBSOVNBaW9BcmFGd1RzU3hqTUVvb091YWlqMWNkcTI4WGRRUFF1TXNtVWJGdm5vSHc0RGhZbnktV2dTQ0hPSmZXZUdCVDZtcjJ0YjJLRTdaakpPWlJfUkZkYzN5NWg4bHVhZjA4?oc=5",
+    "pubDate": "Sat, 22 Aug 2026 09:34:39 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 19
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 17
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 3,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 4,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 5,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 6,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 7,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 15
+      },
+      {
+        "index": 8,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 15
+      },
+      {
+        "index": 9,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 15
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 15
+      },
+      {
+        "index": 13,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 15
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 provides a fresh, genuinely funny perspective on the effigy-burning topic by shifting focus to the artisan business owner, allowing for specific, absurd details about 'expressive eyebrows of disbelief' and the frustrations of an niche craftsman. The other candidates suffer from being repetitive variations of the same 'protest-wedding' premise, which is already stale and currently trending in the recent headlines list."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, generic premise to satirize protest culture and supply chain issues without naming real individuals, religious groups, or specific public figures. The image prompt is generic and avoids identifiable landmarks or people.",
+    "flaggedIssues": []
+  }
+}
