@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-22",
+  "publishedAt": "2026-08-22T07:54:29.881Z",
+  "topicKey": "trending-news",
+  "headline": "Travelers Confused After US Visa Ruling Forces All Applicants To Prove They Exist Through Interpretive Dance",
+  "slug": "travelers-confused-by-new-visa-dance-mandate",
+  "body": "\"I spent three weeks perfecting my peacock routine just to prove I am a legitimate software engineer, but the embassy official said my wings weren't symmetrical enough for a H1-B,\" complained a frustrated software developer from Bengaluru.\n\n\"The consulate told me that if I want a tourist visa, I must express the concept of 'leisurely sightseeing' through a contemporary ballet sequence, so I’ve been practicing my jetés in the waiting room for six hours,\" remarked a confused corporate executive awaiting his turn.\n\n\"My visa application was rejected because my tap-dance tribute to the Statue of Liberty lacked sufficient rhythmic urgency, which apparently implies I might overstay my visit,\" said a disgruntled graduate student holding his dance shoes.\n\n\"They said my lack of formal training in the Waltz would be viewed as a 'security risk' during my family trip, so I’ve hired a choreographer to help me petition the judge for a second chance,\" noted a beleaguered father of three.\n\n\"Honestly, the dance-off approach is more transparent than the old system, though I suspect the judges are just looking for someone who doesn't trip over their own feet in front of the embassy gate,\" added a local travel agent currently teaching an impromptu salsa class to his clients.",
+  "caption": "Visa applicants are now trading their passports for jazz shoes following the latest judicial requirement. Would you pass the audition? #VisaStruggles #GlobalTravel #InterpretiveDance #USVisa (satire)",
+  "igHook": "Would you pass the dance audition for your next visa interview?",
+  "imagePrompt": "A wide, slightly blurred view of a crowded, busy consulate waiting room where people are standing in lines while holding various pieces of luggage, with a generic notice board on a nearby wall.",
+  "sourceHeadline": {
+    "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTh5QUtBaEdBdXktUUFZZEIxck41U1paUUw2NnlJc1hvVldvUjU0UzRMVmJkQmlEbWtnZzZ3bThyVVBHVk8wc0NBaENqblRCeWFpS05ycjhNVmNIT05venltaFlOb29vZ29NemxRb0dLa3hrYUM4QzhhVmJNcWs4Szl0c25DdDliQU5rNlgyekJmajFpbE9Oc1cyTGVKbHhhbXhmVDNHTGFBRDRxc2Fz0gG0AUFVX3lxTE9qWHVqelAyNDVDR0ZSZ2owbVQwRGVXVEdZV3ZEOWNib0pVdDZubzAwNzlNc1hQODdRZ3d5S2huY29hOENJWmhrYUxWMEdMelY3eFR3UTVRVmtfVzlKLTJWOWNva3RwT1NBUl9nUy1PUlFCNTU4TEhRemphMTE0QVpkWktGY090VXc5NGJ2OXd5dy1HYWRVR21kQl80cmZTSXZUN2RkdVA1azJYS3NvUmNETnA3SA?oc=5",
+    "pubDate": "Sat, 22 Aug 2026 03:25:52 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 16
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides the most absurdly specific and incongruous premise—interpretive dance as a requirement for US visa entry—which avoids the 'bureaucratic confusion' cliches seen in the other submissions. It maintains a consistent, deadpan tone and offers vivid, funny imagery without resorting to generic institutional filler."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a clearly absurd and satirical premise to mock bureaucratic processes. It does not name any real public figures, private individuals, or target any specific religion or ethnic group in a defamatory way. The image prompt is generic and avoids identifiable imagery.",
+    "flaggedIssues": []
+  }
+}
