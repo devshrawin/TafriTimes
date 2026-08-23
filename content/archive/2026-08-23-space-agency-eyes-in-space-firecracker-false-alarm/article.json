@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-23",
+  "publishedAt": "2026-08-23T19:24:35.615Z",
+  "topicKey": "trending-news",
+  "headline": "Space Agency’s New ‘Eyes in Space’ System Mistakenly Flags Every Neighborhood Diwali Firecracker Launch as Intercontinental Ballistic Missile",
+  "slug": "space-agency-eyes-in-space-firecracker-false-alarm",
+  "body": "Q: Dr. Sarvesh, the new satellite constellation is supposed to detect threats, yet you seem to have triggered three national high-alert warnings this evening. What exactly happened?\n\nA: It’s a calibration issue. Apparently, our sensors are so sensitive that they cannot distinguish between the exhaust plume of a strategic missile and the neighborhood kids lighting a ‘Sutli Bomb’ in the colony park. We had two fighter jets scrambled because Mrs. Sharma’s grandson lit a particularly loud rocket at 7:00 PM.\n\nQ: Does this mean the entire defense strategy is currently being held hostage by festive pyrotechnics?\n\nA: I wouldn’t call it a hostage situation. It’s more of an ‘over-enthusiastic reconnaissance’ scenario. The algorithm sees a burst of light and naturally assumes it's a threat to national sovereignty rather than a celebratory attempt to annoy the neighbors. We are currently trying to patch the software to ignore anything that smells like sulfur and sounds like an explosion before 10 PM.\n\nQ: Is there any plan to refine this technology before the upcoming wedding season, where fireworks are guaranteed every night?\n\nA: We are currently working on a ‘Wedding Mode’ filter, but it’s difficult. We’ve found that even a well-timed drum beat during a baraat creates enough of a sonic boom to set off the secondary sensor array. Until we get the software updated, we’ve asked the satellite team to just look away whenever they hear a DJ playing loud bass music.",
+  "caption": "Our defense satellites are currently on high alert because someone in a residential colony just lit a sparkler. The software is being updated to distinguish between 'foreign invasion' and 'seasonal festivities'. #SpaceNews #TechFail (satire)",
+  "igHook": "Would you trust an AI to tell the difference between a Diwali cracker and a missile?",
+  "imagePrompt": "A wide, cinematic shot of a high-tech satellite dish pointing towards a night sky filled with faint streaks of light, captured from a grassy field at dusk.",
+  "sourceHeadline": {
+    "title": "India is building ‘eyes in space’ to spot missile launches before they become a threat",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZjBIU01CYktKcmQ4MFBTazQ2WkpfTjNiemxMYU1RYzJaMk85RzBpeG94bEJ2amdabnJPOHZIc09zU1Uwd011YjBOeE5VLWxvN2d4OVZmTUhYUjhOZlI0c3ZHNTVJQmVnMWJFcGtrODNLdkYtNlhHS3hVbFZCSHRCWVgxdVNGOGsxNzNhWWZBa1NaMVVEWV9oNEZfR000eDVQaEtLTjBrRDlZWnFNZFFnSXZUY3JLWm1vTVljUHlCaEZ5cW4tY1lJd3F5X1pKOHZaRVh2STV1WHRRYkXSAeABQVVfeXFMT1R4RHk5SlU0cDVWRk8wbWVRU1EtQnNaWkJwZDFxWXdPQXV6YkVWQl9mU3ZySnN4d3JWWTBycGFTN0E1QTJZMGI1WWtzd0FzbjFYeTJhaldDWmlTWnZzeU9ZNWc1Vl9VYzRaY094SEhHQUNzLW1oZUt6Q2FmZzdURHdnWWJyYmtjRGk3MUJmRG5NbW1ndXNhT005YjN3TXN5NTQ4WTZ1TVhvZWMwYnZIVnFGTGNqejBxWFBLTms3NnByR2VaX1pxcVJfb1FkaHREMm9VTzgyZkdud2VpOXF4VWI?oc=5",
+    "pubDate": "Sun, 23 Aug 2026 09:27:01 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 4,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides a clean, punchy premise that feels distinct from the laundry/lunchbox/kitchen themes common in the rest of the batch. It perfectly captures the absurdity of hyper-sensitive technology misinterpreting relatable local culture (firecrackers) as national security threats, avoiding the cynical tone of the other 'surveillance' pieces."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless satire about technology and neighborhood festivities. 'Dr. Sarvesh' and 'Mrs. Sharma' are generic placeholder names commonly used in South Asian cultural context and do not identify specific real private individuals. The image prompt is appropriately generic and contains no prohibited content.",
+    "flaggedIssues": []
+  }
+}
