@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-23",
+  "publishedAt": "2026-08-23T05:48:39.494Z",
+  "topicKey": "trending-news",
+  "headline": "Agriculture students frustrated as endoscopy-based cheating methods force mandatory colonoscopy-style invigilation",
+  "slug": "agri-exam-endoscopy-scandal",
+  "body": "“I spent six months studying soil moisture levels, but now I’m told I have to sit through a three-hour exam while an invigilator checks my ear canals with a surgical borescope,” said Vikram, a third-year agriculture undergraduate.\n\n“The college told us the ₹11,000 endoscopic camera was just for 'precision inspection,' but it’s really just because the faculty doesn't trust us to bring in a simple ballpoint pen anymore,” remarked Preeti, a panicked student appearing for her mid-term agronomy paper.\n\n“My son went to write a test on crop rotation and came home with a prescription for a mild sedative because the exam center treated his fountain pen like a hidden diagnostic device,” added a concerned parent, Ramesh Kumar.\n\n“I run the stationery shop outside the university gate, and honestly, the demand for high-tech micro-electronics has plummeted; now, everyone just wants to buy transparent, lead-free graphite pencils that haven't been 'medically cleared' by the proctors,” noted local merchant Sunil Gupta.\n\n“If the authorities keep upgrading their anti-cheating tech to match surgical theatre standards, I’m afraid the final semester results will have to be delivered to the students’ actual surgeons instead of their professors,” observed career guidance counselor Ananya Rao.",
+  "caption": "Students are reeling as high-tech cheating crackdowns turn exam halls into miniature operation theatres. Are we looking at degrees or medical bills? 🩺🌾 #ExamStress #AgricultureExam #AcademicIntegrity #CheatCode (satire)",
+  "igHook": "Would you sit through a medical inspection just to pass a quiz on crop rotation?",
+  "imagePrompt": "A close-up of a student in a university uniform sitting at a desk with an empty expression, while a person in the background holds a generic, sterile-looking metal scanning device near the student's shoulder.",
+  "sourceHeadline": {
+    "title": "Endoscopic camera, ₹11,000 deal: How Chhattisgarh agriculture exam paper was leaked; professor, 5 students held | India News",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdGliUWh4QW5wRmtRSUt1YXZNYlBuRWdkRG9ETGVIYWd4c3doMGtfTDEyNkpCV0VvWFJrNWhEUExlUU1ZQnpsYWhxengwSDBrb1hyOEZqRkxJZTNYRk5zRkJWOU1ZRGxWRDZFeTRZNkZqbGxweHhVYWptTW1fT19rRkozMVRjZDM4MGtFQVhxTzBQbndFekZyNERjQ042UUIzXzN1QU9fWFBCWU1FQWU3QmQ5dW9ydGZVUW1JRi12UGl6enBfczFKMURDeXdTdlF3TkNRMG5ray10TzZPNTJOcG1IbjhwaXo0Y0dNTVBZcXIybEZQdTF5ZFdBYUQyd9IBgwJBVV95cUxQYlJPb1hqUFduclk0Nkx2QVluaHlpZW04SHlMU0dScVg0Z08zT2ZlSEIyWHl0WHBISUlBX0VKRVotQXJIUUpCMTVFUnRHdzhabnZITXVpOW5UOW4tNXNLWTBCRDZYZ3BjVFNqRldpOVpLUVZpU2p4d0diUE8xa1Z6WHNKZ2ZYWUYyVUxXQ1RkWFNOOGNnWmd0RFA1OW8za01XRl80aWdjS0lxRU1RWTV4SkM3NEJQNDNDQ1l3Y3QxOEVDTWpXZHNxVDBzRXpBZmRNSHlkNkFfNjFIMlVXWjNrV08tMURaeWpack5lYU4zbTVldjBZUWdFdzFvbkl6ekFQaGpr?oc=5",
+    "pubDate": "Sun, 23 Aug 2026 05:10:27 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides the freshest and most structurally sound take by flipping the premise: rather than just having students cheat, it explores the absurd bureaucratic and invasive consequences of the institution trying to stop them. The detail about 'colonoscopy-style invigilation' and the merchant noting a decline in micro-electronics demand in favor of lead-free pencils creates a complete, funny, and specific world."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional scenarios involving generic, non-public student and merchant characters to satirize over-the-top exam security. It does not name real public figures, private individuals, or target protected groups, and the image prompt is generic and safe.",
+    "flaggedIssues": []
+  }
+}
