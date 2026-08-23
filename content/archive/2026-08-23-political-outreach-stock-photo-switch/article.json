@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-23",
+  "publishedAt": "2026-08-23T12:01:47.165Z",
+  "topicKey": "trending-news",
+  "headline": "Local Political Campaign Manager Suspends All Policy Drafting After Discovering Stock Photos Of 'Enthusiastic Youth' Are Cheaper",
+  "slug": "political-outreach-stock-photo-switch",
+  "body": "The campaign director for a suburban constituency announced this morning that the party will immediately stop wasting resources on policy research, instead opting to fill all promotional material with a rotating carousel of stock photography featuring high-definition, smiling Gen Z faces. The decision followed a 'brilliant discovery' that actual voter engagement requires listening to opinions, whereas stock photos allow for perfectly curated, imaginary youth support.\n\n“Why spend months drafting manifestos about unemployment when I can buy a license for a picture of a guy wearing a beanie and holding a laptop in a brightly lit co-working space?” said Ravi Shastri (no relation), the campaign lead. “The stock models look so much more supportive than the local volunteers, who keep bringing up pesky things like infrastructure and inflation. Plus, the stock photos don’t demand lunch or travel allowance.”\n\nThe initiative has already seen a 400% increase in campaign 'engagement,' mostly from confused teenagers in other time zones who find themselves appearing on billboards in rural districts. A spokesperson for the local youth wing expressed relief, noting that the transition to visual-only outreach has finally allowed the staff to spend their afternoons playing table tennis in the office rather than attending focus groups.",
+  "caption": "Efficiency is key in modern politics: why address real issues when you can just buy the stock photo version of a happy voter? The future of democracy is high-res, beige, and entirely fictional. #Politics #GenZ #StockPhotos #Marketing (satire)",
+  "igHook": "Would you trade your vote for a free high-resolution stock photo of yourself smiling?",
+  "imagePrompt": "A large, bright political billboard on a dusty city street featuring a group of smiling, professional-looking models in trendy office wear, with a generic campaign slogan written in a clean, sans-serif font.",
+  "sourceHeadline": {
+    "title": "‘Three claps for marvellous set of Gen Z faces’: CJP's Saurav Das takes swipe at BJP's outreach initiative | India News",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQ1o2MzZjeVg5SEpnRHJHUTFhU1kyMkhTRGFHSTRYUGczdkpLMmttREpjSVdSazBjaFhmODBwVEZNXzEtamJLd2ZSOGhHQWhCWUxNY2NfLTRvTWNaWmFxSWdBOXVFZllkUzdNU21jVVlqY2VfUlpjRGxuLUxtTUpsWHZnUDJCWnNQMllaTEZDS1Y4UkNuUFh6ZGxXWVBGaThJNUN1Q2NrME81a0hkYXBKNUp0a1p4LTA4WmdoaGtsYnA3UUN4NGNlSmJodGtjMUlKTTZpak9WZ184VHBsaFg1LVFHd0VsMndxZU9FTGlmMUtWc2xw0gH6AUFVX3lxTFBmWGhOYkk1bmRzbG5OcGFKbWVzTkNrbjRSVTZUR3NzZEpWWlpuX3dGOF9MZkdXMzBIN3hqSVhlazBKYzRaOGxyd2l6N2lxQ3JDYkdWSjhaWDQyQlBrSG4teVRLX2did1FWQ0k0em5WTnM5SkgycGltVXJRQnp1OWFTNmJOQk5Ca2NkU09wWURkRUVrLVFJOC1rT1ZDT3pkMDJCSUZfRFh4c1VtMXlyT1J4WkhqWkFtcjdSVzlfckJ2ZWVYeVBxR0JLM1Y2N3E0Q3JRZlJpY2hIZVBTcGFvT2NiMm9OdE8tQmFGTWhFX1BSTUxVeEY0TFhOOFE?oc=5",
+    "pubDate": "Sun, 23 Aug 2026 11:03:37 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only piece that moves beyond the repetitive, AI-slop trope of 'Gen Z clapping' that dominates the other entries. Its premise—replacing expensive, complex policy drafting with cheap, curated stock photos—is a sharp, deadpan observation of modern political marketing that feels structurally sound and genuinely funny."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic placeholder name for a fictional campaign manager and the content is a standard satirical take on modern political marketing. No real private or public figures are harmed, and the imagery is generic.",
+    "flaggedIssues": []
+  }
+}
