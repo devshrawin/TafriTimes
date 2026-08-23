@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-23",
+  "publishedAt": "2026-08-23T05:51:08.121Z",
+  "topicKey": "trending-news",
+  "headline": "Neighbourhood Watch Member Refuses To Stop Mowing His Lawn During His Neighbour’s Backyard Wedding",
+  "slug": "neighbourhood-watch-mowing-dispute",
+  "body": "Local resident Vikram Singh stated he is not expecting his neighbours to only hold weddings in his interest after firing up his industrial-grade weed whacker mid-vow. The neighbourhood watch committee officially categorised the resulting noise pollution as 'a necessary calibration of regional expectations.'",
+  "caption": "When the HOA and geopolitics collide. We all have that one neighbour who really values their Sunday afternoon lawn maintenance schedule. 🏡✂️ #NeighbourhoodDrama #LawnLife #Expectations (satire)",
+  "igHook": "Would you keep mowing your lawn if your neighbor was getting married ten feet away?",
+  "imagePrompt": "A wide-angle, slightly blurry amateur photograph taken from a backyard fence, showing a man pushing a loud, industrial lawnmower near a line of decorative wedding chairs.",
+  "sourceHeadline": {
+    "title": "'Not expecting neighbours to do only what’s in my interest’: Jaishankar on Bangladesh amid Hasina row | India News",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNW1YRmxyNFkxZzJ5NlVWZGJNQmE4LWZIX0NMMWtyR1laYUJYTnNHOWhaQkJQT0JmSW1keElsMW9lQ0lpc2libXdnZVU5dHhBbEdZUjJlUXYwY3Naa1NWaXFSR1FFbXlTSGlhZVY2SDJPY08xYmhrTC1ManVlVjNBTEJHRklMMmFuVHlPY0tHeVhBb094ekxtLTY2dUNtLThSZ3E0eS1mWWFQVGI0MUVoOGthci0wZkhFUmhoeVBLUFBDeVVwSWxLTFduQmxMSVplVndsNEQ3RXFVOFBlbDEtU0lsUXRidVo3d1hTVTBJY1VTQ2d6eUhIaThKTXfSAYICQVVfeXFMT2VtWlhybzFMYnhET0sydjBySFo5bmlFbnZKVEpHbXMwdTloaE9MZ3JNbzNmQWlSZEt1QlIxZEt4Mnl1ZWtXSnloTi03dktkMWxONks5N3F6bWJUQUJLSC1JTjlncTVPRWVrTld3SXB0bkxtQlViUWs5eFVkeEdlR3NRRml5M3JsTmh6endob1lZcG42NlUyQ1FYMUNVMUZWRXdaN25sTDJJT0ppSmZEdXdoc0hHS1NwTFkwOTBvUmJ3dWZOUXU1S2hjb1JWcTVJdWNEd29QLVhkVTloS2VuS0g5cFJTNWV1d05ZV1VDMDQtdm54UndNcXNGSlo1aW5ucmJ3?oc=5",
+    "pubDate": "Sun, 23 Aug 2026 03:32:36 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 19
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 is the clear winner because it adopts a classic 'Local Man/Neighbor' satire structure while grounding its humor in a concrete, relatable, and petty domestic scene (lawn mowing during a wedding). It avoids the robotic 'Minister clarifies' formula found in the other candidates, uses specific, vivid imagery (industrial-grade weed whacker), and lands the punchline naturally within the body."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a common, generic suburban conflict scenario and the individual named is not a real public figure, but rather a fictional placeholder. The content does not target specific groups, nor does it contain any of the prohibited categories of harm.",
+    "flaggedIssues": []
+  }
+}
