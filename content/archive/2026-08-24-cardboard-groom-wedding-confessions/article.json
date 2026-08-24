@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-24",
+  "publishedAt": "2026-08-24T08:41:37.832Z",
+  "topicKey": "festivals-culture",
+  "headline": "I Am Currently Attending A Three-Day Wedding Where The Groom Is A Life-Sized Cardboard Cutout Because He Is Too Busy To Travel",
+  "slug": "cardboard-groom-wedding-confessions",
+  "body": "I didn’t realize the scale of the optimization until I walked into the banquet hall and saw the groom, ‘Rohan,’ standing perfectly still near the buffet, printed on high-density foam board. Apparently, his job as a mid-level consultant in Singapore was too demanding for him to fly out for his own wedding, so his family decided to proceed with the festivities using a rotating selection of three different cardboard versions of him: 'Smiling Formal,' 'Dancing Casual,' and 'Looking Respectfully At Relatives.'\n\nI’ve spent the better part of the evening apologizing to a two-dimensional surface. My aunt insisted I introduce myself to the cutout as if it were the real thing, and I found myself explaining my current career trajectory to a glossy surface while a waiter kept trying to serve hors d'oeuvres to the groom's left shoulder. It’s remarkably efficient; there’s no awkward small talk, no need to wait for him to finish eating, and the groom never complains about the volume of the DJ’s playlist.\n\nMy sister, who is the actual bride, seems perfectly happy with the setup, mainly because she can finish her rounds of the hall in half the time without having to drag a physical human being through a thousand photo-ops. We’ve already moved the cutout to the mandap for the morning ceremony, and honestly, the priest seems to appreciate that the groom isn't fidgeting or looking at his watch. If this becomes the new standard for wedding season, I think I might just send a life-sized printed version of myself to my cousin's nuptials next month and stay home to finally finish my Netflix queue.",
+  "caption": "Efficiency is the key to modern romance, I suppose. Who needs a physical presence when you have high-density foam? Tag someone who would 100% choose a cardboard cutout to avoid social interactions. #WeddingSeason #ModernRomance #Efficiency (satire)",
+  "igHook": "Would you ever swap your physical presence at a wedding for a high-quality cardboard cutout?",
+  "imagePrompt": "A wide-angle shot of a decorated wedding banquet hall with a group of formally dressed guests standing in a circle, looking towards a life-sized cardboard cutout of a person dressed in a traditional wedding sherwani.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      }
+    ],
+    "winnerIndex": 1,
+    "reasoning": "Candidate 1 (the cardboard groom) provides the most vivid, absurd image that feels both deeply rooted in reality and genuinely funny. It avoids the repetitive 'renting' tropes found in the other entries and uses the premise to comment on modern work-life imbalance with warmth rather than just cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted, clearly fictional satire about corporate culture and wedding excess. The name 'Rohan' is used as a generic placeholder for a fictional character, not a real person, and the overall premise is harmlessly absurd.",
+    "flaggedIssues": []
+  }
+}
