@@ -87,6 +87,31 @@ async function fetchBackgroundImageDataUri(imagePrompt) {
   }
 }
 
+/**
+ * Loads a user-supplied background image (manual mode) instead of fetching
+ * one from Pollinations — a local file path or a remote URL, either way
+ * returned as the same data-URI shape the Satori template already expects.
+ */
+async function loadManualImageDataUri(pathOrUrl) {
+  if (/^https?:\/\//.test(pathOrUrl)) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30_000);
+    const response = await fetch(pathOrUrl, {
+      signal: controller.signal,
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; TafriTimesBot/1.0)" },
+    });
+    clearTimeout(timeout);
+    if (!response.ok) throw new Error(`Failed to fetch manual image: ${response.status}`);
+    const buffer = Buffer.from(await response.arrayBuffer());
+    const contentType = response.headers.get("content-type") ?? "image/jpeg";
+    return `data:${contentType};base64,${buffer.toString("base64")}`;
+  }
+  const buffer = readFileSync(pathOrUrl);
+  const ext = path.extname(pathOrUrl).slice(1).toLowerCase() || "jpeg";
+  const mime = ext === "jpg" ? "jpeg" : ext;
+  return `data:image/${mime};base64,${buffer.toString("base64")}`;
+}
+
 const PULL_QUOTE_MAX_CHARS = 200;
 
 /**
@@ -339,9 +364,11 @@ function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
   };
 }
 
-export async function renderImage(article, { topicKey, date } = {}) {
+export async function renderImage(article, { topicKey, date, manualImage } = {}) {
   const fontData = loadFont();
-  const bgImageDataUri = await fetchBackgroundImageDataUri(article.imagePrompt);
+  const bgImageDataUri = manualImage
+    ? await loadManualImageDataUri(manualImage)
+    : await fetchBackgroundImageDataUri(article.imagePrompt);
   const svg = await satori(buildTemplate(article, { topicKey, date, bgImageDataUri }), {
     width: WIDTH,
     height: HEIGHT,

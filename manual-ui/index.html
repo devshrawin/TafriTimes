@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tafri Times — Manual Post Builder</title>
+<style>
+  :root {
+    --bg: #0c0c0e;
+    --panel: #17171a;
+    --panel-border: #2a2a2e;
+    --text: #f2f2f0;
+    --text-dim: #9a9a9f;
+    --accent: #e63946;
+    --accent-dim: #7a1f26;
+    --ok: #2ecc71;
+    --mono: "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.5;
+  }
+  header {
+    padding: 24px 32px 18px;
+    border-bottom: 1px solid var(--panel-border);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  header .brand {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  header .brand span { color: var(--accent); }
+  header .tagline {
+    color: var(--text-dim);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 28px 24px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 860px) {
+    main { grid-template-columns: 1fr; }
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .panel h2 {
+    margin: 0 0 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    font-weight: 700;
+  }
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 16px 0 6px;
+  }
+  label:first-of-type { margin-top: 0; }
+  label .hint {
+    display: block;
+    font-weight: 400;
+    color: var(--text-dim);
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  input[type="text"], input[type="url"], textarea, select {
+    width: 100%;
+    background: #0f0f11;
+    border: 1px solid var(--panel-border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+  }
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  textarea#context { min-height: 90px; }
+  textarea#sourceText { min-height: 60px; }
+
+  .dropzone {
+    border: 1.5px dashed var(--panel-border);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .dropzone:hover, .dropzone.dragover {
+    border-color: var(--accent);
+    background: rgba(230, 57, 70, 0.06);
+  }
+  .dropzone input[type="file"] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .dropzone img {
+    max-width: 100%;
+    max-height: 220px;
+    border-radius: 6px;
+    margin-top: 8px;
+    display: none;
+  }
+  .dropzone.has-image img { display: block; }
+  .dropzone .dz-label.hidden { display: none; }
+  .remove-image {
+    display: none;
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--accent);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+  .dropzone.has-image ~ .remove-image { display: inline; }
+
+  .format-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+  .format-row button {
+    background: #0f0f11;
+    border: 1px solid var(--panel-border);
+    color: var(--text-dim);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .format-row button.active {
+    border-color: var(--accent);
+    color: var(--text);
+    background: rgba(230, 57, 70, 0.12);
+  }
+
+  .generate-btn {
+    margin-top: 22px;
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+  }
+  .generate-btn:hover { background: #ff4d5a; }
+  .generate-btn:disabled { background: var(--accent-dim); cursor: not-allowed; }
+
+  .status-line {
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--text-dim);
+    min-height: 16px;
+  }
+
+  /* Output panel */
+  .output-empty {
+    color: var(--text-dim);
+    font-size: 13px;
+    padding: 40px 10px;
+    text-align: center;
+    border: 1px dashed var(--panel-border);
+    border-radius: 10px;
+  }
+  .out-field { margin-bottom: 18px; }
+  .out-field h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .out-field .copy-btn {
+    font-size: 11px;
+    color: var(--text-dim);
+    background: none;
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  .out-field .copy-btn:hover { color: var(--text); border-color: var(--accent); }
+  .out-headline { font-size: 18px; font-weight: 800; }
+  .out-body { font-size: 13px; color: #d8d8d6; white-space: pre-wrap; }
+  .out-caption { font-size: 13px; white-space: pre-wrap; }
+  .hashtags span {
+    display: inline-block;
+    background: rgba(230, 57, 70, 0.12);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 12px;
+    margin: 0 4px 4px 0;
+  }
+  .image-prompt-box {
+    background: #0f0f11;
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: #d8d8d6;
+    white-space: pre-wrap;
+  }
+  .preview-card {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  .preview-card img { width: 100%; height: 100%; object-fit: cover; }
+
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .badge.mode-image { background: rgba(46,204,113,0.15); color: var(--ok); }
+  .badge.mode-prompt { background: rgba(230,57,70,0.15); color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="brand">TAFRI <span>TIMES</span></div>
+    <div class="tagline">Manual Post Builder — mockup, not wired up yet</div>
+  </div>
+  <div class="tagline" id="modeIndicator">no image attached</div>
+</header>
+
+<main>
+  <!-- LEFT: input form -->
+  <section class="panel">
+    <h2>1. Your source &amp; premise</h2>
+
+    <label for="sourceUrl">News source
+      <span class="hint">Link to the real article this is based on (optional, but improves the guardrail's "real event" check)</span>
+    </label>
+    <input type="url" id="sourceUrl" placeholder="https://www.thehindu.com/..." />
+    <label style="display:flex;align-items:center;gap:8px;margin-top:8px;font-weight:600;font-size:13px">
+      <input type="checkbox" id="useSourceImageToggle" style="width:auto" checked />
+      Use this link's own photo as the background (uncheck to always generate one instead)
+    </label>
+
+    <label for="premise">Premise — what actually happened / what you want written about
+      <span class="hint">This is the story. The model refines and dresses this up — it will NOT swap it for a different joke.</span>
+    </label>
+    <textarea id="premise" placeholder="e.g. Maharashtra CM announces ban on Hindi films from Bollywood, directs the Bollywood film body to make films only in Marathi, imposes a 20 lakh rupee fine on producers who make Hindi-language films."></textarea>
+
+    <label for="context">Extra context / tone notes <span class="hint">(optional — anything that should shape the caption or hashtags)</span></label>
+    <textarea id="context" style="min-height:50px" placeholder="e.g. keep it Mumbai-specific, mention auto-rickshaws"></textarea>
+
+    <h2 style="margin-top:26px">2. Format</h2>
+    <div class="format-row" id="formatRow">
+      <button type="button" class="active" data-format="auto">Auto-rotate</button>
+      <button type="button" data-format="standard-report">Standard report</button>
+      <button type="button" data-format="wire-brief">Wire brief</button>
+      <button type="button" data-format="vox-pop">Vox pop</button>
+      <button type="button" data-format="listicle">Listicle</button>
+      <button type="button" data-format="first-person">First person</button>
+      <button type="button" data-format="fake-interview">Fake interview</button>
+    </div>
+
+    <h2 style="margin-top:26px">3. Image</h2>
+    <label style="margin-top:0">Your own photo <span class="hint">(optional — drag &amp; drop or click)</span></label>
+    <div class="dropzone" id="dropzone">
+      <span class="dz-label">Drop an image here, or click to choose a file</span>
+      <img id="dzPreview" alt="preview" />
+      <input type="file" id="fileInput" accept="image/*" />
+    </div>
+    <button type="button" class="remove-image" id="removeImage">Remove image</button>
+    <div class="hint" style="margin-top:8px">
+      No photo? Priority order: (1) this upload if given, (2) the news source link's own article photo if you gave one above, (3) an AI-generated stand-in (Pollinations). Flip the toggle below to get a copy-pasteable prompt for ChatGPT/DALL·E instead of any of those.
+    </div>
+    <label style="display:flex;align-items:center;gap:8px;margin-top:14px;font-weight:600">
+      <input type="checkbox" id="promptOnlyToggle" style="width:auto" />
+      Give me an image prompt instead of auto-generating (I'll make the image myself)
+    </label>
+
+    <label style="display:flex;align-items:center;gap:8px;margin-top:16px;font-weight:600">
+      <input type="checkbox" id="autoRetryToggle" style="width:auto" checked />
+      Auto-retry if it doesn't clear the quality bar
+    </label>
+    <div class="hint" style="margin-top:2px">
+      A batch sometimes scores below the quality floor (40/60) — that's the judge rejecting a weak batch, not an error. With this on, it retries automatically up to 4 times before giving up.
+    </div>
+
+    <button class="generate-btn" id="generateBtn">Generate post</button>
+    <div class="status-line" id="statusLine"></div>
+  </section>
+
+  <!-- RIGHT: output -->
+  <section class="panel">
+    <h2>Output <span class="badge mode-prompt" id="outputBadge" style="display:none"></span></h2>
+    <div id="outputEmpty" class="output-empty">
+      Fill in the premise on the left and hit Generate — headline, article body, caption + hashtags, and the image (or an image prompt) will show up here.
+    </div>
+    <div id="outputFailure" style="display:none">
+      <div class="out-field">
+        <h3 id="failureTitle">Didn't clear the bar</h3>
+        <div class="out-body" id="failureReason"></div>
+        <div class="hint" id="failureDetail" style="margin-top:8px"></div>
+      </div>
+      <button class="generate-btn" id="retryBtn" style="background:var(--panel);border:1px solid var(--panel-border);color:var(--text)">Try again</button>
+    </div>
+    <div id="outputFilled" style="display:none">
+
+      <div class="out-field">
+        <h3>Headline</h3>
+        <div class="out-headline" id="outHeadline">Mumbai Auto Driver Demands Passenger Recite Marathi Poem Before Accepting Fare</div>
+      </div>
+
+      <div class="out-field">
+        <h3>Article <button class="copy-btn" data-copy="outBody">Copy</button></h3>
+        <div class="out-body" id="outBody">Sample placeholder body text — this is a mockup, no real generation has run yet. Once wired up, the refined version of your premise appears here, close to what you typed, not swapped for an unrelated joke.</div>
+      </div>
+
+      <div class="out-field">
+        <h3>Caption + hashtags <button class="copy-btn" data-copy="outCaption">Copy</button></h3>
+        <div class="out-caption" id="outCaption">Sample caption text goes here, ending with (satire).</div>
+        <div class="hashtags" id="outHashtags">
+          <span>#Mumbai</span><span>#MarathiManus</span><span>#AutoRickshaw</span><span>#TafriTimes</span>
+        </div>
+      </div>
+
+      <div class="out-field">
+        <h3>Image</h3>
+        <div class="preview-card" id="previewCard">rendered card preview</div>
+      </div>
+
+      <div class="out-field" id="imagePromptField" style="display:none">
+        <h3>Image prompt (paste into ChatGPT / DALL·E) <button class="copy-btn" data-copy="outImagePrompt">Copy</button></h3>
+        <div class="image-prompt-box" id="outImagePrompt">A wide street-level photo of a yellow-and-black Mumbai auto-rickshaw at dusk, driver visible through the window, generic passersby in the background, photorealistic, no text or logos.</div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<script>
+  // ---- This is a static mockup only. No network calls yet. ----
+  const dropzone = document.getElementById('dropzone');
+  const fileInput = document.getElementById('fileInput');
+  const dzPreview = document.getElementById('dzPreview');
+  const removeImageBtn = document.getElementById('removeImage');
+  const modeIndicator = document.getElementById('modeIndicator');
+  const promptOnlyToggle = document.getElementById('promptOnlyToggle');
+
+  function setImage(file) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      dzPreview.src = e.target.result;
+      dropzone.classList.add('has-image');
+      modeIndicator.textContent = 'image attached';
+    };
+    reader.readAsDataURL(file);
+  }
+
+  fileInput.addEventListener('change', (e) => setImage(e.target.files[0]));
+  dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+  dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
+  dropzone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropzone.classList.remove('dragover');
+    if (e.dataTransfer.files[0]) setImage(e.dataTransfer.files[0]);
+  });
+  removeImageBtn.addEventListener('click', () => {
+    dropzone.classList.remove('has-image');
+    dzPreview.src = '';
+    fileInput.value = '';
+    modeIndicator.textContent = 'no image attached';
+  });
+
+  document.querySelectorAll('#formatRow button').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#formatRow button').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.dataset.copy);
+      navigator.clipboard.writeText(target.textContent.trim());
+      btn.textContent = 'Copied';
+      setTimeout(() => (btn.textContent = 'Copy'), 1000);
+    });
+  });
+
+  function currentFormat() {
+    const active = document.querySelector('#formatRow button.active');
+    return active ? active.dataset.format : 'auto';
+  }
+
+  function setStatus(text) {
+    document.getElementById('statusLine').textContent = text;
+  }
+
+  function renderHashtags(tags) {
+    const el = document.getElementById('outHashtags');
+    el.innerHTML = '';
+    (tags || []).forEach((t) => {
+      const span = document.createElement('span');
+      span.textContent = t;
+      el.appendChild(span);
+    });
+  }
+
+  const generateBtn = document.getElementById('generateBtn');
+  const retryBtn = document.getElementById('retryBtn');
+  const MAX_AUTO_ATTEMPTS = 4;
+
+  function winnerScoreFromVerdict(judgeVerdict) {
+    if (!judgeVerdict?.scores) return null;
+    const entry = judgeVerdict.scores.find((s) => s.index === judgeVerdict.winnerIndex);
+    return entry?.total ?? null;
+  }
+
+  const REASON_TITLES = {
+    'below-quality-floor': "Batch scored too low — judge rejected it",
+    blocked: 'Blocked by the safety guardrail',
+    'regenerate-exhausted': 'Safety guardrail kept rejecting it — gave up after retries',
+    'manual-topic-unsuitable': 'Topic rejected before generation (looks like a real tragedy/violence)',
+  };
+
+  function showFailure(data) {
+    document.getElementById('outputEmpty').style.display = 'none';
+    document.getElementById('outputFilled').style.display = 'none';
+    document.getElementById('outputFailure').style.display = 'block';
+    document.getElementById('failureTitle').textContent = REASON_TITLES[data.reason] ?? `Not generated (${data.reason ?? 'unknown reason'})`;
+
+    let reasonText = '';
+    let detailText = '';
+    if (data.reason === 'below-quality-floor') {
+      const score = winnerScoreFromVerdict(data.judgeVerdict);
+      reasonText = score != null
+        ? `Best candidate scored ${score}/60 — below the 40/60 floor. This is the judge protecting quality, not a bug.`
+        : 'Best candidate scored below the quality floor.';
+      detailText = data.judgeVerdict?.reasoning ?? 'Try again — a fresh batch samples differently and often clears the bar. Or make the premise more specific.';
+    } else if (data.reason === 'blocked' || data.reason === 'regenerate-exhausted') {
+      reasonText = data.safetyVerdict?.reasoning ?? 'The safety guardrail flagged this content.';
+      detailText = 'Rewording the premise to avoid naming private individuals or real tragedy/violence usually fixes this. Retrying the same text as-is will likely fail again.';
+    } else if (data.reason === 'manual-topic-unsuitable') {
+      reasonText = 'The premise reads like it involves a real tragedy, death, or violence — TafriTimes deliberately refuses to satirize those.';
+      detailText = 'If this is a false positive, rephrase the premise to make the actual (non-tragic) satire angle clearer.';
+    } else {
+      reasonText = 'Unexpected response from the generator.';
+      detailText = JSON.stringify(data, null, 2);
+    }
+    document.getElementById('failureReason').textContent = reasonText;
+    document.getElementById('failureDetail').textContent = detailText;
+  }
+
+  function showSuccess(data, hasImage) {
+    document.getElementById('outputEmpty').style.display = 'none';
+    document.getElementById('outputFailure').style.display = 'none';
+    document.getElementById('outputFilled').style.display = 'block';
+
+    document.getElementById('outHeadline').textContent = data.headline;
+    document.getElementById('outBody').textContent = data.body;
+    document.getElementById('outCaption').textContent = data.caption;
+    renderHashtags(data.hashtags);
+
+    const previewCard = document.getElementById('previewCard');
+    const imagePromptField = document.getElementById('imagePromptField');
+    const badge = document.getElementById('outputBadge');
+    badge.style.display = 'inline-block';
+
+    if (data.imageBase64) {
+      previewCard.style.display = 'flex';
+      previewCard.innerHTML = `<img src="data:image/png;base64,${data.imageBase64}" alt="rendered post" />`;
+      imagePromptField.style.display = 'none';
+      badge.className = 'badge mode-image';
+      const sourceLabel = {
+        upload: 'ready to post — your photo',
+        'source-url': 'ready to post — image from source link',
+        generated: 'ready to post — auto-generated image',
+      };
+      badge.textContent = sourceLabel[data.imageSource] ?? (hasImage ? 'ready to post — your photo' : 'ready to post — auto image');
+    } else {
+      previewCard.style.display = 'none';
+      imagePromptField.style.display = 'block';
+      document.getElementById('outImagePrompt').textContent = data.imagePrompt;
+      badge.className = 'badge mode-prompt';
+      badge.textContent = 'image prompt mode';
+    }
+
+    setStatus(data.archived ? `Archived as ${data.dirName}.` : 'Preview only — not archived (prompt-only mode).');
+  }
+
+  async function attemptOnce(payload) {
+    const resp = await fetch('/api/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    return resp.json();
+  }
+
+  // Only below-quality-floor is worth silently retrying -- it's pure
+  // sampling variance. blocked/regenerate-exhausted/unsuitable mean
+  // something about the premise itself needs to change, so retrying the
+  // identical text would just burn calls for the same result.
+  const AUTO_RETRY_REASONS = new Set(['below-quality-floor']);
+
+  async function runGenerate() {
+    const premise = document.getElementById('premise').value.trim();
+    if (!premise) {
+      setStatus('Enter a premise first.');
+      return;
+    }
+    const context = document.getElementById('context').value.trim();
+    const sourceUrl = document.getElementById('sourceUrl').value.trim();
+    const format = currentFormat();
+    const hasImage = dropzone.classList.contains('has-image');
+    const promptOnly = promptOnlyToggle.checked;
+    const autoRetry = document.getElementById('autoRetryToggle').checked;
+    const useSourceImage = document.getElementById('useSourceImageToggle').checked;
+
+    const payload = { premise, context, sourceUrl, format, promptOnly, useSourceImage };
+    if (hasImage) payload.imageDataUri = dzPreview.src;
+
+    generateBtn.disabled = true;
+    retryBtn.disabled = true;
+
+    try {
+      let attempt = 1;
+      const maxAttempts = autoRetry ? MAX_AUTO_ATTEMPTS : 1;
+      let data;
+      while (true) {
+        setStatus(`Generating (attempt ${attempt}/${maxAttempts}) — calls Gemini + judge + safety check, usually 20-60s...`);
+        data = await attemptOnce(payload);
+        if (data.ok) break;
+        if (!AUTO_RETRY_REASONS.has(data.reason) || attempt >= maxAttempts) break;
+        attempt++;
+      }
+
+      if (!data.ok) {
+        showFailure(data);
+        setStatus(autoRetry && attempt > 1 ? `Gave up after ${attempt} attempts.` : 'Not generated — see reason on the right.');
+        return;
+      }
+      showSuccess(data, hasImage);
+    } catch (err) {
+      setStatus(`Request failed: ${err.message}`);
+    } finally {
+      generateBtn.disabled = false;
+      retryBtn.disabled = false;
+    }
+  }
+
+  generateBtn.addEventListener('click', runGenerate);
+  retryBtn.addEventListener('click', runGenerate);
+</script>
+</body>
+</html>

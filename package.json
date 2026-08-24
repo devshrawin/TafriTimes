@@ -14,7 +14,9 @@
     "post-instagram": "node scripts/post-to-instagram.mjs",
     "refresh-instagram-token": "node scripts/refresh-instagram-token.mjs",
     "collect-engagement": "node scripts/collect-engagement.mjs",
-    "publish": "node scripts/publish.mjs"
+    "publish": "node scripts/publish.mjs",
+    "generate:manual": "node scripts/generate-manual.mjs",
+    "manual-ui": "node scripts/manual-server.mjs"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",

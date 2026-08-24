@@ -28,7 +28,7 @@ function findAvailableDirName(archiveRoot, baseName) {
  * content/archive/YYYY-MM-DD-slug/ — the audit trail and the data source the
  * feedback loop (collect-engagement.mjs) later attaches engagement metrics to.
  */
-export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict, date }) {
+export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict, date, manualImage }) {
   const dateStr = date ?? todayIsoDate();
   // Real timestamp, not just the day-level `date` — the gallery previously
   // sorted/grouped by git checkout mtime, which `actions/checkout` resets
@@ -54,10 +54,12 @@ export async function writeArchive({ beat, article, judgeVerdict, safetyVerdict,
     sourceHeadline: beat.trendingHeadline ?? null,
     judgeVerdict,
     safetyVerdict,
+    manualMode: Boolean(manualImage),
+    sourceImage: manualImage ?? null,
   };
   writeFileSync(path.join(dirPath, "article.json"), JSON.stringify(record, null, 2) + "\n");
 
-  const png = await renderImage(article, { topicKey: beat.key, date: dateStr });
+  const png = await renderImage(article, { topicKey: beat.key, date: dateStr, manualImage });
   const imagePath = path.join(dirPath, "image.png");
   writeFileSync(imagePath, png);
 

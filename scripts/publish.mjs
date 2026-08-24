@@ -5,7 +5,7 @@ import { ROOT, readText, readJson, callLLMForJson, pickWeightedTopic, readYaml }
 import { checkSafety } from "./safety-check.mjs";
 import { judgeCandidates } from "./judge-candidates.mjs";
 import { writeArchive } from "./write-archive.mjs";
-import { fetchTrendingHeadline, getUsedTrendingEntries } from "./fetch-trending.mjs";
+import { fetchTrendingHeadline, getUsedTrendingEntries, checkCandidateWithLLM } from "./fetch-trending.mjs";
 
 const MAX_REGENERATE_RETRIES = 2;
 const CANDIDATE_COUNT = Number(process.env.CANDIDATE_COUNT ?? 4);
@@ -18,7 +18,7 @@ const CANDIDATE_COUNT = Number(process.env.CANDIDATE_COUNT ?? 4);
 // standard-report kept as the largest single slice (~35%) since it's the
 // most reliable shape, per the audit's "cap it, don't eliminate it"
 // recommendation -- the other five split the remaining ~65%.
-const FORMATS = [
+export const FORMATS = [
   { key: "standard-report", weight: 35, instruction: "" },
   {
     key: "wire-brief",
@@ -97,6 +97,55 @@ function beatFromTrendingHeadline(headline) {
   };
 }
 
+/**
+ * Manual mode: user supplies the exact premise/scenario directly (e.g. "CM
+ * announces ban on Hindi films...") instead of it coming from RSS. Kept as
+ * its own `manualPremise` field (checked first in generateOneCandidate) so
+ * the model is told to refine this premise rather than invent a new one —
+ * unlike beatFromTrendingHeadline, where inventing a fresh angle on a real
+ * headline is the point. Still carries `trendingHeadline` so the guardrail's
+ * stricter "Real trending event mode" check (real institutions/public
+ * figures) applies the same way it would to a fetched headline.
+ */
+function beatFromManualTopic({ premise, context, sourceUrl }) {
+  return {
+    key: guessCategory(premise),
+    label: "Manual Topic",
+    angle: `human-supplied premise: "${premise}"`,
+    manualPremise: premise,
+    manualContext: context || undefined,
+    trendingHeadline: { title: premise, link: sourceUrl || undefined },
+  };
+}
+
+/**
+ * Pulls the article's own lead photo from its `og:image`/`twitter:image` meta
+ * tag, so a manual post backed by a real source link doesn't need a manual
+ * upload -- the source article's actual photo becomes the background, which
+ * reads better than an unrelated AI-generated stand-in. Returns null on any
+ * failure (blocked fetch, no matching tag) so the caller falls back to the
+ * Pollinations auto-generate path.
+ */
+async function fetchOgImageUrl(pageUrl) {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10_000);
+    const response = await fetch(pageUrl, {
+      signal: controller.signal,
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; TafriTimesBot/1.0)" },
+    });
+    clearTimeout(timeout);
+    if (!response.ok) return null;
+    const html = await response.text();
+    const match =
+      /<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]+content=["']([^"']+)["']/i.exec(html) ??
+      /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i.exec(html);
+    return match ? match[1] : null;
+  } catch {
+    return null;
+  }
+}
+
 const RECENT_HEADLINES_LIMIT = 20;
 
 /**
@@ -144,7 +193,9 @@ function buildAntiRepetitionBlock(recentHeadlines) {
 }
 
 async function generateOneCandidate({ system, beat, negativeConstraint, recentHeadlines, format }) {
-  const base = beat.trendingHeadline
+  const base = beat.manualPremise
+    ? `Write one satirical news article. The user has given you the exact real-world premise/scenario below — this IS the story. Do NOT swap it for a different, unrelated joke and do NOT invent a new premise. Your job is to refine and dress it up: sharpen the phrasing, add plausible absurd corroborating details (quotes, numbers, named-by-role reactions), and give it a satirical news voice, while keeping the central scenario intact and recognizable.\n\nPremise:\n"${beat.manualPremise}"${beat.manualContext ? `\n\nAdditional context/tone notes from the user, incorporate these: ${beat.manualContext}` : ""}\n\nFollow the "Real trending event mode" section of your instructions for how to handle real institutions/public figures named in the premise.`
+    : beat.trendingHeadline
     ? `Write one satirical news article using this real trending Indian news headline as your concrete inspiration:\n\n"${beat.trendingHeadline.title}"\n\nFollow the "Real trending event mode" section of your instructions. Invent a fresh, specific satirical premise based on this real story — do not reuse a generic "X is bad" framing.`
     : `Write one satirical news article for the "${beat.label}" beat.\n\nAngle guidance: ${beat.angle.trim()}\n\nInvent a fresh, specific premise — do not reuse a generic "X is bad" framing.`;
   const withFormat = format.instruction ? `${base}\n\nFORMAT: ${format.instruction}` : base;
@@ -155,10 +206,10 @@ async function generateOneCandidate({ system, beat, negativeConstraint, recentHe
   return callLLMForJson({ system, userMessage });
 }
 
-async function generateAndJudge({ beat, negativeConstraint }) {
+async function generateAndJudge({ beat, negativeConstraint, forcedFormat }) {
   const system = readText("config/prompts/generation.system.md");
   const recentHeadlines = getRecentHeadlines();
-  const format = pickFormat();
+  const format = forcedFormat ?? pickFormat();
   console.error(`Format for this run: ${format.key}`);
   const candidates = [];
   for (let i = 0; i < CANDIDATE_COUNT; i++) {
@@ -199,11 +250,34 @@ function winnerScore(verdict) {
  * weighted-random topics.yaml beat if the feed is unreachable or every
  * fetched headline has already been used.
  */
-export async function generateAndArchive({ topicKey } = {}) {
+export async function generateAndArchive({
+  topicKey,
+  manualTopic,
+  manualContext,
+  manualSourceUrl,
+  manualImage,
+  format,
+  skipArchive,
+  preferSourceImage = true,
+} = {}) {
   const topics = readYaml("config/topics.yaml");
   let beat;
 
-  if (topicKey) {
+  const forcedFormat = format ? FORMATS.find((f) => f.key === format) : undefined;
+  if (format && !forcedFormat) throw new Error(`Unknown format: ${format}`);
+
+  if (manualTopic) {
+    // Manual mode bypasses fetch-trending.mjs's own RSS pull entirely, so
+    // its tragedy/violence keyword prefilter never runs on this text --
+    // run the same LLM suitability check it uses on RSS survivors as a
+    // stand-in guard against a manually-typed topic about a real tragedy.
+    const { ok, verdict } = await checkCandidateWithLLM(manualTopic, []);
+    if (!ok) {
+      console.error(`Manual topic rejected by suitability check: ${JSON.stringify(verdict)}`);
+      return { archived: false, reason: "manual-topic-unsuitable", verdict };
+    }
+    beat = beatFromManualTopic({ premise: manualTopic, context: manualContext, sourceUrl: manualSourceUrl });
+  } else if (topicKey) {
     beat = topics.beats.find((b) => b.key === topicKey);
     if (!beat) throw new Error(`Unknown topic key: ${topicKey}`);
   } else {
@@ -214,13 +288,31 @@ export async function generateAndArchive({ topicKey } = {}) {
     if (headline) markTrendingHeadlineUsed(headline);
   }
 
+  // Image priority: (1) a manually uploaded photo always wins, (2) failing
+  // that, the source article's own og:image *only if the caller opted in*
+  // via preferSourceImage (a real photo of the real story beats an
+  // unrelated AI-generated stand-in, but not every source site's lead
+  // image is usable/desired, so this is explicit, not silently automatic),
+  // (3) failing that, renderImage's existing Pollinations auto-generate
+  // fallback runs as-is since effectiveManualImage stays undefined.
+  let effectiveManualImage = manualImage;
+  let imageSource = manualImage ? "upload" : undefined;
+  if (!effectiveManualImage && !skipArchive && preferSourceImage && beat.trendingHeadline?.link) {
+    const ogImage = await fetchOgImageUrl(beat.trendingHeadline.link);
+    if (ogImage) {
+      effectiveManualImage = ogImage;
+      imageSource = "source-url";
+    }
+  }
+  if (!imageSource && !skipArchive) imageSource = "generated";
+
   let negativeConstraint;
   let winner;
   let judgeVerdict;
   let safetyVerdict;
 
   for (let attempt = 0; attempt <= MAX_REGENERATE_RETRIES; attempt++) {
-    const judged = await generateAndJudge({ beat, negativeConstraint });
+    const judged = await generateAndJudge({ beat, negativeConstraint, forcedFormat });
     winner = judged.winner;
     judgeVerdict = judged.verdict;
 
@@ -244,7 +336,11 @@ export async function generateAndArchive({ topicKey } = {}) {
     }
   }
 
-  const archiveResult = await writeArchive({ beat, article: winner, judgeVerdict, safetyVerdict });
+  if (skipArchive) {
+    return { archived: false, skipped: true, article: winner, judgeVerdict, safetyVerdict, topicKey: beat.key };
+  }
+
+  const archiveResult = await writeArchive({ beat, article: winner, judgeVerdict, safetyVerdict, manualImage: effectiveManualImage });
   const relImagePath = path.relative(ROOT, archiveResult.imagePath).replace(/\\/g, "/");
 
   return {
@@ -253,11 +349,19 @@ export async function generateAndArchive({ topicKey } = {}) {
     relImagePath,
     article: winner,
     topicKey: beat.key,
+    imageSource,
   };
 }
 
 async function main() {
-  const result = await generateAndArchive({ topicKey: process.env.TOPIC_KEY });
+  const result = await generateAndArchive({
+    topicKey: process.env.TOPIC_KEY,
+    manualTopic: process.env.MANUAL_TOPIC,
+    manualContext: process.env.MANUAL_CONTEXT,
+    manualSourceUrl: process.env.MANUAL_SOURCE_URL,
+    manualImage: process.env.MANUAL_IMAGE,
+    format: process.env.MANUAL_FORMAT,
+  });
   process.stdout.write(JSON.stringify(result, null, 2) + "\n");
   if (!result.archived) process.exitCode = 3; // distinct code: blocked/exhausted, not a crash
 }

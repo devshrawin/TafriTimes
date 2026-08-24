@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-24",
+  "publishedAt": "2026-08-24T16:39:55.414Z",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Maharashtra State Official Explains New ₹20 Lakh Fine for Producers Making Hindi Films",
+  "slug": "maharashtra-hindi-film-ban-interview",
+  "body": "Q: The state government recently announced a mandate requiring all films produced by local bodies to be exclusively in Marathi, with a ₹20 lakh fine for Hindi-language productions. What is the logic behind this strictly regional approach?\n\nA: It is simply about efficiency, my friend. We found that the sound waves produced by Marathi dialogue resonate perfectly with our state's specific humidity levels, whereas Hindi vibrations were causing a slight, unnecessary wobble in the local monsoon clouds. It is a meteorological necessity.\n\nQ: But a ₹20 lakh fine for a Hindi movie seems quite punitive for the local film industry, doesn't it?\n\nA: Not at all. We view it as a 'linguistic adjustment tax.' Producers are free to make their films in whatever language they choose, provided they have the spare liquidity to contribute to our state's new 'Alphabet Preservation Fund.' It keeps the accountants sharp and the sub-titles localized.\n\nQ: And what happens if a filmmaker accidentally slips a few Hindi words into a Marathi script?\n\nA: We have established a dedicated auditory patrol that monitors every screening with a dictionary and a stopwatch. If they detect a prohibited phrase, the fine is docked automatically from the producer’s canteen account. We are keeping the industry focused on local excellence, one syllable at a time.",
+  "caption": "New directive keeps the dialogue strictly local. Will this lead to an Oscar for pure Marathi-language brilliance, or just a very expensive accountant's bill? 🎬🇮🇳 #MaharashtraCinema #MarathiFilms #CineDebate #Satire (satire)",
+  "igHook": "Would you pay 20 lakhs just to use a specific language in your next movie script?",
+  "imagePrompt": "A wide shot of a modern, empty film studio soundstage with professional lighting rigs and cameras set up in the background.",
+  "sourceHeadline": {
+    "title": "cm maharastra annocunced banning all hindi films from hollywood, directs bollywood body to make films in marathi, 20 lac fine on proucers who make films in hindi.",
+    "link": "https://www.thehindu.com/news/national/maharashtra/why-are-maharashtras-auto-rickshaw-taxi-drivers-being-issued-notices-for-lacking-marathi-language-skills-explained/article71383626.ece/amp/"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 stands out by introducing a completely absurd, pseudo-scientific justification ('meteorological necessity') for the mandate, which elevates the piece beyond a simple bureaucratic satire. While all candidates struggle with the 'Mandate' template repetition common in recent headlines, the detail about 'monsoon clouds' and the 'canteen account' provides a specific, vivid image that the other, more formulaic entries lack."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurdist, clearly fictional logic regarding meteorology and linguistic resonance to satirize regional language policies. It avoids naming any real individuals, private persons, or specific real-world figures, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  },
+  "manualMode": true,
+  "sourceImage": "https://th-i.thgim.com/public/incoming/p2mgpy/article71383723.ece/alternates/FREE_1200/PTI08_21_2026_000404B.jpg"
+}
