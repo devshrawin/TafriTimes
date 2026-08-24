@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-24",
+  "publishedAt": "2026-08-24T14:29:34.970Z",
+  "topicKey": "trending-news",
+  "headline": "Education Department to implement 'Office Chair Relocation' policy for all Class X students",
+  "slug": "office-chair-relocation-policy",
+  "body": "The government confirmed that school benches will be removed and replaced with rolling office chairs that require a three-page 'Work-Zone Shift' permit for every twenty centimeters of movement. The initiative aims to familiarize students with the logistical complexities of urban worker relocation by ensuring their desk chair is always in a different room than their textbook.",
+  "caption": "Your back, your commute, your classroom—now all equally prone to surprise displacement. Are you ready for the new syllabus? #EducationReform #OfficeLife #StudentLife #NewPolicy (satire)",
+  "igHook": "Tag a friend whose desk is already in the wrong zip code.",
+  "imagePrompt": "A rows of plastic office chairs with wheels sitting in an empty, dust-filled school hallway, with a single student backpack left abandoned on the floor.",
+  "sourceHeadline": {
+    "title": "Govt wants to do to students what it did to Noida workers, CJP’s Abhijeet Dipke says",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVZTblAwdDZSNWVxZ3hkaGl5Z0o1dFRPdEVtTWtHNkttTVotSTkzaG40QjU5bFVFTTVvdFlPR3dtbkZ6bEdmZnhYT2h5OEhpQndqSG9rMVVKRkdRb0NlUHVXN1NDQU5zRWp5MUVLV3NTNGFZSUpQWE5YSFVvemtxazZ4czR2MFdibVQwTU1aS3ZTcDRrbzBwOFZSSVU1dWY0SHNlTDFZWFNrWlRSZ05HSlctVFM3dW5BWTBLR3pON3ZpYnprNm9aNmV6dTNGbmdzLUVj0gHYAUFVX3lxTE1EaGlTbGRMZm9aZ3ZVcmdwVk10R2hEUVhyNXRuazh2blNvRUp4ZUpHaVNKSmJaTDgxdEtjV0dveGVOSFdPTnVkLWZFM2NMLVM1WDNiSlZhNi1nNUhucDgyXzlrQ0ZQLUdKaXlYX3pTeHVXUEQ3NXlyc0tOZEp6NkkwQ0JjUDFJMGNkTE1MZWhlUm1lRXdEWlM4d3dsdW9LRHFxb3FTNnBaaWhrYjVZZEVGbC1wM0I2WHdTQ1RVa2JFMnVWclE4M2ttOHlqOXdZTXlBLVJZbDU1dw?oc=5",
+    "pubDate": "Mon, 24 Aug 2026 05:30:03 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 24
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 succeeds by choosing a specific, absurdly bureaucratic policy ('Work-Zone Shift' permit) rather than the repetitive conveyor-belt theme found in almost all other submissions. It balances a deadpan tone with a vivid image of rolling chairs scattered across a hallway, feeling fresh compared to the recent output."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical take on bureaucratic inefficiency and the absurdity of corporate-style workplace policies. It does not target any specific real individuals, groups, or religions, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
