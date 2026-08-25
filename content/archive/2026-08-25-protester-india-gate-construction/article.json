@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-25",
+  "publishedAt": "2026-08-25T03:31:09.056Z",
+  "topicKey": "trending-news",
+  "headline": "Protester Planning September 5 March Expresses Disappointment After Realizing India Gate Is Currently A Massive Construction Site",
+  "slug": "protester-india-gate-construction",
+  "body": "Ramesh Kumar, a self-appointed protest organizer who recently called for a major demonstration at India Gate on September 5th to highlight unfulfilled government promises, has been forced to rethink his logistics after discovering the monument is entirely surrounded by high-visibility safety fencing and heavy excavators.\n\n\"I had planned for a very dramatic walk toward the archway, but it seems I'll just be marching directly into a cement mixer,\" said Kumar, who was seen standing on a nearby sidewalk with a megaphone and a pack of lukewarm samosas. \"I assumed the venue would be open for historic acts of defiance, but apparently, the only thing happening at India Gate this month is the laying of new subterranean piping.\"\n\nDespite the site being off-limits to pedestrian activism due to ongoing infrastructure improvements, Kumar remains undeterred and is currently negotiating with site foremen to allow protesters to carry placards while wearing hard hats. He noted that while the government may have reneged on its promises, he refuses to renege on the venue, adding that a protest simply doesn't feel authentic if it isn't held in front of a landmark currently draped in green debris netting.",
+  "caption": "Marching for a cause is hard when the cause's location is currently a designated hard-hat zone. #IndiaGate #ProtestLife #DelhiConstruction #PlanningFail (satire)",
+  "igHook": "Tag someone who would try to organize a protest at a construction site.",
+  "imagePrompt": "A wide-angle, eye-level shot of a historic stone archway surrounded by tall green construction fencing, orange traffic cones, and a large metal crane silhouette in the background under a hazy sky.",
+  "sourceHeadline": {
+    "title": "CJP calls for September 5 march from India Gate, accuses Centre of reneging on promises",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQaXNtZGpjTExaVURCaXhjNWFNbW5nb0tpMmNwMUQyQ0JwU09JZTd5U0YtRUVUMkpqSVlCLUVFLWhJQ3Bva3FYNUVGS0FqaXdzU3BxU3RLQ053WWR6YVFlc3gydGdoOTRGUVFHZzJOdlJ2S040eWdtbmdET01BTFFhQkk3OEFnd0lBX2F4YmpLbEhONGZnZlBWZ1M2VEtCSlo1LWhZTEY2V2M2WkJqOHRaemtWSDNGaTRNTUVJclozOXVwU0ZCLXAtaE45Qk5PeElnc01ncm56SzAyNFRtcDF6ZnI1SVR5QjNZcjBUM0ZEQkRQbklmZ0EwcEkwRjhHYlQ4dk83Z0ZSS0M?oc=5",
+    "pubDate": "Mon, 24 Aug 2026 12:30:28 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 39
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 wins by grounding the absurdity in a very relatable local reality (Delhi construction), which provides a specific, vivid image that feels like a genuine, affectionate observation rather than a forced procedural joke. It avoids the 'AI slop' tropes of bureaucratic parody by focusing on a singular, physical logistical failure."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, generic individual to frame a humorous observation about urban infrastructure and civic life. The image prompt describes a generic construction scene without identifiable real-world details or specific branded elements.",
+    "flaggedIssues": []
+  }
+}
