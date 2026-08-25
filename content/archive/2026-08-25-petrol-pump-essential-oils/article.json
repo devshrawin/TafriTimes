@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-25",
+  "publishedAt": "2026-08-25T05:54:51.202Z",
+  "topicKey": "trending-news",
+  "headline": "Local Petrol Pump Owner Switches Entire Fuel Supply To Flavored Essential Oils Following International Trade Breakthrough",
+  "slug": "petrol-pump-essential-oils",
+  "body": "Q: Mr. Sharma, your neighborhood gas station now smells exclusively like lavender and sandalwood. Why the sudden change?\n\nA: Well, with all these supply chain disruptions in West Asia, I decided to pivot. I figured if we’re relying on long-distance international assurances, we might as well make the commute pleasant. My customers used to complain about the smell of diesel; now they’re arriving at work smelling like a high-end spa.\n\nQ: But surely your customers’ engines are struggling to run on aromatic oils?\n\nA: That’s the beauty of it. The cars don’t actually start, but everyone is incredibly calm while waiting for the tow truck. It’s significantly reduced road rage in this sector. I’ve essentially turned the morning commute into a mobile aromatherapy retreat.\n\nQ: Are you worried about the potential impact on national transport infrastructure?\n\nA: Not at all. I’ve already received verbal assurances that I’ll be getting a shipment of organic eucalyptus-infused gasoline by next quarter. It’s all about maintaining a positive outlook while the global logistics networks figure out which route to take.",
+  "caption": "Your morning traffic jam is now officially a luxury spa experience. Stop complaining about the fuel price and start breathing in that peppermint-scented gridlock. #AromatherapyCommute #FuelCrisis #ZenDriving #TafriTimes (satire)",
+  "igHook": "Would you pay extra for a car that runs on essential oils instead of gasoline?",
+  "imagePrompt": "A close-up of a fuel pump nozzle at a vintage-looking petrol station, with a small decorative sprig of lavender tied to the handle with a rubber band.",
+  "sourceHeadline": {
+    "title": "Putin assures India of fuel, fertilisers amid disruptions over West Asia crisis | India News",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdDctWDBIN25aMzZ5ZjVnOWlvTS1SM1lxQncwQ19Kbks0NHg5QWZ6SnNkMUlVYnRsZFBrVlFHVXRZRGRuVXFKd3NOazY5VVhvMlo4X3NNTGtTeHRzTi1EaTgxNnZsR0RqdHJFM0gtUVI2bTBlVm5NRE8xb1dyMlp6ZTVnNEEzX2lNMHBwdGt2VE9kTnhFLXRIR0hLelpvd09uSk9ibXFSc1ZTNkEyZ0NXbDFJQzVVUHZnS2hnZExiei1rSllHaThUWGhVMDFyRkVER1EtRkdFRm7SAd4BQVVfeXFMTkhDY3ZTZHV4MmlSV0NYMHpxMFpIWDh2MDZWaGYtLW5xTU12STZHdXoweWdHNWt5M0hOQUVvSjE0bFFjNFZUVS1rYXlwZDhlaENKVGQyZTNoenN4UDcxU1FRWmluaXFocWRzeU9LaFEwcXJjUXhxdGphNGRRdjNoREVNYjR5SU41WmJpRkwxTnBjWVhmRm92YnJURGI1ZnBaazF1QlZ4NUszQU1waFVkcGs3TkM3NDZVbXZEU0QtSF93TjhuUVE3blVMUlVITjAwUDlhNjY0Z3dkTU9Remln?oc=5",
+    "pubDate": "Mon, 24 Aug 2026 16:44:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Index 13 wins by taking the 'barter' trope to a more sensory, absurd conclusion (essential oils/aromatherapy) that feels fresher than the repetitive Bollywood/VHS tape submissions. It avoids the AI-slop tendency of formulaic quote-scaffolding and manages a high-quality deadpan tone that treats the environmental collapse of a car as a 'spa experience'."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear piece of satire featuring a fictional, generic character. It does not target any real individuals, religions, castes, or ethnic groups, and the image prompt is generic and safe.",
+    "flaggedIssues": []
+  }
+}
