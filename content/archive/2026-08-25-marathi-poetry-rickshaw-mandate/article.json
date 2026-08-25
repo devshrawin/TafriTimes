@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-25",
+  "publishedAt": "2026-08-25T08:17:31.584Z",
+  "topicKey": "trending-news",
+  "headline": "Auto-Rickshaw Union Demands New Language Mandate Requiring Passengers To Speak Exclusively In Marathi Poetry",
+  "slug": "marathi-poetry-rickshaw-mandate",
+  "body": "\"I was just trying to get to the station, but the driver refused to start the engine until I recited a stanza from Vinda Karandikar that properly captured the existential dread of rush hour traffic,\" said local office commuter Rajesh Gupta.\n\n\"Look, I don't mind the new rule, but my driver insisted that my request for the destination to be expressed in a rhyming couplet about the monsoon, otherwise he’d consider it a breach of contract,\" noted college student Meera Deshmukh.\n\n\"Business has actually been great, because now I charge a 50-rupee premium for anyone who wants to use prose instead of a dramatic soliloquy,\" remarked veteran rickshaw driver Suresh Mane while polishing his rhyming dictionary.\n\n\"I tried to argue that I only needed to go three blocks, but the driver told me that brevity is the enemy of culture and made me narrate the entire history of the Sahyadri ranges before we reached the signal,\" added software engineer Vikram Iyer.",
+  "caption": "Mumbai auto-rickshaw rides now require a B.A. in literature just to reach the grocery store. It’s not just a commute anymore; it’s an open-mic night with a meter. #MumbaiTraffic #RickshawDiaries #MarathiPoetry #CommuteLife (satire)",
+  "igHook": "Would you pass the poetry test to get a ride home, or would you be stuck walking?",
+  "imagePrompt": "A close-up shot of an auto-rickshaw dashboard featuring a faded plastic flower vase and a small, weathered book of poetry resting next to the fare meter.",
+  "sourceHeadline": {
+    "title": "\"Injustice\": Auto-Rickshaw Drivers Protest In Mumbai Over Marathi Mandate",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVFgwTVVKTlhaRzhqelBhc0pILUhQVVROcnk1ak9OWGVyVG1nd3FzTEVSdGtlSUNsZUNBWHFfR3pFS0U4RmhsdHBlaWZEOUw1VXNZNWRzdlZqeHdiaTNkYzFabTZCcDFpNkNUSzhNbFczTmFibWVwN0dQTDJnQ0tMUXBYSkpSM0g5QmdmcXd6bkQ0aGs1VVhUUzQzcXpkZmtXVU93MUs5WXI4ZWZyWlhkadIBuAFBVV95cUxOZ3RRMUIyT0Z5cDI2RC15WmZXUHJXTWJFX1ZrSlZ5RVZVRGwta2tldGM4MlBiZTFRM0oxRlpsbmRoeGdXMlJaUXN5NUdoRjM1ejh1aXd0a1FjcmhXa3Z1ZUlhcHR0aEp1SXVIYXBSd240clZ1MUlGQk1JbWVMNzhtcFNRdHVzMmdWTmNva0VwcVVFdWNJdW93dEZqYy14QkFTTkNsdUwybktVRm40OTJleDZpVGtaVU9B?oc=5",
+    "pubDate": "Mon, 24 Aug 2026 09:53:05 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 48
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding its absurdity in warm, specific character interactions rather than dry bureaucratic complaints. It avoids the repetitive 'union mandates/protest' trope common in the other entries, instead treating the rickshaw as a setting for an absurd, almost charming cultural friction, while maintaining a sharp AP-style structure."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional scenarios to satirize urban transit culture without targeting real private individuals, specific religious groups, or making defamatory claims. The characters are generic archetypes, and the image prompt is neutral and descriptive of an anonymous setting.",
+    "flaggedIssues": []
+  }
+}
