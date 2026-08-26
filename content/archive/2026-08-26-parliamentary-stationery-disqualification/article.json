@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-26",
+  "publishedAt": "2026-08-26T08:13:06.648Z",
+  "topicKey": "trending-news",
+  "headline": "Parliamentary Clerk Begins Disqualification Hearings After Rebel MP Fails To Properly Align His Desk Stationery",
+  "slug": "parliamentary-stationery-disqualification",
+  "body": "Q: Mr. Chatterjee, you have served as a Clerk of the House for three decades, but these new disqualification notices for the 20 rebel MPs seem… unusually focused on office supplies. Is this standard procedure?\n\nA: It is entirely standard. The Speaker’s office has always held that legislative integrity begins with the presentation of one’s desk. We simply couldn't ignore the fact that the Member from Sector 7 had his stapler oriented at a 45-degree angle, which is a clear violation of the ‘Uniformity of Parliamentary Workspace’ guidelines.\n\nQ: But isn't disqualification a bit steep for a tilted stapler? The MPs claim they were simply repositioning it to reach a loose pile of reports.\n\nA: That is exactly the kind of excuse we hear from dissenters. If we allow for a ‘repositioning’ defense, next we’ll have members using colorful sticky notes instead of the approved beige ones. Disqualification isn't just about party loyalty; it’s about maintaining a rigid aesthetic standard in the legislative chambers. If your paperclips aren't sorted by gauge, are you truly serving the people?\n\nQ: The rebel MPs have argued that the party is using these procedural audits to purge members who disagreed with the recent caucus vote. What do you say to that?\n\nA: I wouldn't know anything about caucus votes, but I do know that there were three distinct blue ballpoint pens on the desk of an MP who belongs to a party that strictly mandates black ink. That is a betrayal of the House’s visual decorum, and in my book, that’s grounds for a permanent exit from the floor.",
+  "caption": "Desk aesthetics are the bedrock of democracy. Why settle for policy debates when you can audit the pen color of your political rivals? #ParliamentaryDiscipline #DeskAudit #BureaucracyWins (satire)",
+  "igHook": "Would you lose your job if your manager inspected the angle of your stapler?",
+  "imagePrompt": "A close-up shot of a mahogany desk in an official legislative chamber with perfectly aligned piles of paper and a single black pen positioned exactly parallel to the edge of the table.",
+  "sourceHeadline": {
+    "title": "Speaker Has Issued Notices To 20 Rebel MPs On Trinamool Congress Pleas For Their Disqualification,...",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWmh1YWR3ZGxjMWJmeFdWbXBHN3hGZlFoQjhGdUQ1U1JSUzFDZUR6NzRfaVY2bng3Nm5mR0pwMXpKM1VyUHE4Rno3RmNMVGxDRVJSS1JsdkVqM1FYUWVVaGdNbVE1ZXNyQ2NxMVNFaHNCeXE2RXBLcTdrb0c1VVZHYWZJZXFIMzYtVWdzRDJ6V0hzV2hnWTZ0ZDYxcUFyLV8taXpjdzVGVHkxVklnRW54U1hwWlktbUNIX0dPNm5sT2t6eTZ2TlZ3bzFhbFpnZjFlSkdCT21HMXcwSWNyQ3NOUjE2c3loaDJSc0ZDOHR3NTRYX2IyWGxnQmpGQURNVE1tTXZpX3Z6N0dGZ9IBjwJBVV95cUxNUUFqTlVKQ294MVJWU19hWDJQYmtNbW02SzFVWEp0azNHN2d6Njl2M0hhMGZVeUEzLXRZX0VWaXp0LS1qaHl2SXp4WkNCVDAyQWsxN3NjRzVzekItdlNUdVNiUjBVVkI1SkxSR1VUdmx1VTBhRVh1V1ZlSVpQU1ljNWtvVmMtcGljam5wRWZ3ZmdzZ29sMTJGMEFRYmJQdGhvZERoMVpnSVZDejhrVTMxRHVKLVhneWlzRldlc3NxdXpNRUs3OEJuQk5jNml1WGRlODY3Tlhvcy1WMXNfNklsUk9pR0p6NGl4NDcwbFBPcGVrbFU2WjNRS0l6aFFBa1BLVGZ3SU5ZclZTc1lwZkFB?oc=5",
+    "pubDate": "Tue, 25 Aug 2026 06:26:26 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 (Stationery Alignment) stands out for its specific, absurdly petty bureaucratic logic—the idea that disqualification is a matter of 'visual decorum'—which feels much fresher than the 'game show' or 'lost mail' tropes present in other entries. While Candidate 4 was a strong, warm runner-up, Candidate 12’s sharp focus on the specific absurdity of desk-alignment provides a more vivid and hilarious image that perfectly satirizes institutional pedantry."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional situation and a generic placeholder name ('Mr. Chatterjee') to satirize bureaucratic overreach and political infighting. The content avoids naming specific real politicians or real political parties, and the image prompt is generic and descriptive of the theme without referencing real people or branding.",
+    "flaggedIssues": []
+  }
+}
