@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-26",
+  "publishedAt": "2026-08-26T00:07:02.997Z",
+  "topicKey": "trending-news",
+  "headline": "My Small-Scale Trading Firm Was Sanctioned Because I Accidentally Exported My Grandmother’s Spicy Pickle Recipe As 'High-Octane Iranian Crude'",
+  "slug": "my-pickle-recipe-sanctioned-by-us",
+  "body": "I still don’t quite understand how the Treasury Department confused a fifty-kilogram shipment of my grandmother’s extra-spicy mango achaar for a multi-million dollar Iranian petroleum shipment. It all started when I tried to use an online shipping calculator that had a glitch, and I accidentally checked the box labeled 'Volatile Hydrocarbons' because it was right next to 'Home-Style Preservatives' in the dropdown menu. \n\nBefore I knew it, I was receiving emails from international banking monitors asking why my 'crude oil' was leaking out of the glass jars and staining the shipping pallets. When I tried to explain that the burning sensation the inspectors reported was merely the high concentration of Kashmiri red chili powder, they told me that pleading 'culinary incompetence' was not a valid legal defense against international trade sanctions. \n\nNow, my personal bank account is frozen, and my export license is suspended until I can prove to a panel of global investigators that my grandmother’s recipe does not actually possess enough thermal energy to power a mid-sized sedan. I’ve tried sending them a video of me eating a spoonful of the 'contraband' to show it’s purely for consumption, but apparently, eating evidence in front of federal agents is just another item on the list of things I’m no longer allowed to do.",
+  "caption": "My shipping label said 'Spicy Oil', and now I'm officially a global threat. #SmallBusinessProblems #SanctionedByMistake #PickleDiplomacy (satire)",
+  "igHook": "Have you ever accidentally started an international trade war with your lunch?",
+  "imagePrompt": "A close-up of a weathered, handwritten cardboard shipping label attached to a wooden crate, with 'Kashmiri Spicy Oil' written in fading marker next to a large, official-looking 'VOID' stamp.",
+  "sourceHeadline": {
+    "title": "US sanctions four Indian firms, three individuals over $119 million in Iranian petroleum imports",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNDkybXR4Uk1kQ3JTV2hyc0F5R3p0MVRaRnlrc212cWExcUVDcjA0N2s0cXUyUUhYNWxpNDJoWXZoNE5TdkdYWml6elJpS0VJYmlQRjdtaFkweGdQUzFKR1k5YTRNUGVVbTlYYnYtV2JtakxoT0RiSzYxU3RrdU15NERsYjNrWlNEclE2SEtUSk9reS14aFNWZWNzYUpLTDhQMDdYVG5XLVZlaXpsUFlvMEZHZHRLWDY0SWx1MlRETkRYcFltWlQ1elM5TEI1aVBvc094SdIB2gFBVV95cUxQN0p5VUFCQlBVdTduZC03dGRXdVgyZHNrakJSRllXdEl6NlFuajNqeVYzQnB1NHFxNmFrSlNZaHZ3amkwT1gzTzhWcnQ4SmZzd2g3VGhabWdSMmotRzgyTkkxR0l5UEpmTHV1Vlc0ZWd6LXdrdWlFZkp6T1hDMzgzY1Bfa2lSckdxZksyUDVOR2huT0pLZXhtTkhaLW4yRWVtX2J6R3FQR0pieDZaUGVBcDhOSG1iOHRsQ04yd21HMFFueGwtMnAwV28yb2hrMXNWbDBXSHFfSHdmZw?oc=5",
+    "pubDate": "Tue, 25 Aug 2026 08:24:36 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidates 4, 7, and 10 were the strongest for their specific, absurd premise-driven narratives that avoid the 'AI slop' trap by focusing on a singular vivid image (pickles/mustard oil as crude). Candidate 7 narrowly wins for the strongest 'warmth' factor; the image of a grandmother's pickle recipe being investigated by international trade monitors for its 'thermal energy' is funny, distinct, and avoids the cynical tone of the others."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clearly fictional, absurd anecdote involving no real individuals, public figures, or sensitive communal/political groups. The image prompt describes a generic crate label without any identifiable real branding or people.",
+    "flaggedIssues": []
+  }
+}
