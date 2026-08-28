@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-28",
+  "publishedAt": "2026-08-28T05:37:52.858Z",
+  "topicKey": "trending-news",
+  "headline": "5 Reasonable Edit Requests Publishing Houses Are Now Sending To Aspiring Authors",
+  "slug": "5-reasonable-edit-requests-publishing-houses-are-now-sending-to-aspiring-authors",
+  "body": "1. Replacing all instances of 'The sun rose' with a 400-page historical backgrounder on the solar system to ensure complete reader context.\n\n2. Mandatory insertion of a disclaimer on the copyright page stating that all fictional characters are actually currently undergoing therapy for their unrealistic plot arcs.\n\n3. Changing the book's climax from a dramatic confrontation to a three-chapter administrative committee meeting to better reflect the modern bureaucratic experience.\n\n4. Requiring the author to provide an end-of-chapter 'Vibe Check' scorecard that allows readers to decide if the plot development aligns with their personal aesthetic preferences.\n\n5. Adding a mandatory appendix that includes a 5,000-word apology note to every hypothetical reader who might feel slightly confused, mildly inconvenienced, or accidentally enlightened by the narrative.",
+  "caption": "Publishing is all about 'collaboration', right? If you've ever had to edit your life story to suit a boardroom's taste, this one is for you. #BookTwitter #WritingCommunity #PublishingLife (satire)",
+  "igHook": "Tag an author who has definitely been asked to change their ending to a board meeting.",
+  "imagePrompt": "A cluttered, dimly lit wooden desk featuring a single manuscript page covered in an excessive number of bright neon sticky notes and red ink markings.",
+  "sourceHeadline": {
+    "title": "Penguin India won’t publish Sonia Gandhi’s book, had asked for ‘changes’ which author rejected",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbVZZQy0yN08tcFZteGNya0RGZWRfNmNnOXhhTDdWYWV0YW9paG9iWWk2U2NYOFIxdVVyMzlrTzJOZjVNVFFDb19uaFJEcmFvMkxFcVRnVlBRS05ocG40TWJGX1gtRXRON0p4WVl6dURhODFYX1pRSmZPWXg4N0pvQ2lKbm5HUXpOOFdfMjY0R2FRWXd0QUtIWURrUHVkUDNyOHpzdEViWWxoallXb1ZGT1BZSXBjal9uME9Ub29pdjNOamgtUnM5ZUJ2dGdxLTRaSWRKck91MEw0dFFiNlN5WDJsc9IB6gFBVV95cUxNT2hldzRBYmlZVWpEYW5HWklvUXBpZUhRQ1NPVTUzZVRzZXpPM3pHQjVXd0xqb1lzUnptUzJiRFBVTzl5OWhSNE5jV3o2ZmlnZTVaVEZ6ZmRMRGN0YTE5cFRqTG1QTFhSVnU3VVM5dkNUX1VpRXh2d3ZiNEU1VWdiY2Zmd29XMUtBYnp1anV6Znk2UmFZbkpHckd1Q0YxMm5JUGxtRkNIS1BCTmxmMmJPUUh1cDI5X1B2NGpPSzZGWEtzQWZXUFhqQU9aekozR3d5YURnYXBvOEJOWjFjU1F6dGh4a1BDU1lMQ2c?oc=5",
+    "pubDate": "Fri, 28 Aug 2026 00:59:10 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances the specific anxieties of the publishing industry with a charmingly absurd, deadpan delivery. It avoids the 'classic literature rewrite' trope seen in many other entries (which feels a bit overdone) and provides fresh, imaginative editorial demands that resonate with the modern writing experience."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, lighthearted satire about the publishing industry that does not target real individuals, groups, or sensitive topics. The image prompt is generic and does not violate any content policies.",
+    "flaggedIssues": []
+  }
+}
