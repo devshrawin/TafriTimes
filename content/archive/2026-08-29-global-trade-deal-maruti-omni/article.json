@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-29",
+  "publishedAt": "2026-08-29T02:38:31.407Z",
+  "topicKey": "trending-news",
+  "headline": "Locals Remain Skeptical As Global Trade Deal Results In Only Three Barrels Of Crude Oil Arriving In A Used Maruti Omni",
+  "slug": "global-trade-deal-maruti-omni",
+  "body": "\"I was expecting a massive supertanker to dock at the coast, but instead, this guy in a dusty van pulled up to the curb and handed me a receipt for 'world history' in exchange for my nephew’s entire crypto portfolio,\" said a local chai stall owner.\n\n\"The trade agreement is clearly a masterclass in diplomacy, though I am struggling to understand why the invoice for the biggest oil deal in history was written on the back of a discarded grocery bill from a supermarket chain,\" noted a confused suburban commuter.\n\n\"My economics professor told us this was a strategic geopolitical realignment, but watching the driver frantically check Google Maps for the nearest fuel station suggests the logistics might be slightly less 'world-altering' than the press release claimed,\" shared a final-year graduate student.\n\n\"I tried to explain to the delivery person that I ordered a medium pizza, not a strategic reserve of Venezuelan crude, but he insisted the deal was 'too big to fail' and left the jerrycan on my porch anyway,\" added a frustrated local resident.",
+  "caption": "From tankers to vans, the scale of global trade just hit a new low, or maybe a new high? We’re still trying to figure out the math. #TradeDeal #Diplomacy #GlobalEconomy #MarutiOmni (satire)",
+  "igHook": "Would you accept a geopolitical trade deal if it arrived in a beat-up van?",
+  "imagePrompt": "A wide-angle shot of a dusty, white minivan parked on a busy urban street corner, with several generic plastic jerrycans stacked neatly on the sidewalk next to it.",
+  "sourceHeadline": {
+    "title": "Trump Announces \"Biggest Oil Deal In World History\" With Venezuela",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1NjQzNqamR0Q2FKZ0FWLVpqQlFNbmVBRG9GTmxHejZITlRNTE5ycFY5amtOcFJIMkFseEc5aUFURlNJSkF1Y1RUZkw4MGdISGhhM25qblNxVzU2RVhMUU1KXzVpV280d09KLUY0Unp5YllWMU0wREtEbTMyOU1KM3BQWnZCaS1GemtndFUxb3Y4cTk1OXhUWHVFM2J5M1BENzlHOC1VME1KY1c3VXpVNlRB?oc=5",
+    "pubDate": "Fri, 28 Aug 2026 23:58:11 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 4,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 provides a vivid, specific image of the absurd premise (the 'world's biggest deal' arriving in a beat-up Maruti Omni) that anchors the joke in a physical, funny reality. It avoids the repetitive 'tea-stall' trope present in several other candidates and uses concrete, absurd details to sell the satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, absurd scenario to satirize global trade and logistics. It contains no real individuals, avoids protected groups, and the image prompt describes a generic scene without identifiable entities or text.",
+    "flaggedIssues": []
+  }
+}
