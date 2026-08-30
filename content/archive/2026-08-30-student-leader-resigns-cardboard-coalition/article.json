@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-30",
+  "publishedAt": "2026-08-30T22:37:38.590Z",
+  "topicKey": "trending-news",
+  "headline": "Student Leader Resigns After Realizing His 'Coalition' Partner Is Just A Cardboard Cutout Of A Mascot",
+  "slug": "student-leader-resigns-cardboard-coalition",
+  "body": "Campus election tensions peaked today when the secretary of the university’s most prominent student union announced his resignation, admitting that his high-profile alliance with an opposing political wing was actually a strategic pact with a static, life-sized standee of the university mascot. The alliance, which promised to unite the campus under a banner of ‘unified cafeteria pricing,’ fell apart during the first televised debate when the secretary attempted to hand the mascot a ceremonial pen to finalize the coalition agreement.\n\n“We held three long nights of negotiations in the back of a parked scooter,” explained the former secretary, wiping sweat from his brow. “My counterpart was consistently quiet, never disagreed with my aggressive stance on mandatory napping hours, and didn't once ask for a cabinet position. I genuinely thought I had found the most diplomatic partner in the history of student politics. It wasn't until the rain started during our rally that he began to visibly warp, and I realized his platform was essentially made of corrugated fiberboard.”\n\nElection observers noted that the mascot, nicknamed ‘Sunny the Scholar,’ had been placed outside the administration building for orientation week and had accidentally drifted into the student union’s war room during a janitorial shift. Political science student Rahul Mehra, who witnessed the collapse, noted that the mascot’s silence had been widely interpreted by the student body as a sign of ‘deep, calculated political stoicism.’ \n\nFollowing the incident, the opposition party has officially claimed the standee as a ‘youth icon’ and is currently fielding it as a candidate for the upcoming campus council elections. They maintain that the mascot’s inability to speak or move makes him the only candidate truly capable of upholding the party’s traditional values without adding unnecessary noise to the campaign trail.",
+  "caption": "It’s hard to find a partner who doesn't ask for a portfolio. At least this guy doesn't have a record. #CampusPolitics #StudentElections #CoalitionGoals (satire)",
+  "igHook": "Would you vote for a candidate who literally cannot say a single word?",
+  "imagePrompt": "A slightly weathered cardboard cutout of a university mascot standing next to an empty wooden podium in a sunlit college quadrangle.",
+  "sourceHeadline": {
+    "title": "Amid Alliance Suspense, Akali-BJP Student Wings Tie Up For University Polls",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQUkxUTlKdURRakZJc25LbDlVaXJhWjVlOXN5RUNxTW9mdXA1OTFyNDZzZGdaRzBfbGFtdVVoNF9uLUdSZTUyWmhYQkVnVXdENXc3NGhaWFNDNHVXVmFQYlljVE43TnAwLWFIdXBwQ01XSU0zMW1Ta0ZaT21wYkE4dndCOXVMOHVEU0gwQTVPbk1tdV8wM0ZwTWhMWU5nTXhvWjJOSE0wVGQwMG9kUXl5QldhemhZQdIBvgFBVV95cUxQcWNTZW1aRVllT09JNkFpWUZnU1AtaFhhSGNaUGlJenczcXE5N1o5V2dZUnVhWVBrZWd5NXJXZWFTVEgxRkRybGhLMmhpS2JMVWd1cjVYWlBuUEpxVW1FSF9MenFaWTF6YWFSWG81cUduQUw2Rkl5ZTY2anlMYzZORklSaVFJa1p1UWJ2c3VQMXA5ZzJRTktwR2pwNENzcllGR2tvcmRxMG5vYzVPMm5Hc1pWMHVNTkpncS1tMmJn?oc=5",
+    "pubDate": "Sun, 30 Aug 2026 19:03:29 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 45
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 offers the strongest satirical premise—the absurdity of a 'strategic alliance' with a literal cardboard cutout—and commits to the bit without the heavy reliance on 'snack' tropes present in several other entries. It achieves a great balance of specific detail (the mascots' reaction to rain, the official claim that he is a 'youth icon') while maintaining a warm, observational tone rather than a cynical one."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional characters and settings to satirize student politics. The mention of a 'Rahul Mehra' is a common, non-specific name, and there is no indication that it refers to a real, identifiable private individual in a harmful or defaming context. The image prompt is generic and does not violate the image policy.",
+    "flaggedIssues": []
+  }
+}
