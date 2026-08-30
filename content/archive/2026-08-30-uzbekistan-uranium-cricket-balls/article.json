@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-30",
+  "publishedAt": "2026-08-30T10:37:38.824Z",
+  "topicKey": "cricket",
+  "headline": "Uzbekistan uranium export arrives in India as a batch of 50,000 pre-charged glowing cricket balls",
+  "slug": "uzbekistan-uranium-cricket-balls",
+  "body": "The first shipment of uranium under the new bilateral energy agreement has been delivered entirely in the form of neon-green, self-illuminating cricket balls, officially designated for use in nighttime domestic league matches. Energy officials confirmed that while the balls offer unparalleled visibility during twilight sessions, wicket-keepers have been advised to wear lead-lined gloves to prevent prolonged exposure to the radioactive seams.",
+  "caption": "Day-night matches just got a whole lot more intense, and slightly more luminous. Would you risk a slip catch? #Cricket #UraniumEnergy #EnergyPolicy #TechInnovation (satire)",
+  "igHook": "Tag a friend who would be brave enough to face a radioactive googly.",
+  "imagePrompt": "A close-up view of a leather cricket ball glowing with a faint, eerie green light resting on a well-manicured grass pitch at dusk.",
+  "sourceHeadline": {
+    "title": "India, Uzbekistan Strike Long-Term Uranium Deal As PM Modi Wraps Key Visit",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV1BHREpva3UzZmlQdXNTQU9Da213dFUzRmduU0I1aUJsSUdIZGtobzl4LVktTTNQYTM0MXNBU09OWDhvdmVJZkVqdV8yS1Nwc1JHeU1hUlFSRlVmTzZqT3EtNHlMM0N3cy1SYm1iWk5lc1kwNkxCaFlLWHplVnhyTmNuNERCSkJ4bGV5d0UyTlpHWEZuTW51VTU5SjJzdjk1bFRmMnIwai1FZTIyV25WZjIxZ0s?oc=5",
+    "pubDate": "Sun, 30 Aug 2026 09:15:09 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 49
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 43
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 wins for its specific, vivid imagery and perfect structural tone. While many other candidates relied on the trope of 'misplacing' or 'misusing' uranium, the specific, absurd detail of a neon-green, self-illuminating cricket ball creates a tangible, funny mental image that avoids the cynicism of administrative complaints while landing the satire perfectly."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is clearly satirical, uses fictional technology, and does not name any real individuals, groups, or entities in a harmful way. The image prompt is generic and does not contain identifiable real-world branding or individuals.",
+    "flaggedIssues": []
+  }
+}
