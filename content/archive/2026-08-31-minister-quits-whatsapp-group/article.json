@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-31",
+  "publishedAt": "2026-08-31T02:38:12.733Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Local Cabinet Minister resigns from WhatsApp family group after cousin fails to endorse his preferred breakfast menu",
+  "slug": "minister-quits-whatsapp-group",
+  "body": "State Minister for Small-Scale Infrastructure, Rajeshwar Rao, formally exited the 'Rao Family Union' WhatsApp group on Tuesday morning, citing a complete lack of consensus regarding his proposal to make Masala Dosa the official family breakfast preference.\n\nThe resignation followed a tense 48-hour thread where Rao insisted that all cousins, aunts, and distant uncles must publicly declare their preference for dosa over traditional poha. After his second cousin, Suresh, posted a photo of a bowl of Poha with a thumbs-up emoji, the Minister immediately triggered his exit protocol, citing an irreconcilable ideological split.\n\n“It’s not about the breakfast; it’s about the lack of vision,” Rao said while drafting a 400-word follow-up statement to be emailed to all 84 group members. “If we cannot align our morning carb intake under a single, unified banner, how can I be expected to attend the Sunday joint-family lunch in good conscience? There is no room for multi-dish ambiguity in this household.”\n\nFamily elders have since attempted to mediate the crisis, offering a compromise of 'Idli-Poha unity' with a side of chutney. However, the Minister remains firm, stating he will only return to the digital conversation if a formal, notarized poll confirms his Dosa platform as the sole, undisputed breakfast candidate for the next five years.",
+  "caption": "Ministerial standards are being applied to the most important things, like breakfast. Have you ever threatened to leave a group chat over a trivial disagreement? #FamilyDrama #BreakfastPolitics #DosaVsPoha (satire)",
+  "igHook": "Tag the person in your family who always tries to take over the group chat.",
+  "imagePrompt": "A close-up shot of a smartphone screen displaying a WhatsApp group interface with several generic notification bubbles and a 'You left this group' status message.",
+  "sourceHeadline": {
+    "title": "Congress will quit Vijay Cabinet if Rahul is not accepted as PM candidate, says Minister",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZXVLWHd1ZzZWclBQQ01mU1JwaHl0MWl5dHpGMGNFbld3aUY5WUFSUXd4VkhKa2F3VWpvb1lJWG1oMGNXRTc2anp1R2sxeXBWYnZRU2pvRHlyODNRZEdHenFELXQteXZNTktJOUNldGFXZWNPVHo0anota0J3R2k4ZUFobG1sbkJtdnhQUHdBWnJ2SWU3cmtobi1RRWtjNGdKR3kwRjd2ejJISGN1VGk0b3N0WEYzQjJRUFJRTlBnM2NaNkxEcTZNbnlmVGxqQUxIRGxXOHdFeWxJQmlVTlN2WXhQbHpaaVBGSTdPUDBR0gH0AUFVX3lxTE83TkxIUHI5cE80RGZYMW5BQXp2V0ZQamgyVTg3VjNTXzJkdWVVaElCNTFlT1VTcFBtMElDT3lmUUpNUXgydm9IUmZHNXAtX0EtaGx6aHdLUUdDa3NpSkNnUWNTOVFuRDhCR2Z3d01fN0xCN0xBM0FnclNraWhZQ0s1MjUxcGFRcTRCb3BGbFp1cjc5UDFObkVKVUExSUd1UFpYc1FrbDlVWGQyV1FEQnJ3RVVXaUFYb2VYRnlYbkdzUDNaeURKM0VuRkd2SlZ5bU5SOVhDQnFyV0FVNW9yMWpUMm8zVmUzS3pOU0pTOVRNdjg1M18?oc=5",
+    "pubDate": "Sun, 30 Aug 2026 18:07:46 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 50
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Index 0 wins for perfectly capturing the absurdity of political grandstanding applied to a relatable, low-stakes domestic setting. It avoids the tired 'coffee machine' trope present in several other entries, features specific, humorous invented details (like the 84-member group count and the 'notarized poll' demand), and maintains a deadpan tone that feels authentic to the genre."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd satire about family dynamics and petty politics. The named character 'Rajeshwar Rao' is a generic-sounding name not clearly identifying a real, specific high-profile cabinet minister, and the premise avoids any real-world political controversy, communal, or ethical harm.",
+    "flaggedIssues": []
+  }
+}
