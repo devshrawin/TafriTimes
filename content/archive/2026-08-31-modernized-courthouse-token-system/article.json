@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-31",
+  "publishedAt": "2026-08-31T20:26:59.402Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Modernized Courthouse Installs Digital Token System That Only Accepts Payment In Ancient Persian Denominations",
+  "slug": "modernized-courthouse-token-system",
+  "body": "The Judicial Infrastructure Advisory Committee’s new modernization roadmap has officially replaced all clerk windows with automated kiosks that strictly require 4th-century Sassanid silver drachmas to process document filings.",
+  "caption": "The future of justice is here, and it demands you raid your local history museum's gift shop before your next hearing. #LegalReform #Modernization #TafriTimes (satire)",
+  "igHook": "Would you rather pay in ancient currency or spend three days waiting in line at the clerk's office?",
+  "imagePrompt": "A sleek, modern glass-and-steel courthouse lobby featuring a singular, weathered touchscreen kiosk with a slot labeled 'Insert Ancient Denominations Only'.",
+  "sourceHeadline": {
+    "title": "Judicial Infrastructure Advisory Committee Constituted By CJI Submits Roadmap For Courts' Modernisation",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWmRaUWlVeHJTTS0zWmRUUHVTUlRIZXRQczFCS3hLMWEtR2lBcnowNHpHbGFDYlE1OTBvMjk3UldvSEpaOThfSGZZMkkxLWFtaEZ6SWl4Q2Z6UWR4Qkt0dE5SamgtRGRESmllM0NBVU9ZR2QtOFA0aW5UNnZUTnpNbENjSk1VMFJwR2dvS2hwZkhwQ2F3UVl2ZXprQmRZLTh0NGZZNEx4enY5OFpNbk5HTHhxZ1p5WVdMRWJ4TFVsYk5ONUlVTWJKS0RBdzVZczRaNmNPcXV2QlBZYTYt0gHiAUFVX3lxTFBXTThMNndsbzRSMlgtV2s3b214THZ4V2gwWjZqeEoxQmZPQ01XMW9WTmlKNHF3OHZPMlRKNlRHOTM2WnpGeWlMeTVjdjVpNnpDaTRKS0dveXJxVTF1VHBzZFoydDRoTFRJbXBnVjZKbmhwaVNlcjQ1T2dHeVZFQjFTR1pla3VLVlZibzZWVHBRcndIVFE4eU1FY3EwdTg1dHhwX1p0X1ZQSFowSTA3LTZjTFZONU1oZXlBeF9lOU9xSzM0enlUUng4ZUR4MkNYZUlnZjhmRXFIVkdzUWdDeE1uMmc?oc=5",
+    "pubDate": "Mon, 31 Aug 2026 14:31:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 48
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 30
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 stands out because it avoids the repetitive 'gadget/toy replacement' trope that plagues the rest of the batch. The absurdity of demanding 4th-century Sassanid drachmas in a modern bureaucracy provides a vivid, specific image that perfectly satirizes both technological 'modernization' and the disconnect of archaic administrative systems."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd piece of satire that does not name any real individuals, target protected groups, or involve defamatory claims. The image prompt describes a generic, fictional scene.",
+    "flaggedIssues": []
+  }
+}
