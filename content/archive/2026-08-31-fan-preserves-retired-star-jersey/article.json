@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-31",
+  "publishedAt": "2026-08-31T16:23:56.350Z",
+  "topicKey": "trending-news",
+  "headline": "Local Football Fan Keeps Retired Star's Jersey In A Museum-Grade Glass Display Case To Keep Him From Getting Cold",
+  "slug": "fan-preserves-retired-star-jersey",
+  "body": "Following the star player's international retirement announcement, an ardent local supporter has officially climate-controlled his replica jersey to ensure it doesn't feel the sudden chill of the bench.",
+  "caption": "True dedication means climate control. Does your favorite jersey have its own HVAC system yet? #LionelMessi #FootballFans #JerseyCare #SportsMemories (satire)",
+  "igHook": "Would you install a thermostat just for your favorite signed jersey?",
+  "imagePrompt": "A close-up shot of a football jersey inside a custom glass display case with a digital temperature gauge attached to the side, set in a dimly lit living room.",
+  "sourceHeadline": {
+    "title": "Argentina legend Lionel Messi announces international retirement",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeG9kZW5KSFVDNTFwMGxhNXRYN21kT0hvNmhLbHk2UExNRkFGZTZOd1E0Mmp2U2t5QkctX1JSMWZRMkFUQmh2b1JhN1J4a2tOcHV5Ny1wdU9iQmVtWVFtZzNGcE9VS2hIT05POWxtWWZnR0tVRXdUa1JtSl9leTlNSVZ4OHVkYXdxNzc0SDJiQl9FX0VOalc1Rk1PekVUSTMyaUlPZ1BrMnBjdjhtOW9MVTNkMnlIVV9McWlJ?oc=5",
+    "pubDate": "Mon, 31 Aug 2026 15:16:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 stood out for its absurd, hyper-specific imagery (climate-controlling a jersey to protect it from the 'chill of the bench'), which avoids the repetitive 'fan in denial' or 'fan files police report' tropes found in almost every other candidate. It offers a warm, affectionate look at the lengths a fan will go to, rather than just mocking the fan's sadness."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The piece uses a public figure's name in a clearly harmless, absurd, and whimsical context that does not imply crime, scandal, or professional misconduct. The image prompt adheres to safety guidelines by describing an anonymous, generic scene.",
+    "flaggedIssues": []
+  }
+}
