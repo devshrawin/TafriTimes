@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-31",
+  "publishedAt": "2026-08-31T22:42:22.888Z",
+  "topicKey": "trending-news",
+  "headline": "Indian-American Family Switches Support From Former President To 'Generic Professional Candidate #4' To Avoid Further Argument At Diwali Dinner",
+  "slug": "diwali-dinner-political-neutrality",
+  "body": "For the first time in three election cycles, the Sharma household of Edison, New Jersey, has officially rescinded its allegiance to any specific political figure, choosing instead to pivot its support entirely toward 'Generic Professional Candidate #4' to ensure the annual Diwali potluck doesn't devolve into a shouting match over dessert. The move comes after a harrowing 2020 celebration that saw two cousins leave before the rasgullas were even served.\n\n'It was a tactical decision, really,' said family patriarch Rakesh Sharma, while gesturing toward a neutral, beige-colored campaign flyer for a candidate who seemingly has no opinions on anything more controversial than public park maintenance. 'By supporting someone who stands for absolutely nothing, we have successfully neutralized the threat of uncle’s five-hour lecture on global trade policy. It’s the ultimate act of self-preservation for the sake of the family unit.'\n\nIndependent surveyors have noted that this trend of 'Strategic Political Vanilla' is sweeping through Indian-American households nationwide. Political analyst Meena Iyer notes that the pivot is rarely ideological. 'People aren't changing their minds because of policy shifts,' Iyer explained. 'They are changing because they are tired of explaining the complexities of US midterms to relatives who are simultaneously trying to serve them a third helping of biryani.'\n\nAt the Sharma residence, the strategy has already paid off. During a pre-dinner prayer, no one mentioned the economy, immigration, or the former president. Instead, the family spent a record-breaking three hours discussing the best way to recycle cardboard boxes and whether the neighbor’s new SUV was 'a bit too flashy,' effectively maintaining total domestic harmony.",
+  "caption": "The true meaning of unity is choosing a candidate so boring that not even your loudest uncle can find a reason to argue about them. #ElectionSeason #DiwaliDinner #USPolitics (satire)",
+  "igHook": "Tag the one relative who makes family gatherings a political debate battlefield.",
+  "imagePrompt": "A wide-angle, slightly blurred view of a dining room table set for a large festive dinner with many colorful plates, bowls of snacks, and traditional Indian decorations, with a family gathering in the background.",
+  "sourceHeadline": {
+    "title": "Trump losing support from Indian-Americans ahead of November midterms, survey finds | World News",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQNmxTS0ltOW9nbkVnWnBybk5YUmNCSUJGdGpRTmVGM2ZmZXYtRXhwZ2c4aWJ6ZE9Mc3gwWHFZX0FrY0thajl2bm9NRXBsYUhGRTdvWTl4WHB2dEZ1a3BtQm11ZGNhQkwxX1VQbGlXY2hqRkluMmw4WFNvT19DY3hZa3VfT0JDMGpxOHI0cGJBemhMbFhIdTNhY19FbS1ZU1BYM3hJRFh3SThfV0VLcUdBbkNmZF9NZnVKN0pEdzJpUm1yUVlMN2VuRnJZeFBNWGs1VjlVWU56U1FGbDk5U3h1VjF1NWwxNkFPRmdvOEtpYVctUnRhVTBJTGJxRVdSQ3FzanA0U1hqc3BlQQ?oc=5",
+    "pubDate": "Mon, 31 Aug 2026 17:10:17 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 6,
+        "total": 45
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 4,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 captures the absurd domestic reality of election discourse with warmth rather than contempt. It avoids the 'AI slop' tropes of robotic quote-scaffolding and offers a relatable, specific, and funny observation about 'Strategic Political Vanilla' as a family survival mechanism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional characters and a generic, invented 'Candidate #4' to satirize a common social experience during holidays. It avoids naming specific real politicians (referring only to a generic 'former president' without identifying them) and does not target protected groups or real private individuals.",
+    "flaggedIssues": []
+  }
+}
