@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-01",
+  "publishedAt": "2026-09-01T00:39:27.911Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Collegium Clarifies That New Chief Justice Appointments Will Now Require A Performance-Based 'Coolness Rating' From Local Court Canteen Staff",
+  "slug": "collegium-canteen-review",
+  "body": "The Supreme Court has issued a directive requiring all prospective High Court Chief Justices to undergo a mandatory taste-test evaluation by senior canteen staff, ensuring the new appointees are capable of appreciating the structural integrity of a proper samosa. The final judicial seal will only be granted once the nominee receives a minimum 'extra-chatni' rating from the canteen’s longest-serving tea-bearer.",
+  "caption": "Justice is served, usually alongside a cutting chai and a slightly soggy kachori. Do you trust your local court’s canteen staff to pick the next boss? #Judiciary #CanteenCulture #IndiaNews #Law (satire)",
+  "igHook": "Would you trust your local court's tea-bearer to choose the next Chief Justice?",
+  "imagePrompt": "A candid, medium-shot photo of a dimly lit, crowded courthouse canteen with wooden benches, featuring a stack of stainless steel plates in the foreground and blurred figures in lawyer robes chatting in the background.",
+  "sourceHeadline": {
+    "title": "SC Collegium Recommends Appointment Of Chief Justices At 4 High Courts",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeFY2X1VTMTBZd3IwVXItbVUtaW1HSHpVOV9rVGhial9wSlp1TzhtaVpMUU9SdVBvbDYzMW9nQVhWLVg4dFgzRXpGUTlrNzd5TVpQVHJ5T0Z6WklycWVzUk1uVjZodWF6ZjZmNVZxdXJjN3Zxa1B2N3FwMldUZDlhVXNpeFg1Ty1MZldaZkx0YXAxOHl6OENwVVZlUmtkcUNWdngtWG5jQ0prRFNxZ1VkSnhjbzlHd2lFeG56ZDJIZ0lRQdIBxwFBVV95cUxNOGwtMzY1d3hyOU1OOFYzYmhzNi1ZcDZYeUxncjQ3a0sxaW5KYk5NanJYSlNnWC1NTENYSk92NHJUTGxqNEVqejM1YkJUdzBqbWpJVXBZRFUyRGJ2QXY3R3hnY1FEbVB5ZEN2Tlk1WVFqLVBnbWpCa3ZkQ0hIT3Z6eVcyNnNyT3FrLUlCeU1xMkgxTmloZ0VLLXc2em14dEFzZ21DX3BWc2NidEFrck9yLVYtYnNPUkFzTVJUMjhUNGpzZmhoQUU0?oc=5",
+    "pubDate": "Mon, 31 Aug 2026 17:53:29 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 wins by grounding the absurdity in a specific, culturally resonant detail (the canteen samosa/extra-chatni rating) that feels like a genuine, affectionate observation of Indian bureaucracy. It avoids the 'formulaic' trap better than the others and provides a clear, vivid image of the courtroom culture."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses classic satirical tropes to poke fun at the judicial appointment process by introducing a whimsical and absurd bureaucratic requirement. It does not target specific individuals, religious groups, or protected identities, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
