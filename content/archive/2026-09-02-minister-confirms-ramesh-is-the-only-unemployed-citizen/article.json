@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-02T15:11:26.085Z",
+  "topicKey": "trending-news",
+  "headline": "Minister Confirms Official Unemployment Rate Is Now Just One Guy Named Ramesh Who Is Busy Sleeping",
+  "slug": "minister-confirms-ramesh-is-the-only-unemployed-citizen",
+  "body": "The Union Minister clarified that the nation’s entire workforce is fully accounted for, leaving a single resident in a Bengaluru suburb as the country's sole remaining unemployed individual. Sources report the man in question is currently unavailable for comment as he is taking a long nap and cannot be bothered to check his LinkedIn notifications.",
+  "caption": "It’s not a data issue, it’s just a nap issue. Turns out we hit full employment and nobody told us! Tag a friend who is definitely not the second person on this list. #Economy #Growth #Stats #WorkLife (satire)",
+  "igHook": "Tag the one friend who is definitely currently 'the second person' on this list.",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a busy urban intersection in India during mid-day, with dozens of pedestrians walking past a shuttered, nondescript storefront.",
+  "sourceHeadline": {
+    "title": "\"They Are The Only Jobless People Left\": Piyush Goyal's Clapback At GDP Growth Data Critics",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHBYZHFqcUVzV2lOVEJINDdsOUVJVGMxR2FySXlxdzFPNE5PUFZPN1I4MW1fZ2FYajd2RFA2UjNsN21yUlBUa2VEeG9KT3kyVzk0YkxEWDFTeHhwd0FjWW5lYTFxLVhINEM5a1NCa1BzT2VoOEdsQi1yVmhuRVBHbmtMVmJnZzBXOWVwVm15NGE2Ukl6U3kzTnVqbHFpaHNYWjlBaUNqSzJMaUNVWHZXSUZKVzRLRHNMZmpabU12dVNmUUc2cmdVX1lvVW9YWDVL?oc=5",
+    "pubDate": "Wed, 02 Sep 2026 12:59:23 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 9,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 48
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 9,
+    "reasoning": "Candidate 9 wins because it anchors the absurd premise of full employment in a single, vivid, and human character (Ramesh sleeping in Bengaluru), which is far more evocative than the abstract 'Professional Optimist' tropes seen in other entries. It avoids the AI 'slop' traps by focusing on a specific, relatable image rather than generic bureaucratic speak."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses the name 'Ramesh' as a common placeholder generic name rather than identifying a specific real private individual. The satire targets government employment statistics in a playful, absurd manner without infringing on the safety guidelines regarding public figures, hate speech, or defamation.",
+    "flaggedIssues": []
+  }
+}
