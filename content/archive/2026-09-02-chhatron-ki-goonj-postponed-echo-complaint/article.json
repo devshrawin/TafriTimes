@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-02",
+  "publishedAt": "2026-09-02T17:25:19.420Z",
+  "topicKey": "trending-news",
+  "headline": "Student Union Leader Confirms 'Chhatron Ki Goonj' Event Postponed After University Denies Permission For 'Excessive Echoing'",
+  "slug": "chhatron-ki-goonj-postponed-echo-complaint",
+  "body": "Q: The state government cited logistical reasons, but is it true the university administration actually blocked the hall booking for your youth rally because of the event name?\n\nA: It sounds absurd, but yes. The Vice Chancellor sent us a three-page memo arguing that 'Chhatron Ki Goonj'—which translates to 'Students' Echo'—would create a persistent acoustic loop within the auditorium that their sound system isn't calibrated to handle.\n\nQ: Surely they understand it is a metaphorical title for a student discourse event, not a literal sound experiment?\n\nA: You would think so. But the registrar insisted that if 500 students started chanting in unison, the architectural vibrations would cause the 'echo' to become semi-permanent, effectively trapping the sound of our political slogans in the ceiling rafters until the next convocation ceremony.\n\nQ: So the event is indefinitely delayed until you can provide a sound-dampening feasibility study?\n\nA: Exactly. We are currently searching for a venue that is legally zoned for 'uncontrolled vocal resonance.' Apparently, the current government facilities are only licensed for 'muffled, respectful murmurs.'",
+  "caption": "University acoustics are a serious business, it seems. Apparently, a little bit of student spirit is a noise pollution nightmare for the administration. Who knew? #IndoreNews #StudentPolitics #EchoChamber #CampusLife (satire)",
+  "igHook": "Would you believe an auditorium could be 'allergic' to slogans?",
+  "imagePrompt": "A wide, empty university auditorium with rows of wooden chairs and a large, dusty stage, photographed from the back looking towards a podium.",
+  "sourceHeadline": {
+    "title": "Congress says Rahul Gandhi’s ‘Chhatron Ki Goonj’ event in Indore postponed after MP govt snub",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTUM4WTlXQlVWZGRFQjdNdEFNMkhESTdUYlpwWHdNQTRCU0lvSHhQZVhVTld2VWlMOVRyLTZibFVFZ1p2VXF6a29tRk53RWV6MjFJUGRfU0FlWVQ1STNQSDF3UG1GMHhxdGJXM05aMTFYMXFON3pVX0NvTTRFaXI5aEI3QURmODZuUks4TmhNYlJVOHo0ZGJhdWdYaVoxNXpjejBHRVJ0eUlRa3d3akcxbDVlTnhzYVhmZU9nV2xoVjRyZFlrckZLdEEzb3FBaDVRQXZiWUxlQjR1UWoyMFNKM2FjRktfbmZKay10NXJacw?oc=5",
+    "pubDate": "Wed, 02 Sep 2026 11:57:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 46
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 41
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Index 4 wins for its clever, structurally sound premise that turns the event's own name into the bureaucratic weapon used against it. It avoids the tired 'sporting tournament' trope seen in other entries and provides a vivid, humorous image of sound-dampening architectural requirements that feels grounded in real-world administrative absurdity."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of mild, harmless satire about bureaucratic absurdities. It does not name any real individuals or protected groups and maintains a clear, humorous tone that is unlikely to be interpreted as a defamatory or factual claim.",
+    "flaggedIssues": []
+  }
+}
