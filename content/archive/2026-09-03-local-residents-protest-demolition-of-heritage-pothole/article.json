@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-03T02:59:39.934Z",
+  "topicKey": "trending-news",
+  "headline": "Local residents protest after authorities demolish the 'Heritage' pothole that was holding up the city’s oldest school building",
+  "slug": "local-residents-protest-demolition-of-heritage-pothole",
+  "body": "\"I know it was technically a safety hazard, but that specific pothole had been supporting the north wall since 1994; it was practically a load-bearing structural feature of our neighborhood,\" says local tea stall owner Suresh Yadav.\n\n\"The school building was perfectly tilted at a 15-degree angle for three decades, but now that they've filled the hole and fixed the foundation, the place has lost all its personality and local charm,\" says former student-turned-local activist Meena Sharma.\n\n\"My property value was tied directly to the 'Leaning Tower of Primary School' aesthetic, and now that it’s just a standard, upright government building, I feel like I’ve lost a piece of my heritage,\" says nearby resident Rajesh Khanna.\n\n\"We were told it was a CJP-led restoration effort, but honestly, it feels like they just destroyed a piece of accidental history that was keeping all of us on our toes every time we walked past,\" says daily commuter Anil Deshmukh.\n\n\"It used to be that you could tell exactly how far the school had sunk by just looking at the depth of the puddle inside the principal's office, but now everything is just level and boring,\" says local delivery driver Vikram Singh.",
+  "caption": "Locals are mourning the loss of a structural pothole that defined their skyline. Progress is a harsh mistress. #Rajasthan #Heritage #CityLife #PotholePride (satire)",
+  "igHook": "Would you miss a neighborhood landmark if it was actually a safety hazard? Tag a friend who loves 'character' over comfort.",
+  "imagePrompt": "A wide-angle shot of a dusty, weathered school building exterior in a rural setting with a fresh patch of dark, wet asphalt on the ground in the foreground.",
+  "sourceHeadline": {
+    "title": "Dilapidated Rajasthan school building razed after CJP campaign",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOVBqZ2RrSHg5WnBXbTZrRV9YTVlGbENYLTAtVHhwdFBBZ1hOdWtkRUpCNGlzRDhNVFVieVN2YUw4Rnh2SFF5ZUJCMGJNYmZCYjRRazJsZmQ1bkl1RS1STndSSERfc0I0b1Bfc0wwT003ZzE5bE0zMnhKa0hoNWtkS0p0WkZJOURhbFp0bC1VN0pIMF95RWY1cjVKRGdmdWU5ak00SXpKZTE0SjlRanRLUWRRUm9wY0NZSEFkMVpqc1dBcC1tWGM3akREVdIB0gFBVV95cUxNZVZjQmNqTG40SXZxSXVVMmpOTHdCYTdTbVZBX2piWWlTekdkWTVHY3NkS0YtN2R5UXRtb282TTZWdTJiV3lDWVE1LUxVWFk2QUZDM0wxekpVYlZ4VHVTQmtsdl9ubkNnajNveEMwWnNRM3MtdEZQS25XcTF0WFR3ZHNXWGNjZTBneDZBUDVnSm4yWlB0NVlvbElfQ19PcnJVR0Mta2xKSExoNXZ1ZmZONUVUNW55bDY0Y0ZaeHo1R2VSbi1FMTRRZmM2UzNqYk1EZlE?oc=5",
+    "pubDate": "Wed, 02 Sep 2026 16:16:58 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 provides the most absurd yet concrete premise by reframing a mundane civic failure (a pothole) as a load-bearing architectural component. It avoids the repetitive 'open-air school' tropes found in the other candidates while maintaining a warm, observational tone about small-town pride."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of mild satire about bureaucracy and local quirks. The named individuals are generic enough to avoid being identified as specific private persons, and the content avoids the prohibited categories of hatred, defamation, or real-world harm.",
+    "flaggedIssues": []
+  }
+}
