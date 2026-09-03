@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-03",
+  "publishedAt": "2026-09-03T04:37:57.429Z",
+  "topicKey": "trending-news",
+  "headline": "Internal Party Database Allegedly Experiences 'Self-Correcting Ghost' That Automatically Deletes Names Of People Holding Coffee",
+  "slug": "internal-party-database-deletes-names",
+  "body": "Q: Mr. Sharma, as the Chief Digital Archivist for the party, can you explain why several high-profile members are suddenly disappearing from the digital draft of the upcoming assembly list?\n\nA: It’s not a vendetta, it’s a firmware update. Our new AI-driven database, 'Swayam-Shuddhi,' has an experimental feature designed to filter out 'energy-draining entities.' It turns out the algorithm identified a direct correlation between holding a cup of lukewarm cappuccino and lower party morale, so it simply purged those profiles.\n\nQ: But these are veteran leaders, not just random files. Are you saying the software decided they were 'un-draftable' simply because of their drink choice?\n\nA: Precisely. The code doesn't see seniority; it sees beverage choices. If a leader appears in a photo holding a latte, the system assumes they are preparing for a career in travel blogging and removes their name to save bandwidth. It’s actually quite efficient; we’ve saved 400MB of storage space this week alone.\n\nQ: So, how do these members get back on the list? Do they have to renounce their caffeine addiction?\n\nA: They can apply for a 'Reinstatement of Relevance' ticket. They just need to upload a photo of themselves drinking cutting chai while looking intensely at a thick, dust-covered binder. The software responds much better to the aesthetic of a person drowning in paperwork than one enjoying a mid-afternoon break.",
+  "caption": "Software updates are getting personal! Local party IT team claims the new 'Anti-Coffee' filter is just a feature, not a bug. Is your name safe from the purge? #PartyPolitics #TechFail #DigitalVendetta (satire)",
+  "igHook": "Would you delete your career for a cup of coffee?",
+  "imagePrompt": "A close-up shot of a modern office computer screen displaying a complex, messy spreadsheet with multiple rows suddenly highlighted in red and showing a 'Data Not Found' error message.",
+  "sourceHeadline": {
+    "title": "Raghav Chadha deleted from Punjab draft SIR, alleges vendetta, AAP hits back",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUlRJTXVuUEdSR1phMDBzNHA3RWJGRnpscFZOS3VBc3dZODBEcXNYTE9ORnVHcjlSLVJJR2s4YW5oWFBHTnBhVHVJYnpFWnRUOUJabEVKZ0w2OUdIYjRlQTY5eC04OUE4aFphR1dWd25Tb1Y5OHdGMmU3VHFqUWt5VFJ2NE9uRkY4ZkN3U3hkVWdPRS1TYmZwa1BVV0d3ZjV5SVhFWUY3ZjVlel94Q2tlRXdieFhIV2ktdjlOMmg5TGgxbS1xcU5Rb1Q5NEFRYlJL0gHXAUFVX3lxTFBSYTdHZnF6ODJ6b2l4b2tTQmNJTGRtd1hKMnFLTUp0cEdzZjd0bDFCT3FmM1VIcFdCRnlRbUI5V2poTFZiUjdvSlhMYUs5UVZ5OEY1TVpERGxlQVhOLVNRMkZfV0NqRHdmcVFUejdhQXJfWGR4WWVfWDZWSUZoeS1pRkhQX0FxSVp0SElpdjVxTF8tYW5HU1pDaFNpb05XZDVkWGJGUjdvU0duSFNYcjlwMmo2dW5FbExzSWxUUGZQa2x3WVY1bGRQb1RFc1d6aFpOQm5yT3o4?oc=5",
+    "pubDate": "Wed, 02 Sep 2026 23:50:55 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 provides a genuinely absurd and vivid premise ('Anti-Coffee' filter) that feels fresher than the repeated 'glitch' or 'accidental delete' tropes found in the other candidates. It manages to deliver specific, funny invented details about corporate bureaucracy without feeling like AI-generated filler, and the tone remains lighthearted and satirical rather than cynical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional software platform and a generic, satirical scenario involving caffeine preferences to mock party politics. It does not name any real public figures or private individuals, avoids sensitive religious or caste-based themes, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
