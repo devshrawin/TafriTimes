@@ -94,7 +94,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           BRANCH="${GITHUB_REF_NAME}"
-          INTERVAL=$(( 2 * 3600 ))  # ~12 posts/day (1 every 2h) -- see CANDIDATE_COUNT comment above for why
+          INTERVAL_BASE=$(( 2 * 3600 ))  # ~12 posts/day (1 every 2h) -- see CANDIDATE_COUNT comment above for why
+          # 2026-08-19: a perfectly fixed interval is itself a bot signature
+          # -- the account got flagged by Instagram's automated abuse
+          # detection during this exact fixed-cadence period. Jitter each
+          # iteration's actual interval +/-25% (90min-150min around the 2h
+          # base) so real posting times don't fall on a clean repeating
+          # schedule, without changing the long-run average cadence.
+          JITTER_RANGE=$(( INTERVAL_BASE / 4 ))  # +/- up to 25% of base (30min each side of the 2h base)
           RESERVE=$(( 5 * 60 )) # publish.mjs + post-published.mjs run in well under a minute combined in testing
           RUN_CAP=5m         # hard ceiling on one publish.mjs run
           POST_CAP=5m        # hard ceiling on one post-published.mjs run (was unbounded -- a single hung socket could stall the whole job for hours)
@@ -336,6 +343,10 @@ jobs:
               SLEEP=$(( 3 * 60 ))
               echo "Iteration failed -- retrying in ${SLEEP}s instead of waiting the full interval."
             else
+              # Fresh jittered target drawn each successful iteration, not a
+              # fixed INTERVAL -- (RANDOM % (2*JITTER_RANGE+1)) - JITTER_RANGE
+              # gives a uniform +/-JITTER_RANGE offset around INTERVAL_BASE.
+              INTERVAL=$(( INTERVAL_BASE + (RANDOM % (2 * JITTER_RANGE + 1)) - JITTER_RANGE ))
               SLEEP=$(( INTERVAL - ELAPSED ))
               [ "$SLEEP" -lt 60 ] && SLEEP=60
             fi

@@ -44,20 +44,20 @@ function loadLogo() {
   return _logoDataUri;
 }
 
-// Investigated 2026-08-16: observed backgrounds were mirrored/tiled (visible
-// as a repeating 2x2 pattern). First hypothesis -- requesting 1080x1080
-// against Pollinations' documented 1024x1024 native size, with no model
-// pinned -- turned out to be WRONG when tested: 1024x1024 with `model=flux`
-// pinned explicitly still tiled, on both a complex prompt (a conference
-// room) and a trivial one (a single coffee cup), ruling out both the
-// resolution mismatch and prompt complexity as the cause. Confirmed via
-// direct curl comparison that `flux` itself is the one that tiles on this
-// endpoint -- `model=turbo` at the same 1024x1024 produced a single coherent
-// image on both test prompts. `turbo` is the fix; the resolution change
-// wasn't actually necessary but 1024 (their documented native size) is kept
-// as good practice. No downstream template change needed either way: the
-// background is applied with `backgroundSize: "cover"`, so a 1024px source
-// scaling up ~5.5% to fill the 1080x1080 canvas is visually seamless.
+// Investigated 2026-08-16, REVISITED 2026-09-03: observed backgrounds were
+// mirrored/tiled (a repeating 2x2 pattern). The Aug-16 investigation blamed
+// Pollinations' `flux` model and "fixed" it by switching to `model=turbo` --
+// confirmed via direct curl comparison at the time. That comparison tested
+// the raw Pollinations response only, never through Satori -- and the
+// tiling came back in early September on `turbo` too. Real cause: this
+// template's background layer set `backgroundSize: "cover"` but never set
+// `backgroundRepeat` -- CSS's default is `repeat`, and Satori doesn't
+// implicitly suppress it just because `cover` is also set (unlike a real
+// browser's usual practical behavior once a background fills its box).
+// Whatever apparent "fix" `turbo` provided in August was coincidental (a
+// generated image whose seams were less visually obvious at the resolution
+// tested), not a real fix -- the actual bug was always in this file, not
+// Pollinations. `backgroundRepeat: "no-repeat"` below is the real fix.
 const POLLINATIONS_SIZE = 1024;
 
 /**
@@ -106,12 +106,31 @@ function truncateAtWordBoundary(text, maxChars) {
   return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + "…";
 }
 
+const MIN_PULL_QUOTE_CHARS = 15;
+
+/**
+ * Bug found 2026-09-03: for a listicle-format body ("1. A high-torque
+ * trekking pole...\n\n2. ..."), splitting on sentence boundaries put the
+ * list marker "1." alone in the first segment (it ends in "." followed by
+ * whitespace, satisfying the split regex on its own) -- the card rendered
+ * with just "1." as the entire pull quote, no actual joke text. Strips a
+ * leading numbered-list marker from each candidate segment and skips
+ * anything too short to be a real quote (also incidentally helps the
+ * pre-existing "Mr." abbreviation false-split case) instead of blindly
+ * taking the first split segment.
+ */
 function extractPullQuote(body) {
   if (!body) return null;
   const matches = [...body.matchAll(/"([^"]{15,})"/g)];
   if (matches.length > 0) return truncateAtWordBoundary(matches[0][1], PULL_QUOTE_MAX_CHARS);
-  const firstSentence = body.split(/(?<=[.!?])\s/)[0];
-  return firstSentence ? truncateAtWordBoundary(firstSentence, PULL_QUOTE_MAX_CHARS) : null;
+  const sentences = body.split(/(?<=[.!?])\s+/);
+  for (const raw of sentences) {
+    const stripped = raw.replace(/^\s*\d+[.)]\s*/, "").trim();
+    if (stripped.length >= MIN_PULL_QUOTE_CHARS) {
+      return truncateAtWordBoundary(stripped, PULL_QUOTE_MAX_CHARS);
+    }
+  }
+  return null;
 }
 
 function formatTopicLabel(topicKey) {
@@ -315,6 +334,7 @@ function buildTemplate(article, { topicKey, date, bgImageDataUri } = {}) {
               backgroundImage: `url(${bgImageDataUri})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             },
           },
         },

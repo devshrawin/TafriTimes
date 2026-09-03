@@ -13,6 +13,42 @@ meaningful step.
 
 ---
 
+## 2026-09-03 — Real fix for image tiling (Aug-16 fix was a false positive) + listicle pull-quote bug + cadence jitter
+
+Owner spotted two visual bugs live on the gallery: backgrounds mirrored/
+tiled again (thought fixed back on 2026-08-16), and listicle-format posts
+showing a bare "1." where the pull quote should be.
+
+- **Tiling, real root cause**: `render-image.mjs`'s background layer set
+  `backgroundSize: "cover"` but never set `backgroundRepeat` — CSS defaults
+  to `repeat`, and Satori doesn't implicitly suppress that just because
+  `cover` is also set. The Aug-16 "fix" (switching Pollinations from
+  `model=flux` to `model=turbo`) was a false positive — that investigation
+  tested the raw Pollinations response via curl, which never goes through
+  Satori at all, so it was never actually testing the real render path.
+  Added `backgroundRepeat: "no-repeat"` — the actual fix. Verified live:
+  re-rendered two previously-tiled archived posts, confirmed clean single
+  images both times.
+- **Listicle pull-quote bug**: `extractPullQuote()`'s sentence-split
+  fallback took the *first* split segment unconditionally. For a listicle
+  body ("1. A high-torque trekking pole...\n\n2. ..."), the list marker
+  "1." alone satisfied the sentence-boundary regex (ends in "." followed by
+  whitespace) and became the entire pull quote — a real, visible bug on
+  every listicle-format post since format rotation shipped 2026-08-16, six
+  format types worth of downstream template code that was never actually
+  updated for the new formats. Fixed by stripping a leading numbered-list
+  marker from each candidate segment and skipping anything under 15 chars
+  instead of blindly taking the first split — also incidentally fixes a
+  pre-existing "Mr." abbreviation false-split edge case. Verified live on
+  the same two re-rendered posts.
+- **Cadence jitter**: `hourly-trending-publish.yml`'s post interval was a
+  fixed 2h — a perfectly regular interval is itself a signal Instagram's
+  automated abuse detection can key on (the account got flagged as
+  suspicious during this exact fixed-cadence period, see the entries
+  below). Interval is now drawn fresh each iteration, uniformly random
+  90-150min around the 2h base, instead of a fixed value — same long-run
+  average cadence, no clean repeating pattern.
+
 ## 2026-08-16 — Humor quality push + real Gemini quota discovered (500/day, not 1,500)
 
 Owner feedback: only ~2/10 published pieces actually land as funny, rest
