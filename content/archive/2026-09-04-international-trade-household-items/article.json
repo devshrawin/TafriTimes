@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-04T02:59:15.272Z",
+  "topicKey": "trending-news",
+  "headline": "5 Essential Household Items That Now Require An International Trade Agreement To Procure",
+  "slug": "international-trade-household-items",
+  "body": "1. The premium two-ply toilet paper roll currently held in escrow pending a 4% tariff reduction on imported bulk cellulose.\n2. A single jar of artisanal sourdough starter that is currently undergoing a multi-ministerial review to determine if its bubbles constitute a ‘technological transfer’.\n3. The neighbourhood pressure cooker’s spare whistle that can only be released from customs if the manufacturer agrees to a bilateral ‘Preferential Whistling Rate’.\n4. A dusty box of imported board games that now requires a signed Memorandum of Understanding regarding the rules for ‘Monopoly’ to avoid retaliatory trade sanctions.\n5. The remaining half-packet of digestive biscuits currently serving as collateral in a high-stakes negotiation over regional snack-food dominance.",
+  "caption": "Forget getting your groceries delivered in 10 minutes—our trade ministry is busy negotiating the import tax on your spare cooker whistle first. 🇮🇳🇺🇸 #TradeDeal #EconomyHumour #Bureaucracy (satire)",
+  "igHook": "Which item in your kitchen do you think is currently causing a diplomatic incident?",
+  "imagePrompt": "A close-up shot of a variety of random household goods and kitchen appliances sitting on a wooden table, with official-looking stamps and red ribbons tied around them.",
+  "sourceHeadline": {
+    "title": "India-US trade deal to be finalised once 'preferential rate' is offered, says Piyush Goyal | India News",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMVFEUVpPTE85RXNsamQxck1VQ0dSenNRb21lbEU3b2VHcHdLOEExcWp3UGRlaC1pV191SExjR3FDNkRyYUhHV0w1YWt4N1E0ZW1uS2dsQlhkajV1b194RG1md0YtcVpaWm5ZQmEzQWhId3JsWWVPdERLajJuNHRMaXhockxCT0NsQU95RXhqeFB3RmhJVXMyXy11Z2FWdlBnRlREOG5MWXkyVW1iUWY3emZ1cE1hMXFYT2Y4WTJQUzVCZ2NYNDlkLVRUVWRhNW1fU0NiY2dubkZpYWVyT0Zyc3ktNkJTNTFCZy15ZHBWbGYtQl81cmhTVNIB_gFBVV95cUxNLVNaZThfT0stZFZFUklGNVNGV05aZlM4VklWRUtUaWFsLW5mbThqOUc0NV9iZ2o5X2pWMi1zbHNRYkRMaXhxLU9najhQS0xUM1lCYUxfY0dPS2dzY1ZQb1dlUzZuMktWS3pWRmI2YzJoMlBFOW5GNERlVTl3Z29ydGpDXzItOTZvbS1TLWFBaUprVHZab3lVdkhfZW9fQ2dCcmlBZC00c3BKNDFvVm9SZHJ1a0FHOVptUF92RVotd1JDZ3Y3U0JWcGVVWjRJUXFPUVhyVDNHT01XdFdSczBpcnBjRTBrRDNhU2lvc0ZyUnMzLUhFUXlrQzZjLVpOQQ?oc=5",
+    "pubDate": "Thu, 03 Sep 2026 11:49:43 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 4,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 is the clear winner because it pivots the premise away from the repetitive 'Commerce Minister' tropes found in the other candidates. By applying the absurd logic of trade negotiations to mundane household objects like pressure cooker whistles and toilet paper, it achieves a higher level of creative surprise and distinct specificity."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses whimsical absurdity to satirize bureaucratic inefficiency without targeting specific individuals, religious groups, or protected identities. The image prompt is generic and avoids identifiable people or copyrighted materials.",
+    "flaggedIssues": []
+  }
+}
