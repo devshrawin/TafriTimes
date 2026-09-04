@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-04",
+  "publishedAt": "2026-09-04T19:01:48.095Z",
+  "topicKey": "trending-news",
+  "headline": "Locals Flabbergasted After International Rescue Team Deploys Multi-Million Dollar Drone To Retrieve A Dropped Sandwich",
+  "slug": "sandwich-rescue-operation",
+  "body": "“I was just standing there watching the drone hover for three hours, and I thought surely they were scanning for structural damage, but no, it was just waiting for the wind to die down so it could gently airlift my leftover vada pav,” said local commuter Ramesh Varma.\n\n“The precision was truly world-class, because the tactical unit had to recalibrate their sensors three times just to ensure they didn’t accidentally pick up the grease-stained paper wrapper along with the snack,” noted sidewalk tea stall owner Sunita Devi.\n\n“My professor says this level of coordination is usually reserved for deep-sea salvage or space exploration, yet there they were, using a thermal imaging camera to track if the chutney was still at an optimal temperature for retrieval,” mentioned engineering student Rahul Gupta.\n\n“When the rescue lead told me the world has never seen such an ‘extraordinary extraction maneuver,’ I honestly thought they meant they were rescuing a cat from a ledge, not my lunch from a pothole,” added daily wage laborer Suresh Kumar.",
+  "caption": "Forget the moon landing; the age of hyper-specialized sandwich recovery is officially upon us. Would you trust this level of technology with your lunch? #NepalRescue #TechNews #SandwichSalvage #EverydayAbsurdity (satire)",
+  "igHook": "Would you trust a multi-million dollar drone to rescue your lunch if you dropped it?",
+  "imagePrompt": "A high-tech, remote-controlled quadcopter drone hovering mid-air over a busy, cluttered city sidewalk, surrounded by blurred onlookers holding their smartphones up to film the scene.",
+  "sourceHeadline": {
+    "title": "'World Hasn't Seen This Before': Expert On \"Extraordinary\" Nepal Rescue Op",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaXhIV1BrMnREdGt3VHpNQ1l1ZWpBcHFXMjdWNDFGcnB2a01KaDJ1VmpYWVpUN0o0UGVJNmtlMXIwbU5pS0EybVlxUmhJVmU4UnJXbmhQcFJuVVZLNElyYmRDbGJ2MFh4Y21XTXI5QkpXLUZoQlFoRkUtS2FJd0JTRWZIUXpOWTVRUmkxaFQ1SE5hRDV4Wmt4Y0VWYUw1NHgwQU5GQk8zc29MZTA4M19NYy1JcVA3RnZuV3h4UXRmdTF6TTBVUkctQXRRelM?oc=5",
+    "pubDate": "Fri, 04 Sep 2026 08:14:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the most vivid, specific details (thermal imaging for chutney temperature, grease-stained paper wrapper) while maintaining a perfect deadpan, inverted-pyramid structure. While the 'over-resourced rescue of a mundane item' is a common trope in this batch, Candidate 0 executes the technical specificity with the most rhythm and observational humor."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional scenarios and generic personas to satirize bureaucracy and over-engineering. The named individuals Ramesh Varma, Sunita Devi, Rahul Gupta, and Suresh Kumar are common names used here as representative archetypes rather than identifiable private individuals, and the image prompt contains no specific real-world references.",
+    "flaggedIssues": []
+  }
+}
