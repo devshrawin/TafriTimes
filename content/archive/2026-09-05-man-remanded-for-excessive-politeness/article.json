@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-05",
+  "publishedAt": "2026-09-05T17:43:27.847Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Local Man Sentenced to One-Day Police Custody for Being Too Polite During Cross-Examination",
+  "slug": "man-remanded-for-excessive-politeness",
+  "body": "A local man, Rakesh Sharma, was remanded to one-day police custody on Tuesday after a Delhi court found his persistent use of the phrase 'Ji, bilkul' during cross-examination to be a deliberate attempt to lull the prosecution into a state of hypnotic comfort. The presiding magistrate ordered the detention, noting that Mr. Sharma’s ability to remain unflappably courteous while being grilled by the complainant’s counsel was not only irregular but bordered on tactical psychological warfare.\n\n'I have sat on this bench for fifteen years, and I have never seen a witness agree with every single leading question with such terrifyingly genuine warmth,' the magistrate noted while signing the remand order. 'By constantly nodding and asking if the lawyers needed a glass of water, the defendant effectively dismantled the adversarial nature of the court, leaving the prosecution with no one to argue against.'\n\nLegal experts suggest this is the first time a defendant has been detained primarily to 'lower his agreeability levels' before the trial resumes. The complainant’s lawyer, who had initially sought a standard detention, expressed relief at the court’s decision. 'He was being so helpful that I actually started to forget why I was suing him in the first place,' the lawyer admitted, visibly shaken. 'If he continues to be this reasonable, the entire legal system risks collapsing into a series of friendly conversations.'\n\nMr. Sharma is expected to spend the next 24 hours in a cell designed specifically to harden his demeanor, where he will be required to listen to at least six hours of aggressive call-center training tapes to ensure he stops saying 'thank you' to the constables when they bring him his dinner.",
+  "caption": "When being too nice becomes a legal liability. Has your politeness ever landed you in trouble? #DelhiCourt #LegalHumour #TooNice #Satire (satire)",
+  "igHook": "Tag someone who would get arrested for being too polite in a court of law.",
+  "imagePrompt": "A photorealistic shot of a wide, empty courtroom hallway with high ceilings, featuring polished marble floors and a lone wooden bench, capturing the somber atmosphere of a judicial building.",
+  "sourceHeadline": {
+    "title": "Delhi Court Remands Swatantra Bhardwaj To One Day Police Custody, Complainant's Lawyer Questions...",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcGY1d3R1ZnhwdElSR3FJSE5Db1piQW0ya0pMc1U0ZU90MENEVlZKdm5HRW1xMm1KRWloSVNHQ09Ma1BOVU45bzAtSVMxWDJpX0V4eWpLd0ZvZHQ4NlVXVVBaUEtzRVcweUlsZnk5dXhJNHZYLWp1UURTbG05aGZqc0RKLUVnOGtiSkZzMlBNOFcxblhkUmdwODdPd1F5NDhaR2dEcnFnU3VocjUzQ0VlNVViZm5BRGlqNGF1MF91dHZIUEFHVktxNlJ6YXBmWVhXMWZFUtIB2gFBVV95cUxNYnNkSVBDS05KNVNfQ0NiRHo1MXZqNFA3Z3RuS2x2S0x2ZzBTUHNPQUN5Z0xXd0VjVjhXRENXSnQ1Q1FkcGRCcDAtaXQwSTJmQWIxd3dwa3dGYlc5S3gzbmVfdG81dVozMEh1QW9qaHVrRVp5N0FRSW9QYnFRVUFMZUlNUEFGeGN1RHRuTlJyMVZCRG4tMGhqMVp1R3RkWldZM0lDc2lRX2pxWUFsMkVXWXJSRG5FdkFCTnVSYU00WHRNMS1HQ1d3aWpkdFcyMUhoaVp6MS1Ka2h0UQ?oc=5",
+    "pubDate": "Sat, 05 Sep 2026 10:53:42 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 47
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 (Excessive Politeness) captures a specific, warm, and highly absurd image of a man being arrested for being too nice, avoiding the 'bureaucracy-is-broken' cynicism found in the others. It maintains a strong deadpan tone and avoids the formulaic traps of the other candidates, who relied too heavily on the repetitive 'one-day custody for digital etiquette' template."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, common name for a fictional character in an obviously satirical and absurd scenario that does not target any real person, group, or institution in a defamatory or harmful way. The image prompt adheres to safety guidelines by describing a generic scene without real-world identifiers.",
+    "flaggedIssues": []
+  }
+}
