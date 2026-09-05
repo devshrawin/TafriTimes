@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-05",
+  "publishedAt": "2026-09-05T08:20:30.140Z",
+  "topicKey": "trending-news",
+  "headline": "University student finds his own face on billboard as 'digital mascot' for ideology he thought was just a group chat meme",
+  "slug": "student-accidental-mascot",
+  "body": "A second-year sociology student from Patna discovered his lecture-hall selfies have been repurposed as the viral face of a national political movement after he accidentally checked 'public domain' on a meme-generator app. The student is currently seeking legal advice to determine if he is entitled to a cut of the movement's 'influencer outreach' budget.",
+  "caption": "Guess that’s one way to boost your LinkedIn profile. #Satire #SocialMediaLife #DigitalPosterBoy #PatnaDiaries (satire)",
+  "igHook": "Would you sue or just lean into the fame if this happened to your profile picture?",
+  "imagePrompt": "A wide shot of a brightly lit university campus hallway with students walking by, focusing on a cluttered bulletin board covered in faded flyers and event posters.",
+  "sourceHeadline": {
+    "title": "Swatantra Bhardwaj: How a 21-yr-old from Patna became digital poster boy of Hindutva ecosystem",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUVdtRXZFcFNObng1Rl9PNXZCS2sxUTBIM3FxSDV5VE9aTlRrSHlveUJCd29JXzBvRkdZcWFOM2l4cXJVRmNSZnZPUG9PYmRHSXF0Y25iOExpamZLcEtnX1d3SzRPcDRkSVlHeVpkVi15SUtnY3E5clg0QXVMQko5M2x0eWtaRjl3M1hiQmRyRVhOVFI2UjdUMzVyTzdPZW9ORWtYWGJvS2dwZXB2dkk2Wk9FRVY3cEd2UGZhcjZvT01OT2oxM1gw0gHMAUFVX3lxTE9NSkRpZ2VFVkFQUzFid1FCd0swXzJ3LS1aakQ0SFVxeEJaVWduWUoycGI1YWZaejZDZWpXQWVjNlV6NTAzMHhOU3YteHlIUmFrWTBhZHRpX1NFek5sdzM2RGFzd1RKTEhvVlp0em1rdncxeVNIQ0R2aXRNMXdKcEZXbGRxV2ROWUpIRkdaQ2xFS2lNU3dEQVplcl85dWZET2kxZzFjY0F2aFRuREFZY0hNbzN4MXRGbHg0WGxQbnY4MkxtSF9jeVRZR2pNMQ?oc=5",
+    "pubDate": "Sat, 05 Sep 2026 00:00:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 stands out because it roots the satire in a grounded, relatable human mistake (checking a box on an app) rather than the generic, repetitive 'influencer bot' trope found in most other candidates. It manages to be funny and specific without relying on cynical boilerplate, providing a clear, vivid image of a student seeing his own face on a billboard."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous student as a satirical vehicle for a fictional scenario. It does not name any real individuals, target protected groups, or describe a real-world political scandal, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
