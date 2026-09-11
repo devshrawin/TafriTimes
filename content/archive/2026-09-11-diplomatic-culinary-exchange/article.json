@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-11T17:06:15.585Z",
+  "topicKey": "cricket",
+  "headline": "Public Confused After Diplomatic Duo Holds Second Meeting In Two Weeks Just To Exchange Secret Samosa Recipes",
+  "slug": "diplomatic-culinary-exchange",
+  "body": "“I thought they were discussing regional stability, but it turns out the entire bilateral summit was just a heated debate over whether cardamom belongs in a tea-time snack,” said a local tea stall owner who provided the catering.\n\n“My brother works in the protocol office and he said the delegates spent four hours arguing that the real reason for the second visit was to trade the secret ratio of ginger to cumin in a perfect chutney,” mentioned a frustrated IT professional waiting for his cab near the venue.\n\n“I honestly assumed they were planning a joint space mission or something big, but my cousin, who’s an intern there, confirmed they actually just wanted to verify if the other side had mastered the folding technique for triangles,” added a final-year law student.\n\n“It’s honestly refreshing to know that even heads of state can put aside global crises just to settle the age-old dispute of which region makes a crunchier crust,” noted a neighborhood delivery rider.",
+  "caption": "It’s not a geopolitical crisis, it’s a high-stakes culinary collaboration. Who knew international relations were this delicious? #Diplomacy #SamosaSummit #Geopolitics #Foodie (satire)",
+  "igHook": "Would you trade a bilateral agreement for the ultimate secret samosa recipe?",
+  "imagePrompt": "A blurry, long-range photo of two official-looking motorcades parked outside a generic luxury hotel, with catering staff carrying large silver platters into the main entrance.",
+  "sourceHeadline": {
+    "title": "PM Modi, Pezeshkian Hold Bilateral Meet For 2nd Time In 2 Weeks Amid Iran Crisis",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlpGYmN2cWIxVzd2MTZoUmRmbXZSWURNUkRwNU1mTGRiZXpJLVJJTFN4ZFdiam01VVVzNkVvNV8xRFJKWGFIM2U0el9uYms3VGcxYU1sTFdOX0ItLVJHb3BURmNXUmgwSkVJMm1ucEFaMXV6OUs4X1kwWXlVVm82QWFvaFp4UkRiX3N5bFJHelAxT2VxLUtpTWpXd2tVZ19MaU9HOVNRV3o0XzA?oc=5",
+    "pubDate": "Fri, 11 Sep 2026 13:17:06 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances a deadpan tone with a specific, culturally resonant absurd detail. Unlike the others, it avoids repetitive 'we are out of topics' or 'they are just eating' tropes by focusing on the specific, low-stakes friction of a samosa recipe argument, giving it more charm and structural cohesion."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses generic, unnamed figures to represent diplomats and does not target any specific real individuals, religions, or ethnic groups. The satire focuses on the absurdity of a high-level meeting being reduced to a culinary debate, which falls well within the bounds of harmless, whimsical, and obviously fictional political satire.",
+    "flaggedIssues": []
+  }
+}
