@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-11T22:42:06.760Z",
+  "topicKey": "cricket",
+  "headline": "BRICS Summit Delegates Secretly Pivot Entire Geopolitical Strategy Around Who Can Best Recommend A Mid-Range Vacuum Cleaner",
+  "slug": "brics-summit-vacuum-diplomacy",
+  "body": "International diplomats gathering for the latest economic summit have officially abandoned all trade talks in favor of debating the suction power and warranty terms of various household appliances. Sources confirm that global leaders are currently ignoring multi-trillion dollar trade agreements to focus exclusively on finding a consensus on which brand of vacuum offers the most reliable maneuverability for rug-heavy living rooms.",
+  "caption": "When the world's most powerful leaders decide the real threat isn't inflation, but dusty carpets. Who knew geopolitics was just a glorified home appliance review session? #BRICS #Diplomacy #VacuumLife #GlobalTrade (satire)",
+  "igHook": "Tag the friend who is way too passionate about their household cleaning gadgets.",
+  "imagePrompt": "A wide-angle, slightly blurry press photograph of a long, polished wooden conference table in a grand room, featuring empty leather chairs and several discarded international flags sitting near piles of appliance instruction manuals.",
+  "sourceHeadline": {
+    "title": "Modi, Putin seek stronger ties as Russia calls for BRICS to counter West",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVFAxREMtVW5qaWVJY2JtNVowUjlwSmlkal9XMW1LLW5HYTVXMUNqempxWFZjeWszdEd0UmFzV2NWNjhxczhiRXpjbjlpTUd5VkI2NzNTeVA5X3BfcXZTUFRGOWUtMDZmbDVDYXJQc2hUa0pxUGVzM2ZKMHMxbUs2WGxDcmxlOFN0Q1lBYUJyXzFoNk9MTEplWm9TdFozNFZkUkwxSkQwUVM0dFZs?oc=5",
+    "pubDate": "Fri, 11 Sep 2026 19:14:47 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 8,
+        "total": 51
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 24
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 is the only piece that breaks the 'food/diplomacy' repetitive pattern seen in the provided context list. The specific detail of 'suction power' and 'rug-heavy living rooms' adds a layer of mundane, domestic absurdity that feels fresh, and it avoids the AI-tell of relying on generic institutional filler by focusing on the physical, pathetic visual of vacuum manuals on a conference table."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, whimsical piece of political satire that does not name specific individuals or groups, nor does it touch upon restricted categories like religion, caste, or real-world controversies. The image prompt is generic and avoids identifiable figures or branding.",
+    "flaggedIssues": []
+  }
+}
