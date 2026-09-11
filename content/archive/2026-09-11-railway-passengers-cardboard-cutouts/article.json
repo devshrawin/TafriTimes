@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-11T03:32:16.190Z",
+  "topicKey": "trending-news",
+  "headline": "Railway Passengers Reportedly Replaced By Cardboard Cutouts During Massive Train Cancellations",
+  "slug": "railway-passengers-cardboard-cutouts",
+  "body": "“I tried to board the express to Lucknow, but the station master politely informed me that my seat had been upgraded to a high-density corrugated paper double, which actually offers more legroom than my usual middle berth,” said frequent commuter Rajesh Khanna.\n\n“The ticket checker didn’t even blink when he scanned my QR code and then proceeded to staple a small umbrella onto my cardboard twin to give it a more ‘commuter-chic’ aesthetic for the journey,” explained college student Ananya Sharma.\n\n“I run the tea stall on Platform 4, and I’ve been serving cups of ginger chai to these paper gentlemen all morning; honestly, they are better tippers than the real passengers because they never complain about the milk temperature,” noted local tea vendor Harish Gupta.\n\n“My brother sent me a selfie from inside the Vande Bharat, and it’s clearly just his flat, glossy silhouette leaning against a window while a pre-recorded track of a man snoring plays on a loop,” mentioned IT consultant Vikram Mehta.\n\n“I paid a premium for the luxury coach, and while I’m technically sitting in a warehouse in Okhla, I must say the 2D version of myself is currently enjoying a very scenic view of the countryside without any of the actual motion sickness,” shared finance manager Priya Deshmukh.",
+  "caption": "Indian Railways introduces 'Flat-Pack Commuting' to ensure 100% capacity during massive service outages. Why travel in 3D when you can just be a laminate? #IndianRailways #VandeBharat #LifeHack #CommuterLife (satire)",
+  "igHook": "Would you trade your seat for a cardboard version of yourself to save on travel time?",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a bustling railway platform with several generic cardboard silhouettes standing in a queue, waiting for an arriving train.",
+  "sourceHeadline": {
+    "title": "Rajdhani, Vande Bharat among 120 trains to be affected over Delhi Division from September 11-13",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEtJVlRPeTczNmV4M1FEdl94VnhveGNGWWd4R2M5U0JuS3A1NWpodWRMdzNYT1AtUkJLa1VuYUVwclJHSGI2LWQ2ay11TXVrOFlQVGJlV2gwQ0wzbmNFdWhsbnhob1BDanFQZE5zNTRkMGpmU2ZSSjJyY1FQMTIySnhSc09PNUhscFVuRW0xeUxjd0h3Um0xb09VMjNEbHFJWE9EUWZ3OUZ6WW5PbTdscTN4enFqdzRESUhidVRvZ9IBxgFBVV95cUxNOUZWVld0LWh5WXU0QW53UjY0TC0tSnFqZ0V0ejNGU2ZnTWZjMTVxVThJUmk5UVF0YmF5SFctTDJ5ZDR6aVpfSFlJS1IwdWhiZXFlRV9QcmUtMGpTbE5JVXhBTHFhS29SazRHb3cxeTFFQ19rNEJsUGZyb0pwQTRzMmRzWVF3TG0wNXcwRFhuZlpQOXNlNTEzMEVfcVk1Tk81Tm5lMEk3ZmlOcWtXZFFMekxKWHhHMEFCbVFtWTFBUVRFTkFNU0E?oc=5",
+    "pubDate": "Thu, 10 Sep 2026 15:53:14 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 5,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 13,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 45
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 stands out for its high level of specificity and a truly absurd, vivid image—commuters being replaced by cardboard cutouts—that feels distinct from the recurring theme of meditation/yoga/pedaling delays. It avoids the AI 'slop' tendency of recycling the same 'mindfulness retreat' trope used by half the other candidates, offering a fresher, sharper satirical premise."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses clearly fictional, absurd scenarios involving generic names and placeholders, avoiding any real public figures, private individuals, or harmful themes. The image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
