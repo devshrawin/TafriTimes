@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-11",
+  "publishedAt": "2026-09-11T06:50:14.047Z",
+  "topicKey": "trending-news",
+  "headline": "Visiting Foreign Diplomat Refuses To Enter India Without A Strictly Curated 'Agenda-Based' Lunch Menu",
+  "slug": "diplomatic-lunch-agenda",
+  "body": "Q: Mr. Chatterjee, you are the lead protocol officer for the upcoming state visit. Reports suggest our visitor has arrived at the tarmac but is currently refusing to deplane. What is the hold-up?\n\nA: It is a delicate situation. The visiting dignitary has sent a 40-page document titled 'Pre-Landing Gastronomic Requirements' which insists that every bite taken on Indian soil must align with a specific thematic agenda. He will not step onto the carpet until we confirm that the first meal features exactly three chickpeas representing geopolitical stability and a side of chutney that symbolizes fiscal policy.\n\nQ: Surely this is just a misunderstanding of local hospitality? Can we not just offer a standard thali?\n\nA: We tried that. We offered him a standard Gujarati thali, and he sent it back immediately, claiming that the lack of a clear 'narrative arc' in the arrangement of the pickle made the whole experience feel dangerously improvised. He is currently demanding we present the dessert only after we successfully negotiate the terms of a new trade pact, which he claims makes the gulab jamun taste more 'economically significant.'\n\nQ: What is the current status of the negotiations?\n\nA: We are currently in a subcommittee meeting trying to decide if a papadum can be legally redefined as a 'strategic framework.' If we can just get the curry viscosity levels to mirror his stance on maritime border security, he says he might consider disembarking by sunset.",
+  "caption": "Diplomacy is hard, but finding a side dish that represents fiscal policy is harder. 🍛📉 #Diplomacy #LunchAgenda #StateVisit #ProtocolProblems (satire)",
+  "igHook": "Would you serve a meal that had to represent a government policy? 🍛",
+  "imagePrompt": "A wide, slightly blurred view of an airport tarmac from behind a security barrier, showing a private jet with an open staircase and a red carpet laid out in the distance.",
+  "sourceHeadline": {
+    "title": "‘Rahman wants to visit India, but agenda has to be set first’",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOejRTN3kwUjZObENEaWVCTUVHQXBad3RWTVBJNG0za0tvbm5pOWFLcXZBaDRORV84WHo0dWw3YUJMcnd1aFZZUmtscmNGRVE2MkVXSXNNNTFUMGQxSUFOZFhvMVNDdHBmb19IRGwzNW9RNG1EdGhwelIzbzhwT2xLYVliUW9vNFBscWpMQ0twZW9IaWdRTXdhUmtBb3dmSHh1MVpmS1BUdXBLOWlJY3NVTTJ1TGtrSGQ0T1lUOW1yONIBxgFBVV95cUxPRnBrOGZScnZ0WG1vSnIwMnQ2Z2lWek9XQ2pVckp6NG5ZLTVWY3dKLTFlVTVQUngyUUV2MWpGTG1YSXNvMWhldFNGTzJpamZ6aW42Y0RQNVk4MnhBTnQ5SWZaOXh0aHRjbHFNTEQyaFpuaHVqQVJFUUh4b2FvSzRzZW9XTE8tM0tITE5rb1FWeldBRlp5dkh4R0xxRmkxSk1qMmdkejFENWxHa3dUYjFMclotTUhNSlQyQ003X2g4aTRHc1Uwa3c?oc=5",
+    "pubDate": "Wed, 09 Sep 2026 17:39:20 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 48
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 wins by focusing on the specific absurdity of geopolitics translated into culinary metaphors, which feels fresher than the repeated '40-page document/agenda' trope found in most of the other entries. The detail regarding the 'narrative arc' of a pickle vs. fiscal policy provides a concrete, funny image that avoids the tired AI-generated boilerplate filler."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted, whimsical satire about bureaucratic absurdity. It does not name any real individuals, entities, or specific diplomatic missions, avoiding all risks of defamation or communal harm.",
+    "flaggedIssues": []
+  }
+}
