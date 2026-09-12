@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-12",
+  "publishedAt": "2026-09-12T20:23:58.183Z",
+  "topicKey": "trending-news",
+  "headline": "5 Things The Finance Ministry Currently Considers More Reliable Than A Common Currency",
+  "slug": "5-things-ministry-trusts-more-than-common-currency",
+  "body": "1. The exact duration of 'five more minutes' as promised by a Delhi rickshaw driver during peak monsoon season.\n2. A handwritten IOUs from a distant cousin who guarantees they will pay back the money 'the moment they win big on the fantasy cricket app'.\n3. The structural integrity of an office building’s lift after a heavy monsoon, provided the 'Out of Order' sign is written in permanent marker.\n4. The secret, unwritten agreement between neighbors that the person who last finished the water bubble-top is responsible for ordering the next one.\n5. The thermal efficiency of a cold cup of chai left on a desk for six hours, which is still considered legal tender for office gossip sessions.",
+  "caption": "Forget the BRICS currency proposal; our economy is built on much sturdier foundations like cousin-loans and rickshaw-promises. Which one are you trusting with your savings? #Economy #FinanceHumor #BRICS #India (satire)",
+  "igHook": "Would you trust a rickshaw driver's 'five minutes' more than your bank account?",
+  "imagePrompt": "A close-up shot of a rustic, handwritten ledger book resting on a worn wooden desk next to a steel glass of chai, with blurred office paperwork in the background.",
+  "sourceHeadline": {
+    "title": "India rules out Brics currency proposal, backs local currency trade settlements",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOajl1TXpXS0pxZ2xBb25GU2U0Z3hFMnpRdVhQUmQ0c0QyWllrcDNnS2p5ZUVlT004elZpdVQ5ZUVMY0t1Qzh5ajNQUWRQUDR3SV9YZlYzOVNiV2V2OHRKcTNpQlk2N0xDak9lTWZoWi1KZTFqOWYyYXRXem5SQmo5OXlEZnpwREhNWWZSeU1hR3kxWFliNkg1SUx1UU5rcDBjMjQ5SEQwaVlSaG5HWHlvcGY4THZieDlnaXRBQUNGVUZSYlVnckp4OGx0anE1aEpxVC1uZ3pROVZqWEg5bGgySzJYeS1zUnF6QWtxaEdVZ1RmNm1fV21j?oc=5",
+    "pubDate": "Sat, 12 Sep 2026 14:56:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 45
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 wins by avoiding the tired '5 alternatives to BRICS' listicle format that dominated the other entries, opting instead for a sharper, more character-driven satirical take on institutional reliability. It provides specific, relatable imagery—like the 'five more minutes' rickshaw promise—that lands with warmth and wit, while successfully sidestepping the formulaic 'AI slop' patterns found in the other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is harmless satire targeting universal, relatable experiences in Indian culture rather than specific individuals, religious groups, or castes. It avoids professional defamation by using broad, humorous archetypes and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
