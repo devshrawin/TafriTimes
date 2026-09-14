@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-14",
+  "publishedAt": "2026-09-14T17:15:10.351Z",
+  "topicKey": "cricket",
+  "headline": "BRICS Summit leaders confirm viral 'candid' video was actually a shared attempt to figure out how to reset a hotel room thermostat",
+  "slug": "brics-summit-thermostat-crisis",
+  "body": "Global heads of state were captured on camera during the BRICS summit frantically debating the complex touch-screen interface of a climate control unit that kept alternating between Arctic levels and sauna heat. Sources confirm the high-level diplomatic huddle concluded only after a hotel technician arrived to explain that the device was not, in fact, a miniature teleconference console.",
+  "caption": "When global powers unite, it's usually for world-changing policy—not to battle a hotel thermostat. Who knew the real challenge was the 'Auto' setting? #BRICS2026 #Diplomacy #ThermostatWars (satire)",
+  "igHook": "Tag the one friend you know who would immediately try to hack the hotel AC during a global summit.",
+  "imagePrompt": "A wide-angle, slightly blurry candid shot of several suited figures standing around a sleek, modern wall-mounted control panel in a dimly lit, upscale conference room corridor.",
+  "sourceHeadline": {
+    "title": "Inside Brics 2026: Video captures PM Modi’s candid moments with Xi, Putin and Prabowo",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdGpkYkt2YWEzYkVuQ0E3d0sza2l1Mzk1RDB0clhuR2hKb1pTVlRpcllrd2R1VzEtS29IUlU3SlJCVy1pbm9fclNObFZnMWNGWWhwb0llTG1JTnVUN2Z0RDUwd21PRWt4Ukt3NE5XaGQzdlJIVDBnTk9PRWdrTVRCa2ozR2VTMkI0RVdZRkducmV1Z3lZWWJvZWU0LVhmR2oyZ0p3OTN5Mm5IcXJpaWpPb0J1dzVRcV96SnpPYVFtYWdCSmFrRlZNR0prbGNMb1FrNzY4RmlSenl4Vm55RmJuVU5QS1E?oc=5",
+    "pubDate": "Mon, 14 Sep 2026 07:54:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 7,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 17
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 stands out because it grounds the absurdity in a universally relatable, mundane frustration (a confusing hotel thermostat) rather than relying on tired tropes about potlucks or group chats. It maintains a perfect deadpan tone, avoids AI-generated 'filler' scaffolding, and presents a clear, funny visual of world leaders huddled over a wall panel."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a harmless, whimsical premise involving world leaders that does not touch upon sensitive topics like violence, crime, religion, or reputation-damaging claims. The image prompt is generic and avoids naming individuals or using brand logos.",
+    "flaggedIssues": []
+  }
+}
