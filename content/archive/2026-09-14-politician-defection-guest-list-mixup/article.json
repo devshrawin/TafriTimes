@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-14",
+  "publishedAt": "2026-09-14T15:05:01.754Z",
+  "topicKey": "trending-news",
+  "headline": "Local politician admits his 'mass defection' list is actually just a draft of his upcoming Diwali guest invitation card",
+  "slug": "politician-defection-guest-list-mixup",
+  "body": "Q: Sir, the headlines are ablaze with your claim that 17 opposition leaders are set to join the ruling party before the festival. Are these politicians actually switching sides?\n\nA: Look, there has been a terrible misunderstanding caused by my personal secretary. What I held up at the press conference was not a list of ideological defectors, but the 'Confirmed VIPs' column from my spreadsheet for my annual Durga Puja grand reception.\n\nQ: But you explicitly told reporters these people were 'ready to cross over' and 'seeking new pastures.' How do you explain that terminology?\n\nA: In the context of a high-stakes festive dinner, 'crossing over' refers to moving from the buffet station to the main seating area, and 'seeking new pastures' refers to the vegetable biryani stall. I genuinely thought the journalists were just very interested in my catering logistics.\n\nQ: Do you plan to issue a retraction now that the opposition is calling this a desperate political stunt?\n\nA: I’ve already sent a correction notice. I’ve clarified that while they may not be joining the party, they are all still expected to join the party with a plus-one, provided they RSVP by Thursday. The caterer needs the final headcount.",
+  "caption": "It turns out the only thing shifting this festive season is the seating arrangement for the dinner buffet. Just a simple case of confusing party politics with party planners. #DurgaPuja #Politics #GuestList #Oops (satire)",
+  "igHook": "Have you ever accidentally invited the wrong person to a party because of a spreadsheet mix-up?",
+  "imagePrompt": "A close-up shot of a blurry spreadsheet printed on paper sitting on a wooden desk, with a half-eaten samosa resting on top of the document.",
+  "sourceHeadline": {
+    "title": "17 NCPI MPs to join BJP before Durga Puja: Rebel TMC leader's big claim | India News",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUDRZNlFIOVJBQnV4RHI3MkJPNUxUMWdXdlFManFjVHZmbXlSZkNydkdaY2hMRmNTT2lWSmYzUkc2WWpuajEwQnlFV0htbWh3Zk9mUHRUci1MODh2UFJIVkV5bi1uWXR6RTZpZlBUWlg3YVJfYzZXWXZKRE44NE4yT2ROY2pfalBwZjc5N2RYbURUZXd3V0V1cUtuNklUZmMtMWNOVFhPRF9JLU1BUE91VUNUdU5RbU9tODQyLVRUS2J5S3JxQ3NoOTJVX3A4ZjTSAdQBQVVfeXFMUHpvUWtKUzVJeXRTZU4wc2c4bmNEUUFoSC1nZEFjQ2RtY1VfdjlYRGpYaGp3MVZ6d3pLQnN3UVhaN1JIV1REaGx4cXV2RHJMZzBHbDlNZHJZSXBYMzlYSVJiRW5TbjlfZE1zdjNRcWhpaFV5Z19UX09FcjRpaGNVN0xvQlY4ZDdLYVhmRnBmdllwZVN2QVUydzBUNlNpdk14ZXJSTm5XQmQxMS1FVU43QkE5SXRsbkcxZ0JlTzZUbkpYMVJ0anUzNlczZUtWcVQyMGh0OGY?oc=5",
+    "pubDate": "Mon, 14 Sep 2026 10:28:04 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 48
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 avoids the repetitive 'politicians do X for snack/coffee' trope found in almost all other submissions, opting instead for a clever, character-driven misunderstanding that feels human and light-hearted. Its structure is tight, the absurdity is treated with perfect deadpan seriousness, and it provides a fresh, genuinely funny twist on the 'defection' theme."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, unnamed politician to satirize political maneuvering, which avoids the risks associated with naming real figures. The image prompt is generic and avoids specific identifiable people, brands, or text.",
+    "flaggedIssues": []
+  }
+}
