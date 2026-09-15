@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-15",
+  "publishedAt": "2026-09-15T13:38:17.925Z",
+  "topicKey": "trending-news",
+  "headline": "Coalition partner attempts to hide from government's legislative reform by physically camouflage-painting himself to match the Parliament carpet",
+  "slug": "coalition-partner-camouflage-protest",
+  "body": "A senior regional coalition leader was spotted attempting to blend into the floor patterns of the Parliament lobby yesterday, using a custom-mixed hue of industrial red and gold paint to avoid being asked for his official stance on the proposed Uniform Civil Code. The leader, who arrived with a paintbrush and two tins of acrylics, reportedly spent forty minutes meticulously layering paint over his sherwani to match the specific weave of the building's carpeting.\n\n\"The trick is to avoid the high-traffic zones near the media bay, or someone is bound to step on my shoulder and blow my cover,\" whispered the coalition partner, who remained completely motionless for six hours while various ministers walked directly over his torso. Staff members initially mistook the leader for a missing roll of carpet runner, with one junior clerk even attempting to unroll him toward the main assembly hall to fix a frayed edge.\n\nBy late afternoon, the leader’s office issued a press release claiming he was 'unavailable for comment on the UCC due to a sudden, pressing commitment to interior design research.' Political observers noted that this is the fourth time this month the partner has attempted a vanishing act, having previously tried to hide inside a large potted palm and once posing as a bust of a forgotten freedom fighter for three straight days.",
+  "caption": "When the party whip asks for your vote, just become the floor. The new era of coalition politics involves a lot of high-quality industrial paint. #Politics #Parliament #Camouflage #UCC #India (satire)",
+  "igHook": "Tag a friend who would definitely try this to get out of a meeting.",
+  "imagePrompt": "A wide, slightly blurred shot of a plush, ornate red and gold carpet in a grand government building, with a pair of shiny black leather shoes barely visible near a decorative pillar in the corner.",
+  "sourceHeadline": {
+    "title": "On Shah's UCC claim, 3 BJP allies sound caution",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMUU5UG4ya2pGZ3lFWXNJZzM3X3RjY3d3Si1yaVBsNEVZeDZBNlV5VE95OEtFU2Q4aGFCVXgyODRndEpBYXFMaWRGd2lERDNva1ZJd0hSMXFSMmswVnZ4ZEdKMU9VdHQyS3RzdTN5dnZMNzljTlI1YUttX2txc0tCdUNoeExBbG9FZkZyVm9vVENEYWhEOTZEWm9QRFhCN042M2hNakotNVpycnhxSm1ld3hRSQ?oc=5",
+    "pubDate": "Mon, 14 Sep 2026 23:35:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only entry that avoids 'AI slop' tropes by presenting a single, vivid, and physically comedic image that is sustained throughout the piece. The detail of the clerk trying to unroll the politician as a carpet is genuinely funny and avoids the formulaic structure of the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses an absurd, surreal premise to satirize political evasion. It does not name any specific public figure, uses generic archetypes, and avoids any harmful, inflammatory, or defamatory content regarding real-world entities.",
+    "flaggedIssues": []
+  }
+}
