@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-17T19:45:47.028Z",
+  "topicKey": "trending-news",
+  "headline": "Election Commission Replaces Frozen Political Symbols With Placeholder Icons Including ‘Generic Smiling Fruit’ and ‘Partially Inflated Balloon’",
+  "slug": "election-commission-symbol-freeze-bypolls",
+  "body": "The poll body has officially replaced all contested party symbols with a library of stock clip-art, forcing candidates to campaign under the banner of the ‘Slightly Wilted Banana’ and the ‘Pixelated Toaster’ until further notice.",
+  "caption": "The race for the ballot box just got a lot more fruity. Which icon are you voting for: the banana or the toaster? #Elections #Symbols #Politics #India (satire)",
+  "igHook": "Would you vote for a candidate if their party symbol was a piece of fruit?",
+  "imagePrompt": "A close-up shot of a dusty, blank voting machine button with a poorly taped-on piece of paper showing a hand-drawn cartoon banana.",
+  "sourceHeadline": {
+    "title": "In Fight For Trinamool Name And Symbol, Poll Body's Freeze Ahead Of Bypolls",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSm9WTEJGTS04WWRHcnB0T0l6bjgweldQcGExRDU0SXM0QkZYaTk0bWMybTlNbzlETTYtRFZkbjZYdFp2cERRQ2phWEdjOVdIMGdGZnh2ZEFEck10UTc0X0tUZ2I0X0ltbnZRNTBkanBZcEkwV2JqcXRZc1hndG9wbENCX014LWlMLWYwZjNfOUFOeEV6bTBBOGhPeXJiaDZ2ZVhsSEdUUEVUeHVjX3JzblBVblBhU3c5U2hvaWwxZ21rYUE?oc=5",
+    "pubDate": "Thu, 17 Sep 2026 16:35:57 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by choosing highly incongruous, specific icons ('Slightly Wilted Banana' and 'Pixelated Toaster') rather than the overused 'loading/error' tropes found in most other entries. The premise is presented with a deadpan, bureaucratic absurdity that feels genuinely fresh and avoids the cynical tone of the tech-fail entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses generic, satirical imagery to mock bureaucratic processes regarding election symbols without naming real individuals, targeting specific parties, or violating safety guidelines.",
+    "flaggedIssues": []
+  }
+}
