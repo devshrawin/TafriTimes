@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-17T05:00:01.873Z",
+  "topicKey": "trending-news",
+  "headline": "Delegate Claims Global Leaders Only Pretended To Be Sick To Avoid The Hotel Breakfast Buffet",
+  "slug": "delegate-claims-leaders-feigned-illness-to-skip-breakfast",
+  "body": "A junior logistics officer present at the recent international summit has broken the official silence surrounding health rumors, claiming that the alleged mass illness of world leaders was actually a meticulously coordinated effort to avoid a breakfast spread consisting exclusively of lukewarm masala oats and curd. The officer, who spoke on condition of anonymity, revealed that at least six heads of state had simultaneously developed a sudden, unshakeable interest in napping when the menu was circulated in the group chat.\n\n“It wasn’t a diplomatic crisis, it was a dietary protest,” said the source, who claims to have witnessed a high-ranking minister frantically order four hidden packets of instant noodles via a secret delivery app from his bathroom stall. “They didn't have flu or food poisoning; they just had a combined, visceral reaction to the prospect of eating ‘healthy millet porridge’ for the fourth day in a row while discussing trade tariffs.”\n\nExternal affairs spokespersons were quick to issue a formal denial, labeling the rumors of summit-wide nausea as 'Fake Alert' propaganda aimed at undermining the spirit of global cooperation. However, hotel staff confirmed that the housekeeping team discovered an alarming amount of empty pizza boxes hidden underneath several mahogany conference tables, suggesting the state of emergency was, at the very least, exceptionally well-fed.",
+  "caption": "Forget the geopolitical stakes—the real summit drama was happening at the breakfast table. Would you sacrifice an international treaty to avoid bad hotel porridge? #BRICSSummit #GlobalPolitics #HotelLife #Diplomacy (satire)",
+  "igHook": "Tag someone who would fake an illness just to skip a boring morning meeting.",
+  "imagePrompt": "A wide, slightly blurry shot of a long, empty banquet table inside a grand conference hall with several half-empty water glasses and folded linen napkins left in disarray.",
+  "sourceHeadline": {
+    "title": "‘Fake alert’: MEA denies reports of world leaders falling sick after BRICS Summit | India News",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmw1Z3NCSi12RlItRUxFRk5OZDBMdUZSSlhCZ1pQUDF5NmNxQXpmRXM3d1RacWM4MlBTY3phWmE2OHo5S2FRMEVkRDk5NHVrMzc0NExwbHI0dC0xcElmeGdnYVo1VHVWYS1QZldaWE1tcU10SE5Cblo4SmVSRnNlSmRjdWlGWXhGS2hWcFJiWWNfaERGNm1VUGV4MUs3a3VrMUdnSUZpeW4wLXdkaFA4Ry1Fd3JQT2xhUDh6NmdrbnVJRE1rTEFwSjA5aUJDX1dyYTktTDZneXVzS1YyLWZLTmlyclFGelpuU2ROT9IB8gFBVV95cUxNdU9MU0Q0b2FXOG96Q0xWY2FadVlwLXR0Z0ZSV05GOEdaNllocFFZUG9sb0xHNDFxNTAtamlPMlBQdnZ3Z2NBWkdwdEJncF9DcXdVTnF5OVlVUERxeGV5NjEyQWtzS015SUJ4ZTVqY2JRRkc5a1RqMHJ2T0JXYUV5MXNrUURRVG9OY2dGY01rN29PbEdjUWVCRGh4X2kya2dWNDhTZDBLZG9OLWp0Z01xVGZrcXF2WXlHYVM3T0piNGhWS1RfZERmVmRkTDBJcXFRNi04dUxHMWhRLXo3QTQyc0JxenpxVUhhZzhOOTk2aFgwdw?oc=5",
+    "pubDate": "Thu, 17 Sep 2026 03:41:10 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the strongest entry because it avoids the repetitive 'food poisoning' trope prevalent in the other submissions by framing the issue as a 'dietary protest.' It utilizes specific, relatable details—like the group chat, lukewarm masala oats, and secret instant noodle orders—to ground the absurdity in a mundane office dynamic, resulting in a piece that feels both satirical and human."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd satire about fictional dietary preferences of world leaders. It does not name any specific public figures, avoids targeting sensitive groups, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
