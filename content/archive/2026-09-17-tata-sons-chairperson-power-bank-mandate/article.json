@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-17T13:33:33.344Z",
+  "topicKey": "trending-news",
+  "headline": "Tata Sons Board Approval Tied To Chairperson Agreeing To Permanently Carry Portable Power Bank For Life",
+  "slug": "tata-sons-chairperson-power-bank-mandate",
+  "body": "The conglomerate's board has officially granted a fresh five-year term to its executive head, contingent upon him carrying a fully charged 20,000mAh power bank at all times to prevent any corporate device from dropping below 80% battery. Sources confirm the chairperson has already begun wearing a custom-tailored vest with dedicated pockets for three separate charging cables.",
+  "caption": "Guess who’s never letting a phone die again? Tata Sons sets a new standard for 'connected' leadership. 🔋💼 #TataSons #CorporateLife #PowerMove (satire)",
+  "igHook": "Tag the colleague who is always at 2% battery.",
+  "imagePrompt": "A close-up, professional photograph of a person's torso wearing a formal suit jacket with multiple charging cables visibly protruding from the breast pocket, set against a blurred corporate office background.",
+  "sourceHeadline": {
+    "title": "Tata Sons board approves fresh 5-year term for Chandrasekaran",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSE9OTGxDalhKSmdTMzZCOWtaMG1NZzFweXZBT3Zuc3dtbWEydUhnZmJUN3BCakFXUS0tekI3LXI3c2ZBTElMemNEMWhnM3YyNkNyb05qeXltdEMycUlTRi1PVG0zdHd1cHU3Z1l4X3ZnaEF1cVd1Zk1PekhfYU9fSG1ONGRwV0E1ZkZkQ1NfZXYxRnNZVTZVSUswU3gxc3V4SXNJUEtaZkh2dTZnSkZ0czdVZk1PNFNzZ2NHZjNkUUgtNFpCam5GM0ViNmZzZTdHdWfSAdgBQVVfeXFMUDEybDRoWVhYR0g3NC15bVAtdXFnaWFGTmVRRWhOcE8yQlFHbDBGVXZ3TEdVMlVHOUNTZjdlRnMxQkhXTlpuekptMmZ4alVDNzdZRE10WkZQNjR1VjN0aDN6Njlkd2RTT1dxWS1TTnBjN2ZMdWEyWlJoNWVadFF3Q204YU9zcDY3NlBhb1lueFZ1U3BtdlluWVYzY1p1TFFpU19ZUFYyOUNCdUpUc0RJWWNqV0c1Um1nc3RtazlCcHljVGRoREExY2F3bmQ4TDlWd2h2bk8zTXpT?oc=5",
+    "pubDate": "Thu, 17 Sep 2026 09:48:13 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 succeeds by applying a mundane, hyper-specific corporate anxiety (battery levels) to a high-level executive decision, avoiding the clichéd 'printer' or 'musical chairs' tropes found in the other submissions. It balances a clear, absurd image with a deadpan tone that treats the executive's custom battery vest as a perfectly rational corporate requirement."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, whimsical mandate to satirize corporate culture. It does not name a specific living individual, nor does it imply any actual misconduct, scandal, or harm, fitting the criteria for harmless absurdity.",
+    "flaggedIssues": []
+  }
+}
