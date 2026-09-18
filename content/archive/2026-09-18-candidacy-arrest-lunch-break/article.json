@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-18",
+  "publishedAt": "2026-09-18T15:24:00.893Z",
+  "topicKey": "trending-news",
+  "headline": "My Campaign Headquarters Was So Short-Lived That I Left My Lunch In The Microwave During My Arrest",
+  "slug": "candidacy-arrest-lunch-break",
+  "body": "I had barely finished framing my campaign portrait in the local constituency office when the support from the state’s ruling party arrived. I felt like a titan of democracy, a man destined for the ballot box. I even splurged on a premium cauliflower curry for my victory lunch, setting the microwave timer for exactly five minutes, which is just enough time to dream about a landslide victory.\n\nBut the universe, or perhaps a very efficient local police precinct, had a different timeline. Exactly three minutes into the heating cycle, the sirens started. Before my lunch could even reach a lukewarm temperature, I was being escorted out by three officers who looked remarkably well-fed, unlike myself. It is a peculiar kind of heartbreak to know that my political career ended before my meal had a chance to properly steam.\n\nNow, sitting in the holding cell, my only concern isn't the electoral outcome or the sudden shifting of political tides. I am haunted by the fact that I left my lunch in the office microwave. By the time I am released, that curry will be an unrecognizable, dehydrated brick of yellow sorrow, much like my brief, glorious tenure as a candidate.",
+  "caption": "When the political endorsement hits but the handcuffs hit faster. My lunch is currently cooling into a historical artifact. #Elections #Politics #FoodCrime #ShortestCampaign (satire)",
+  "igHook": "What is the weirdest place you have ever had to abandon your lunch?",
+  "imagePrompt": "A dimly lit, generic office kitchen area featuring a stainless steel microwave sitting on a counter, with a partially obscured, generic campaign poster visible on the wall in the background.",
+  "sourceHeadline": {
+    "title": "Nandigram bypoll: Congress candidate Milan Pradhan arrested hours after getting Mamata’s support",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPME9jWW53Qm4ySjd6eHlIZzExZTV4cVFCbFZnb0xKdk1ldzVPeV9ZN2JITjFGaU56OWZTZ0dBRkdzNUxnRWg3R2MyV3pOVUpycFhWUmRDaEJzS2pMd2k5NUd6dm9wYUkwTjVzU2p6MUo4WnpUNWUybEZGM25rX0FsZERvZWVNa18yckU0UVpEVDltb2s1blBLTDlhbUQtb0RyUXlsYjdKajdIdGlfa3Zma2QzaC1tZWI5LVBfanBNM29FRlZJcnFLWlRSZDBaQdIB1AFBVV95cUxPZkpaNHo5M245UEgwcVRvOGVHeXdQN2ZTZXB6cXhkRllXWkxGdktZRGpJWFlZOHdWMGJHSVlTQzBSMkIwOFZPWi1TXzFIaDVpdXF6UlY4Z25yenlyUjl5OHJuM2YtYndfalJfdkVDakVjVGhVdDBoQl9jTmFVWHFlai1udkJXenZaRHNQZEw3LU9TcHNHNjY3YjU3MGhGbE16RGZkNF8xRUYzZnJfWjF2Yl9id204RVI3SkpDTER0MF9rUFJDQkpfLU1VQTNZMmtBWTdNcA?oc=5",
+    "pubDate": "Fri, 18 Sep 2026 13:06:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 stands out by grounding the absurd political premise in a mundane, relatable disaster: ruined lunch. While most entries leaned heavily on the formulaic 'endorsement-to-arrest' loop, Candidate 5 focused on the tragic comedy of the microwave timer, which provides a much more specific, vivid image than the repetitive 'handcuffs on the desk' tropes used elsewhere."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a satirical, first-person fictional narrative about an unnamed character's failed political aspirations. It does not name any real individuals, public figures, or entities, and the image prompt avoids any identifiable markers.",
+    "flaggedIssues": []
+  }
+}
