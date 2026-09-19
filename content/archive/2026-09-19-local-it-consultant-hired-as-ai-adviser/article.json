@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-19T21:19:04.503Z",
+  "topicKey": "trending-news",
+  "headline": "Local IT Consultant Hired As AI Adviser After Mistaking White House Cybersecurity Portal For A Captcha Test",
+  "slug": "local-it-consultant-hired-as-ai-adviser",
+  "body": "Ramesh Iyer, a freelance web developer from Indiranagar, has officially been appointed as the new AI strategy adviser for the incoming administration after a clerical error caused him to accidentally sign a binding national security document while attempting to verify he was not a robot.\n\nIyer, who was reportedly trying to access an international domain to download a niche software driver, claims the entire hiring process took less than forty-five seconds. 'I saw a box asking me to identify all the traffic lights, but when I clicked the final one, a screen popped up asking if I accept the terms of the national technological infrastructure oversight committee,' Iyer said. 'I just clicked accept because I wanted to finish my download before my internet pack reset.'\n\nTransition officials confirmed the appointment, noting that Iyer’s lack of details regarding his actual qualifications aligns perfectly with their stated AI strategy. 'He hasn't provided a roadmap, a budget, or even a definition of what an algorithm is,' said a spokesperson for the transition team. 'His ability to ignore complex instructions while clicking buttons is exactly the kind of disruptive, hands-off leadership we need for the future of artificial intelligence.'\n\nIyer is expected to begin his tenure next month, though his only current plan for national AI policy is to tell the entire government to clear their browser cache and restart their routers whenever the country faces a systemic crisis.",
+  "caption": "The next frontier of global technology policy is being handled by a man who is currently just trying to fix his own laptop's screen flicker. #AI #TechNews #Governance #SiliconValley (satire)",
+  "igHook": "Tag someone you know who would accidentally accept a government job while trying to bypass a pop-up ad.",
+  "imagePrompt": "A cluttered home office desk featuring a laptop screen with a blurry, unrecognizable menu and a half-eaten plate of snacks.",
+  "sourceHeadline": {
+    "title": "Trump says he will appoint a new AI adviser, without providing details",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeW9QS1RSUzNKWDluSVZQS0pJVDkyYjVWWjZPcWhEUHJkczdpZzhIN3N3THZ4Ylg1M2xLRTBzTDJyd1ktVDhOeHJVaHdqQWZXdVo4X2NqMllhVDNCQjZfUTJ0TV9fdEw5NW5OLTRDbzhEOG9UNjdGNUllQU15WGpuUncwMDd3OGhOY3Y2dTE0WEVoaXR6UzNV?oc=5",
+    "pubDate": "Sat, 19 Sep 2026 18:34:17 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the cleanest, most deadpan execution of the 'incompetent IT person appointed to high office' trope. It avoids the repetitive 'restarting the router/printer' filler seen in other entries, and the premise of accidentally signing a national security document while failing a captcha creates a concrete, absurd image that hits the right level of warm, affectionate satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictionalized character and a satirical premise that does not target real public figures, protected groups, or specific private individuals. The image prompt is generic and avoids identifiable elements.",
+    "flaggedIssues": []
+  }
+}
