@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-19T18:39:09.221Z",
+  "topicKey": "trending-news",
+  "headline": "Tech professionals begin adding 'H-1B Visa Eligibility' as a decorative hobby on matrimonial profiles",
+  "slug": "tech-workers-matrimonial-visa-hobby",
+  "body": "\"I just listed 'Waiting for H-1B lottery results' right next to 'Salsa dancing' and 'Traveling,' because honestly, the anxiety is basically my entire personality now,\" says a software engineer based in Hyderabad.\n\n\"My mother was initially confused why a man would claim his primary skill is 'navigating bureaucratic purgatory,' but she says it shows he's patient and good at filling out paperwork,\" reports a prospective groom from Bengaluru.\n\n\"We’ve started adding a 'Visa-Ready' badge to profile photos, similar to a blue tick, so that suitors know exactly how many layers of immigration scrutiny they are signing up for,\" explains a freelance matrimonial consultant.\n\n\"I think it’s a brilliant filter; if she can’t handle the fact that my life plans depend on a random computer-generated lottery in a different time zone, then we’re clearly not a match,\" says a system architect currently preparing for his third attempt.\n\n\"At this point, we are just looking for someone whose work visa status is stable enough to pay for a destination wedding, regardless of whether they have a hobby like photography or just a burning desire for a stamp in their passport,\" notes a matchmaker from Pune.",
+  "caption": "Matrimonial profiles are now officially the most accurate source of international labor migration data. Would you swipe right on a 'Lottery-Pending' status? #TechLife #Matrimony #VisaJokes #H1B (satire)",
+  "igHook": "Would you swipe right on a profile that lists 'H-1B lottery finalist' as their only personality trait?",
+  "imagePrompt": "A close-up of a smartphone screen showing a generic matrimonial app interface with a profile photo, while the background depicts a crowded, blurry café setting with people looking at their own phones.",
+  "sourceHeadline": {
+    "title": "Trump signs H-1B order targeting employers that lay off Americans, tighten scrutiny of foreign hires | Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPU0hKRmtsTVR5ZDduamNLU2FNUkhUdTZQRjlwazMxc3JKNVA3dEhFSVN6bzh5bHFmZGV5WHJCbWNNcGk1cG5raXBSSHBNTnJGaU9kdFN0MmVtQ29Kb05adF90Y3QzbnBiTzUxTk43WXBqQUhTQlBOSS1TbEpQTWsxTzE3RzFKQktyM0tBME1LdnBzTHZwbEsyOXRkYW4tQWlPcFMzdWJVcmZGbWF2SG9IaFZvbUJaUHRCeWU5Y2VrS04zd0d3NWliUnVmc2Zob0FWMWJ2ZmxrcGxQMUJrSlQ1V3RIdjF0LVlpYXM5dHR5U0NBZHZ4TFl1ZmJydVg5SzBJUU1ZdWEyT05Eem1vSU9XUk4yUGV4UdIBmwJBVV95cUxNTHNTVkstYVE5RXRMaGtlLVkzSlJyazViRVQzYnVsdTNmS3o3bWctWW5YdGh4QmxiSXNTa2N1Ull4NXV4NTh1ZHo4bFJYaUVNcUI2VEpVd1hDSGxOUUNuVjRKV29JbTVWaG41M2MtUHRxMzBzcHNPUDktQ1YwZnotRk9MbDRXLWZlT0lVUWNIVldsUkxCSklMcmVHdHE4dFFEeUY1YWh3eXYxY0h1QkVONlB0bHI5Wm11cUZVcDJYb01LOFp4cGZaVmhuX053SEJzZi15bGg2UXhjTzBtdjhSU1FIM194TXFVVDNFcGx6bFQ0Q2dHcGtGSWpLYkNycnpiZldfa3QxMHBkaW04c3NVTG04bGZfcld5dkJZ?oc=5",
+    "pubDate": "Sat, 19 Sep 2026 01:38:25 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 stands out because it hits a specific, culturally resonant nerve—matrimonial profiles—and treats the absurdity of visa-lottery anxiety as a personality trait with genuinely relatable, deadpan quotes. Unlike the other candidates which relied on repetitive 'learn to speak like an American' tropes, this piece feels fresh, structured well, and provides a clear, vivid image of a 'visa-ready' badge on a dating app."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses satire to comment on common cultural and professional experiences in the tech industry without targeting specific private individuals, public figures, or protected groups. The image prompt is generic and avoids sensitive identifiers.",
+    "flaggedIssues": []
+  }
+}
