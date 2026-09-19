@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-19",
+  "publishedAt": "2026-09-19T17:03:06.560Z",
+  "topicKey": "trending-news",
+  "headline": "Nation Panics As Intelligence Officials Reveal They Misplaced The Entire State Of Sikkim In A Folder Titled 'Miscellaneous'",
+  "slug": "sikkim-misplaced-in-folder",
+  "body": "\"I was just looking for my electricity bill in the archives, and suddenly I found a topographical map of the entire Himalayan range shoved between a takeaway menu and an expired gym membership,\" said a veteran government clerk who was found weeping near a filing cabinet.\n\n\"My grandfather always said the borders were porous, but I didn't realize he meant we had accidentally moved them into a shared Google Drive folder that everyone had access to since 2012,\" remarked a confused college student from Gangtok while checking his GPS.\n\n\"To be fair, the document was marked as 'Urgent' in 1975, and in bureaucratic years, that’s practically only five minutes ago, so I don't see why the national media is making such a big deal about a clerical oversight,\" argued a local stationery shop owner.\n\n\"I tried to explain to my boss that I didn't lose the state, I just moved it to 'Desktop' to free up space in the 'National Security' drive, but apparently that counts as a diplomatic crisis nowadays,\" claimed an overworked junior intelligence analyst.\n\n\"Honestly, we should just print out a new copy of the border from the cloud backup and hope nobody notices the mountains were shifted three degrees to the left during the copy-paste operation,\" suggested a retired geography teacher.",
+  "caption": "It’s not lost, it’s just in a sub-folder. We've all been there with our assignments, but maybe not with entire mountain states. #Bureaucracy #Sikkim #IntelligenceCrisis #FilingFail (satire)",
+  "igHook": "Have you ever accidentally deleted a file that was actually important to the national security of the country?",
+  "imagePrompt": "A dimly lit room filled with towering stacks of dusty, manila paper folders and overflowing filing cabinets, with a single, flickering fluorescent light overhead.",
+  "sourceHeadline": {
+    "title": "'They Are In Chinese Custody': Ajit Doval Recalls Sikkim Intelligence Crisis",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVi1Mbm9GaE02QnRHWjV0WGdBMmhQdHQ0cmhQUTZKaFBId3pUN3FRM2lWa3RzWE45MjI4bkdUdjJXYTVlaEdHSFl0V3JoOWY2QjhwRzNocHpCR0VkVUoyREFJeVc3SkN6ZHBPbWZuOTMtQnlOWjdOLU9USUFidGdGa3diZjRTbzZxT2E3VEIzZnlSS25Sa2JHR1VtR0wxckJyUXgzOG1UTWJUV1I0RFJHVnFDN0JaVEtRNFkyRTh2cl9vYndRalNDdg?oc=5",
+    "pubDate": "Sat, 19 Sep 2026 15:07:40 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 1,
+        "total": 19
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 1,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 18
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 18
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 18
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 stood out for its specific, absurd bureaucracy—treating an entire state like a misplaced digital file is a strong, concrete premise that avoids the repetitive 'tiffin/toy in custody' tropes found in half the other submissions. It uses specific details like the folder name 'Miscellaneous' and the 'copy-paste operation' to create a vivid image of government incompetence."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The piece uses absurd, clearly fictional bureaucratic incompetence to satire government inefficiency. It does not name private individuals, public figures, or target specific religious/ethnic groups, and the image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
