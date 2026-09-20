@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-20T07:07:37.247Z",
+  "topicKey": "cricket",
+  "headline": "Local IT Manager Attempts To Audit Wife’s Morning Kitchen Workflow Using Advanced Cricket Analytics Software",
+  "slug": "cricket-analytics-domestic-audit",
+  "body": "Sumit Sharma, a 34-year-old software architect, has spent the last three days tracking his wife’s breakfast preparation efficiency using a proprietary cricket analytics suite he originally intended for IPL auction predictions. Sharma, who has been documenting the 'Runs per Minute' of tea pouring and the 'Strike Rate' of toast preparation, claims the kitchen operations are currently performing below the expected average.\n\n“I noticed that while the breakfast output is high, the rotational movement during the omelet-flipping phase is causing unnecessary drag on the overall throughput,” said Sharma, while holding a tablet displaying heat maps of the stovetop. “If she adjusted her stance by 45 degrees, we could effectively reduce the wait time for the second slice of bread by 12 percent, which is crucial for our morning net run rate before the office commute begins.”\n\nHis wife, Sneha, noted that the situation peaked when Sharma insisted on a ‘Third Umpire’ review of a spilled drop of milk. “He started drawing red circles on the countertop using a dry-erase marker, shouting about how the spill didn’t show sufficient evidence of ‘clear intent’ to land in the sink,” Sneha reported. “He told me I was playing a ‘tail-ender’ innings by rushing the plating process during the final powerplay of the morning.”\n\nDespite the friction, Sharma remains committed to the project, intending to present a post-breakfast analysis report to the household this weekend. He has already begun scouting for a replacement toaster that offers better 'pitch-agnostic' performance, hoping to stabilize the team's early-morning batting lineup by next Monday.",
+  "caption": "Does your family need an analytics coach or just a calm morning? Tag a friend whose cricket obsession is getting out of hand. #CricketLife #Analytics #IPL #MorningRoutine (satire)",
+  "igHook": "Tag someone whose cricket obsession has officially crossed the line into their daily chores.",
+  "imagePrompt": "A close-up shot of a smartphone screen showing a complicated sports statistics graph overlaying a blurry background of a home kitchen counter with a plate of toast.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances a specific, relatable domestic scenario with genuine character warmth. It avoids the repetitive 'resignation/quit' trope found in many other candidates and uses vivid details like the dry-erase marker 'third umpire' review to create a concrete, funny image without over-explaining."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses generic, non-identifiable names and portrays a lighthearted, obviously satirical scenario about a tech-obsessed individual. It does not target any protected groups or make defamatory claims about real public or private figures.",
+    "flaggedIssues": []
+  }
+}
