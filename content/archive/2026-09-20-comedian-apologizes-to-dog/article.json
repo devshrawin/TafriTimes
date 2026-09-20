@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-20T13:05:44.477Z",
+  "topicKey": "cricket",
+  "headline": "Comedian forced to apologize to politician’s pet dog after stage routine deemed 'insufficiently wag-worthy'",
+  "slug": "comedian-apologizes-to-dog",
+  "body": "Following a satirical performance at a political rally, local stand-up artist Ramesh Iyer has been ordered to issue a formal apology to the leader’s golden retriever for failing to include enough canine-friendly punchlines in his set. Party spokespersons stated the omission of the dog's favorite frisbee puns constituted a deliberate attempt to undermine the animal's morale.",
+  "caption": "When the crowd isn't the only one you have to please, the struggle is real. Who knew four-legged critics were the toughest audience? #ComedyCringe #Politics #PetPolitics (satire)",
+  "igHook": "Tag a friend who would definitely apologize to a dog to avoid a political scandal.",
+  "imagePrompt": "A wide-angle shot of a lone microphone stand on a brightly lit stage in front of an empty auditorium, with a small dog bowl sitting prominently on the floor nearby.",
+  "sourceHeadline": {
+    "title": "Comedian lampoons PM Modi on stage at Rahul Gandhi's event, BJP slams ‘third-rate antics’",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWdzRmF5YzVPZmhqQVBfTE9ETjRqOWQ0VTJIWDFJQmk0S0VNX2JkbEY3TGcwMGpnWmxVRGgyNnl5bjU4c201aHVYMjB2MzZRTnpsMTNzWXRiWWRkbkEweEE5NXk3YmdLRVRVU09Yb1FxZ2tNaTktVjQ2NHB2YWZLV1F0T0dHekdZTHVILW9vQy1RVGs4RThzU05hOEVOLWxJVjg3VDNnZ1k4MUxuc0tEQjJSaUFMcUJ6NFFpYmhra21ZT3dqTmNUY0gwb9IB0AFBVV95cUxOMFFsXzR4WE9HaGZUdkNYcm5MRjNOZWpRenRyWFlHRi15VmpDbFhZNDVadDZtdjhrRHgyY3dyV0t0Zm9Nd2gtZ2RMUUZCUDRpSHpCcVNNZ1BpTHJ3OGdpeVdWSTVtRUlJWEFPOU5OZkNSb1A1OTUzbHhONUxWOWpQUUpoWTE1Wk8tbmtLdzBOcDczSG41d2lweDN2THFpQ3h1LXdteVppZUFlOXdjdjI5WXV3cko2a2h4VlkzX05RM2UtQ2hPZnhocy1CR3d6NUc2?oc=5",
+    "pubDate": "Sun, 20 Sep 2026 06:40:54 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 is the only entry that manages a specific, vivid, and genuinely funny image (the comedian apologizing to a pet dog) rather than relying on the tired trope of 'comedian gets replaced by X to avoid controversy.' It is structurally tight, warm in its absurdity, and feels distinct from the recent backlog of bureaucratic satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional comedian and a generic political setting, making the satire clearly absurdist rather than targeting a specific public figure. The image prompt is generic and does not contain identifiable details.",
+    "flaggedIssues": []
+  }
+}
