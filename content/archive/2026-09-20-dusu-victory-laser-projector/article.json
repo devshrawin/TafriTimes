@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-20T00:42:17.215Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "I won the student union election, but my campaign manager spent the victory budget on a laser projector to highlight 'anti-national' dust particles",
+  "slug": "dusu-victory-laser-projector",
+  "body": "I ran for student union secretary on a platform of improving the canteen’s filter coffee and fixing the leaking library roof, but by the time the results came in, my victory was being framed as a strategic strike against global ideological adversaries. I haven't even had time to negotiate with the administration for a second water cooler because my campaign manager, who studied media studies for exactly three weeks, insisted that our win requires a 'narrative victory lap.'\n\nHe spent our entire contingency fund—which was supposed to be for posters—on a high-intensity tactical laser projector installed on the college terrace. He says we need to scan the quadrangle for 'anti-national elements,' but so far, the device has only successfully identified a stray tabby cat and a particularly aggressive pigeon that refuses to leave the cafeteria. Every time the beam lands on something, he shouts, 'Target locked!' while I just stand there holding a budget proposal for student bus passes.\n\nYesterday, a senior party official stopped by, looked at the flickering laser pointer on the grass, and nodded solemnly before declaring that we were 'cleansing the campus of ideological rot.' I tried to explain that the projector was actually just a cheap toy from an online shopping site that was malfunctioning, but he just patted my shoulder and told me to keep up the good work. Now I’m worried that if I don’t find a way to make the dust motes look like political dissidents, my tenure will be considered a total failure.",
+  "caption": "Winning the election was just the start; now I have to explain why the local pigeon is a security threat. Campus politics is harder than I thought. #DUSU #CampusLife #LaserSafety #StudentPolitics (satire)",
+  "igHook": "Would you rather have a functioning library roof or a high-tech laser for the campus pigeon?",
+  "imagePrompt": "A close-up shot of a dimly lit, dusty college hallway with a single, intense beam of green laser light cutting through the air, hitting a stack of old textbooks.",
+  "sourceHeadline": {
+    "title": "DUSU 2026 election results highlights: Amit Shah says ABVP’s DUSU victory a message to ‘anti-national forces’ | Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQaE1IRXZDamxiUlFOeENVRzBvc0FqM2dBMzN1SVhXbmN5NWNfZmxHUEZLMHFJLXFFVGRzNDE1Nkp1U0lLOElKZ2ZqOWh4U1Y4SVJXTFo4WG9tNHBPSUNTclpZajc1b3k2cE1Wbk9HemJlRHFFN0FSa1UwZ2pZNjJidm41d2lLc1E3c3FSSjMtZWFRM1RvaV8zWkZwYk1RRjZHaHlMdWxPQi1icnRnSnFNTHFJY2d0QVg0X1FFTVRheGFyeWNaUU1RaXFqQzM2UmJPZDBLV214bkVfcnc0ZWVHRmZFSVFGU2tERjloWmJLNVBWSFI1X2UzN3RmQ2VFR2Q2UHZJWklTcnhvaklodUE?oc=5",
+    "pubDate": "Sat, 19 Sep 2026 17:40:01 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 stands out by focusing on a specific, absurd, and visual central image—the laser pointer scanning the campus for dust motes—which avoids the generic 'samosa/anti-national' repetition found in most of the other entries. It maintains a deadpan tone and successfully captures the pathetic, small-scale nature of campus bureaucracy colliding with grandiose, imported political terminology."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses satire to mock campus politics and performative political posturing using generic, fictional archetypes. It does not name any real individuals or organizations, and the image prompt is safely generic.",
+    "flaggedIssues": []
+  }
+}
