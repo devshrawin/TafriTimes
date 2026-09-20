@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-20T20:55:15.823Z",
+  "topicKey": "trending-news",
+  "headline": "Visiting Japanese Air Force pilot insists he cannot fly home until he finds the specific street-side chai recipe that made him cry",
+  "slug": "pilot-stuck-searching-for-chai-recipe",
+  "body": "Q: Commander, the joint exercise concluded three days ago, yet you’re still sitting at this stall in Hindon. Why haven't you returned to your base?\n\nA: Look, I have a mission. I have tasted the nectar of the gods here. My superior officers are calling, but I have told them my cockpit controls have been rendered 'non-functional' due to a critical lack of ginger-masala-sweetness ratio in my current diet.\n\nQ: Is it true you have started documenting the ingredients of every cup in a flight manual?\n\nA: Yes, I have meticulously logged 42 different variations of tea. This one, however, used a secret combination of crushed cardamom pods and a specific brand of biscuits dipped just three seconds too long. I cannot return to the sky until I master this technique. My fighter jet is currently parked three blocks away, but it is effectively a mobile storage unit for my excess supply of Parle-G.\n\nQ: Have you considered just asking the vendor for the recipe?\n\nA: I did. He told me it is 'just tea.' That is clearly a classified state secret of the highest order. I am currently in negotiations to trade a surplus of high-tech radar spare parts for a lesson on how to achieve the perfect froth.",
+  "caption": "When the tactical drills are done but the tea cravings are eternal. One pilot's quest for the perfect chai is holding up an entire squadron. Prioritising what matters! ☕🛩️ #ChaiLovers #Diplomacy #StreetFoodTales (satire)",
+  "igHook": "Would you trade a fighter jet for the perfect masala chai recipe? Tag your tea-obsessed friend!",
+  "imagePrompt": "A side view of a simple metal roadside tea stall with a bubbling pot of chai, with a neatly folded military flight suit jacket resting on a nearby plastic stool.",
+  "sourceHeadline": {
+    "title": "Praise for Yoga, ‘super delicious’ curry: Japanese airmen on India experience during joint military drills | India News",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZWhrZHNNRUM1bExmMGFkM1RWUWtOSGJoX2tKNlRfMnM1cFEtME5RTnVyNFdSSmhNZS1Kc0EtTm5aX3QzdmI0OVp0Sm4zaUhoZW9iMVNlWUxQU0RjY0pfS3BwRkEyalhDNk1jVE8yVl9lcmg2dDhfbHJTc0d2SW5jOWpvNjJ2UHFSVFg4anp6MDFqRUhGNnQtZHhRTGVudy1hblRPXzFuV240Sk5qb0Rjbi1fS3JpMGI1ZE1XT0FUeW16ajhpa1I2dXNHQ2JrQXhWX050cklkRVJnZjg1RENXU3hLLUhNakV0bjZaaElxT0gzQmhGQ0HSAfsBQVVfeXFMTU9UZEdrZkNpT1dyTmlYbnhhX1N2cXdIOTYtZ21tSGNfaUpwSk9KZUtEYjNqcDJsa0h0T0dfZ182ZFQxWjVsYnpQb3hoWXQ2ZzlWSGUzeXJKbk5aenlfOEhGMFZuMndUUFZ3LUhKNk8yS2FzY2lFVkd1R1V5RnU3N0FPSXJXS2NNWDBxemJsR3Z5WTNqSllZLXZvSl91WFR6Um45UDhPaVBNOWYtVXVJTHVhN3NzYTBLYUlqTzhOUUU4WW5jZ1dGOXRYV25hWVRHbmNBZ1JzbWdHbzEzTS0wRzJBN1M3dEczWXRCMldueVpMc3c2Z0JhQmdpQms?oc=5",
+    "pubDate": "Sat, 19 Sep 2026 12:38:58 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 4,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 stands out for its specific, relatable human detail (dipping biscuits for exactly three seconds) which captures the absurdity of a minor obsession in a high-stakes environment. It avoids the repetitive 'weaponizing curry' trope found in most other entries and keeps a consistent, deadpan tone throughout."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous character to drive a whimsical, obviously satirical premise. It avoids naming real individuals, respects the guidelines regarding public figures, and contains no offensive content targeting protected groups or businesses.",
+    "flaggedIssues": []
+  }
+}
