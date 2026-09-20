@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-20",
+  "publishedAt": "2026-09-20T04:58:10.369Z",
+  "topicKey": "trending-news",
+  "headline": "Camp David Staffer Quits After World Leader Abandons 'Important' Strategy Meeting To Catch A Clearance Sale At A Nearby Outlet Mall",
+  "slug": "camp-david-outlet-mall-departure",
+  "body": "A senior strategic advisor at the presidential retreat was left speechless this afternoon when a world leader abruptly ended a high-stakes summit, citing a sudden, irreversible need to reach a suburban shopping center before the 'extra 20% off' promotion ended. The official, who requested anonymity while still in the middle of reorganizing a stack of classified briefing documents, confirmed that the leader ignored a scheduled press conference regarding international trade to instead sprint toward a waiting SUV.\n\n'We were in the middle of discussing long-term geopolitical stability,' said Kevin Miller, a logistical coordinator tasked with managing the retreat's schedule. 'Then he checked his phone, saw an email blast from a luxury home goods retailer, and simply stood up. He told us that true power means never paying retail price for a set of artisanal ceramic bowls. He didn't even pack his pen. He just ran to the helicopter.'\n\nWitnesses near the shopping plaza confirmed seeing a motorcade screech into the parking lot at high velocity, blocking three accessible spots in the process. The world leader was reportedly spotted briskly walking through the kitchenware department, muttering about 'the necessity of fiscal responsibility' while successfully securing a discounted blender that he appeared to have no intention of using.",
+  "caption": "Priorities, people. A discount is a discount, even if you run the free world. 🛍️👔 #Geopolitics #ShoppingSpree #CampDavid #Priorities (satire)",
+  "igHook": "Tag someone who would abandon a high-level meeting for a flash sale.",
+  "imagePrompt": "A blurry, long-range photograph of a black luxury SUV parked haphazardly outside the entrance of a generic suburban shopping mall with a large 'CLEARANCE' sign visible in the background.",
+  "sourceHeadline": {
+    "title": "Something big brewing? Trump abruptly leaves Camp David, returns to White House",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbGNkYlR5elViU0p6dUpaUW8ydzhZZUxrdTBSeHZvVEdhT3kzcmg1cDlOdWJNR2EyNW1GSjl0Si1PRFp3NXkyUmlBYXdIQTliVTZLZnlLQkg1OVVtc21BTU9TQ0l6Z2lMeThna25hdWlYYnZ3c1EwRUR2aHR6LVNaUGo4YWtRRVc2QnRrUmpYaHZFc2h3Q3NhOVc4MmUwdlZDZ2J2SlEybWd5Q19aMnFwM3RLdjBqd1hPajJRZnNxeDRoc1VILUVGVkRMb2RJSE8yYWQ2bFpFMTlyNFUxNnFwMHZB?oc=5",
+    "pubDate": "Sun, 20 Sep 2026 02:29:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 1,
+        "total": 14
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only piece that feels like a deliberate, human-authored parody rather than a template-based iteration. It utilizes a specific, absurd, and relatable motivation (the clearance sale) and maintains a consistent, deadpan tone without falling into the 'AI slop' traps of repetitive sentence structures or excessive hedge-y filler found in the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clearly satirical piece featuring a generic 'world leader' without naming any specific real person. The image prompt is generic and avoids identifiable details, and the content avoids sensitive categories like religion, caste, or real-world defamation.",
+    "flaggedIssues": []
+  }
+}
