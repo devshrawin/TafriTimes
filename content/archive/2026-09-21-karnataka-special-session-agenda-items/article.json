@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T02:56:33.301Z",
+  "topicKey": "trending-news",
+  "headline": "5 Unusual Items Tucked Into the Agenda of the Upcoming Three-Day Special Legislative Session",
+  "slug": "karnataka-special-session-agenda-items",
+  "body": "1. A mandatory reading of the ‘Western Ghats Sentimentality Index,’ which requires every legislator to briefly weep while looking at a framed photograph of a mountain.\n\n2. A subcommittee proposal to replace all drought-monitoring satellites with a network of local elders who simply taste the soil and shake their heads in disappointment.\n\n3. The introduction of ‘Monsoon-Style Deliberation Protocols,’ where lawmakers are forbidden from speaking unless it is currently drizzling inside the legislative chamber.\n\n4. A motion to reclassify all potholes as ‘Experimental Water Conservation Reservoirs’ to satisfy state-wide irrigation metrics before the next fiscal audit.\n\n5. An emergency budget allocation for a 40-foot-tall statue of a cloud, designed specifically to stare accusingly at the sky until it agrees to rain.",
+  "caption": "Lawmakers are really getting creative with the agenda this time around. Who knew the weather could be so heavily legislated? #KarnatakaAssembly #MonsoonWatch #LegislativeHumor (satire)",
+  "igHook": "Which of these agenda items do you think will actually lead to a productive session?",
+  "imagePrompt": "A wide, slightly blurred shot of the exterior of a grand, historic stone legislative building under a bright, cloudless sky, with a few empty wooden chairs set up on the front lawn.",
+  "sourceHeadline": {
+    "title": "Kasturirangan report, drought in focus as Karnataka's 3-day special legislature session to begin from September 21",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdkF2LTlTWVlMMkd4TE9oYlZCM0JmUEZjbXE3NEwyS1AtZmpoc0gxcFZpRlVMeVJsdm5FUS1NbHVRN3ZLSU9nWFJjRW5PNXFsenVJVFo3WjRMMEpaN2VfemVySkdwRG1rYzlYOVNPN2JBaDgxQTU0ekhacFV6VHp3MVFHbldha25oMXB0aEFJTDM3bkZseDZvVVk0WkNTZThlRjRMX0s3M2tzeDhSa3pnU2xwWW1lU1pEM0Ntb3pmaWtrc3JlZzZ3TXFhV0Y5eDM5ZTFtYVhyeDJQYnZnVkQ3Nkx0elZxZG53STJqNEhxb2QyY0gwV3FYNQ?oc=5",
+    "pubDate": "Sun, 20 Sep 2026 15:54:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 59
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 stood out for its vivid, specific imagery—such as the 40-foot statue staring accusingly at the sky—which creates a concrete, absurd scene rather than just a dry list of bureaucratic complaints. It maintains a lighthearted, observational tone and avoids the repetitive 'packing list' trope that dominated the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses whimsical, absurdist satire to mock bureaucratic inefficiency and environmental policy challenges. It does not name specific individuals, target protected groups, or make defamatory claims, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}
