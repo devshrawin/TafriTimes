@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T20:28:02.198Z",
+  "topicKey": "trending-news",
+  "headline": "Disgraced General Claims He Was Expelled For Bringing His Own 'Dabba' To High-Level Strategic Briefings",
+  "slug": "disgraced-general-dabba-incident",
+  "body": "Q: General, the official statement suggests you were removed for a lack of loyalty, but the rumors say the reason was far more domestic. What exactly happened during the Tuesday summit?\n\nA: It is a complete misunderstanding. I arrived at the high-security bunker with my stainless-steel lunchbox containing a perfectly standard paneer bhurji. When the Defense Minister started his presentation on territorial expansion, the aroma of my tempering—specifically the cumin—wafted across the table. Apparently, the smell of home-cooked comfort food is considered a breach of the 'Unified Tactical Scent Protocol.'\n\nQ: Surely that is a minor infraction for a man of your rank? Did they not offer a warning?\n\nA: Not at all. I was immediately accused of 'sensory mutiny.' They claimed the scent was so distracting that the mapping team began plotting routes toward the nearest roadside dhaba instead of the contested border. They didn't just fire me; they confiscated my spoon as evidence of my lack of ideological discipline.\n\nQ: What is your plan now that your career in the high command has come to an abrupt end over a lunchbox?\n\nA: I am exploring my options. I’ve been approached by a few civilian food-tech companies who think my ability to disrupt a high-level military strategy meeting with a single box of leftovers is actually quite the marketing superpower.",
+  "caption": "When the smell of home-cooked paneer is more powerful than a military coup. 🍛🇮🇳 #GeneralProblems #LunchboxDiplomacy #OfficeDrama (satire)",
+  "igHook": "Have you ever gotten in trouble at work for bringing a lunch that smelled too good?",
+  "imagePrompt": "A close-up shot of a classic stainless-steel three-tier lunchbox sitting on a polished mahogany boardroom table, with blurred figures in formal suits sitting in the background.",
+  "sourceHeadline": {
+    "title": "China expels two top ‘disloyal’ military leaders from Communist Party",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWVxOWFYUTFYbGZKcUR4TTlYbHFtd01SVFRCRTJiODVkSmNwYWRzYlA2T1RpckZrYUtoUmxSTk5ST1RpajBkbnhnUFdFOTBqdlBtbUwtMzlMSFM0ZG5YZVNud2t5cUdQT2lJR3RqLW9KVUstT29pNU10SnlQSWR5S1pSNGp4V0N6d3VLQ2xpSm94WkFsaGhNV1lqeWJ4LVVTYVhfbHVFOW9sT3BV0gGyAUFVX3lxTE14U3ZoMlJLcDI4UXhuVjY1U3ptTFhNMGZ6ZnJhcWxldFd0UVJUV1R0a0pvWlJianZtYnhrMXF3QmZySzZ2Mlc5MlpiYk9GQUZEcG5sOXpJNW41MXlRRVBCYmVHcmo3WkZyaGFBWG5qRzA5SERWWF9ISXZERVdXSFBlX1ZMZlVJOHNXQ2NnU3Q5X0liWjRsWG9tbzhSMjZkQ3hPalZ5T0NtWmtWNTk2OWxmelE?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 17:01:11 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 hits the 'warmth' requirement perfectly by grounding a high-stakes political purge in the mundane, relatable, and specific absurdity of lunchbox smells. It avoids the tired 'disloyalty' trope by framing the incident as 'sensory mutiny,' creating a vivid, funny image that stands out from the repetitive format of the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, generic general to create a humorous and whimsical scenario. It does not name any real public figures, private individuals, or religious/caste groups, and the image prompt describes only a generic scene.",
+    "flaggedIssues": []
+  }
+}
