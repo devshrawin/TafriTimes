@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T22:47:46.367Z",
+  "topicKey": "trending-news",
+  "headline": "I Am Being Evicted Because My HOA Mistook My Delivery Drone For A Tactical Pelican Strike",
+  "slug": "hoa-mistakes-drone-for-pelican-strike",
+  "body": "It started on Tuesday when I tried to use a low-cost hobbyist drone to drop my house keys to my brother standing in the parking lot. Within six minutes, my building’s Resident Welfare Association President was at my door, frantically clutching a printout of a defense journal, claiming my quadcopter was actually a 'Pelican-class long-range loitering munition' designed to bypass our gated community's perimeter defenses.\n\nI tried explaining that the buzzing sound was just a faulty rotor blade and not an advanced turbojet engine, but the RWA didn’t want to hear it. They have since cordoned off the entire C-block, citing 'national security implications' and demanding I produce an end-user certificate from the Ministry of Defence before I can retrieve my mail. My neighbor, Mrs. Sharma, has even started wearing a makeshift foil hat while walking her poodle, convinced that my delivery drone is currently transmitting her grocery lists to a foreign intelligence agency.\n\nNow, my keys are locked in the security office’s 'Evidence Vault,' right next to a confiscated water gun and a plastic whistle. They’ve scheduled a mandatory town hall meeting for Sunday to discuss installing anti-aircraft batteries on the roof of the clubhouse. I just wanted to save myself a trip down three flights of stairs, but apparently, in this neighborhood, convenience is just one flight path away from a full-scale geopolitical investigation.",
+  "caption": "Living in a gated community is all fun and games until your hobbyist drone gets mistaken for a military-grade munitions test. Should I start charging the HOA for my 'tactical' skills? (satire) #HOALife #DroneLife #SuburbanSecurity #PelicanDrone",
+  "igHook": "Have you ever been accused of aerial warfare just for trying to order groceries?",
+  "imagePrompt": "A blurry, low-angle shot of a small, nondescript consumer drone hovering near a modern residential balcony, with a distant, out-of-focus security guard holding a clipboard looking toward the sky.",
+  "sourceHeadline": {
+    "title": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine?",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYi0wOVRuSEF3dTZ6aEY2cDNEZzRIYXJ4YWFMeENqTHMtWWhfbFdtR0FwTThGNGZ0T05pOGVlS1BvVzJpN3BocEVhMGNlQ2VScFVYRGRKMGRhcU4wUUNvUjJrS2Fxb1BDQmhTXzNmWXozemk2Tk9FcmdaaHdpZS1TU0cyUTVIZk9FdDhlQWw4azRWNThrUHVxTUNFRUlVWGE1UXNFMTVmNNIBrAFBVV95cUxPTWVGMW9BN3RoZDRGUnNDQWJUc2xUY3dGLXptWGx3REp4dU84aVkwSTliUGFLc2V6ZFlsclZMSkltdERWVTV0MkFfRlRFVGdEUVhOazliZTd3UzZNUjNsN0pwcjFwb2NHM3U4c0pCSm1rVE13cjhkR3BGdFhPdVNPNy1QTDNSSHROYVhPZDR5OExBcTF3bU5xOFdwQkJDSkczcUNOYXFPaHZJd1h5?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 14:27:53 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only entry that avoids the repetitive, formulaic 'my neighbor thinks my appliance is a weapon' loop that bogged down the rest of the batch. It sets up a strong, specific incident (the key-delivery drone), maintains a consistent deadpan tone, and captures the absurdity of RWA politics with genuine, affectionate detail."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear piece of absurd, harmless satire regarding HOA overreach. 'Mrs. Sharma' is a generic placeholder name and does not target any specific real private individual, and the image prompt describes a generic, anonymous scene without identifying real people or entities.",
+    "flaggedIssues": []
+  }
+}
