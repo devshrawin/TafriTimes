@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T09:16:20.859Z",
+  "topicKey": "trending-news",
+  "headline": "Assembly Hall Now Divided Into 'Two-Stanza' and 'Full-Verse' Seating Zones to Manage Legislative Productivity",
+  "slug": "assembly-hall-seating-zones",
+  "body": "\"I just wanted to get my files signed by the clerk, but he told me I have to stand in the 'Full-Verse' zone because my shirt has a collar, so now I’ve been reciting patriotic poetry for forty minutes while my tea gets cold,\" says local delivery rider Ramesh Kumar.\n\n\"The sound bleed is the worst part, because every time the acoustics shift, the people in the 'Two-Stanza' section think the meeting is over and start leaving, while the 'Full-Verse' crowd is still halfway through a dramatic crescendo,\" complains software engineer Sunita Rao.\n\n\"My son is currently failing his history exam because the school board decided to mirror the Assembly seating plan, and now he’s only allowed to learn every other paragraph of the syllabus,\" remarks anxious parent Vikram Deshmukh.\n\n\"I tried to compromise by reciting the song at half-speed, but the sergeant-at-arms told me that technically qualifies as a 'stutter-based protest' and moved me to the overflow lobby,\" notes law student Ananya Iyer.",
+  "caption": "Lawmakers are now officially sorting the public by their lyrical stamina. Is this the future of democratic debate or just a very long karaoke session? #AssemblyDebate #KarnatakaPolitics #Satire (satire)",
+  "igHook": "Which section would you be forced to sit in if you visited the Assembly today?",
+  "imagePrompt": "A wide-angle view of a government building's public waiting area with rows of plastic chairs separated by a single piece of yellow caution tape on the floor.",
+  "sourceHeadline": {
+    "title": "Vande Mataram ends after 2 stanzas in Karnataka Assembly, Council; BJP legislators recite full version in protest",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUjNWUEI4WjlJOFpfZWdRVzZyT2lyUHk2Q1FYYWNFN2JnQnhqQ1JBOE53Wmd0VnlfbndERXppVkUwWWVTTjlTWUlmdXFXMVAwcWZXSk05ZTFJQkN6ZUNONkNvWE5vMDlfUkxDV3F5c2c0RzFUcVpRbHJOSEpsd19UcUxlMm9SbEp0aTU5WmNralhHdkwtVzA4R1lPZ052ZWVXQ2hfaGRaczhaejFyNnluOUtqTFQ4OEU1eFZUbVQxYjFiVVJHbm1zSmZ3b0daOHlqUndzeEx4LVJBTlNhZzQ4aXJndE1kVTdUMWN6SjFUaUpSUTZXQXdv?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 07:06:26 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 uses a strong, absurd premise that creates a vivid image of 'seating zones' based on petty legislative bureaucracy, which avoids the generic 'everyone is singing now' trope found in most other entries. It achieves a high score by grounding the absurdity in a specific, relatable institutional failure—segregating people based on how much of a song they are willing to perform—while maintaining a consistent, deadpan tone."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional scenarios involving generic characters to satirize bureaucratic inefficiency. The named individuals are not public figures or identifiable private individuals, and the content avoids sensitive topics like religion, caste, or real-world political scandal.",
+    "flaggedIssues": []
+  }
+}
