@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-21",
+  "publishedAt": "2026-09-21T16:14:39.394Z",
+  "topicKey": "trending-news",
+  "headline": "Kiwi fruit imports under new trade pact prompt local farmers to begin aggressive 'Masala-fication' of seasonal produce",
+  "slug": "kiwi-masala-trade-pact",
+  "body": "Orchard owners in Himachal Pradesh are preemptively coating every imported kiwi in secret dry-rub spices to ensure the fruit remains 'culturally relevant' ahead of the October 20th tariff deadline. Market analysts predict that unless the foreign berries demonstrate a firm grasp of local chutney recipes, they may struggle to find space on the average suburban breakfast table.",
+  "caption": "Would you buy a kiwi if it came with a packet of chaat masala? Local farmers are clearly not taking any chances with the new trade deal. #TradePact #KiwiMasala #AgriNews #MarketTrends (satire)",
+  "igHook": "Would you try a chili-dusted kiwi if it meant supporting local farmers?",
+  "imagePrompt": "A close-up photograph of a wooden market stall showcasing a variety of tropical fruits, with several fuzzy brown kiwis sitting next to small colorful bowls of red spice powder.",
+  "sourceHeadline": {
+    "title": "India-New Zealand FTA ratified, will come into force on October 20",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORlgyd1dRcDVHYm5iNnpOWEJWRFpfUjhpY1ItQnBfNjlwNldwb25hdG5hY1U0TVRxNThRWG1qMU1DU014MHE3ekYwbHhlZnpnYzZrcWxnanZaZUNYMjlFMkYyVFlSS0J2akotRDY2WktYUHJiTVhwN0l0ZXVtaThHUGhoTldnSTNJSms5SFZYeFp2TzZGLTNqdVJtZzdudkx2eVlWWi1lN0NkRE1qd24tNHE0RkZ6RjJsX19NcGZCQ3lUbXowZ1ZicUxB0gHQAUFVX3lxTE00bUk5cGdoTDc4T2xGN2UxMnByMWxRd2VVTUx4NE91ZEh2dHJlTUt1WjdYamFoaXp5NkM2RGlmS21qbzB5SFVoSEQzRzBobzhOc2d6d0hZZ18wX0lRcTZWREV3RGhYTG5TRjBZTHBFdThQV0ZudTQ4Z3pNRFI5aDNpdE0wUVFjQk9YUTUxWFhBa3JHclhYSzBNUE44YjVOYUcwTTE4M1lTZVp0SVVTN0VHRDByQUVxWTV5UzB1endsOVltclZUeVotbWswVWJQeEs?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 07:46:30 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 39
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 19
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 9,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 5,
+        "punchiness": 2,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 2,
+        "specificity": 2,
+        "structure": 5,
+        "punchiness": 2,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 offers a vivid, absurd, and culturally specific image (spiced kiwis) that avoids the repetitive 'shipping error' trope seen in the other submissions. It balances a strong premise with a warm, satirical observation of local adaptation, avoiding the cynical or formulaic pitfalls of the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurdity to satirize market reactions to trade deals without targeting specific individuals, religious groups, or castes. The image prompt is generic and does not contain identifiable people or brands.",
+    "flaggedIssues": []
+  }
+}
