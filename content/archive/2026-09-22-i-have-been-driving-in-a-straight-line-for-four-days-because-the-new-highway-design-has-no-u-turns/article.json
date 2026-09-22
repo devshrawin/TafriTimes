@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-22T06:57:07.698Z",
+  "topicKey": "trending-news",
+  "headline": "I have been driving in a straight line for four days because the new highway design has no U-turns",
+  "slug": "i-have-been-driving-in-a-straight-line-for-four-days-because-the-new-highway-design-has-no-u-turns",
+  "body": "I left my home in Gurgaon on Tuesday for a simple trip to the local grocery store that sits exactly thirty feet behind the entrance of the new high-speed corridor. According to the new NHAI design, there are no median cuts, surface intersections, or U-turns allowed to ensure 'uninterrupted flow.' Consequently, I have been driving north at a constant 120 kmph for the last ninety-six hours, as the highway appears to be a frictionless loop of pure progress that refuses to let me exit.\n\nMy petrol light turned on somewhere near the third sunrise, but the lack of intersections means I haven't seen a fuel station or even a roadside dhaba. I passed a highway patrol vehicle yesterday, but I couldn't signal them because the divider is now a solid concrete wall that reaches the height of a small skyscraper. I shouted at a passing driver in the adjacent lane, and he just waved a map showing that our next available exit is currently scheduled for construction in the year 2042.\n\nI’ve started treating the highway as my primary residence. I brush my teeth using a bottle of water I had in the glovebox and use the side-view mirror to keep my hair neat for the zoom meetings I attend via the vehicle's dashboard tablet. I’m currently sustained entirely by a bag of salted peanuts and the sheer thrill of knowing that my journey is officially the most efficient, non-intersecting commute in the history of the country. I only wish I knew where I was going, but for the sake of traffic flow, I suppose it doesn't matter.",
+  "caption": "My commute has become a lifestyle. At this rate, I’ll be in Chandigarh by lunch and back in a different dimension by dinner. Efficiency is everything. #HighwayDiaries #NoExit #NHAI #CommuterLife (satire)",
+  "igHook": "Would you ever drive on a road that doesn't let you turn back?",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a modern, multi-lane highway stretching into the horizon with no visible exit ramps or median gaps, taken from the perspective of a driver's seat.",
+  "sourceHeadline": {
+    "title": "No median cuts, surface intersections on future high-speed NH corridors: NHAI",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOHIwcXdNd2dnczM3YnBMTXRVa3J0QTZxTE9RbHUyX25jSHREVnJONFRvRFhrUXU5OHJzZ1o5a3g4ZjMzd0NoZzdtRVFyeExyQjdLc2s0V0oyWHJvazV5VTdFWjdjNTJMQWFfSUQ5WUFYMG9GQkJLQUUtdHZhMDdxQ2RMOHVwdEFrUUFHUndKdWRoVVdNd3BqdER0M3Y2NnNwQ1EwYVlybjV6STFhMlRxUmtBVmNZQ2x0Rm1QRlhWR3U0bFhVME5JTWRWd2l1cU1FOUZoblR2d0pOZU0?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 19:42:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 uses the most vivid specific imagery—the mental image of the driver brushing their teeth in the side-view mirror while attending Zoom meetings on a dashboard tablet—which elevates it above the repetitive tropes found in the other candidates. It manages to capture the absurdity of the premise with a light, observational touch rather than just focusing on the fuel gauge or the lack of U-turns."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of clearly satirical fiction regarding highway design and bureaucracy. It does not name any private individuals or public figures, nor does it promote hatred or harm towards any protected groups.",
+    "flaggedIssues": []
+  }
+}
