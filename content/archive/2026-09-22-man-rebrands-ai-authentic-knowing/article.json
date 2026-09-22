@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-22T23:02:25.956Z",
+  "topicKey": "trending-news",
+  "headline": "Local Man Rebrands 'Artificial Intelligence' As 'Authentic Knowing' To Fool His Smart Toaster",
+  "slug": "man-rebrands-ai-authentic-knowing",
+  "body": "After reading that 'artificial' sounds too fake, a suburban resident has spent the morning editing his smart-home settings to 'Authentic Knowing' in hopes that his toaster will finally stop burning the sourdough. He insists that by removing the implication of synthetic origin, his appliances will now intuitively grasp the concept of a perfect golden-brown crisp.",
+  "caption": "It’s not artificial if you refuse to believe it is. The power of branding strikes again in the kitchen. #Innovation #TechLife #SmartHome #Mindset (satire)",
+  "igHook": "What’s the most ridiculous thing you’ve ever renamed to make it sound more professional?",
+  "imagePrompt": "A close-up shot of a modern kitchen appliance screen with a digital menu where the text 'Authentic Knowing' is clearly visible as a selected setting.",
+  "sourceHeadline": {
+    "title": "Trump Renames AI To \"Super Intelligence\", Says 'Artificial' Sounds Fake",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdEEtS2p2RDM2RUZiWjdCM2xRQ19obTZXOTk5RHZ5UjI2Z294UGtqRzltdC1DRVJneWlVbmZ3QlBzY0dfSkFKWkFTMmdxa0NkRW1VNjRiZWI1OW9NblBTQ1MtQ0d5ZzdmSUtoTTIwc1ozcW5BTW96UlN6UTFlZjVlRHlYOG9ncHh1QktDdVoyRTNCUFIwUjhJX3ZLU0Z5ZWdVaE9UcWJha1VGd29SX0ZmVEtxcmNDZFJfektISnpuYw?oc=5",
+    "pubDate": "Tue, 22 Sep 2026 17:06:41 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 succeeds because it moves away from the 'rebranding tech terms' trope—which dominates this batch—and applies the absurdity to the domestic sphere with the smart-toaster angle. It provides a vivid, concrete image and maintains a tone of mild, affectionate bemusement toward the protagonist rather than falling into cynical 'corporate speak' tropes."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'local man' archetype and avoids naming real individuals, public figures, or protected groups. The satire is harmless and focuses on the absurdity of branding and smart-home technology. The image prompt is generic and does not contain prohibited specific entities.",
+    "flaggedIssues": []
+  }
+}
