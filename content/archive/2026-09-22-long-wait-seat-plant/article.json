@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-22T13:57:17.007Z",
+  "topicKey": "trending-news",
+  "headline": "Passenger reaches destination after 30-year wait only to find his seat was replaced by a decorative potted plant",
+  "slug": "long-wait-seat-plant",
+  "body": "A suburban commuter who finally secured a reserved seat after three decades of waiting discovered the carriage layout had been permanently modified to accommodate a low-maintenance money plant. Railways officials confirmed the seating capacity remains technically intact, provided the passenger is willing to share the upholstery with a thriving Pothos vine.",
+  "caption": "Patience is a virtue, but it won't give you back your legroom. #IndianRailways #CommuterLife #PottedTravel #TrainDiaries (satire)",
+  "igHook": "Would you trade your seat for a little extra oxygen during the morning commute?",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a crowded, aging train carriage interior with sunlight streaming through dust motes, focusing on an empty plastic train seat where a large, leafy potted plant sits in the center.",
+  "sourceHeadline": {
+    "title": "India’s 30-year wait for a seat has a new twist and an old problem",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTkhacEoxMlAwN3BrSmM2OC11M2dvYnY4T3F5ei12aU5QVnJrZzhiek5BUFgwVXdReGx5V2lhc2gwaUw1RkE5NmFCQnV0a3ZKSzh4ODdrdDU4WkNia2ZRUG54MEJENnp6c3l4dmh5N2loQUpfUTUyeW1PRERQZ0dZSTZORHFnWWhwMjE2QXFkTE5GVmY2dFZvZlB2OXJHWmJiTU9iUjZMQkZyaXM5d2pkRllWdmlINi1TYjh3bmxXOWxiakhSS1BqYlY4aldDeDRLdkRaRHlyZUxscU9GQ1J1NnptZzNZeG1ldmFUM2RtZ2VTN1B5M183VGt0Z2Z3Z9IBgwJBVV95cUxNN19aX1hOMGhYanZvZkE2STY0UjFwTnRVOVN5dVV1VU94TV9aMTJOSVJRMnR1SE9VMWZjaWZ0SkJadHpIa2M3WXQ2TlN1TDZtUzlFb09ZZ0JxbUVTSmUwOURjblE5N2d2QUVZLWpHYWhRcVNjUktwc3doOXc0MV9UT1d6OVZZV21ISnpYWllqdkdyLXJ5V0NMVURzNkNyT20tOXF4VFVfWFhFS1Bsby1odUtKSERKVTNhSFRVSkxlRFc4NUVuYWQ3YzBtSlQwR3RFd3Zodno2VUVSbTgxbHQ3ZEZvYTYzOTZaWXlEdExaRkl2VmlhOUtiMElmNk9FcVY0OVBJ?oc=5",
+    "pubDate": "Tue, 22 Sep 2026 07:16:57 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 20
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 20
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 provides the most vivid, absurd, and specific imagery—the mundane replacement of a seat with a houseplant—without relying on over-explained 'nirvana' or 'spiritual' metaphors. It follows the AP tone perfectly, treats the absurd reality as a bureaucratic standard, and feels distinct from the existing list of headlines."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd piece of satire about railway delays and infrastructure. It does not name any real individuals, target protected groups, or make defamatory claims against specific people or organizations.",
+    "flaggedIssues": []
+  }
+}
