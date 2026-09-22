@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-22",
+  "publishedAt": "2026-09-22T01:04:02.277Z",
+  "topicKey": "cricket",
+  "headline": "Local man converts rainwater harvesting system into elaborate indoor shrimp farm ahead of IMD storm warning",
+  "slug": "man-converts-rainwater-system-to-shrimp-farm",
+  "body": "As the India Meteorological Department issues alerts for very heavy rain along the coasts of south Odisha and north Andhra Pradesh, Bhubaneswar resident Pradeep Mohanty has begun the final phase of turning his home’s mandatory rainwater harvesting pit into a high-density prawn hatchery. Mr. Mohanty, who spent the last three weeks lining the structure with imported waterproof tarpaulin and aeration pumps, claims the upcoming monsoon arrival is the only 'venture capital' his aquatic startup needed to reach profitability.\n\n'Most people look at the IMD forecast and see flooded basements and travel delays, but I see a natural, high-volume irrigation cycle for my crustacean colony,' said Mohanty, who has already installed a small wooden pier for ease of access during the downpour. 'If the weather bureau says the rainfall will be record-breaking, then I’m effectively getting free, unlimited water supply for my enterprise. I’ve already pre-ordered the fish feed and sent out samples to the local grocery market.'\n\nNeighborhood residents have reportedly watched the construction with a mix of confusion and mild curiosity as the sky darkens. While municipal officials have warned locals to clear debris from drainage pipes to avoid clogging, Mohanty remains undeterred, noting that the only thing he needs to survive the heavy rainfall is a sturdy umbrella and a very large fishing net. 'The monsoon is a business opportunity for those with vision,' he added, while adjusting a small sign on his gate that reads, 'Fresh Prawns: Rainfall Dependent.'",
+  "caption": "When the IMD gives you rain, you make shrimp cocktails. Odisha residents are taking 'rainwater harvesting' to a whole new level this week. 🌧️🍤 #OdishaWeather #Rainfall #StartupLife #MonsoonMagic (satire)",
+  "igHook": "Would you trust a shrimp farm located in a neighborhood rainwater pit?",
+  "imagePrompt": "A wide shot of a residential suburban house in India, focusing on a small, tiled backyard area where a plastic-lined pit has been improvised with improvised water pumps and green netting; dark, ominous monsoon clouds loom in the background.",
+  "sourceHeadline": {
+    "title": "IMD update: Very heavy rain for south Odisha, north Andhra Pradesh coasts from Wednesday",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdmhwdzUza3NZUkU0Q3MxNzFhOTM5Rm03Q3ZSNjJSQlg0LTNSSzNTS1BMMXY1UkNxVFo0SWZiS1lKdGVJNEtrS3hMUV9ZMGZXRmtfMHF2T1BuY0ZRcFBYaHJGOXZwUEhEY2ZBZmNaVkZzWm9qMUlQbnlCTVN0enNiSTJMR2otMXdxX2NyNFFVV1U0SWdqSTZMZnV5dHViaWJhcTVTVDg2U25jbGd6QjZ6dTZybk9sVEdQMnZ2ZlJya25aeDRuVjJ1QTlYTk5qengtM3pCQUZhWnpUVXVWZUhPZk0wTExoNDZqWU9XS1d6SnFIR2RzVXcxZdIB_wFBVV95cUxQckY2N3pmSVYyZFpkN2FnNW5PS05WWTVId2c1OVdsN2xYLWZka25nUGkxblRVblJjZC1sZGphNUhMVWdPeVRTZDE0UUV3UHVPVXdIV3hjMktPcUxNc2JGTTRNRWFhRTFfbDRyeV9yYVNhSmdIVUtIYTUyMmsxWjZqQUdMV1ZxWl8tMWVRMmRuNzdQdXhucG9fV2dxamFaci1haUNsQ0VnUmpPU1JKbGJYX2k4c255cGtybWVYSDJiaG80RTYxZmFVM2dDaE9DSFdPX0F2TWhlZ2NHb1dra1dCbjdHUVlSWExodUVtUklZNEVWRFRSc2hGQ3VTVkE2dGs?oc=5",
+    "pubDate": "Mon, 21 Sep 2026 06:14:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 26
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 provides a genuinely vivid, absurd, and concrete image (a shrimp farm in a rainwater pit) that moves beyond the repetitive 'man cancels plans' trope found in almost every other submission. It manages to be funny and specific without relying on the tired 'IT professional/social anxiety' templates that saturated this batch."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, fictional character for a satirical take on startup culture and weather preparedness. It does not target protected groups, real private individuals, or public figures, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}
