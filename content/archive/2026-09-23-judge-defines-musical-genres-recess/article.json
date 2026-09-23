@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-23T01:10:50.485Z",
+  "topicKey": "trending-news",
+  "headline": "Courtroom proceedings grind to halt as judge requests legal definition of 'musical genre' for every song played during recess",
+  "slug": "judge-defines-musical-genres-recess",
+  "body": "The presiding judge officially paused all litigation today to demand a sworn affidavit confirming whether the lobby’s elevator music qualifies as 'Smooth Jazz' or merely 'Muzak-adjacent auditory filler.' Legal experts expect the classification process to extend the current hearing by approximately three fiscal quarters.",
+  "caption": "Lawyers are now being asked to cite their sources for what constitutes a 'catchy' chorus. #LegalHumor #CourtroomDrama #MusicClassification #JudicialEfficiency (satire)",
+  "igHook": "Would you trust your lawyer to tell you the difference between Jazz and Blues under oath?",
+  "imagePrompt": "A minimalist, sunlit courtroom corridor featuring a polished wooden bench, a row of empty chairs, and a blurred view of a distant doorway.",
+  "sourceHeadline": {
+    "title": "Dr Muralidhar Objects To Solicitor General's 'Naxalite' Remark During Vande Mataram Hearing",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT3hMOVdQWTJ5VDRhNEVVRnMyazRpa1pDRGRnc1RIX2t1TFpFRGJuUzhGMGE4ZzBRWnM2aXY5OE1MbXdDbFl5RUdxbE5veUVhRHZDTEM3b0FSM1pOWUkxVnMxUm9lc0s3VXZickM0QnZMaXFZMnI5QXBFUXBtQ2ZTb3lwek5HRi1IdlVhOGlYdXVuLTFGYUgtaGtmN1EyUWwtSGtyOWN3TzJzYnVxNXE4cXpJaGY5WVl2TDY1S3dnejQ1ZURUSThlb2FR0gHPAUFVX3lxTE5Vbkh5V2s5NFZmcXRYcFc4b2R5VzRHY1ZLdmZVNUlLWlNIMnczNWJTSU5ZVXp1bzZkU0ZYQkRzdTJrMWhHYW1ZVWM1ZVZVRE05emxsSUdhRFZIVEw4ejliUXFFYWlKQmdBN3RTUHlXcG13eFVSRHdVeTRoaGViQ09uNGlnMU9YTFJBZ2Y1dnRzTXVGcWRRYkxiTEQteXZsUVo5cGVhb2JPTmRYRnlhX3JIeFJCREVja3diVS1VMHlpNlEydWVBbDI4Z0ZwVXNtNA?oc=5",
+    "pubDate": "Tue, 22 Sep 2026 06:59:01 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 8,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 8,
+        "total": 51
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 17
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 successfully avoids the repetitive and often cynical 'Naxalite/Supreme Court' trope dominating the other entries. By focusing on a mundane, absurd bureaucratic intrusion into music genres, it delivers a clean, deadpan premise that feels fresher and more focused on the inherent silliness of over-regulation rather than tired institutional satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd satire about judicial pedantry that does not target any real people, groups, or sensitive topics. The image prompt is generic and complies with the safety guidelines.",
+    "flaggedIssues": []
+  }
+}
