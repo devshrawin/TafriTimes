@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-25T18:19:39.859Z",
+  "topicKey": "trending-news",
+  "headline": "Local IT Professional Attempts To Recreate 1972 Diplomatic Breakthrough By Ordering Butter Chicken Tacos At Neighborhood Food Court",
+  "slug": "it-professional-diplomacy-food-court",
+  "body": "Sumit Verma, a 34-year-old software architect, spent three hours yesterday meticulously arranging a plate of butter chicken tacos in his office cafeteria, claiming the dish was a 'deliberate strategic overture' designed to reconcile his department’s ongoing dispute over project deadlines. Inspired by the elaborate historical nuances of recent high-profile state dinners, Verma insisted that the fusion of North Indian gravy and Tex-Mex shells served as a symbolic bridge between his team's legacy code and the modern agile methodology they refuse to adopt.\n\n'I didn't just order lunch; I curated a diplomatic moment,' Verma told coworkers while adjusting his napkin to ensure it mirrored the formal aesthetics of a 1970s summit. 'By presenting these tacos to the lead project manager, I am effectively inviting him to a new era of cross-functional cooperation, much like the historic toasts that shaped global relations five decades ago. The chutney on the side represents our commitment to open-source transparency.'\n\nThe project manager, who spent the duration of the 'summit' checking his watch and wondering if he could expense the lunch as a business meeting, reportedly accepted a taco but remained skeptical of the geopolitical implications. 'I thought we were just grabbing a quick bite before the afternoon stand-up,' he noted, wiping orange sauce from his sleeve. 'I’m not entirely sure if this is a peace treaty or just an extremely messy way to ask for an extension on the user testing documentation.'",
+  "caption": "Sumit truly believes his lunch choice has shifted the trajectory of his office. How far would you go to avoid a difficult meeting? #OfficeDiplomacy #ButterChickenTacos #CorporateLife #CorporateCulture (satire)",
+  "igHook": "Tag the colleague who thinks every lunch is a high-stakes negotiation.",
+  "imagePrompt": "A close-up, top-down shot of a messy fusion food plate on a plastic cafeteria tray, with a laptop partially visible in the blurred background of a brightly lit office canteen.",
+  "sourceHeadline": {
+    "title": "US State Dinner Menu For Xi Jinping Has American Classics With Chinese Influence, And A Historic Toast From 1972",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNFZQTWxPc2lIS0dkeEJ3SmREOVFnN3ppSVpjVFhxbG1jUnlPMWdMM2ZKSUZFWnBuUFhWQWoyUm9xOTVZemhZT3pocVZlOWpoOXNkZHFxY2FIemFpanpPcnRReGpHc3RKVXdYLWdGV3FWT3Z4U2VFRWZmc2N0WnBxNWFvV2tlbUNFaUlwSFlnYnM5RGxjU3Y2Y2c1THNzQzZuSmhHcmhKeVpBRmE5bkJ0OEhZOU9KN25rQXlEbl9Tb3ZObHpnYkU1UUZlNXctTkxpWDZ4cFFXckRuZ25uNFd30gHnAUFVX3lxTE5pc2ZMMDQxSEVJVE1NUVRxMW1Sb0oydVNGb0x6MEg3c24wazFHLWpEaFFMelUwU2V4UWRkZnNGOHNFZFdCTzl1bHhlUXYya0ttTi1vZjdsZkxZQXZ1YTV4cDlRMXdXMUtueXd5ejY3MzdzWDREODBzMkl6b0R1VDRPZnhYOGRRX3JMbUVDR1B2dWNERGNDdGdfaU9sTG9aOWNzNlFXZzdiQmtzbWRCa0pUYzBLd0JnZ2FUR1BiN0F5VlVaTjEyd3piSEtQTmxoLVJ3emlHVElJWlVwNlQtVEY5aTNDOVFKbw?oc=5",
+    "pubDate": "Thu, 24 Sep 2026 14:31:03 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 1,
+        "total": 23
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 18
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 balances a specific, relatable corporate setting with a perfectly absurd premise that avoids cynicism. It features distinct characters and concrete details (the chutney as 'open-source transparency') that make the joke feel grounded rather than just a repetitive template."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, fictional character in a whimsical, office-based satirical scenario. It avoids real public figures, private individuals, and sensitive social topics. The image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
