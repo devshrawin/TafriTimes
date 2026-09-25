@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-25",
+  "publishedAt": "2026-09-25T07:01:12.189Z",
+  "topicKey": "trending-news",
+  "headline": "Local IT Manager Proposes Plugging Entire Neighborhood Into His Overheating Laptop To Solve 'Energy Crisis'",
+  "slug": "it-manager-solves-energy-crisis",
+  "body": "Ramesh Iyer, a Senior Systems Analyst in Bengaluru, has officially proposed that the local electricity grid transition to a 'thermal-transfer model' by connecting the neighborhood's main power supply directly to his laptop’s cooling fan. Iyer, who has been running 48 browser tabs and three separate virtual machines simultaneously since 2019, claims his workstation generates enough waste heat and kinetic tension to power a small village or, at the very least, a row of decorative street lamps.\n\n\"The US keeps talking about energy partnerships, and I think it's time we think smaller, hotter, and more inefficient,\" said Iyer while frantically closing a spreadsheet that had frozen his entire operating system for the fourth time this morning. \"My CPU hits temperatures high enough to boil water for tea twice an hour. If we can just redirect that surplus energy into the local substation, we could potentially keep the lights on during every peak load period for the next three to five business days.\"\n\nLocal residents, who were initially confused by the sudden appearance of heavy-duty copper wiring snaking out of Iyer’s balcony and into the municipal transformer, are reportedly divided on the proposal. While the city authorities have yet to issue an official permit for 'accidental-overclocking-based-power-generation,' Iyer remains optimistic, citing the sheer volume of unsaved work-in-progress files as a reliable, if volatile, renewable energy source.",
+  "caption": "Forget oil imports, our neighborhood is switching to 'Project Overclock' to keep the lights on. Tag someone whose laptop is a literal hazard to the power grid. #EnergyCrisis #ITProblems #Innovation #Engineering (satire)",
+  "igHook": "Would you trust your local IT guy to power your house with his overheating laptop?",
+  "imagePrompt": "A close-up shot of a modern, cluttered office desk with a laptop screen displaying a complex code interface, with a tangle of thick, unconventional copper power cables running from the device towards an open window.",
+  "sourceHeadline": {
+    "title": "US can help partners deal with energy crisis: Rubio to India",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGp3ZmJFeEFMcUFLNTBFV05LLVFZWG5jSXpyNUJ2QldBSXJrVDVWTi1tZHViRThQRnE5R1hndlAyU29GcWdiendJWkxjYnc3VDAxNk0tRW1Qc29saFZsWWRoZlZaS3lKR0ZPM2lqUERVYnF3bFRMeDFBakdjN3dIZXN6dmhBYVZjd0VzVUk0UlBodVd5VEJudFhKcGNoMTZ0Z3EyWUkwdUPSAa8BQVVfeXFMTlVRUGN2YTFXMHRzMjRkVUVfd3czR21xWUd5TC1ub1BUeTdhNjR4WDJReFFzOFhNTmFkZHVsUE04Z21ZM2h2YW5MOTVUaUtaZTFVOENPbnpTNWNRLTBUSlV6YTAtUUJUOHV5emh1M3dqRzIweG8zUk1rcG00THVwNGcyc2hjMWJhbXpNMXVHV3JLQUV4WjVsazRqcjFxSXhZUzJlSFNrN0lqRmFkZW8xTQ?oc=5",
+    "pubDate": "Thu, 24 Sep 2026 23:02:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 44
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 10,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 44
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 36
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 wins for its highly specific, absurd, and technically grounded premise that manages to mock the corporate IT work culture and diplomatic grandstanding simultaneously. It avoids the repetitive 'diplomat gives useless gift' trope found in other entries, offering a vivid and funny visual of an overheating laptop being repurposed as a municipal power source."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The piece uses a generic, fictional character to satirize IT culture and energy crises. It does not name a real private individual or public figure, nor does it contain any of the prohibited content categories.",
+    "flaggedIssues": []
+  }
+}
