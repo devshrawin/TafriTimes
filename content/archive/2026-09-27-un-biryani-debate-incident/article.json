@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-27T05:23:23.503Z",
+  "topicKey": "trending-news",
+  "headline": "UN General Assembly delegates pause diplomatic row to debate if 'that guy's lunch' is actually a regional variety of biryani",
+  "slug": "un-biryani-debate-incident",
+  "body": "The high-stakes standoff at the UN General Assembly hit an abrupt stalemate today when diplomats from both sides abandoned their prepared dossiers to spend four hours debating whether a shared lunch offering in the canteen was a legitimate regional dish or an international diplomatic insult. The session remains suspended as delegates await an urgent ruling from the cafeteria manager on the correct ratio of saffron to cardamom required for a neutral culinary resolution.",
+  "caption": "The most intense border conflict of the year is currently happening over a styrofoam container in the UN cafeteria. Diplomacy is hard, but lunch is harder. (satire) #UNGA #Diplomacy #BiryaniWars #GlobalPolitics",
+  "igHook": "Would you stake your nation's reputation on a grain of rice?",
+  "imagePrompt": "A blurry, candid shot of a long, polished wooden conference table in a large, dimly lit hall, with stacks of colorful file folders and a single half-eaten white plastic takeaway container sitting in the center.",
+  "sourceHeadline": {
+    "title": "India news: New Delhi, Islamabad trade accusations at UN General Assembly",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnBsRk9WalNoYmdRZW44emU1SFNTU1pPalB5TUx2UXFLVnRFMkt0LWdIbEMtYWU4UTVrVEJ2SV9NTlI2SU01MHdfTTBQZVk3eG9IbVhHRXNxakh0OHNHTkkxYUJmZWRwYWFaQWN1aldnZUpsMDRMRmpGYUxXamxZN1QydHo4Z1lPelp5aXVPWjRKa1loUHhIQ2hWcFVoN1FhRzUySlNINzRRRk0?oc=5",
+    "pubDate": "Sat, 26 Sep 2026 10:07:02 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 1,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 21
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 18
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 18
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 18
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 19
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 stands out because it roots the diplomatic deadlock in a relatable, petty office/cultural squabble (biryani ingredients) rather than the repetitive and overdone trope of 'paper airplanes' or 'tech failure' found in almost every other candidate. It maintains a deadpan tone, offers specific details like the saffron-to-cardamom ratio, and captures the warmth of human absurdity without leaning on tired institutional cynicism."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical take on international relations using a generic, anonymous scenario. It does not name any real individuals, target specific religious or cultural groups, or pose a risk of defamation.",
+    "flaggedIssues": []
+  }
+}
