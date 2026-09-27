@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-27T09:56:53.412Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "I Filed An RTI Request To Know Which Files Are Exempt From The RTI Act, And Now My Mailbox Just Emits A Low-Frequency Hum",
+  "slug": "rti-exempt-void-hum",
+  "body": "I thought I was being clever last Tuesday. As a concerned citizen with a penchant for bureaucracy, I filed a request under the Right to Information Act simply asking for a list of all documents currently classified under the newly exempted 'Public (Law and Order) Department.' I expected a delayed response, or perhaps a form letter explaining the legal nuance of the exemption. Instead, I received a thick, beige envelope delivered by a man in a vest who refused to make eye contact.\n\nInside, there was no list. There was only a single, perfectly blank sheet of paper and a small, battery-operated buzzer taped to the center. When I touched the paper, the buzzer activated, emitting a sound that the manual—which appeared in my mailbox an hour later—identifies as 'The Sound of Absolute Privacy.'\n\nSince then, my neighbors have complained that my home emits a constant, low-frequency thrum that makes their milk curdle. I tried to walk to the local post office to inquire about the status of my inquiry, but every time I mention the words 'Right to Information,' a small cloud of localized static follows me for three blocks. I am starting to think that by asking what is hidden, I have inadvertently become a piece of classified government infrastructure myself.\n\nI reached out to a legal friend, but he advised me to stop talking entirely, noting that if I keep pushing, I might be upgraded to a 'Top Secret Filing Cabinet' and permanently relocated to a basement in Chennai. For now, I have decided to embrace the hum. It’s actually quite soothing, provided you don't try to read anything or ask any follow-up questions.",
+  "caption": "When the government says 'no,' they really mean 'we are turning your house into a hum-based signal tower.' My RTI journey has officially entered the void. #BureaucracyLife #RTI #TransparencyGoneWild #Satire (satire)",
+  "igHook": "Have you ever accidentally filed a request that ended up with the government turning your home into a piece of classified infrastructure?",
+  "imagePrompt": "A close-up, high-angle shot of a hand holding a single blank piece of stationery paper inside a dimly lit study, with a small, generic electronic buzzer taped to the center of the page.",
+  "sourceHeadline": {
+    "title": "Tamil Nadu government exempts Public (Law and Order) Department from RTI Act",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTEpwTHRiQkZULVpEcWpCQ2lUTzluaHpsZnd0c0h0aWdsM2lLQ1lIMG5BOHh4RzBOaElsX2xLMjJfNkNJTDRwd3UxTm9vdEZaNVc1M1k2UU5lQWNETFJiWG5od050NklQY3hhVWhzQnlmMVRqWFkwNjVkN2VoaDJobW1rcUV0QWx3Q3FGWXpDWERIOWF0MHpCVmFoNHdocmprX1A2OGFOX2tDQnlHTmczTnlDUXRpRlNpVHl2OHNJY09DSFAyajI0OGhIM1M1RWR0SXpTREtiYk14VE430gHjAUFVX3lxTE4tUGlENHdHWmVIMnR2eWlkQlp2Sy03U3BpZXJJRFFTY0RnRGhFR0lSSWtUOFptZ2hMd094YzdKbG1iQmhkMDM3anhjTTR3aVV6czBDRUVPb05SaEhsMWhLTzd1NnBDejY4b25ueU50X0hYUUw0SWRaTFE2OHRMeW44QjhKUEpvU1pkV1F5dENtbXdKcm9vR3BlNkUzQjRSdnpVbG1YbDJSWUE5XzNhNlZudGx0MU1pSXNUYVRrODZlbE9kZzROMkNUcy1EUFJHVVJiSnUxQzVZYVdtV1BYVWROMXdj?oc=5",
+    "pubDate": "Sun, 27 Sep 2026 08:05:36 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 48
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 2,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 stands out because it takes the 'RTI' trope and introduces a genuinely surreal, physics-defying consequence (a low-frequency hum that curdles milk) that feels distinct from the repetitive 'secret canteen recipe' or 'lost umbrella' submissions. It avoids the AI tendency to wink at the joke, maintaining a perfect, deadpan tone that treats the bureaucratic absurdity as a genuine life crisis."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of absurdist political satire concerning the RTI process. It does not name any real individuals, avoids protected groups, and the image prompt is sufficiently generic.",
+    "flaggedIssues": []
+  }
+}
