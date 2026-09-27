@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-27T19:47:28.219Z",
+  "topicKey": "trending-news",
+  "headline": "Engineering Student Uses Decommissioned MiG-23 as Study Desk to Avoid Hostel Distractions",
+  "slug": "student-uses-mig23-study-desk",
+  "body": "Final-year student Arjun Khanna has successfully transformed the cockpit of a decommissioned MiG-23, currently on display at his university campus, into the city’s quietest study cubicle. Mr. Khanna claims the high-altitude seat height and the lack of Wi-Fi reception inside the fuselage have improved his fluid mechanics grade by 14 percent.\n\n\"The hostel was just too loud with everyone complaining about the mess food, so I brought my laptop and a thermal flask to the airframe,\" said Khanna, who now logs four hours of thermodynamics practice daily while sitting under the inactive radar housing. \"The ejection handle is a bit stiff, but it doubles as a decent hook for my headphones.\"\n\nCampus security, initially confused by the sudden influx of students seeking 'aerospace-adjacent' study spaces, has decided not to intervene provided the students do not attempt to engage the landing gear. A university spokesperson confirmed that the campus's T-55 battle tank has also been repurposed, currently serving as a heated group-study lounge for students preparing for competitive banking exams.",
+  "caption": "Forget the library—the fighter jet aesthetic is the new gold standard for focused study sessions. Who knew aviation history was so conducive to acing engineering finals? #UniversityLife #StudyHacks #PunjabCampus #AerospaceStudent (satire)",
+  "igHook": "Would you try to study inside a fighter jet if it meant acing your finals?",
+  "imagePrompt": "A wide shot of a grassy university campus quad during the day, showing a decommissioned silver fighter jet and an old military tank on display with several students sitting on the wings and chassis with notebooks.",
+  "sourceHeadline": {
+    "title": "Students Climb Atop MiG-23, Tank As Dramatic Scenes Unfold At Punjab's LPU",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRTlHbzhFLUpwZGxXVEZCNUdiZFlRbHM4dU5xQ1JtQ2QzY0VEeURzUGVTWDlqX0UyTFpvTW56TDVBbmpNbHNzTHdPbEZZRGJmNW9XZ01taHRGQ25qQUJvOU1zNDhUV0ZKc0d3LWtFWTMyMzZBUXNIdEE0R1l3akQ0dkdkVllfR3Jhdm4tcVA4bnNnSk1mYWtYeGx3Tmg5NGhlX3ByZHBRajFaMHpDVkRVU1NXRDlNOGtXMUVQX0FkbTY3aVpIYlJoVWRtNWNGMThBbU1NN2tRWEFWc0ZE?oc=5",
+    "pubDate": "Sun, 27 Sep 2026 08:54:59 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 50
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 23
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only piece that treats the premise as a mundane, lived-in reality rather than an 'AI-hallucinated' DIY repair stunt. By focusing on the cockpit as a study space with specific, absurdly relatable complaints about hostel life and mess food, it captures the required warmth and structural deadpan tone far better than the repetitive 'YouTube tutorial' plot-holes found in the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictionalized scenario involving a student and university setting that does not name a real private individual or public figure. The satire is benign, and the image prompt is generic and does not violate the policy on real-world identifiers or brands.",
+    "flaggedIssues": []
+  }
+}
