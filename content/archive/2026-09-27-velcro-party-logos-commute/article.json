@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-27T07:47:12.567Z",
+  "topicKey": "trending-news",
+  "headline": "City Residents Start Wearing Velcro-Attached Party Logos To Save Time During Morning Commute",
+  "slug": "velcro-party-logos-commute",
+  "body": "“I used to spend half an hour finding the right scarf color to match my candidate’s affiliation, but now I just peel off the blue patch and stick on the saffron one before I even reach the bus stop,” said a frustrated software engineer waiting at a crowded transit hub.\n\n“It’s honestly more convenient than carrying a wallet, and it prevents those awkward moments when you realize you’re holding a flag for a party that merged into the opposition ten minutes ago,” noted a local street-food vendor while frying pakoras.\n\n“My daughter thinks the velcro sound is just part of our neighborhood’s daily ambient noise, like the sound of horns or someone yelling at a delivery driver,” remarked a schoolteacher juggling three different sets of political badges.\n\n“I’ve started keeping a backup stash of symbols in my glove compartment, just in case the party I’m currently supporting decides to switch alliances while I’m stuck in a traffic jam,” laughed a daily commuter heading to the office.\n\n“If you aren’t able to swap your entire political identity in the time it takes to wait for a signal to turn green, you really aren’t trying hard enough to stay relevant in this town,” added a local gym trainer.",
+  "caption": "Why commit to one ideology when you can just stick it on with velcro? Local commuters have mastered the art of the rapid-party-switch to keep up with the daily political shifts. #Politics #CommuterLife #VelcroPolitics (satire)",
+  "igHook": "How many times have you had to change your political party this week?",
+  "imagePrompt": "A close-up, slightly blurred shot of a person's chest on a crowded public bus, showing a generic fabric jacket with a small, colorful, velcro-backed badge attached to the lapel.",
+  "sourceHeadline": {
+    "title": "111 sitting MPs, MLAs switched parties in 4 years, 26% of them joined BJP: ADR",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPak1MRkZtRzhURTNJeHlyWlhBTnZKZExjX1N3RWpEUFZzemNiSVF0MGdJOG1TLUFkMzQwZ3M4aEcweE5YajFudVY0Smh5dmpMWldpM2lnbUtjWTIxQ3JPaFRDVlVzUjFDSExGVV9idzhKc2x0OTRxTFM3Mm4yNWducnloMzZtM0pEUFhxd3dVUksySGUxZVN0UEdydGVjSjVnNUlpWUp2amg4dXprcUxMcjNZRzRGUGhiXzcwRHBjLU9BZHN6MVF6eWdtaDljM3JjYW5Ocm1B0gHbAUFVX3lxTFB0ZmtRMXQ5a1lIZ2tNQ3NFaTM0SXdHN1FGS1hHVnZod0kxUkE5eHBsZUt4Zk5TV0lvdGNOTVlSMDQzNmwydHg3ZzFCVUFYeWkwYWhEdF9TcEJGODA3T0c1UjVDLTc1ZExGTmFyYWxmUHc4RC1wTXgwRlRkV01xWDVzRFJuUDlQYnB2Q0FMa2w5YWF3X3JzT0F0WW1YZGJzcWRMbXF4RUlWY1kxeWRvOWs1VEJ0WXVVdXljMVRpdEZRODdqUmtsWE5od3VYV1d5MTc5ZjFLeGpqVUNZOA?oc=5",
+    "pubDate": "Sun, 27 Sep 2026 03:00:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 is the winner because it moves away from the overdone 'loyalty program' trope seen in nearly every other submission. The detail about velcro-attached logos is specific, visual, and provides a funny, grounded observation of commuter culture rather than relying on stale 'political reward points' logic."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses satire to mock the volatility of political allegiances using generic descriptions and anonymous characters. It avoids naming real public figures, specific political parties, or targeting any protected groups, and the image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
