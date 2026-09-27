@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-27",
+  "publishedAt": "2026-09-27T01:37:08.923Z",
+  "topicKey": "trending-news",
+  "headline": "Party Office Intern Who Thought 'Paying Tribute' Meant Buying A Birthday Cake With 'Happy Birthday, Former PM' Written On It Faces Disciplinary Inquiry",
+  "slug": "party-intern-birthday-cake-tribute",
+  "body": "Q: You were responsible for coordinating the tribute event at the AICC office yesterday. What exactly went wrong during the internal session?\n\nA: Look, I was told to organize a tribute for the former Prime Minister on his birthday. I thought it was a festive occasion, so I went to the local bakery and ordered a three-tier chocolate cake with candles. When the senior leadership walked in expecting a solemn floral-wreath-laying ceremony, they were greeted by me lighting sparklers and asking everyone to sing 'Happy Birthday' in a upbeat tempo.\n\nQ: How did the party leadership react to the sight of a birthday cake in the middle of a political tribute?\n\nA: It was a very quiet room for about forty-five seconds. The leadership stared at the 'Former PM' icing garnish for a long time. They didn't even mention the floral arrangements I had requested from the florist; they just kept pointing at the candles. I even had a balloon arch that said '92 Years Young' which I think really solidified my fate.\n\nQ: Have you received any feedback from the party office regarding your future employment?\n\nA: I’ve been told to attend a mandatory training seminar on the distinction between 'official state observances' and 'surprise office parties.' They’ve also asked me to return the remaining slices of the cake to the breakroom immediately, which I honestly think is a good sign that they at least enjoyed the chocolate frosting.",
+  "caption": "When you try to bring a little office cheer to a somber political event, but the leadership wanted wreaths, not Black Forest. A rough day for the intern office. #AICC #BirthDayGaffes #PoliticsLife #CakeGate (satire)",
+  "igHook": "Would you have cut a slice or just backed away slowly?",
+  "imagePrompt": "A generic, slightly blurred interior of a high-end political office conference room featuring empty chairs and long wooden tables, with a single, untouched chocolate cake sitting on a central pedestal.",
+  "sourceHeadline": {
+    "title": "Congress leaders Rahul, Sonia Gandhi pay tribute to former PM Manmohan Singh on birth anniversary at AICC office",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQd0JzR2Z0Tk5hR09vS0E1OHRGdElBRTFEMEppUzVlaDQyUE91WFREeTl3MndHOXNrYzQ4RlBYcGlaWHZvZzNRWE1oRHEyZDdWMDZWTnpUeHBITUVKQlFKU0NzeWJOTlNXRzItQ2l4MGxod193RWxHOEJhTjNPMk8yVG5pdC0zOVBkSF9JN2lVRXFnVElhNy1TQ0x4ek5TbVk3b29fUGpBYzZETGVBeEU1NDUwOUM2OHFYZGZaajFCWHV6c3hnbFRoNkNMR1lYY2E5TmtKVTExWW5YS3ZDV0QwcGlfZXdyOTFHSC1Cd05JZmkxV21UazYwcUhLLUs4RERQQWc?oc=5",
+    "pubDate": "Sat, 26 Sep 2026 06:36:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the only piece that feels like a distinct, funny narrative rather than a repetitive trope of the 'AICC silence' concept. The premise of a well-meaning intern confusing a solemn political tribute for a birthday party is genuinely charming, specific, and avoids the cynical, formulaic tone found in the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses the generic acronym 'AICC' in a satirical context without naming any specific real-world individual, public figure, or family. The scenario is clearly a fictional, whimsical office mishap and does not touch upon sensitive religious, caste, or real-world political controversy in a defamatory way. The image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
