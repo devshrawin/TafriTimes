@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-28",
+  "publishedAt": "2026-09-28T18:30:55.356Z",
+  "topicKey": "trending-news",
+  "headline": "Locals confused as statehood resolution debate ends with assembly floor being converted into a giant carrom board",
+  "slug": "assembly-floor-carrom-resolution",
+  "body": "“I thought the ruckus was about the legislation, but then the Speaker started chalking the floor and asking who had the strikers,” said a local government clerk who had been waiting four hours for a file signature.\n\n“My brother went to the gallery hoping to hear a historic constitutional debate and ended up acting as a human scoreboard for the opposition bench’s doubles match,” noted a university student disappointed by the lack of parliamentary decorum.\n\n“The resolution was supposed to be the priority, but the Finance Minister insisted that the ‘pockets’ on the floor represent regional autonomy, and frankly, he’s been winning by a landslide,” remarked a frustrated tea stall owner who had been summoned to provide refreshments for the ongoing tournament.\n\n“If the state is returning, I just hope the new assembly rules include a standard regulation on board-waxing, because this current setup is incredibly slippery for a formal session,” added a retired civil servant watching from the visitor’s gallery with a pair of opera glasses.\n\n“I’ve seen enough sessions to know that when the shouting stops and the powder comes out, we aren't getting a budget update until at least three sets of best-of-five are completed,” said a veteran political journalist.",
+  "caption": "From historic resolutions to historic round-robin tournaments, the Assembly floor has never been this competitive. Who knew the path to statehood involved so much flicking? #JammuKashmir #ParliamentarySports #CarromDiaries (satire)",
+  "igHook": "Would you trust your local MLA to win a high-stakes game of carrom for your state's future?",
+  "imagePrompt": "A wide-angle, slightly blurry press photo taken from a high balcony overlooking a large legislative assembly hall floor covered in white talcum powder, with various officials standing around a wooden board in the center.",
+  "sourceHeadline": {
+    "title": "Jammu & Kashmir Assembly passes Statehood resolution amid BJP uproar",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUDdleWlkSllTbUNqVjZWZTZtZlhHODBnRElWY0xveUk3QTVFRUw5SzE4cGRjWkN6VjYzcHpZM0dkUDhjbkVVVjNIdTFURlpTeTFVQ2Z1YjUzOEJwTmIzcTYzenJXVzd6WExPMmdzYkx5QlR5anpZN19PZ1hRSFhST3pFRmRyS2ttemU2SnZWVEE1T2lnOVN4OGhiMmNubHVDYk45SEhiQzExLS1lenRhd2dtd0FIa1diRGxLMXVMX2d2VGI0ZDBIbXFKaE5XbUJ5LWU2cUNTVmhSVjE4NDRCQ9IB5wFBVV95cUxOTmNHeVRLQ0xrMzNmemV2RGNTT1duQjljelZ5Y1NLVnkwQ1ZRVF8yUUgzQlVoQTd3Q05Cd2pXZGs5cWx6bnVtNzRRNGtZczR3b2g1NHdtbFhrOWpTUkloX2hJcnRUdTNQa2ZSTldPUzUycEJUcEFsUlpyaUNMLUhNN2t3NExwdlRGT2pTX3NuZzhfNXNiaFZ3ZXhnMVBfVkJuRjhJSUZEZjlPT24wcV9UelFOaHhoR2NjNXJEbjA3Qk9DZVhwLUNiaWNSYkZWTmJWVGt3eVlUUHRza3ZVZTBiczQyY2V1SGs?oc=5",
+    "pubDate": "Mon, 28 Sep 2026 03:06:58 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 7,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 48
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 succeeds by committing entirely to a visual, absurd, and specific image (the assembly floor as a carrom board) while maintaining the deadpan tone required. It avoids the tired 'stationery shortage' or 'paperwork confusion' tropes seen in most other candidates, offering a fresher and more rhythmically distinct comedic premise."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a humorous, clearly fictional scenario to satirize parliamentary gridlock. It does not name any specific real individuals, avoids targeting protected groups, and the image prompt describes a generic scene without identifying people or specific entities.",
+    "flaggedIssues": []
+  }
+}
