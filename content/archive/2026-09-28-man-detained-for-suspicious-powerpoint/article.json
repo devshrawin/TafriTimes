@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-28",
+  "publishedAt": "2026-09-28T07:28:54.723Z",
+  "topicKey": "trending-news",
+  "headline": "Local Man Detained By Police For Carrying ‘Excessively Suspicious’ PowerPoint Presentation To Business Meet",
+  "slug": "man-detained-for-suspicious-powerpoint",
+  "body": "Q: Mr. Sharma, the authorities held you for six hours yesterday. What exactly were they so worried about in your laptop bag?\n\nA: It was a misunderstanding, really. I was heading to a regional trade summit and had a slide deck on ‘Synergistic Growth Projections.’ The sub-inspector saw the transition animation—it was a ‘Dissolve’ effect—and insisted I was trying to make state secrets vanish into thin air.\n\nQ: They claimed the detention was for ‘pre-emptive vibe stabilization.’ Did they actually interrogate you about the content of your Q4 report?\n\nA: Precisely. They kept asking why my pie charts were skewed towards the 'Aggressive Expansion' quadrant. They seemed convinced that any font larger than 24-point bold constitutes an unauthorized call to assembly. I tried to explain it was just standard corporate branding, but they confiscated my mouse as a ‘blunt force weapon’ and demanded I apologize to the projector screen.\n\nQ: How did you eventually secure your release?\n\nA: I had to print out the entire presentation on dot-matrix paper and show them the ‘Thank You’ slide as proof of my peaceful intentions. They let me go only after I promised to switch my default template to something more ‘calming,’ like a soft-grey gradient.",
+  "caption": "Why you shouldn't use bold fonts in public spaces. The struggle for corporate slide decks is real. (satire) #CorporateLife #PowerPoint #DetainedForDesign",
+  "igHook": "Have you ever been stopped by authorities for your presentation skills?",
+  "imagePrompt": "A close-up of a standard business laptop open on a wooden table in a dimly lit room, with a blurred police uniform sleeve visible in the foreground.",
+  "sourceHeadline": {
+    "title": "CJP’s Ashutosh Ranka detained by Assam Police ahead of SIR meet, claims ‘illegal detention’ after release",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdzZEZlZ0akhFR0ZZVUdYekg1bXE4bHhtODhOYk83WGFlQTEwc0JESmhFYlRSVXpjaWZZeXNyVmpEbGQtdjhwQkNZekJiUU5nakdtNlhfVVJDZVdUWnZ4TWwtOXFHU0F6b25sMWFya0ZSdTBMT0pna20zN3hIeW9LMkctZVIxdHJtajJKaUN3U19PZUk0VmtPZHlYS3VkYktNUmdCbU9SbkQxalpsTWpXRkk2UkZYSWxNb0NhVmotWE7SAcYBQVVfeXFMTXl5OWVvTFJPVEtBNXBubnZzXzd0WWpXSy1iN0daRGc5XzBMRjJhRXVEVnUtUEVnaVo4eEI5YWU1TzVLakY0RWtMTnNNZVVadlVib2pfelBQQ3ZNWXJDamdiZ3pwYVJJRUFGWGFsLUY4UWdIMmg5aU55VWkwUk9nUUZtc2FqMXFpM0FmeG9vel9IaFRKVG52azNGMVpZNFFKRTU2NXBGalhDalZXRlhSRjhjcFFPV09SQUdUS2FzSGlENU9rMXhR?oc=5",
+    "pubDate": "Sun, 27 Sep 2026 07:40:41 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 stood out by focusing on a specific, recognizable corporate absurdity—a 'Dissolve' PowerPoint transition being treated as a national security threat—rather than relying on the repetitive 'business card' or 'detained for 3 hours' tropes seen in the other candidates. It manages to remain deadpan and specific without falling into AI-generated padding."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'Mr. Sharma' (a common placeholder name) and satirizes corporate culture and bureaucratic absurdity without targeting a specific real individual, group, or religion. The image prompt is generic and does not depict any real person or protected brand.",
+    "flaggedIssues": []
+  }
+}
