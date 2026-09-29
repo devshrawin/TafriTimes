@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-29T15:29:18.124Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Query On Drug Pricing Prompts Nationwide Dash To Mark Up Price Of Everything Else To 16% Above Baseline",
+  "slug": "court-price-cap-reaction",
+  "body": "\"I just walked into my local corner store and the guy had stuck a neon green '16% Convenience Premium' sticker on a packet of chewing gum, a bottle of water, and his own cat,\" said local IT professional Rajesh Sharma.\n\n\"The shopkeeper told me if the courts are standardizing margins, he’s standardizing his stress levels, and apparently, my anxiety about the total bill is now an 'administrative overhead' of 16%,\" lamented university student Meera Nair.\n\n\"My landlord actually texted the whole building group chat this morning to announce that henceforth, the air circulation in our corridors is being sold at 16% above the cost of an industrial fan running in his basement,\" noted housing society secretary Vikram Sethi.\n\n\"I tried to order a plain dosa, but the waiter insisted on calculating the 'MRP of the batter' and then adding 16% for the 'privilege of table-space usage,' which frankly sounded like a masterclass in bureaucratic accounting,\" said freelance photographer Anjali Das.\n\n\"Honestly, I’m just waiting for the government to mandate a 16% markup on the time we spend waiting in traffic, because at this point, the commute is the only thing in this city actually operating at a profit,\" observed bus commuter Sanjay Gupta.",
+  "caption": "Everyone is suddenly an expert in supply chain economics after the latest court suggestion. Who knew 16% was the magic number for the universe? #Economy #LifeInIndia #SupremeCourt #MarketForces (satire)",
+  "igHook": "Tag a shopkeeper who is definitely already printing these '16% extra' labels.",
+  "imagePrompt": "A cluttered shop counter with various snack packets and bottles each featuring a bright, hand-written fluorescent price sticker with a percentage symbol.",
+  "sourceHeadline": {
+    "title": "Why Not Cap Medicines' MRPs At 16% Above Retailer Prices? Supreme Court Asks",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVjdORk92UlFsaXJsNzZldTNlU2RJWHREMzlCSGVqR3RkMENDQjNCUUk2c3lZZVc1Z1B2Zi1UUHB5U2JmeDJqUUNFRzctTkoxRy1PbkFNUTBlUEFha1g0THdHR25kVGZ1Wl8zQU80TENfNFJpWmRDb3hYcl9WZmtVLWhPZHpsSEh1cEpZOXR4S2x4ZXVMamZ1dU5BcFBTWk16bFlqOGpzOTdnM2J5QkNWR1RyTlVBZ9IBuwFBVV95cUxPaDFwMmpaWE4tRXFjRDdEUVdWZGpwbzVVdVBRTkVQRV95SGRyWDByU0ZNT05EUkRKZFp1TXdhV1R6VG9INGVDa2F3c2VRNE15bXRIelJOVDJCS2txUW9lVzA0eUVRSWdDNE1zYlBYM05mbUlQWWhJT051eWpwX3dYcUNHelZIaW9LQ01ialk4Z3ZzM0E3bEp1Tkc1V05mbGQtRWxRTGt4bTNrS3NCSFJxRHN3aXppWTlWRzlN?oc=5",
+    "pubDate": "Tue, 29 Sep 2026 07:41:32 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 is the only one that successfully pivoted the premise into a surreal, expansive satire that avoids the 'AI slop' pattern of repeating the exact same price-cap complaints. It uses specific, vivid imagery—like the shopkeeper putting a price sticker on his own cat—to create a funny, absurd universe rather than just listing repetitive vox-pop grievances."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses common, generic Indian names for fictional satirical anecdotes and avoids targeting real individuals, public figures, or sensitive communal/ethnic groups. The image prompt describes a generic shop scene without any identifiable real people or brands, adhering to safety guidelines.",
+    "flaggedIssues": []
+  }
+}
