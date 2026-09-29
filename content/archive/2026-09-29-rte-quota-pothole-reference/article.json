@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-29T23:46:16.552Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "I Applied For An RTE Seat And Was Asked To Submit A Character Reference From A Pothole",
+  "slug": "rte-quota-pothole-reference",
+  "body": "I thought getting my son into a decent school under the 25% quota would be a matter of paperwork, but I clearly underestimated the bureaucratic creativity of the local authorities. When I finally reached the front of the queue after three weeks of standing in the sun, the official didn't ask for income certificates or residential proof. Instead, he handed me a stamped application form and told me I needed a 'Character and Utility Reference' signed by a piece of public infrastructure that had been ignored for at least five years.\n\nI spent two days arguing with a particularly deep crater on the main arterial road, hoping it would validate my son’s academic potential. The official insisted that if the Commission for the Protection of Child Rights could effectively ignore its own mandate for years, then I, too, should be able to find a mute, crumbling piece of asphalt to vouch for my family's existence. He claimed it was the only way to ensure 'alignment with current administrative indifference levels.'\n\nI’m currently waiting for the pothole to dry out from the morning drizzle so I can press an ink pad against its jagged edges. My son is now seven and has started asking if he can just attend the local culvert instead of a real school, since the culvert has at least been visited by a municipal surveyor twice this month. I really just wanted an education, but it seems I’ve accidentally entered an experimental performance art piece about institutional silence.",
+  "caption": "When the system is too busy ignoring you to process your paperwork, you have to get creative with your references. #RTE #BureaucracyBlues #EducationForAll #PotholePolitics (satire)",
+  "igHook": "Have you ever been asked for an absurd document to get your work done?",
+  "imagePrompt": "A close-up, ground-level shot of a cracked, weathered asphalt road with a large, muddy pothole, focusing on the texture of the damaged street surface.",
+  "sourceHeadline": {
+    "title": "'Who Heads NCPCR? How Can They Be So Indifferent?' Supreme Court Rebukes NCPCR Over 25% RTE Quota...",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdjBPYlpGUHYydi1td1pTXzY2MnVJWE41Y0hkZDEyNC10aXMyY0NQZm5qZE5CRE5raU1Nb2Z3U0hSWkQwUEY2bFJSWExheWpON2JSeU9UWnpuaGt3eGtnRmF0TEs1WmpZX2ZNbjd0cmpiemhMNlYtLUNiTk5WeFVkTmZ5TzkxWkhKNXF2V3FVN1RScnltYlUxMjBNZjRFUDF3aHE1R25JSi0tWnQtaUpRanN2d0JfNDFtMndZVUt3OGVUcVdDcXlqMHZ1aWR4ejTSAdQBQVVfeXFMTi1nMHJSbmNzNWJzYUZwUkRiY0tLUGE0ay1HUWw2YjB5M1BTX1lZdHRLY3NpM2owMDRobDFmRHdpTDNoYVRDTUFJM0FBYkstM2IyRUlqcUF5S3FnLXdEWHlvNnlDaTFSVW1xV0dLTnIxS01kQzFiS0tQRThCX1RITl9FckpuTEJoYnNWOXhkcDhaZ3Y5aDc2a0U0dGczbmRKN2dtM0hFMTZuN013Uk94OEY1clFmbzAxRDZsMDlNNW5iNElSYVlvVk13TlFmN2k4U2QzN3I?oc=5",
+    "pubDate": "Tue, 29 Sep 2026 09:59:32 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 3,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 25
+      }
+    ],
+    "winnerIndex": 3,
+    "reasoning": "Candidate 3 offers the most distinct and absurd premise—the 'Character Reference from a Pothole'—which perfectly captures the specific absurdity of local civic failure. Unlike the other entries that rely heavily on 'indifference manuals' or 'Zen courses' (which felt repetitive and formulaic), this piece uses a vivid, concrete image and maintains a deadpan, human tone throughout."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a satirical critique of bureaucratic inefficiency and infrastructure decay. It does not name any real individuals, target protected groups, or make defamatory claims against specific entities.",
+    "flaggedIssues": []
+  }
+}
