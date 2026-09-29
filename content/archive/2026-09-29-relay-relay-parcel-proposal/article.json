@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-29T20:24:56.014Z",
+  "topicKey": "trending-news",
+  "headline": "Relay Gold Medalists Propose Replacing Professional Baton With Standard-Issue Indian Railway Parcel",
+  "slug": "relay-relay-parcel-proposal",
+  "body": "The gold-medal winning relay team has officially petitioned the athletics federation to substitute the regulation baton with a standard 20kg Indian Railway parcel, citing a lifetime of practice in shifting bulky, irregularly shaped packages across crowded transit hubs. The team maintains that navigating a 4x400m track is trivial compared to maneuvering an unlabelled crate through a bustling suburban platform during peak monsoon.",
+  "caption": "From the track to the platform, it’s all about the hand-off. Can these sprinters handle a parcel that’s been in transit since 2018? #AsianGames2026 #TrackAndField #RelayLife #ParcelLife (satire)",
+  "igHook": "Would you trust a gold medalist to navigate your local train station with a heavy parcel?",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a modern athletics track in the early morning sunlight, with an empty baton resting on the red synthetic surface.",
+  "sourceHeadline": {
+    "title": "India win women’s 4x400m relay gold at Asian Games 2026, sixth gold overall",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaWFoaDhLUDctdDI1Q0NCNXFpUjdMczZVUUoxclhwYUxrYk9rd2FvX25fZ1lGc1FLZEg1aTJkdjB6SGNPUnViSS1uZGNfVmVhRkF4dms5U1REUlV3QjNud3JKMEpzeWdlME8wTDlVMmNOOGFkaUhMTldfaVozYnVwZHp1aXBSeW9jU29ENjJGQnpCMlR5S3NoVl9XaXMwQkstOXNoM3lyU0t6cHVU0gGzAUFVX3lxTE5yQXNEVVdPUGZ5NG54R0hlaTlyeFlaekQ5ZGN1MkxnTnVXSmdkd0FFOFJKTDM1X05kUDVwS05jQjg5bGwwX0V3RmRra0JZSV9QSWNqMURxRTJ4dklqSkw5MnNiZUJrVFdSYjIwR1hYVjlWZ0NKek84NmRRdVQxWnBXY2lrQzZXRGZCNWZ1OUdzZEt5THkxdnZYRkhaT1hrb05fd1NlZ0FfMmJYTW5lV3JqY0Nn?oc=5",
+    "pubDate": "Tue, 29 Sep 2026 12:19:59 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 7,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 9,
+    "reasoning": "Index 9 wins for its absurdly specific and culturally relatable premise; the image of elite sprinters treating a 20kg railway parcel with more reverence than a baton captures the 'warm' absurdity requested. Index 12 was a close runner-up for its charmingly specific cricket-related hallucination, but Index 9's structural integration of the parcel logistics makes for a slightly more robust piece of satire."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a harmless, whimsical premise to satirize the logistics of public transit in India. It does not target private individuals, specific public figures, or sensitive religious/ethnic groups, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
