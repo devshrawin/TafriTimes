@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-30T23:03:42.664Z",
+  "topicKey": "cricket",
+  "headline": "Team head coach introduces mandatory 20-minute 'Bowling Appreciation Seminar' to ensure players remember the existence of leather balls",
+  "slug": "cricket-coaching-seminar",
+  "body": "Following concerns that the current squad has forgotten how to handle anything besides a willow, the technical staff has mandated daily sessions where players must sit in silence and stare at a bowling machine for twenty minutes. The curriculum focuses on advanced theoretical concepts such as 'how to hold a delivery' and 'the revolutionary concept of an out-swinger.'",
+  "caption": "Forget the willow, it's time to reintroduce the players to the mysterious red orb! Who knew bowling was actually part of the sport? #CricketNews #CoachingLife #BCCI #IndiaCricket (satire)",
+  "igHook": "Tag a friend who thinks cricket is only about watching boundaries.",
+  "imagePrompt": "A close-up of a weathered leather cricket ball resting on a wooden training bench in a sunlit, empty stadium dressing room.",
+  "sourceHeadline": {
+    "title": "'This is not cricket, this is only batting' - Gambhir after India's record ODI chase",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY0Z4dkJDX1oxbG9CMThhWXZ6QTQxSEt0dk9XczhTLXFsT01aR09HeXoyZ0ttZjdMXzZZV3dTNjRRMWhoV3pZUTdieEkybXlOQU9kNEFMOHQ4Sm5WQkpTQVQyMkIxNWYzR2hzT25hR3BHV3pyYVVUd1hVTU5HMnNsa0pMWnQ0LWN4S01OYXptSmZGUjYwRnhtc3FQdmJySXBUdmh6dzdQVDNqWEdELVNEM3RQUENTVTFxUVRrbXh5Q2jSAdIBQVVfeXFMTXVDaTR6SHIydlp3NHdlX0lVSmh5WlJFbVNjUjZCY09wOEdJWklNVVAtQ3ZXR0hlRHZpM1JMTkJSOEQ2b005SlNKM3NRWDhnN2NUSExJQVR3OUN0eEc1VGRhODAzLVJ3eVdLcHp5ZEJ3ajk5VjU5cXd0cUVPZ1NfRk5OMktjYmJpVHpKMTBvWjgyem9EOHZRdklJellIWWFlTGhucFJCZEtxQWo1eVNCRllRMFc2a194OEphbFg3Q25BQzlxVElpXzMzZUtibVhZQ3VR?oc=5",
+    "pubDate": "Wed, 30 Sep 2026 19:10:54 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 7,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "Candidate 5 is the clear winner because it avoids the repetitive 'mandatory [thing]' trope present in almost every other submission. It uses specific, absurd details like 'theoretical concepts such as how to hold a delivery' to create a vivid, funny image that feels affectionate rather than cynical."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of mild satire about cricket coaching methods, uses no real names, and does not touch upon sensitive topics like religion or caste. The image prompt is generic and poses no risk of identifying real people or locations.",
+    "flaggedIssues": []
+  }
+}
