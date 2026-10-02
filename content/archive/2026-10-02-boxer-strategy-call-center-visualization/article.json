@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-02T17:34:12.824Z",
+  "topicKey": "trending-news",
+  "headline": "Boxer’s Winning Strategy Involved Visualizing Opponent As A Persistent Call Center Agent",
+  "slug": "boxer-strategy-call-center-visualization",
+  "body": "The gold-medal winning pugilist revealed today that her narrow 3-2 victory in the recent Asian Games final was fueled by a novel psychological technique: imagining that her opponent was a telemarketer repeatedly calling to offer an extended warranty on her home appliance.\n\n“Every time she threw a jab, I just heard the words ‘Sir, your plan is expiring,’” the athlete explained during a press conference. “It gave me the kind of focused, righteous indignation that you just can’t replicate in a standard gym sparring session. By the third round, I wasn’t fighting for a medal; I was fighting to be taken off the permanent ‘Do Not Call’ list.”\n\nHer coach noted that the training regimen included hours of listening to aggressive hold music and automated voice menus to increase her heart rate and irritability before stepping into the ring. The athlete now credits this unorthodox mental conditioning for helping her maintain composure under pressure, noting that compared to the frustration of trying to reach a human representative, a world-class opponent felt remarkably polite and easy to dismiss.",
+  "caption": "Forget protein shakes and heavy lifting—this is the mental edge the pros are really using to win. Would you be able to stay this calm in the ring? #AsianGames #Boxing #MentalToughness #SportsLife (satire)",
+  "igHook": "Tag someone who would absolutely win gold if they could fight their spam callers in a ring.",
+  "imagePrompt": "A wide-angle, slightly blurry shot of a brightly lit boxing ring from the perspective of the audience, showing two blurred figures in gloves circling each other under intense stadium spotlights.",
+  "sourceHeadline": {
+    "title": "Parveen Hooda holds her nerve to clinch Asian Games boxing gold in 3-2 thriller",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcW4yTS1OV1BqY1gtLTlXYjVRZlJvbDE5TW5mVC1wZmIwZUFfOGVrOEo2d2RpTS1MZUk5UTRQb2NPSWgxX0JIZE03SkJJZnBWcGxTR1RCZXVKdVJSMzVTLXZSbmZLRTZ6UUkyMmxralJYUENUbHRLVDJpVVVIdjFYRUZnYjNuSjRzWndZZ2hFRGt5V24zV1BvbzFQT1FhY0dyQzU5TUUzcHhpNFd1TXZ6d2kzMFVpMGpMdDhWck5GR2dVSDVJT3prcklpRlY2SzliYV9HUzR1MDRHUS1vTXg4cXFpNWduMUtrYWE5OTAyTWNXUnQ5TmZmUw?oc=5",
+    "pubDate": "Fri, 02 Oct 2026 09:05:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 47
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 31
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 44
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 21
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 1,
+        "total": 21
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by taking a mundane, relatable annoyance (warranty robocalls) and applying it to a high-stakes setting (boxing) with specific, character-driven details. Unlike the 'delivery rider' entries, which are derivative of recent headlines, this premise is fresh, structurally sound, and maintains a warm, observant tone that makes the absurdity feel grounded."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, satirical piece about sports psychology. It uses a generic 'athlete' persona without naming a specific real person, and the image prompt is appropriately generic and anonymous.",
+    "flaggedIssues": []
+  }
+}
