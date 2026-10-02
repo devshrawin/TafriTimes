@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-02T21:10:40.046Z",
+  "topicKey": "trending-news",
+  "headline": "Local Voter Forced To Re-Submit Identity Documents In Cuneiform After Being Accidentally Deleted From Electoral Roll",
+  "slug": "voter-re-enrolled-in-cuneiform",
+  "body": "After discovering he had been purged from the electoral list, a local resident was instructed by his Booth Level Officer to resubmit his registration using ancient Mesopotamian cuneiform tablets to prove he is not a 'digitally generated error.'",
+  "caption": "When the system says you don't exist, you might as well go back to the Stone Age to prove you do. 🗳️📜 #Elections #Bureaucracy #SystemGlitch #VoterRolls #BureaucracyHumor (satire)",
+  "igHook": "How far would you go to prove to the government that you actually exist?",
+  "imagePrompt": "A close-up shot of a dusty, ancient-looking clay tablet sitting on a modern wooden office desk next to a ballpoint pen and a stack of printed administrative forms.",
+  "sourceHeadline": {
+    "title": "SIR: ECI asks BLOs to revisit deleted list, ensure those eligible but left out are re-enrolled within a month",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMy1jLVVWalI0b2VFd195ZC1aaVpEMTlaaVpFS2F6N3haVEFVakE5R1llX01IaUljaWYxTnY5dEJRZHEtcEp0VjlkOXpXVklIUjdrbWd1LU51M0EzWXMxOWpEZmZ6UW1ZMHVSeTFNd1ZkZVl0MnZMOXlfZ1ZEWVlCbFRhSV9DOU9VMzVaOG52M0k3by1wR0twRExYWkJaQUVzdnRnUFhza0hPd290MmczemZoS2ZkbFAyNkhiWldoYVotRVVzRkJ6SlltdHVkV2hYekpHd044V25DdlZsTkFPRl95NkpiazNpRTRwa2FiRnhuRkRteGFWVnNB0gGAAkFVX3lxTE9TNnJNVFFRNVNlaDFmOURKQ3BoSVRLUGpWbFVXNVdBSjlKLXZYakN4QjFHa2w3MlBFMk5iZmFOQWxYdUd6dWVGY2VoVGVUUmJ1YWFPaFpDYjE3NzIzZFhQNzFrLWdFY2NUN2xyRk5yUHBlblYtRHY1RlEydDdMNlJ6cUcxb2d0TlZna2pRclc2MWlaLTZBWWxHaF9BbUxiR2ZwbHlGTUVfQ3BTQjdVTFlMT2dpS0NVZWpfUlJXWlBkRVVVLXpSS1NKaHRaZmk1Vy1fT1JzRGtvUTlXUTJsR3gzSmlVT3YtSG5oanduY1lETnVDX2dWMzE2RUpHY193SGs?oc=5",
+    "pubDate": "Fri, 02 Oct 2026 05:32:05 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 5,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 wins by elevating the absurdity of bureaucratic erasure to a historical/archaeological scale. Its premise—requiring cuneiform to prove digital existence—is a sharp, deadpan observation of bureaucratic disconnect that feels fresh, avoids formulaic 'clerical error' tropes, and creates a single, vivid image."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted satire about bureaucratic inefficiency and does not target any specific real individuals, religious groups, or protected entities. The image prompt is generic and does not include any identifying features.",
+    "flaggedIssues": []
+  }
+}
