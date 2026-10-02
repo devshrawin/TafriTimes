@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-02",
+  "publishedAt": "2026-10-02T23:15:20.276Z",
+  "topicKey": "cricket",
+  "headline": "Public confusion mounts as police designate 'The Future' as a restricted zone to prevent unauthorized anniversaries",
+  "slug": "police-restrict-the-future",
+  "body": "“I tried to walk into tomorrow this morning to get an early start on my emails, but an officer told me I needed a permit from the Municipal Heritage Bureau,” says office manager Sunil Verma.\n\n“My daughter wanted to celebrate her birthday on October 2nd, but the local station commander said only historical figures are allowed to exist on that date to prevent any overlapping celebrations,” notes bakery owner Meena Gupta.\n\n“The police stopped me at the metro station because my wristwatch had a digital calendar showing the current date, which they claimed was a provocatively modern act of public dissent,” remarks university student Rohan Kulkarni.\n\n“I was just trying to buy milk, but the shopkeeper said it’s illegal to participate in the present until the city’s commemorative schedule is verified by the central history committee,” adds street vendor Harish Rao.",
+  "caption": "Police cordons are expanding to include the concept of linear time to ensure total peace and order. Tag someone who is currently living in an unauthorized time zone. #DelhiDiaries #TimeTravel #AdministrativeHumor (satire)",
+  "igHook": "Would you ever try to sneak into the future without a government permit?",
+  "imagePrompt": "A wide shot of a yellow police barricade tape stretched across a busy city intersection, with pedestrians looking confused at the signage.",
+  "sourceHeadline": {
+    "title": "Police clampdown in Delhi on Mahatma Gandhi’s birthday draws ‘Godse’ barbs at Modi government",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSTc0bHVmX3V1dzZLZkpjcENKUk5mcjdUeXlpSl9reW5uMi1WTk9YMjVrd2FsMl9uMFhsdDNtWVNrOGhGR1dUbXNwVzlPTUN2ZVptLXhVOGI3dVUyNFIzTGRRdEpyNXJQOFprZEpyMkQ5UnVjVmtTU1VlYVMtb2YyWHNsZTQzUEpDOFN2Z2N1VUtVZW5yNUtQQ3V4NXlFZ1pBbFhTQ1VUQU0xbVJZMGpiN3NFVHlIME1OYUxIZG9tUEFuNWdIYk5MWVBPQ0FLMnRFQzN5SVJISHBqYkdwa2NicWpR0gHnAUFVX3lxTFBpQmY4RnQtRjYtc0JyMlVqWUhYb3p5ZWNHVHFyeTdpMHFyUDBaUVhtMWM5a2xRR3ZJdHd5NUVTQjdBNkd6SVlXNC1Cb19tVU9BX0RiZ2hvdWR2YmJ5cnREb3JNVkN6eXBJSE5HVjFSZGpURmFaU0Y1YXE5X1ViYk12ekFTZHpvRnVwUmZ0UWlRdTd6SXNfMmlYUTVmTFlUdkczX3JLU2ItZTBrRTN2Y25uV2NnMWpxVjcyN25jZXVrVmZOUTRzbUVNTTJBamZwdHpUWlQ2ZmNxTjZfSFYyc05jNlcwakdBMA?oc=5",
+    "pubDate": "Fri, 02 Oct 2026 14:22:23 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 9,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 7,
+        "freshness": 9,
+        "total": 51
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 provides a surreal, absurdist premise that escalates the 'bureaucratic overreach' trope to a metaphysical level, feeling far more fresh and imaginative than the repetitive 'reflective vest' or 'barricade' premises found in the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses purely fictional scenarios to satirize bureaucracy and administrative overreach. It avoids naming real public figures or private individuals, and the image prompt is generic and complies with all safety requirements.",
+    "flaggedIssues": []
+  }
+}
