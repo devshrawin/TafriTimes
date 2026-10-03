@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-03T07:06:57.480Z",
+  "topicKey": "trending-news",
+  "headline": "I am a local cockroach and the voter registration office just rejected my application for lack of a permanent address",
+  "slug": "cockroach-voter-registration-protest",
+  "body": "Look, I have lived behind the snack machine at the local municipal office for six generations, which should qualify me for residency under any reasonable interpretation of the law. Yet, when I scurried up to the counter this morning to file my Form 6, the clerk didn't even look at my documents. He just sighed, grabbed a rolled-up newspaper, and told me that unless I could provide a utility bill registered to a specific crack in the wall, I was ineligible for the upcoming election.\n\nIt is incredibly insulting to be told I am not a 'permanent resident' when I have survived three fumigations and an architectural renovation of this building since 2019. I pay my dues in the form of cleaning up crumb debris under the desks, yet I am treated like an illegal alien while the spider in the corner gets to claim squatter's rights because he's been there since the monsoon. How am I supposed to exercise my civic duty if my existence is constantly erased by a little bit of boric acid?\n\nI’ve joined the protest because enough is enough. We aren't just here for the leftover vada pav scraps; we are here for representation. If I have to spend my afternoon crawling over a keyboard to hack the election commission's internal server just to prove I exist, then so be it. They think they can ignore us, but they have never tried to conduct a peaceful sit-in while three hundred of their closest friends are currently congregating inside the printer’s paper tray.",
+  "caption": "Living in the wall doesn't mean I don't have opinions on urban infrastructure. Stop the voter roll discrimination! #CockroachMovement #EveryVoteCounts #CivicDuty (satire)",
+  "igHook": "Would you vote for a candidate who promised better snacks in the office pantry?",
+  "imagePrompt": "A close-up, ground-level view of a bustling government office floor with stacks of dusty files and a discarded sandwich wrapper in the corner.",
+  "sourceHeadline": {
+    "title": "India’s Cockroach movement launches new protests over changes to voter roll",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOck1xSU5vMGJCWVdEMHZMM21vZ3dmZVBFV1lHcjJkUVJnMlZKczBBWU5zRDRWa0NpU01qRHk4NFlibkJuVnJWNU5pOTdxU0R3bEVZRzVnNFVyVUhYSlhqMHEwYXl2eTlSMmJLaFBxc3VNNEZsWVUydXVWdWJEWV8yeXRaaExzOWlYcW9oS3QzTjgzejBLSjZmVHFNWG1ya1U3YUpWcmhZYUw?oc=5",
+    "pubDate": "Fri, 02 Oct 2026 15:30:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 36
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 38
+      },
+      {
+        "index": 6,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 42
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 36
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 succeeds by flipping the perspective entirely, choosing the cockroach's POV rather than a human protester, which avoids the repetitive 'I dressed up as a bug' formula found in all other candidates. It uses vivid, specific details like living behind the snack machine and the rivalry with the corner spider to ground the absurdity in a mundane, relatable struggle, making it the most distinct and well-written piece."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses an absurd, satirical premise featuring a fictional cockroach persona to comment on bureaucratic processes. It does not name real individuals, targets no protected groups, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
