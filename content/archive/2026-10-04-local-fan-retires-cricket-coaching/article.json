@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T01:49:02.329Z",
+  "topicKey": "cricket",
+  "headline": "Local Cricket Fan Successfully Retires From Supporting National Team After 48 Years of Unpaid 'Mental Coaching' Service",
+  "slug": "local-fan-retires-cricket-coaching",
+  "body": "After nearly five decades of yelling tactical advice at his television screen, a resident of Indiranagar has formally submitted his resignation as a volunteer mental coach for the national squad, citing a well-deserved pension of zero rupees and a complete lack of a corporate health insurance plan.",
+  "caption": "Finally decided to hang up his imaginary headset after 48 seasons of tactical brilliance from the comfort of his living room sofa. A true inspiration to all armchair experts. #CricketIndia #FanLife #Retirement (satire)",
+  "igHook": "Tag a friend who thinks they know more about field placements than the actual captain.",
+  "imagePrompt": "A close-up shot of a worn-out wooden living room chair facing a blurred television screen, with a half-empty glass of chai resting on a side table nearby.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 excels by centering on the relatable, warm absurdity of 'armchair coaching' as a career-like commitment. It avoids the tired 'fan dies/sues/goes crazy' tropes found in the other candidates, opting instead for a deadpan, affectionate observation about the thankless, unpaid labor of being a superfan."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous character to satirize a universal behavior among sports fans. It does not name any real individuals, public figures, or sensitive groups, and the image prompt describes a generic, non-identifiable scene.",
+    "flaggedIssues": []
+  }
+}
