@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T14:07:49.824Z",
+  "topicKey": "trending-news",
+  "headline": "Regional Party Enthusiast Accidentally Joins Entirely Wrong Political Rally While Looking for Nearby Cafe",
+  "slug": "party-enthusiast-rally-mixup",
+  "body": "A local party loyalist was officially nominated for an Upper House seat this morning after mistakenly walking onto a podium thinking it was the queue for a new artisanal coffee shop. She is expected to serve a six-year term primarily focusing on how to exit the building without anyone noticing the error.",
+  "caption": "When the line for cold brew is shorter than the line for legislative candidacy. Whoops! #Politics #WestBengal #Oops #PoliticalNews (satire)",
+  "igHook": "Ever accidentally joined a movement you didn't mean to? Tag a friend who has no idea what they're doing today.",
+  "imagePrompt": "A wide-angle, realistic shot of a person standing on a generic wooden podium with microphones, appearing slightly confused, while a blurred crowd holds generic colorful flags in the background.",
+  "sourceHeadline": {
+    "title": "Koel Mallick becomes BJP’s pick for Rajya Sabha from West Bengal two months after TMC exit: Who is she? | India News",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdUtZYnJsSmFEM3lqQ3lIZHhxZWo0S2pwczI1ZXpJa3B1Q1RhbWJZNHZ3ai03WkZmZldibUl2bC12ejdZejlJQTdnY0tONWVTUkxYUGNqMWtTd1lfaURaNlBnLXZ1VHZjMWlrOWVLb0J2Z3FzWkRvajVkYVctNXNXMzY0MktjWVZkaWEtNWpWSy1wNU5CY0NNMm9RODZXaUN4RUw3VUpzSjRCa1NydUVWb1pkdUkyZDU0NV9BMjVEYk1Ra3dHUk1BQXhZZVh1b1YwYmlVSkZGcHpBUm9ORmJqSFRPWVNvdU9GRzlfRTNsdHHSAfYBQVVfeXFMUHBNNXdnRG9rMlhfU3VKaHBBVG5iSU5jbmJoaWJXVFZoVXJwbU5UYTE2VWVRNENWSjc2T09kQXBqb0lJWGVOLTdVdE1TWnZzdW5QYmk5eUNRR29rYUlxQWs1dENaeXpBQy10NjVCZHI4cGFCcWM2ZUdEaXA3anJUSklqX3IwVXVWbGhQdkhwMUg3dENKV09LbHRhc2JGZFh4OU84OFFscDc0ZXE1Vjgwd1VGQVlMc3Rual8xYkhSLVRIX0N6dkJfNmo1eFI5RVRjWFY0Z09PNDZCNUktQU5uVlJjZy1XZjFjQkJHRDFTb3BQVmp1M0VB?oc=5",
+    "pubDate": "Sun, 04 Oct 2026 08:58:26 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 2,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 16
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 17
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 stands out by moving away from the 'loyalty card' or 'subscription' tropes that dominated the rest of the batch, which felt like repetitive AI-generated variants of the same joke. The absurd, mundane mistake of accidentally joining a rally while looking for coffee provides a specific, vivid image that feels like a classic satirical observation rather than a forced procedural joke."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses generic, archetypal character descriptions and avoids naming any real individuals or specific political parties, keeping the satire harmless and universally relatable.",
+    "flaggedIssues": []
+  }
+}
