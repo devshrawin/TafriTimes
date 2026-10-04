@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T10:59:41.140Z",
+  "topicKey": "trending-news",
+  "headline": "Local Politician’s Roadshow Convoy Grinds To A Halt After Discovery That Campaign Jeep Runs Exclusively On ‘Pure Fan Adoration’",
+  "slug": "politician-roadshow-fuel-shortage",
+  "body": "The highly anticipated pre-bypoll roadshow in Dharapuram came to a grinding, silent halt three kilometers from the main stage yesterday when the lead campaign vehicle abruptly sputtered and died due to an acute shortage of fan validation. Lead coordinator Ramesh Selvam confirmed that the custom-outfitted SUV, which was advertised to run on 'pure charismatic momentum,' had completely exhausted its supply of cheers and rhythmic chanting, leaving the candidate stranded in a dusty roadside intersection.\n\n“We had planned for a high-intensity route, but the sheer humidity in the afternoon caused the crowd’s enthusiasm to dip by exactly 12 percent, which was apparently the threshold for the fuel-injection system to recognize we were no longer sufficiently supported,” said Selvam, while motioning for volunteers to begin frantic applause to reboot the engine. “The vehicle is calibrated to run at peak efficiency only when the roar of the crowd reaches at least 110 decibels. When it dropped to a polite ripple of clapping, the fuel light started blinking, and the vehicle simply locked its doors as a safety measure.”\n\nAutomotive engineers hired by the party later discovered that the vehicle’s ignition interlock was wired directly into an AI-based emotional sentiment analysis tool, which prevents the engine from turning over unless it detects at least three ‘Zindabad’ slogans within a thirty-meter radius. As of Tuesday evening, party workers were seen desperately distributing complimentary posters and high-energy snacks to commuters in hopes of generating enough latent approval to jump-start the transmission for the final leg of the tour.",
+  "caption": "When your political campaign runs on vibes, don't forget to pack a portable hype-man for the road. Is there anything worse than being stranded in the middle of a campaign trail with zero crowd-fuel? #RoadshowProblems #Elections2026 #Politics (satire)",
+  "igHook": "Tag the one friend whose personality would immediately stall a car like this.",
+  "imagePrompt": "A wide-angle, realistic shot of a bright red campaign jeep with colorful banners parked on the shoulder of a dusty, rural highway, surrounded by a small group of confused-looking bystanders and campaign workers in matching caps.",
+  "sourceHeadline": {
+    "title": "India News Live Updates, 4 October 2026: TVK chief Vijay to hold roadshow in Dharapuram ahead of October 6 bypoll",
+    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNdGV1QkJzN2dUMWRNY3cwLUNFaW5qTGUzSzN1NGhUUWFpMnJnYktPT000UDQtS25VUHJUN3hRSzdwV2Yzd1Bqa0d2cFNhaEptc2EzNV9MT1dyeGVZU3dQMVJUdnA0YXNYOTZOcHZ5bWNTWVBuWWdZLS1acmppLUpsQTJhaVROT25GVUFidmhEU3dEVHJRMEZPUHJOTHdsdy1aeDNUcm1sS3A4anZkQ3pDUjJGZ01nMHVsdTNjSFBHT243SlRlc2paN1N5LUVyVDdrUjhMWElfS0tuZWFkeUN3R0ltQjktYWp0M1FHMGJ5S0c0VGlMZ1BXdGstMWI5bTV6QXFCM0dvUGY5LXFqak1uWdIBlwJBVV95cUxPbFd2WWVWSDc3UE9LUGF3QnAzYWVsblNjcWhUaHJ1cFdUbGFNWGdRZ09aVm9sWW4wdEpBQXh1eE15cUFWYVlEM2pTalc1RVJjWGxQWTZzNDdhU1hZTGRCd0VQNnh0ZlN6NkxTd01HamxCVFlBTmZTMGt5eHlXZW1HTjRZRjJERjF0dWljOG1tdVZSVE1iT09ockl2UUJ6eEZRTWROR3A0TnZWMEdRNHFlVm1CZDMzX1hPeE44SkFyTVlHSlR6a0h1Rm0yUUktSEZqMjRfUllxNVp5V3NpZ3NWVm1UbWNrTzlqVnh2SFVFWjVlcGZGX1RwejdTQ2wtLXhEWUg5aDhKbDVweHdmSEM4bThDT3RZNDQ?oc=5",
+    "pubDate": "Sun, 04 Oct 2026 09:50:31 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 2,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 40
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides the most original and structurally sound premise. It treats the 'fuel-as-fan-validation' concept with a high level of deadpan commitment, specific technical jargon, and a warm, observational tone that avoids the cynical 'everything is broken' trope common in the other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, absurd premise to satire political culture and does not target any specific real-world individual, group, or religion. The campaign coordinator character is a generic, non-identifiable placeholder.",
+    "flaggedIssues": []
+  }
+}
