@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T21:55:26.494Z",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Former State Leader Rejects Calls To Boycott Elections, Opting Instead To Attend Every Booth Simply To Argue With The Voter Ink",
+  "slug": "former-leader-rejects-boycott",
+  "body": "The senior politician announced he will attend the upcoming polls exclusively to engage in a formal, high-decibel debate with the indelible ink technician regarding its long-term smudge resistance. He plans to register his protest by meticulously cross-examining the polling officer's stapling technique on every ballot paper.",
+  "caption": "Not even a full-blown election boycott can stop this man from showing up to argue about office supplies. Would you go this far to make your point? #Elections2024 #Politics #Satire (satire)",
+  "igHook": "Tag someone who would actually audit the stapling technique at their local polling booth.",
+  "imagePrompt": "A close-up, low-angle shot of a generic finger being marked with blue indelible ink at a polling station, with a blurry, unrecognizable official in the background.",
+  "sourceHeadline": {
+    "title": "'I do not accept': Ex-Maha CM Chavan rejects Raj Thackeray’s election boycott call amid SIR row",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdDVIS1U2WjNtT1M0VHprRzNwM0s5TERlR0t6cmJYX2pudjVkRm04LUlzRTRSTTRNVnlXQU9JX01tb0gwc2Z6ZHlZWjB6MncwNUVaZU4zczBtNVpBb2RDcW50T3JrWkNzM2pfX09Fd1ZBZHZ2YXhvdkdEai1lcHNaUTB6STNtd29PRWI0TW5YcnptdkM0V09lUjBPSHFSZWFnQzRXbGRrNHZaemhlZFp5ajlycTJnUHowcHp0NGVYNnlibi1UYy1weWlIajV0YUxMVGJnVDNCR1VBMU9yMGFzbWMzSl8wTm1RZzdybHozeVE?oc=5",
+    "pubDate": "Sun, 04 Oct 2026 14:13:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 46
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 22
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 stands out because the specific image of a politician cross-examining a polling officer over 'stapling technique' is genuinely vivid and absurd, avoiding the tired 'I love my job' trope found in others. It creates a funny, character-driven portrait of bureaucratic obsession rather than just mocking the institution. The structural execution is precise and avoids the 'AI filler' common in the other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic 'former state leader' archetype without naming any specific individual. The premise is absurd, whimsical, and focuses on trivial bureaucratic pettiness rather than real political harm, crime, or defamation. The image prompt is sufficiently generic and adheres to safety guidelines.",
+    "flaggedIssues": []
+  }
+}
