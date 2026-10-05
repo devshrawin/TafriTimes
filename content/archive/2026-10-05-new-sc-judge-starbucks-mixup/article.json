@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-05",
+  "publishedAt": "2026-10-05T19:53:09.858Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Newly Appointed Supreme Court Judge Confirms He Was Actually Trying To Find The Nearest Starbucks",
+  "slug": "new-sc-judge-starbucks-mixup",
+  "body": "Q: Justice, thank you for joining us. You were sworn in this morning as one of the three newest Supreme Court judges. Could you walk us through your first day?\n\nA: Well, honestly, it’s all a bit of a blur. I was just trying to find the nearest Starbucks to get a venti macchiato before my 10:00 AM meeting. I took a wrong turn at the security gate, ended up in a room with a lot of heavy wooden furniture, and before I knew it, someone had draped a robe on me and started asking for my views on constitutional interpretation.\n\nQ: Did you ever try to clarify that you were looking for coffee, not the bench?\n\nA: I did. I whispered, 'Is this where the line for the oat milk latte forms?' but everyone just nodded solemnly. A very nice gentleman in a wig handed me a gavel and asked me to sign a stack of petitions. I assumed they were loyalty cards, so I just signed where the stickers go. It wasn't until I sat down and looked at the docket that I realized I was expected to settle an interstate water dispute instead of ordering a cold brew.\n\nQ: Are you planning to step down now that the confusion has been cleared up?\n\nA: Absolutely not. The office has a private espresso machine that is far superior to anything at the mall, and frankly, the legal research is quite stimulating once you get past the archaic language. I’ve already decided that every ruling will now contain a secret code indicating the best barista on duty. It’s the least I can do for the Republic.",
+  "caption": "The judicial branch just got a new member who is more interested in bean origins than legal origins. Justice or Barista? You decide. #SupremeCourt #IndianLaw #StarbucksLife #NewAppointment (satire)",
+  "igHook": "Would you trust a Supreme Court judge who accidentally signed their appointment papers thinking they were loyalty cards?",
+  "imagePrompt": "A wide, slightly blurred shot of a traditional courtroom interior with empty mahogany benches and heavy velvet curtains, lit by bright, formal overhead lights.",
+  "sourceHeadline": {
+    "title": "Central government notifies appointment of 3 new Supreme Court judges",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWEtWXd4aHlac2ZneUduUlJwNlJfNGtmYzROelJ5NG9XSGFqdzY2azA1Z1RJR3BLSEkzcUJ0bnlWYzkydlpCSjhVcDNxY2N4angwWERRRHVrQ1V0Q2hPWHNxbVhfT3JUTzZRWDVTMlE2dzFielU2bVYtc2szeWxkN2pYNGhhVUhOaTZ2VFljcDhwX21kZGFlNjhYTGdQb3Q5YllHVWE0S1EzT3ZtYWZ5c0t0SdIBwAFBVV95cUxNRVFVU1h4bDIxX1J4RURZLVZtWDlFTnM5U19OUGNfRDIzWmhaWWh0b1lDSVRxRXhfeXhOLWJJeldnS3hqQ3lobjFma3pyeHNSV3h1TDZtcGV1Z3FVSFdWMjVEZ3ZFeWlwb3NXWlYydGRNS2lXQWhSNDhWMmlMYTEyZTFZLWVGckFOU2NyUTRuNlAwMk1LazhRc25XR1BJMmozNHNjelJ3N0dQMkZ2NFZXWUw0aEVMWl9KcTQwRVNmRi0?oc=5",
+    "pubDate": "Mon, 05 Oct 2026 12:02:37 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 1,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 46
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 48
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 wins because it moves away from the 'absurd performative judge' trope that saturates this batch. Its premise—an accidental appointment caused by a coffee run—feels like a classic, warm, human-scale mishap rather than a repetitive AI-generated list of bizarre courtroom behaviors, and it lacks the filler and predictable quote structure of the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clearly fictional, whimsical satire that does not name any real-life judges or individuals. It focuses on a generic, absurd scenario that does not target any protected groups or make defamatory claims.",
+    "flaggedIssues": []
+  }
+}
