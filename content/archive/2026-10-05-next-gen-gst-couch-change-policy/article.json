@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-05",
+  "publishedAt": "2026-10-05T08:19:26.622Z",
+  "topicKey": "trending-news",
+  "headline": "Finance Ministry Official Admits New 'Next-Gen GST' Will Be Calculated Using Only The Total Amount Of Loose Change Found In The Average Taxpayer’s Couch",
+  "slug": "next-gen-gst-couch-change-policy",
+  "body": "Q: The government has been touting the 'Next-Gen GST' as the catalyst for India’s next phase of growth, but can you clarify how this new computation model actually functions?\n\nA: It’s remarkably intuitive. We realized the previous system was far too complex, so we’ve shifted to the 'Domestic Cushion Audit.' Under this new phase, auditors will no longer look at ledgers or digital invoices. Instead, we’ll simply ask the taxpayer how much loose change they retrieved from their sofa cushions in the last quarter.\n\nQ: That sounds highly unconventional for a national tax framework. How does this encourage economic growth?\n\nA: It creates immediate liquidity! By linking tax brackets to the density of lost 10-rupee coins and forgotten safety pins found under cushions, we incentivize citizens to sit on their sofas more often. The more time you spend on the sofa, the more the economy grows through passive reflection. It’s essentially the ultimate ‘Make in India’ strategy for household clutter.\n\nQ: And what happens if someone doesn't own a sofa?\n\nA: We have a secondary 'Pockets-to-Pants' provision. It’s the most efficient tax collection method in history—no spreadsheets, just a quick shake of the trousers before you leave the house.",
+  "caption": "The new GST reform is finally here, and it's mostly just looking for extra 10 rupee coins. #Economy #GST #IndiaGrowth #FinanceHumor (satire)",
+  "igHook": "Check under your sofa cushions—how much are you going to owe the taxman this year?",
+  "imagePrompt": "A close-up, high-angle shot of a person’s hand reaching deep into the dark crevice of a fabric sofa, pulling out a collection of dusty coins and small metallic objects.",
+  "sourceHeadline": {
+    "title": "Next-Gen GST and India’s next phase of growth",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeUJkSTlPQ2lRcm4xN0QtdHFBWHVQbENlZzBPaFdxTkQ4ajBqaWpaanNTOTVJUzFWSEx0Mm03QWNiaTNXOXFvdEkyRHVIdTV0OHByMEExbzdZbDhWci1tc0VWdFhjZ2xOVWpPRjlDWE5ERi1VRVQydXdyVWxXcDZmNjlWTzFLUVBDYnFQLTFhN19HeHI2a25qcTQ1bUt6TjU1VlNUX0ZFdjJnQdIBsAFBVV95cUxOZ1R5WVpkRGduT0E0WFpPendwaGtzWmM2cm0tNTNiT29vaTROY3BaSFk1R1ZmbDVWRHFtZHpELTlxLUVTbTJzaUpJQW1QWG02Y0NEOU11MHZ3WUpNLUpyQjBIdnR4YjhaaFdibE5PblZocWFXLVRhZzBDTzZwcWpiaS1zdkhaMk83TnE4N25ZeHNuaVUwZ2xKMUs1UW5NVC1qdUdDRHlqWEo5Mk9PQmN1bw?oc=5",
+    "pubDate": "Sun, 04 Oct 2026 23:54:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 2,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 51
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 6,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 46
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 2,
+    "reasoning": "Candidate 2 stands out by grounding its absurdity in a relatable, physical, and 'low-tech' detail (loose change in couch cushions) rather than the 'AI/vibe/manifestation' tropes that saturated this batch. It maintains a deadpan tone throughout and offers a specific, vivid image of tax collection that feels fresh compared to the other 'new-age' portal entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear satirical piece targeting government bureaucracy and fiscal policy through absurd, non-specific scenarios. It does not name any real individuals, target protected groups, or involve sensitive real-world news, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
