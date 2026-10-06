@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-06T05:49:19.448Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "5 Essential Items That Must Now Be Stamped With A 'NOC From The Ancestors' At The Local Tehsildar Office",
+  "slug": "ancestor-noc-requirements",
+  "body": "1. Any legacy furniture item passed down for more than three generations that now wishes to be moved from the living room to the balcony.\n2. A jar of homemade mango pickle whose recipe has been in the family for over fifty years, requiring a notarized signature from the deceased matriarch's legal representative.\n3. A vintage ceiling fan that has been operating since 1984, which must now undergo a 'spiritual fitness test' to ensure it is not haunted by the ghost of a disgruntled engineer.\n4. Old wedding photo albums that feature family members who are no longer with us, as these are now classified as 'Unauthorized Historical Archiving' without written posthumous consent.\n5. Any house key that was originally cut before the turn of the millennium, which requires a soul-clearance certificate to ensure the locking mechanism isn't being operated by a lingering spectral presence.",
+  "caption": "Forget property titles; now you need a stamp from your great-great-grandfather just to move your sofa. Bureaucracy really does transcend mortality! #RedTape #Bureaucracy #IndianLife #Ancestors (satire)",
+  "igHook": "Tag someone who would actually try to get their dead uncle to sign a document.",
+  "imagePrompt": "A dusty, cluttered government office desk filled with stacks of yellowing paper and several heavy, ink-stained rubber stamps.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 35
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 41
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 41
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 8,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 38
+      }
+    ],
+    "winnerIndex": 9,
+    "reasoning": "Candidate 9 wins because it successfully pivots from standard 'paperwork' tropes into a more imaginative, absurd territory—the bureaucratic regulation of the afterlife and heritage objects. The inclusion of 'spiritual fitness tests' for ceiling fans and mango pickle recipes strikes a balance between observational cultural humor and genuine surprise, avoiding the repetitive 'list of documents' exhaustion found in the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of lighthearted, surreal satire about extreme bureaucracy. It does not name any real individuals, target specific religious or caste groups, or create defamatory claims about real entities.",
+    "flaggedIssues": []
+  }
+}
