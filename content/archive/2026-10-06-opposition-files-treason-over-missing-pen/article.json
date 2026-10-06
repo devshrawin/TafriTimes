@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-06T16:08:02.001Z",
+  "topicKey": "cricket",
+  "headline": "Opposition Leader Files Official 'Request for Treason' After Realizing He Left His Favorite Fountain Pen at the Prime Minister’s Office",
+  "slug": "opposition-files-treason-over-missing-pen",
+  "body": "The leader of the parliamentary opposition has officially petitioned the Election Commission to register a charge of treason, citing the 'unauthorized retention' of a limited-edition ballpoint pen he accidentally left on a mahogany side table during last week’s all-party tea session. Spokespersons for the ruling party confirmed the item has been placed in a high-security evidence locker to prevent the potential leakage of classified grocery lists inscribed on the back of the pen’s original packaging.",
+  "caption": "Nothing brings a democracy to a screeching halt quite like misplaced stationery. #Parliament #Treason #OfficeDrama #FountainPen (satire)",
+  "igHook": "Tag the colleague who is definitely going to steal your stapler this week.",
+  "imagePrompt": "A close-up, high-angle shot of a single generic silver ballpoint pen resting on a dark polished wooden table inside a dimly lit government meeting room.",
+  "sourceHeadline": {
+    "title": "Action will be taken against PM Modi, Amit Shah, Mohan Bhagwat, CEC for ‘treason’, says Rahul",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUo4WGtCenhLazRsV1BkRXJiYTRtdnZtUFZJV1FOUE9nQTN5R1J6WW1VMmpTT21HcEEzZkdpbHlyVmpOaWZ2TU1tX09LNWdjVmVNRV8tRnhxUjZpUDZPTUV5MTVFNzJwMWw1ZXhhLU96bTdMOVlILWRmclFsTWxibzNrYXdoNlNNMVV0aWlUUDQxZ1laRHhfejNHX0Q2NlBLMHQ2YkJuUFJ1SFJqWVllaUFjbFp6OHNxYVYtVGMwYThkUdIByAFBVV95cUxOMnJVMUY5R3VCUXZXSkN0djNjX1JTd1VMN0J1LWxKbGg4RHowTlJsckY2WE1tWm95cVdncmttb1MzVnZmUENIQUE4UkJuQmlxcXBsakFpdXp4MmFEMjdfNXRoeUNOZGVWdjRLaEI1MVoyWTF6QlAxamQ5SEEweUk4dzI5aXVKTTdjUzk1QklUV21SVXUyTEo2T0VkdGI2QmUtTnJTa2MwTE8wRFF1cTZFd1JNc2p3VEJwRUllMW52TExCcHRIcjExbg?oc=5",
+    "pubDate": "Tue, 06 Oct 2026 11:39:13 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 44
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 17
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 succeeds by focusing on a singular, petty, and relatable domestic detail—a lost pen—elevated to the absurdity of a national treason investigation. Unlike the other candidates that rely on repetitive tropes about 'the weather' or 'the solar system,' this piece maintains a clear, grounded image and adds a funny, specific detail about 'classified grocery lists' that avoids the usual AI filler traps."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses the generic term 'Opposition Leader' and 'ruling party' without naming any real individuals or specific real-world political entities, thus avoiding risks related to public figures or defamation.",
+    "flaggedIssues": []
+  }
+}
