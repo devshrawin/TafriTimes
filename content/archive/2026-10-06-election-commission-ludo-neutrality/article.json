@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-06T03:38:08.486Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Election Commission Sets Up 'Neutrality-Check' Waiting Rooms Where Candidates Must Play 48 Hours Of Ludo With Opponents",
+  "slug": "election-commission-ludo-neutrality",
+  "body": "Candidates participating in the upcoming bye-elections are now required to maintain a lead in a marathon Ludo tournament, with the Election Commission decreeing that any player who flips the board will be immediately disqualified from the ballot. Officials confirmed the move is intended to ensure that political tensions are resolved through color-coded tokens rather than campaign rhetoric.",
+  "caption": "Forget the campaign trail; it’s all about rolling a six. If you had to play a board game to decide a winner, which candidate is rage-quitting first? #Elections2026 #LudoPolitics #PoliticalHumor (satire)",
+  "igHook": "Tag the friend who would definitely flip the board if they started losing.",
+  "imagePrompt": "A wide shot of an empty community hall containing several plastic folding tables, each set up with a brightly colored board game and four chairs, illuminated by harsh overhead fluorescent lighting.",
+  "sourceHeadline": {
+    "title": "Stage Set For 6 Bye-Elections, Test For BJP In Bengal, TVK In Tamil Nadu",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdHZjNDJFRzJKeHlCaHhIVFppN1FiUGlVXzlZeExGMElYNkYzRWh1b1d2R0FCQXdqNTJIYmRjakV3ajRzODJUR19sczktT3JqOV91REllYzFseVZ5c3oxcW1uRk52bWJPUElENV9MYXhjbXpEQTFXVVBiLUtMUkZ3c1R6YlM3S0FSRUVRWkNzMXZIbkF2ZGtoVlBOWURkcUNZQ2NXTWx0Ml9WZ9IBsgFBVV95cUxPWVVaYzZaSUtfMDdUa1BFb0VnaHFPSmxFemlfZ1hBNUJwcENGS3ZVM0hxOW9qTFdsLVk1aVctYXVmejlDang5cWQ1N0REWHBkYi0tQlRaa1p2QzlidkROcGltdlBENjZMYXV4QUFfMW84eHhVbzNlT3h1OW04em55bW9NUl9KbngwbUE5aHhJTlVkRDFHUGpEMEtVbDFoTHZJYWtjbjF3elo2eEJYVXEwVkhn?oc=5",
+    "pubDate": "Tue, 06 Oct 2026 01:13:29 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 43
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 9,
+        "total": 49
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 9,
+    "reasoning": "Candidate 9 stands out by moving away from the tired 'polling machine' substitution trope and creating a uniquely absurd, character-driven scenario. The detail about board game rage-quitting provides a specific, vivid image of political dysfunction that feels affectionate and genuinely funny."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a harmless, whimsical premise involving a board game to satirize the electoral process. It does not name any real individuals, target specific religious or ethnic groups, or contain sensitive image prompts.",
+    "flaggedIssues": []
+  }
+}
