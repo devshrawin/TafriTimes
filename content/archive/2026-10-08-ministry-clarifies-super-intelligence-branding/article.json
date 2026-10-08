@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-08T23:53:28.723Z",
+  "topicKey": "trending-news",
+  "headline": "Tech Ministry clarifies that renaming AI to 'Super Intelligence' applies only to office printers and coffee machines",
+  "slug": "ministry-clarifies-super-intelligence-branding",
+  "body": "Q: The recent government mandate requires all 'Artificial Intelligence' to be referred to as 'Super Intelligence' across all platforms. How is your department handling the transition?\n\nA: It’s a delicate process, really. We’ve issued a circular clarifying that this terminology is strictly reserved for hardware that occasionally acts like it has a mind of its own. For now, it only applies to the office photocopier that jams every Tuesday and the espresso machine that refuses to froth milk during humidity spikes.\n\nQ: Why limit it to those specific devices and not, say, large language models?\n\nA: Well, the photocopier consistently displays a level of malice that can only be described as 'super,' whereas the software we use is mostly just good at hallucinating grammar errors. We feel the term 'Super Intelligence' conveys a sense of unpredictability that an HP OfficeJet clearly deserves, whereas our server clusters are just glorified calculators that don't know how to hold a grudge.\n\nQ: Are you worried about the confusion this might cause in the tech sector?\n\nA: Not at all. If anything, it’s a relief. When the printer stops working now, I don't have to call IT; I just look at the screen and say, 'I acknowledge your Super Intelligence, please output the document,' and usually, it still doesn't work, but at least we’re being polite about it.",
+  "caption": "Forget ChatGPT—my office printer has reached a higher plane of consciousness and it refuses to acknowledge my existence. #SuperIntelligence #OfficeLife #TechHumor #PrinterGrief (satire)",
+  "igHook": "Does your office equipment also act like it's smarter than you? Tag your most temperamental office appliance.",
+  "imagePrompt": "A close-up shot of a dusty office printer in a dimly lit hallway with a generic 'System Error' message visible on its small, monochrome LCD screen.",
+  "sourceHeadline": {
+    "title": "Trump orders federal AI rebrand: “super intelligence” is now official",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdTJvMm00eGVYR1pFQTVLRk9PUDRrX0J5Y1hzRDVLaFRSc3hOWGtaYjZ1YVA3QXhMcnlGYzRseHpPNXR1bnVraDdtdzlkM2NOZTcxLURxODJTV2VEbTFRRmcyWWYzY3JGX3FzRGlmSkxsNUFaMTB3Rzh0Mk0yXzNNdjkydU5tNjlPMEJyelEyUEVUSC1ZeDJKRjNFSFJsYzFQ?oc=5",
+    "pubDate": "Thu, 08 Oct 2026 11:18:54 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 42
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 succeeds by taking the premise of 'rebranding to Super Intelligence' and applying it to the most mundane, frustrating piece of office equipment possible: the jammed printer. It avoids the 'AI slop' trap of simply making fun of spreadsheets and instead offers a unique, specific, and character-driven observation about office life. The detail of the printer having 'malice' is genuinely funny and avoids the cynical tone of the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a harmless, absurd satire regarding office technology. It does not name any real individuals, public figures, or protected groups, and the image prompt describes a generic, anonymous object.",
+    "flaggedIssues": []
+  }
+}
