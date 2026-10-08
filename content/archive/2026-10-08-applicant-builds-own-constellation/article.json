@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-08T16:29:48.158Z",
+  "topicKey": "trending-news",
+  "headline": "Satellite Internet Applicant Decides To Just Build His Own Low-Earth Orbit Constellation After Waiting In Line At DoT Office For Six Months",
+  "slug": "applicant-builds-own-constellation",
+  "body": "Aakash Gupta, a software engineer from Bengaluru, has announced he is abandoning his application for a satellite broadband license in favor of launching 400 custom-built micro-satellites from his balcony after his DoT file remained stuck in a ‘Pending – Beverage Refill In Progress’ state since March.\n\n“The bureaucrats were very polite, but every time I asked about my status, they handed me a token that literally just says ‘Tomorrow’ in calligraphy,” said Gupta, who has repurposed his kitchen into a miniature clean-room facility. “I realized that by the time they finish checking the structural integrity of my hypothetical space-beam infrastructure, I could have already engineered, launched, and phased out a two-generation satellite network using spare motherboard parts and a high-altitude weather balloon.”\n\nDepartment officials, speaking on condition of anonymity, maintained that no bias exists in the current queueing system, noting that Gupta’s application is currently resting comfortably between a proposal to establish an underwater carrier pigeon network and a request to beam internet directly through cosmic rays. “We treat all applicants with equal levels of profound, indeterminate stagnation,” the official noted while stamping a document with a ‘Processing Pending Approval Pending’ seal.",
+  "caption": "When the government asks you to wait for a satellite license, you decide to just become a space tycoon. It’s called efficiency. 🛰️🚀 #SpaceTech #Startups #Bureaucracy #IndianTech (satire)",
+  "igHook": "Tag someone whose patience for bureaucracy is officially lower than a low-earth orbit satellite.",
+  "imagePrompt": "A cluttered apartment balcony filled with complex electronics, loose circuit boards, and a large, amateur-looking satellite dish pointed toward a clear blue sky.",
+  "sourceHeadline": {
+    "title": "DoT refutes bias in Starlink authorisation, says all licensees’ approvals pending",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcFkybHczUENYRU9adDJNem9SWnlWQjBzMHoyUVZfd3hYOEp3UUJ5c3BIY0prbUlIT0x4eFF0aEtLdjE1ci1BalE2QWctak51bEptYkpEVC1sNGw4WGQ1UXppYnZqU3BPWFB3UUEtQURlSXp0SXd6N3pMUi1ZS0JMSEUwUW9qakFYR0pMODJsWGw2MFJtUmU0MzMzTnJ6QVAtaExybUdfeV9jYjhnT3FaZzJSckNWRFNzRWxReTRfbTlIT1liNHpsVmxnWkthbHAtdmZWa0J5dHBzQdIB4AFBVV95cUxQRFZ2ODNUc2NyRmJIWUZTYkltUDE2VXBzdk5FVWRkcjMwWm9QbEd0d2RBUjBNWmd3cEc4Z2VGOTNIT3ppM2haQ0JwZ1M4SlY2ZnFyMGFnTVBweGxYbUZvamluNkZ0V3lOeHEwWE9BcG1GM3RWWDFsQ1N4T0lMLUhMenJMS0ttMDFPTFh3M091RnpqQW1IMmxlcHpaWVBrS1hROG5BeXllTnJxVGNIZGRCZVNtVEhjeEZCbEh0VWJvZFFTUVBLdDA0UTIxc3lzT05yTUN6OGxsdUhMTVYycHFMVg?oc=5",
+    "pubDate": "Thu, 08 Oct 2026 16:03:54 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 49
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 23
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 is the clear winner because it offers a distinct, high-energy escalation of the premise (building a personal satellite constellation) rather than relying on the tired 'waiting for a bureaucratic response' trope. It uses vivid, specific invented details like the 'Tomorrow' calligraphy token and the kitchen-based clean room, maintaining a punchy, deadpan tone throughout."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional persona to satirize bureaucratic delays. The narrative is clearly absurd and hyperbolic, avoiding any real individuals, sensitive communal topics, or reputational damage to specific entities.",
+    "flaggedIssues": []
+  }
+}
