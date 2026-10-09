@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-09T23:06:36.827Z",
+  "topicKey": "urban-life",
+  "headline": "Apartment Complex Installs 'Emotional Support Pothole' In Lobby To Prepare Residents For City Commute",
+  "slug": "emotional-support-pothole",
+  "body": "“I thought it was a design flaw at first, but after I tripped over it while checking my emails, I felt remarkably prepared for the chaos of the outer ring road,” said software developer Amit Verma.\n\n“The building management provided a little velvet rope and a sign that says ‘Deep Breath Point,’ which really helps me process the trauma of my daily three-hour gridlock before I even reach my car,” noted HR executive Priya Nair.\n\n“My toddler actually uses it to practice jumping, which I assume is going to be a crucial life skill for navigating the broken sidewalks on the way to school later this decade,” commented stay-at-home parent Rajesh Gupta.\n\n“I find it soothing to watch people stumble on it; it’s like a simulated gauntlet that reminds us we are all in this together, struggling against the inevitable,” shared security guard Kavi Singh.\n\n“Honestly, the HOA fee increase was worth it just for the pothole’s aesthetic integration with the marble flooring—it really brings the outside world into our sheltered existence,” added investment banker Sneha Das.",
+  "caption": "Your daily dose of civic conditioning at the front door. Are you ready for the real roads or do you need more practice? #UrbanLife #CommuterStruggles #RealEstate #Infrastructure (satire)",
+  "igHook": "Would you pay a higher maintenance fee for a pothole that prepares you for the commute?",
+  "imagePrompt": "A photorealistic shot of a grand, luxury apartment building lobby with high ceilings and polished marble floors, featuring a small, jagged, and realistic-looking pothole in the center of the tiles with a decorative velvet rope around it.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 38
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 4,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 48
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 6,
+        "total": 35
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 4,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 13,
+        "surprise": 2,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 19
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 (The Emotional Support Pothole) strikes the perfect balance of absurdity and mundane reality. It creates a vivid, hilarious image that feels genuinely warm in its shared acknowledgement of urban suffering, avoiding the repetitive 'negotiation booth' formula that plagues many other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses common Indian-sounding names for fictional characters to populate a satirical piece about urban infrastructure. The characters are generic archetypes (software developer, HR executive, etc.) and there is no indication that these are specific real individuals. The image prompt is generic and avoids real branding or people.",
+    "flaggedIssues": []
+  }
+}
