@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-10T08:40:22.498Z",
+  "topicKey": "trending-news",
+  "headline": "Local Politician Accidentally Mails Nobel Nomination for His Own Dry Cleaner",
+  "slug": "local-politician-nobel-dry-cleaner-mixup",
+  "body": "In a frantic bid to replicate recent international diplomatic blunders, a district-level official has mistakenly filed a Nobel Peace Prize nomination for the proprietor of a local laundry service, citing his unparalleled ability to remove stubborn stains from white kurtas. The nominee was reportedly stunned to receive the official paperwork, noting he had hoped the politician would finally just pay his overdue bill instead.",
+  "caption": "Nothing says 'world peace' like crisp, starch-free collars. Does your local dry cleaner deserve a gold medal for their services? Let us know below! #NobelPrize #LocalPolitics #DryCleaning #Diplomacy (satire)",
+  "igHook": "Tag the person who deserves a Nobel for fixing your laundry disasters.",
+  "imagePrompt": "A close-up, high-angle shot of a laundry service counter piled high with stacks of freshly pressed white cotton shirts, with an official-looking, stamped envelope resting on top.",
+  "sourceHeadline": {
+    "title": "Hours before Nobel Peace Prize announcement, Shehbaz nominated Trump again & got roasted, by Pakistanis",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSFlTWDFzWUNPMWwwRUhJZ1VhMDRkM3ctM0NLV05pa2xBR1hXYU85X2xsQXpZdGNQTlFzQXVzM0xvcmtGYklDR243T3ZUM0tHQnVLbjNsZG1GSjZkZDdpcXdGSmQ3UE96VER5ZlVZaVB2VTMzQUdPRFBoNXBFNklCdjhZakRCa0YxNE8tNzlLR1ZlMjlERnBPU1ZsSUtxckM2aVRQN1ptTkQxMTVEOWFweVBQZmZkcDdoU2xLNGhYY2IxYWpUdVpZRTFYczlDWkY3UGdPeNIB2gFBVV95cUxNYWRjcVIzZmF6NWpRN0JtQlZsLU9SVGdnbVh6Q1NkRmxMWE1MVGY5am05LXFHZjNLS011YkdEQk9Vb0YzY1dwQmpXTVdXSVgxRUl2dzJxY3F0cVZ0RzF3a1dIaUkwRzJXeVhaT1ctWWNKdHpWSEVLbEdjLXA0RTM5Mk92b2R6ay1DdWRGU1BNVTU3LS00OEhSNXBrUk5UdUtCbHlSUGVMRkd1NTRBaGJ4a1hzbnJSOGwtRU4xOGpDeWdTVHhiQlY2MGFlaUtkb0VyRndWZXpidjlXdw?oc=5",
+    "pubDate": "Fri, 09 Oct 2026 11:56:40 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 captures the perfect 'Tafri Times' tone: it is grounded in a specific, relatable frustration (dry cleaning bills) while deploying a bureaucratic absurdity that feels distinct from the recent run of 'government mandate' headlines. It avoids the AI-typical trap of over-explaining the joke by letting the dry cleaner's response serve as the punchy, human-centric coda."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictionalized scenario involving a generic, unnamed local politician. It mocks the absurdity of the situation without targeting any specific real individual, public figure, or protected group, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
