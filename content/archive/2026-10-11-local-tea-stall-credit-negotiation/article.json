@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-11T23:10:58.606Z",
+  "topicKey": "trending-news",
+  "headline": "Local Tea Stall Owner Rejects Customer’s 'Seven-Day Credit Proposal' As Grossly Insufficient",
+  "slug": "local-tea-stall-credit-negotiation",
+  "body": "The proprietor of a suburban tea stall has formally declined a regular customer's offer to clear his weekly tab in exchange for a half-consumed pack of biscuits, labeling the proposed compensation as 'mathematically insulting.' Negotiations remain stalled as the stall owner insists on a 'hard-currency-only' policy to cover the escalating costs of ginger and cardamom.",
+  "caption": "When the credit limit hits the wall, the negotiation tactics start looking like international diplomacy. Tag a friend who still owes you for that one chai break from 2022. #ChaiTalk #CreditCrisis #Diplomacy (satire)",
+  "igHook": "Ever had to negotiate your way out of a mounting tab at your local chai spot?",
+  "imagePrompt": "A close-up of a rustic, metal tea stall counter with scattered used paper cups and a handwritten price list pinned to a wooden post.",
+  "sourceHeadline": {
+    "title": "Iran calls US response to seven-day Hormuz proposal ‘insufficient’",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVUs0NmMxblB5R0owTEtBdmxGakJRaTdySFBib0ljUV9OUkx5R09pay1PWmFsXzE2YWE1bV91VXQ1dHJTblhoZXpMaVYwZU1NWU5VZ05iSjVucjJ2Tl94Z29FZjFpQVZCUzI2cnhHODR5RFlpM2V1YTRLc0NUalZjbVczRTl3dmZybktHMzNmaXJpNzZDOHN6VGJxQXpGaXFIQzJKUTlCdGlleXpuSTNkSWJuUzhhTlppc291NWV1RVlxcE9KblBjZHZtejdGcHlia0FLdjlvYl9HWnk30gHiAUFVX3lxTE9DTlJJcm9GUkliUC1RdmtDM1h6Yi1UQXk1LXItTzR6MWlXY0FqY3dLUk9ySHVzc1VxdDNmRDllYk50THRoc3FvcnFEbDQwWWVZWEpVczlzT0VGemlGS2M5NV9CWnoxaEx3UktrV2EwbHE4UjdqY1Zrb0xXb2owdjluUG13RC04R2JUZ2FmRUZUY0ZIZFNHeWMxMEN6T01IUFhjclNHclFzVlQ5QlEzYkFnX2JEQXlOR0ZtX2ZROHBMeUluRW9xMjdiQ3hVWnJyVWlDVEh2VmlDTlBFTVdjWVB3d3c?oc=5",
+    "pubDate": "Sun, 11 Oct 2026 17:59:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 17
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 11,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 18
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 is the only piece that feels like a distinct, self-contained story rather than a formulaic iteration of the 'Tehran/Geopolitics rejects snack' template. By grounding the absurd negotiation in the mundane reality of a local tea stall, it avoids the repetitive institutional cynicism of the other entries and feels genuinely witty."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses fictional, generic characters and settings to perform a harmless satirical observation on everyday social habits. It does not violate any safety policies regarding public figures, hate speech, or defamation.",
+    "flaggedIssues": []
+  }
+}
