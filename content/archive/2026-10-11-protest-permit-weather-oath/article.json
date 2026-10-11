@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-11T01:53:30.350Z",
+  "topicKey": "trending-news",
+  "headline": "City commuters express confusion as new 'Protest Permit' booths require a notarized loyalty oath to the weather",
+  "slug": "protest-permit-weather-oath",
+  "body": "\"I just wanted to hold a sign about the rising cost of onions, but the officer at the desk told me I first had to sign a 400-page affidavit confirming that I have no personal grievances against the monsoon clouds,\" said a local IT consultant waiting in line at the Jantar Mantar kiosk.\n\n\"The form asked if I was protesting on behalf of myself or if I was merely a temporary atmospheric disturbance, and honestly, after standing in this heat for three hours, I feel like both,\" remarked a college student clutching his laminated permission slip.\n\n\"Business has been slow, but at least the police now require all protesters to buy a cold bottle of water from my stall as part of their mandatory 'civic hydration' compliance protocol,\" noted a nearby street vendor.\n\n\"I tried to chant a slogan, but the permit clearly states I can only recite the official 'Sunlight Appreciation' lyrics provided by the municipal authorities, so I spent the afternoon humming in alphabetical order,\" shared a retired government clerk.\n\n\"It’s quite efficient, really; now that everyone has a permit, the police just check our expiration dates before deciding whether to provide us with a police van ride home or an Uber voucher,\" added a daily wage laborer.",
+  "caption": "From mandatory weather oaths to hydration compliance, the new protest permit process is definitely... something. #Delhi #ProtestCulture #Bureaucracy (satire)",
+  "igHook": "Would you sign a 400-page oath just to hold a protest sign?",
+  "imagePrompt": "A nondescript metal booth with a long queue of people holding clipboards standing on a dusty urban sidewalk next to a barricade.",
+  "sourceHeadline": {
+    "title": "Concerned by reports of mass detentions, UN says about Delhi police's crackdown on CJP protest",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT0RZTDB5MGRNcUN1enNlWUdhcEVfS2FSRl9ucEplM0RZMXB2bE5DUHNaOTdYbVZCUUNTdFNJLUVkdTRnd2NlYm83YnZ0SGd0WEZJUlJfNmszRWhJRXQ4d0hjYUhVYmM3aVhzdFljY2VnQTRfaU9xSFVWNVRieFZpMWhGTG9WOGpkaGFENWFJem9pek1mMFhSSnRHSzdxMXlrYldWM083WURLdmQ5LW1ZWThrbzFnbkF4ZVVJb0h2SjBUVzZUelFGYUtvQ00zVXPSAdQBQVVfeXFMTjBjdms4anhyV2FsTnZtR2JZR1hQOFdCcF9zQW5VYmZJWFZtdGxHODR6ckhPeXNlSF9oRVA4bnIwRkRnWmJHb1RPenpyMzVIMzMzYUdnYTZpNGxfZnJoZm9pQWM4MDZDUnB0YjJLRnB5X2VUWEZjM29RVVh5WHRvUzFDRWloSlhROWdEZGd1UklNSGkySXN4VlpLVm1CU3RnTkQ2a2M0cGk3RVJqZ1F5ZjFXSHFnV2VLR1NFNnR5bUhlSEl0SnkyWHk4dGMwS1JfUDQ4OUc?oc=5",
+    "pubDate": "Sat, 10 Oct 2026 17:07:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 stands out for its high level of specific, absurd detail (the 'loyalty oath to the weather') which distinguishes it from the repetitive, saturated list of 'loyalty card' or 'participation certificate' variations submitted by other candidates. Its tone is delightfully deadpan, treating the bizarre bureaucratic hoop-jumping as a mundane fact of city life."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of satirical fiction about bureaucratic absurdity. It uses generic, unnamed archetypes (e.g., 'a local IT consultant,' 'a street vendor') rather than real private or public individuals, and the image prompt is appropriately generic.",
+    "flaggedIssues": []
+  }
+}
