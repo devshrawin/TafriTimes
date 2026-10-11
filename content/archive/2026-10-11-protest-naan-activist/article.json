@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-11T19:01:22.744Z",
+  "topicKey": "trending-news",
+  "headline": "Youth activist reveals all protest signs are now printed on biodegradable naan to ensure snacks for demonstrators",
+  "slug": "protest-naan-activist",
+  "body": "Q: You have become the latest icon of student agitation, but observers are curious—why is your protest placard always dripping with garlic butter?\n\nA: It’s simple logistics. Traditional cardboard signs are heavy and useless once the police barricades go up. My movement, ‘Hunger for Change,’ prints every manifesto on buttered naan. It’s light, it’s foldable, and if the protest drags on past lunch, you’re not just holding a slogan; you’re holding a nutritious wrap.\n\nQ: Does the ink not interfere with the flavor profile during a long march?\n\nA: We use a proprietary ink made from crushed pomegranate seeds and turmeric. It actually adds a tangy kick to the bread. The real challenge is keeping the chutney from smudging the policy demands, but I think a slightly blurred ‘Reduce Tuition’ message adds a certain raw, authentic texture to the argument.\n\nQ: Is it true that you’ve started charging an ‘extra dip’ fee for spectators who want to take a bite out of your political manifesto?\n\nA: Only for the vegan signs, which use sourdough. We have to cover the overhead of the tandoor oven we transport to the front lines. If you want to consume a radical ideology, you have to be willing to pay for the side of hummus.",
+  "caption": "The next evolution of student activism: edible placards that sustain the revolution. Who needs a megaphone when you have garlic bread? #StudentProtest #Innovation #Snacktivism #TafriTimes (satire)",
+  "igHook": "Would you eat your protest sign if it was made of garlic naan?",
+  "imagePrompt": "A close-up view of a person's hand holding a large, steaming piece of naan bread with black text printed on it in a public square, with blurred protest crowds in the background.",
+  "sourceHeadline": {
+    "title": "From theatre to streets, Gen Z protester Neha Bora a new face of India's youth unrest",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVDRzbE1PT1FMZGh0NlpiRzJua3BiVUNoeFhoTG9GRmJ4aENiZ3BJY0lBVnVrdkRKOFVBTUF4NXRhdjJPc2VlZEpwaWlhSEd3NDJGbW1aa3d3ajM5SnNiNGRYdGhxcTNyaVMzdWZrSkdrRmxXUzZSc3BvMzE0ZkFsZmpRZGFpeHZTWU9XN3VOMjZPUkNDdHRMVVFSWmRGenc0VWRsLURGcXZEVW5LNW9rcHk2WVFmOWE1LXJMUWdLcEJybjA?oc=5",
+    "pubDate": "Sun, 11 Oct 2026 11:29:35 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 21
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 is the clear winner because it introduces a genuinely bizarre, tactile physical detail ('biodegradable naan' signs) that sets it apart from the repetitive 'protest-as-professional-theatre' trope shared by almost all other candidates. It manages to feel like a specific, absurd story rather than just a dry iteration of 'modern youth protest = weirdly corporate'."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of harmless, whimsical satire about protest culture. It does not name any real individuals, target protected groups, or make defamatory claims, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
