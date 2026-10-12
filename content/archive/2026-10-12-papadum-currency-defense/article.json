@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-12",
+  "publishedAt": "2026-10-12T19:35:51.927Z",
+  "topicKey": "trending-news",
+  "headline": "Locals Start Replacing Rupee Notes With High-Value 'Gold-Plated' Papadums To Assist Central Bank's Currency Defense",
+  "slug": "papadum-currency-defense",
+  "body": "“I’ve started carrying my savings in spicy masala papads; they have a better crunch than paper and according to the RBI, they are now officially 'stabilizing assets' because they don’t depreciate when you dip them in chutney,” said local grocery store clerk Amit Varma.\n\n“The market feels much more secure since I started settling my auto-rickshaw fares with sun-dried lentil discs, plus the smell inside the cab is significantly more appetizing than stale currency,” noted daily commuter Sunita Rao.\n\n“My Economics professor told us the currency defense is all about supply and demand, so I’ve started hoarding extra-crispy papads to inflate my personal net worth before the central bank intervenes again,” explained undergraduate student Rohan Gupta.\n\n“People are finally realizing that if you frame a papad correctly, it looks exactly like a high-denomination bond, which is essentially what the government wanted us to believe anyway,” added retired accountant Mr. Deshmukh.\n\n“I tried to pay my electricity bill with a stack of papads and the teller actually checked for the authentication hologram, which just proves the fiscal policy is working perfectly,” reported freelance designer Ananya Iyer.",
+  "caption": "Forget Forex, it’s all about the crunch. Citizens are taking central bank stability into their own hands, one snack at a time. Who knew the economy could be this tasty? #RupeeStrong #PapadEconomics #FinanceHumor #RBI (satire)",
+  "igHook": "Would you trust a spicy snack to hold its value against the dollar?",
+  "imagePrompt": "A close-up shot of a person’s hand holding a crisp, golden-brown papadum against the blurred background of a busy city market, looking slightly like an official bank note.",
+  "sourceHeadline": {
+    "title": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjRfQjhMOXN6M3FfdUtlSWFzaFVpU1JuNjVDdkdTTzJlNkQzRHpfQUdrLW5oNHN0b1c1WXBxWnlRZzRDTXlkT3cwVDdnYVBpR2JoemZXV0toVGZBWmpCeEg0MktXWHFLNGZRdk83NkZzNGw4Y3BrdDdhaEx5Wk5pbGRrQ0JwcmhyWldqUU5tSEwwY0dVcDBrcUxoSmxoeDNFWXo3LXpBcTQxbVVYVGZxVFRJaDlFSmowWGc?oc=5",
+    "pubDate": "Mon, 12 Oct 2026 07:18:49 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 13,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 48
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 succeeds by using a highly specific and absurd visual image—gold-plated papadums—as a replacement for currency. It balances deadpan, AP-style tone with a distinct, affectionate sense of domestic absurdity that feels fresher and more imaginative than the repeated 'loose change' or 'cricket' tropes found in the other candidates."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses common Indian names that do not refer to specific real-life private individuals in a way that suggests they are actual persons rather than generic representative placeholders for the satire. The content is clearly fictional, whimsical, and does not violate any of the harm, defamation, or communal/religious sensitivity guidelines.",
+    "flaggedIssues": []
+  }
+}
