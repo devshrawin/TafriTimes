@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-12",
+  "publishedAt": "2026-10-12T01:07:25.863Z",
+  "topicKey": "trending-news",
+  "headline": "Mumbai stock trader begins tracking market volatility using the fluctuating price of neighborhood extra-spicy Vada Pav",
+  "slug": "mumbai-trader-vada-pav-index",
+  "body": "Local equity analyst Rajesh Sharma has officially abandoned his Bloomberg terminal, claiming the daily markup at his local street-corner stall provides a more accurate real-time sentiment gauge for inflation and FII outflow than any official financial report. Sharma now correlates every five-rupee increase in snack prices directly with a 200-point dip in the Sensex, noting that the vendor's refusal to offer chutney during high-oil-price days is a 'perfect leading indicator' for the upcoming earnings season.",
+  "caption": "Forget the Nifty50, we're tracking the Vada-Volatility Index now. If the chutney is free, the economy is thriving. #StockMarketIndia #Sensex #VadaPavNomics #DalalStreet #FinanceHumor (satire)",
+  "igHook": "Tag a friend who thinks they’re a financial genius because they read the daily news.",
+  "imagePrompt": "A close-up shot of a steaming, golden-brown Vada Pav on a piece of greasy newspaper, with a blurry, busy street market scene in the background.",
+  "sourceHeadline": {
+    "title": "Dalal Street Week Ahead: Q2 earnings, US & India inflation, oil prices, FII mood, rupee among 10 key...",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZGdza2ZRcFd4NlpUaHQ0dzlwblJzUVVmYXFKcmV0dUxzandsQ2JlbndqLXBERXJ3SnVoMzRBTF9VRjNuY0EzejhNaGhabVphQUw2N1dmbjFDSjZoWHQ1U0t1R1R0RVRhN212M0VDdFdDU0l6N2ZfR2F4YUVyQWd6ZWIwZEFmX1BsNVNyUWFWNGtUMXpSX3YtMTRDbzVVSXA4S1RQb3VPZnBpRUZBcHVZdGFWTlh5bjJoX0JCSl9xRThEVVdLNFRzVlVlX3FsR2hsWFZwRkh6TW9aSkRqcTNXcng4SzZMcTktekNkbW1fRzNtdEJDWDZrYnhDMl9Qb0NnSmZONmNB0gGLAkFVX3lxTFAyYmZLeEhEMG5iYXpJSEJGN3Y0dmphZTB1MnlUMVoxQ1F3ckM2NTd4a3M2NmhIZmNMcGdIM3BQTHh2SzB3RXRacTFONHF3RjFuZ1V4cGFoUmszQXN5VFNpcUZraDdINnpOWDJDeGxsT2RyYlQ0RC1fXzU2MXFYdmFuUUJtUlNJVVRNZ0FUckRDMkpkWjJSb09US0txUXBCZmtuY0lwVWNjVi1Hc2lJLU82WDd4dHd5Zlh0ZnpWcVk4LUFuS1dWSkRLN2FzTFNGMVpSR0R2a19xWDh0VGp0TmdaNy1OS0RTS2l5LVpBVElGdmVmQmJubEhRU21rNGhnOF9HX2FVanJFVkV3NA?oc=5",
+    "pubDate": "Sun, 11 Oct 2026 17:48:42 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 9,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 48
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 23
+      },
+      {
+        "index": 4,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 21
+      },
+      {
+        "index": 8,
+        "surprise": 8,
+        "specificity": 10,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 53
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 2,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 14
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 13,
+        "surprise": 2,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 2,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 14
+      }
+    ],
+    "winnerIndex": 8,
+    "reasoning": "Candidate 8 provides a highly specific, grounded, and funny observation about market economics through the lens of 'Vada-Volatility.' It creates a vivid, warm image of a local trader using street-food price shifts as a legitimate financial indicator, avoiding the clichéd 'mystical/occult' tropes that dominated the other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, generic character name ('Rajesh Sharma' is extremely common) to anchor a whimsical, lighthearted satire piece that does not target any specific real individual, public figure, or protected group. The image prompt is generic and does not contain identifiable real-world branding or individuals.",
+    "flaggedIssues": []
+  }
+}
