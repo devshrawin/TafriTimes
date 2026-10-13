@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T16:06:11.257Z",
+  "topicKey": "trending-news",
+  "headline": "Home Minister Offers To Draft Resume For Opposition Leader To Help Him Find Employment In A New Sector",
+  "slug": "home-minister-offers-resume-help",
+  "body": "The Union Home Minister has formally offered to spend his weekend optimizing the opposition leader’s CV for the hospitality or retail sectors after noting a sustained lack of electoral success. The minister reportedly suggested that pivoting to a career in high-end lifestyle consulting might be more rewarding than the current professional trajectory.",
+  "caption": "Guess who’s getting a LinkedIn makeover this weekend? The career counseling session nobody asked for has officially begun. #Politics #CareerAdvice #NewBeginnings (satire)",
+  "igHook": "Would you hire the current opposition leader based on his recent track record?",
+  "imagePrompt": "A photorealistic shot of an office desk with a laptop, a notebook, and a red fountain pen resting on a blank resume form.",
+  "sourceHeadline": {
+    "title": "'SIR Recent, Congress Has Been Losing Polls Under Rahul Gandhi': Amit Shah",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVjdFSFlZQjgtZ1k1REdEWWd1VmxFWFdrLUZpOTY4Wm9SMWFfNFRSbndSUS1YY0VEOFJWLVZrcHZobE5YdURZRjRIOXlldWx3NVlqYTc4cmNvajVGLWRPWmZQUE5aQ2xmREpFSjdVRExva1pCcktnelRHcHpVczhWbTloTlhLMXVROGFYRUsxeU5aWERyYzIxSGd6ZDJYVHhhck5mNlJ1MHlWdDdyYjk5U293TzdlQUctYmJZ?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 13:57:11 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 5,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 23
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 5,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 23
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 8,
+        "total": 42
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 6,
+        "total": 33
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 3,
+        "freshness": 4,
+        "total": 27
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 2,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 wins because it successfully pivots from generic political cynicism to a specific, absurdly petty act of 'kindness' that creates genuine warmth. It maintains a consistent deadpan tone and avoids the repetitive, low-effort 'GPS tracker' or 'statisticians' tropes that plagued the rest of the batch."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses archetypal political figures ('Home Minister', 'opposition leader') rather than naming specific real individuals, thus avoiding defamation or targeting of public figures. The imagery is generic and adheres to the required safety standards.",
+    "flaggedIssues": []
+  }
+}
