@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T21:38:23.395Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Government Protest Clearance Stalled After Organizers Replace All Slogans With Unskippable 30-Second YouTube Ads",
+  "slug": "protest-ads-stalled",
+  "body": "State authorities report they are unable to disperse demonstrators after protest leaders successfully monetized the barricades, forcing police to watch three unskippable product endorsements before each attempted lathi charge.",
+  "caption": "Police are officially waiting for the 'Skip Ad' button to appear on the barricades. Is your protest monetized yet? #ProtestLife #GenZ #DigitalDisruption (satire)",
+  "igHook": "Would you sit through a 30-second ad just to finish your protest sign?",
+  "imagePrompt": "A close-up of a blurred police barricade in a city street, with the focus on a digital screen attached to a megaphone emitting a 'Skip Ad' countdown timer.",
+  "sourceHeadline": {
+    "title": "India’s government fails to crush Gen Z protests",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObC1oNzN2REpyOW5JSThSSEVaWk91ckVRdWRNcE9NdnRKMUxITXdKU09VYjJoTi1iem9zajZleUIybWxPREJoTWpNOVBWUHA0S3h2ZzBUSk0yU2c5aUQyeE9TdnBmQlRSZTRiVVVvaW8tckNiUWJBc1l4YVMzaWg5RzF3RG84UE9MblM0SFNzSHRRWTA?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 17:09:32 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 1,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 34
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 6,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 8,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 20
+      },
+      {
+        "index": 9,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 19
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 27
+      },
+      {
+        "index": 11,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 24
+      },
+      {
+        "index": 12,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 19
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 provides a genuinely surprising and absurd premise that satirizes both modern digital consumption (unskippable ads) and traditional protest dynamics. It avoids the tired 'Gen Z/Vibes' tropes found in the other candidates and lands a specific, funny visual image."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, exaggerated satire regarding protest tactics and modern digital advertising. It does not name private individuals, public figures, or target any protected groups, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
