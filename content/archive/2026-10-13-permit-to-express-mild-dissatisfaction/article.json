@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T07:01:44.204Z",
+  "topicKey": "trending-news",
+  "headline": "5 Essential Items Required To Apply For A 'Permit To Express Mild Dissatisfaction' In Public Spaces",
+  "slug": "permit-to-express-mild-dissatisfaction",
+  "body": "1. A notarized affidavit from three neighbors confirming that your grievance is strictly personal and lacks any genuine intellectual depth.\n2. A 200-page color-coded feasibility study outlining exactly how many minutes you plan to stand on the sidewalk without disrupting the flow of delivery bikes.\n3. A certified 'Protest Neutrality Certificate' from a local dry cleaner proving you have not recently ironed any placards with slogans exceeding four words.\n4. A comprehensive list of the specific police officers you intend to be detained by, including their preferred tea brand to ensure civil interaction during the arrest.\n5. A signed undertaking that any chanting will be done exclusively in a polite, indoor-voice whisper to prevent accidental public awakening.",
+  "caption": "Planning to exercise your right to slightly grumble? Don't forget your paperwork! Make sure to file early to avoid the rush at the permit office. #CitizenDuty #BureacracyLife #PublicDiscourse (satire)",
+  "igHook": "Which of these documents do you think takes the longest to get notarized?",
+  "imagePrompt": "A close-up of a crowded, cluttered wooden desk inside a government office filled with stacks of dusty, yellowing official files and several large rubber stamps.",
+  "sourceHeadline": {
+    "title": "Anti-CEC protests LIVE: CJP leaders Saurav Das and Ashutosh Ranka detained; police seek extension of CAPF",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRFpfc0xqZm55Q2JBU1BDZnVtUDYzWlI3NkRwZWdZVWQzY0VYLW81ZFRSZnFETjVpV0FOVnZ0TW5Ga3NXSXVkOUxKdGRubkpRdF9mSEJNdlFRNFRwSjBCU3BiOU1UVWM1eWFZbVJvbklVdGRFMjMxT3BoSV9maXFsRG1NMElfLUljMEc5M0VMQUZsTDdTa3BIYWFfa3ZXWE1kbTA2VDNJQ3lPcm04SGo5Q1dfUy1zZExPU2JIVHFERm1YQ0N4VzEzanZ2Zjh1bEdFVlE?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 06:46:44 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 39
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 38
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      }
+    ],
+    "winnerIndex": 11,
+    "reasoning": "Candidate 11 captures the specific absurdity of 'mild dissatisfaction' better than the generic protest permit tropes. The detail about specifying which police officer you'd like to be detained by offers a unique, character-driven insight that avoids the mechanical 'protest permit' fatigue seen in the other submissions."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a piece of political satire targeting bureaucratic inefficiency and general societal apathy. It does not name any real individuals, entities, or specific protected groups, and the image prompt is entirely generic.",
+    "flaggedIssues": []
+  }
+}
