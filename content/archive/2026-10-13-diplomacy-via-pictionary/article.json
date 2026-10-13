@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T19:22:13.895Z",
+  "topicKey": "cricket",
+  "headline": "Nation Watches In Awe As Diplomatic Ties Are Repaired Exclusively Through Intense Competitive Pictionary Sessions",
+  "slug": "diplomacy-via-pictionary",
+  "body": "“I heard the breakthrough happened when both leaders were forced to draw ‘geopolitical stability’ using only a single, slightly dried-out blue marker,” says Rajesh, a local tea stall owner who has been tracking the diplomatic progress via satellite news.\n\n“It’s truly inspiring to see high-level international relations being resolved by how quickly someone can sketch an abstract representation of a trade tariff without laughing,” notes Sunita, a commuter waiting for the metro.\n\n“My brother works at the ministry and he confirmed they’ve replaced all formal diplomatic cables with Pictionary pads, because apparently, a poorly drawn giraffe is less incendiary than a formal policy memo,” says Rohan, a university student.\n\n“Honestly, if my marriage can be saved by Pictionary, I don't see why international borders shouldn't be handled the same way; at least nobody starts a war over a badly drawn bowl of fruit,” shares Priya, a marketing executive.\n\n“I’ve started practicing my sketches of ‘multilateral cooperation’ just in case the government decides to crowdsource the next round of negotiations to the general public,” adds Vikram, an IT consultant.",
+  "caption": "Forget G20 summits; apparently, international relations are now won or lost based on how well you can sketch a treaty on a napkin. Would you trust these leaders with your Pictionary team? #Diplomacy #Pictionary #InternationalTies (satire)",
+  "igHook": "Would you trust these leaders with your Pictionary team?",
+  "imagePrompt": "A blurry, long-distance shot of a generic wooden conference table inside a brightly lit office, featuring a stack of blank white drawing pads, several scattered marker pens, and a half-full glass of water.",
+  "sourceHeadline": {
+    "title": "'Agreed to build on positive momentum in ties': PM Modi speaks with Canada PM Mark Carney",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb3BVTHp2S2l4VGdPbTBNN3RaSlQ3UmhHcG9ZSlZnanpPY1dhcG4yZ3pUZDM2WWp1UFllcVVMYWtKRTc2MGMyOE1XMEFSV3lfNzY5R3A4V0VidmtnZHE1ODg5bDVIeVA4aEh5Zmd2c3JHMVl4N2NVQTd0cWtBOGk5R1Y1VUl0OXZONExEemxIVV82eEwzZmFrSE9hbVlGUjJ3LVhkOWNNd1ZEV3g5empSU0JHSlFDakhCRXRvb2VFcmZSWC1wV21SX18zUGhwZlFIZ01tSXBnRU5VaVpENjJiUmE0bEdvYm1CMnc?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 13:47:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 42
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 36
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 excels by grounding an absurd premise (diplomacy via Pictionary) in mundane, specific human reactions that capture a lighthearted, observational tone. It avoids the repetitive 'samosa/syrup' tropes seen in other submissions, maintains a consistent deadpan voice, and successfully translates a high-stakes geopolitical issue into a relatable social scenario."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses clearly fictional, absurd scenarios to satirize international diplomacy without naming any real public figures, private individuals, or targeting specific protected groups. The image prompt adheres to all safety guidelines by specifying generic, anonymous elements.",
+    "flaggedIssues": []
+  }
+}
