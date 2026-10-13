@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T11:56:11.093Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "Supreme Court Adjourns Protest Hearing To October 15 After Clerk Realizes Court Calendar Is Currently Used As A Dining Table Placemat",
+  "slug": "supreme-court-adjournment-calendar-incident",
+  "body": "The constitutional bench deferred the hearing on protest-related grievances indefinitely after the presiding registrar noted that the official docket was currently stained with three distinct types of chutney and a rogue drop of sambar. The matter will resume once a new, smudge-free calendar can be sourced from the local stationery shop.",
+  "caption": "The court schedule has hit a snack-related speed bump. #SupremeCourt #LegalSystem #Delhi #JustIndiaThings (satire)",
+  "igHook": "Does your office desk look like this, or are you actually organized?",
+  "imagePrompt": "A close-up of a cluttered wooden desk in a government office featuring stacks of dusty paperwork, a stained glass of tea, and a partially eaten samosa resting on a pile of legal documents.",
+  "sourceHeadline": {
+    "title": "Supreme Court Adjourns Delhi Protest Matter To October 15",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTU50WmhRNGkyejN1OFZpS3JVYlZuOXZxTWpsM3Y2cFkwd0xOcFR2VFdGbG9nY2taQV9Gd0RScVlCTDZkYjFQZXNoN0h5QlAxaEVuTXJINW9UWWFJSElQOFNkTW1acG9Qa2Y2bGZTc01WYlg0VGthd3I1UmJqUHdtTGRVdWxMV1BqS3RxZHBvNjFTUEJHRGo5bHRHVjB2NUlQckoxR3Z2c0lPTy10UHhBcGZXMzZXb19qdVdOT0F2VDY0SHctQ3FSR3huZTF1Z1E1QTNHLU45ZGN3eUhDM00wT0MzSEo2dUhtSWNGcDNBdGlmc0h2S01hQlN30gH_AUFVX3lxTE4zcHdHbGtDbjBxOTJjMWpEVFpPU2RMNXRCQ2cwZ3JjVFJicGNKa0ZINVQwU2p1blFfbVk5MllkZlc1ZjZTWklLQVMwUHAyUS1SUHhzbFNzN2NtM21HMjRhSHNVVlFmRGg5SlZ0YmMwVEwtMno4NlNwTV9Od0ZhN2dNWHZheFl1aTA4WmF5ajdzeHgzdGdTZ0pSUW9pNExhUUNsVnFIaDlpckxlRGN6dVI4cVJzLUozRVVKWkExZjc3NUxpRkZzVThtLU1wdUNicGtPelc1ZHR0dTVjWXU3RU1GSFhEQWliTjNMYlFQWFNxaWlXWEc1Tjk0N3FSbHZJVQ?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 07:06:59 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 9,
+        "freshness": 7,
+        "total": 47
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 10,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 6,
+        "total": 46
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 28
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 13,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 25
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 stands out for its high degree of specificity ('three distinct types of chutney') and its 'warm' absurdist tone that treats a bureaucratic failure as a trivial kitchen mishap rather than a cynical attack on the institution. It avoids the common trap of over-explaining or repetitive institutional tropes found in the other Diwali-themed or 'clerk-error' entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clear satirical piece about institutional bureaucracy and office clutter. It does not name any specific public figures, individuals, or protected groups, and the image prompt describes a generic, anonymous office scene.",
+    "flaggedIssues": []
+  }
+}
