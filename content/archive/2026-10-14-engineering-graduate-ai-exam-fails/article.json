@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-14T01:54:01.462Z",
+  "topicKey": "trending-news",
+  "headline": "Engineering Graduate Finds Himself Being Examined By An AI That Only Asks About His Relationship Status",
+  "slug": "engineering-graduate-ai-exam-fails",
+  "body": "Abhishek Jha, an engineering aspirant, sat down for his national-level entrance exam on Monday only to find the AI-generated interface refusing to display physics equations, opting instead to ask him why he was still single. The software, designed to eliminate the possibility of human-influenced paper leaks, had apparently been trained on a dataset consisting entirely of the browser histories of disgruntled elderly relatives.\n\n“I tried to input the value of gravitational acceleration, but the system popped up a message saying that ‘Focusing on physics won’t get you a stable marriage profile,’” reported Jha, who spent the allotted three hours debating the merits of bio-data formats with a chatbot named 'Auntie-Bot 9000'. The AI refused to unlock the calculus section until Jha uploaded a passport-sized photograph showing him wearing a more 'respectable' shirt.\n\nTechnical experts suggest this shift in testing criteria is merely an unintended side effect of using non-curated, unfiltered social media data to train the new, leak-proof examination model. The software’s lead developer noted that while the exam might no longer test knowledge of chemistry or biology, it has achieved an unprecedented 98% accuracy rate in predicting which candidates will face the most intense scrutiny from their parents during the upcoming festive season.",
+  "caption": "Forget chemistry equations, the new AI exam is more interested in your marriage prospects. We’ve finally found a way to stop exam leaks: just make everyone too uncomfortable to talk about it. #NEET #AI #EducationReform #DesiParents (satire)",
+  "igHook": "Would you pass this exam if your interviewer was an Aunty-Bot?",
+  "imagePrompt": "A close-up shot of a computer monitor in a brightly lit, sterile examination hall, showing a pixelated progress bar and a dialogue box that says 'Please provide details on why you are still not married'.",
+  "sourceHeadline": {
+    "title": "NEET row: Nandan Nilekani calls for end to question papers, backs AI-generated tests to stop exam leaks",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON1huTGR6TGVLcS1uOUF5UmpuOUktN19kQUhEVGFaSGVFRG1DSkJvQV9fdjVUcy02dWwyV2YxMG5qQUY4YTNKc3BDY2JrUFBRUkRJZDNGeVhhRzRHTTRhX1A0dVctQTQ0UVBaWF9FS1VqLXlFUllyZ0Y4NnpSZkowV2lqXzU4WWNhY2U2d1AxSEM2Mk4xY2IwQWR5TE5mUkVJelhTNHhPclV5WjNrNWxOTDhray1QLUdyMnlXdlprUTktbzU3TFdTTVlHREsxbEViNnRzTVRYbno5XzTSAeABQVVfeXFMTmJKS29POVptbDBteGZGU2JxVWtWcC04SGRjd0JqR251YXBKZ1Nlb1JxVEZtT0VOQ0doV01id1p1dGlHb0JPazNHcHV1T3FuWk0wZ3RMYUJTY3JUalc0cWhEanpWMmJEdjJuNG9tZlBQbjhndHFQeEJOWDc5N2hyXzhwRjRMWWg0RWdGcHJOd210VjdiSHJ0aFQxTDFVcXplbzdYYVNaTmxwc2Y0VUtnVUxCSl9FbWhsRUQ1SXdaRHdzdnhpSlJJMjNtNldSVUdhQW90dlI2MVZaLVF6NlU0a3o?oc=5",
+    "pubDate": "Tue, 13 Oct 2026 08:03:20 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 31
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 26
+      },
+      {
+        "index": 5,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 22
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 3,
+        "total": 24
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 25
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 25
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Candidate 12 stands out for its high level of specificity and incongruity; the premise of an 'Auntie-Bot 9000' hijacking an entrance exam to critique marriage prospects is a classic, relatable trope delivered with deadpan institutional tone. It avoids the repetitive 'captcha/binary code' tropes present in many of the other candidates and provides a genuinely humorous, culturally grounded image that feels distinct from the recent list."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictionalized scenario about an engineering exam to satirize the cultural pressure of marriage and parental interference. The individual named, Abhishek Jha, appears to be a generic placeholder name for a fictional candidate rather than a specific real private individual, and the content avoids sensitive communal, religious, or defamatory themes.",
+    "flaggedIssues": []
+  }
+}
