@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T22:12:59.193Z",
+  "topicKey": "festivals-culture",
+  "headline": "Wedding Season Guest Successfully Sells Ad Space On His Traditional Ethnic Wear To Recover Travel Expenses",
+  "slug": "wedding-guest-ad-space-sponsorship",
+  "body": "A software engineer attending his cousin’s wedding in Udaipur has successfully brokered a deal with a local mattress brand to plaster a QR code across his sherwani’s back panel, effectively covering his flight and hotel costs. The attendee confirmed that guests are now required to scan his shoulder blades to access the couple’s digital wedding album.",
+  "caption": "When the shaadi budget hits rock bottom, corporate sponsorship is the only way out. Would you wear a brand logo to your best friend's reception if it meant a free hotel stay? #ShaadiSeason #CorporateHumor #DesiWeddings (satire)",
+  "igHook": "Tag a friend who would totally monetize their wedding outfit to pay for the buffet.",
+  "imagePrompt": "A medium shot from behind of a person wearing an ornate, heavily embroidered traditional ethnic coat, with a prominent, slightly out-of-place neon-colored QR code sticker attached to the back fabric.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 7,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 1,
+        "total": 21
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 32
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 13,
+        "surprise": 9,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 9,
+        "warmth": 8,
+        "freshness": 9,
+        "total": 53
+      }
+    ],
+    "winnerIndex": 13,
+    "reasoning": "Candidate 13 wins because it presents a highly creative, specific, and absurd image that feels distinctly fresh. The premise of monetizing traditional ethnic wear for corporate sponsorships hits a perfect note of satirical commentary on modern wedding inflation while remaining grounded in a vivid, funny scenario."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous individual and describes a harmless, whimsical scenario about wedding culture. No real public figures are named, and the image prompt is generic and avoids identifiable details.",
+    "flaggedIssues": []
+  }
+}
