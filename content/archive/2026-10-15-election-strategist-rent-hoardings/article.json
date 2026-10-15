@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T07:02:51.652Z",
+  "topicKey": "trending-news",
+  "headline": "Election strategist begins charging candidates rent for square footage occupied by their alliance photos on hoardings",
+  "slug": "election-strategist-rent-hoardings",
+  "body": "A prominent political consultant has officially introduced 'spatial synergy fees,' forcing parties to pay per-inch for the visual proximity required to project a united electoral front. The move follows reports that alliance partners have begun negotiating sublets on shared campaign posters to offset rising printing costs.",
+  "caption": "When the political alliance budget is so tight that your coalition partner starts charging you for pixels. The struggle for unity is getting literal. #ElectionSeason #Politics #IndiaPol #TafriTimes (satire)",
+  "igHook": "Would you pay a premium just to appear on a billboard next to your political rival?",
+  "imagePrompt": "A wide angle shot of a weathered roadside billboard frame with partially torn election posters layered over each other in an urban Indian setting.",
+  "sourceHeadline": {
+    "title": "SIR protests to Congress-CJP bonhomie to UP polls: Why BJP has its task cut out",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ0d0alBBbDkzOGdqQmVqQU9JSzZpRGdqd1ZkOEMxMk5DQVhfcmRnVmVxWk9KRUpCTHA4dDg1eTdNakFuUGVjeVhFQUpYVFJVOG9mMkplVUNkd2JvTkowdDRWWEQ5MEtQZHpOdU9UQndmcnA4T1Q3U1hYbUdJR2dreDdUdkJiRkZsSG5EdUdkT19raTRPaHZjcklJaEw0SDZjcXZ2NWlLSjhfd3FtMWd0VGw4MnBfT2hhMWdIY1JaNGFLQTVVam5FMVVFR3gxTy1oblY0UNIB2wFBVV95cUxOZHRxNWhVUTA3YW85cnp6VHQ5Xzg5bkJoZmh3SzlnZHpkT0ljb0VhbWhibHNNZnVISnNMZEJwY0J5a29heWVmX3ZWN2I1T05NSmtLcXZ6WW56RmNXZWVhMG5DZE9SbjVzaV96TUQ1aWZsOXdvamk1SHoxOVJ6dkFxS1haWTM5V2JteXFpZW9ZWnR4dmQtZFdaRzdUTHhGUDdoMmp6SXR4Vlo0TjNJRjJ4MjU3MVU2ZXdZcnpwQnZ1VkdjM2RRLW1saEpXYWRHbWNyYk4zV1NOMzVFX00?oc=5",
+    "pubDate": "Thu, 15 Oct 2026 00:35:46 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 7,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 38
+      },
+      {
+        "index": 9,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 31
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 13,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 captures a perfect specific, absurd, yet grounded logistical nightmare—charging rent for shared billboard space—that feels distinctly 'Tafri Times.' It avoids the common AI pitfall of over-explaining the satire, instead letting the bureaucratic absurdity of 'spatial synergy fees' carry the humor."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a fictional, satirical concept of 'spatial synergy fees' in a political context without naming any real individuals, political parties, or specific real-world events. The image prompt is generic and avoids identifiable people or copyrighted branding.",
+    "flaggedIssues": []
+  }
+}
