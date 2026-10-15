@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T18:01:59.258Z",
+  "topicKey": "politics-bureaucracy",
+  "headline": "5 Unusual Items The Delhi Police Just Added To Their 'Protest-Containment' Packing List",
+  "slug": "5-unusual-items-police-protest-containment",
+  "body": "1. A crate of 500 oversized, battery-operated kazoos to rhythmically drown out any slogan-shouting with jaunty interpretations of Bollywood dance hits. \n2. Industrial-strength adhesive floor mats that force protesters to stop and spend at least 15 minutes debating the 'fine print' of a 300-page terms-of-service agreement before they can proceed. \n3. A fleet of 'Mobile Meditation Pods' that offer complimentary lavender-scented neck massages, but only if the recipient agrees to answer a 45-minute survey about their grievances on a tablet with a lagging touchscreen. \n4. Distributed confetti cannons that fire glittery paper cutouts containing pre-printed, legally binding 'cooling-off' clauses in tiny font. \n5. High-visibility 'Awkward Silence' zones where officers stare intensely into the middle distance until protesters become too self-conscious to continue their march.",
+  "caption": "Police are getting creative with crowd control ahead of the upcoming protest. Which of these measures would be most effective at slowing you down? 📢🧘‍♂️ #DelhiPolice #ProtestPrep #CivicDuty #Satire (satire)",
+  "igHook": "Would these measures actually make you rethink your protest plans?",
+  "imagePrompt": "A wide-angle, eye-level street shot showing a row of orange traffic cones placed in a very intricate, unnecessarily complex geometric pattern on a deserted urban road.",
+  "sourceHeadline": {
+    "title": "Will take all possible measures to control CJP protest on October 16: Delhi Police to Delhi High Court",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOVlKQVFPcTJZMEQyUHhNSU5KZk96N2ktYzBTY3EtNDU1ektCRC1zOFBUTG5GWnpkZGdXR0xDeDJ0bUJYNmVYLWVCdmZrVTBubUw5MXZQcC1OcmVpcjFkRThDSVpBalFLSXRHYTQwRE9PVzhTVjcwQmFLWjBtbGZqTTZhV1F4bF92SFB2eWkwZzgyWUFKTkFOMWE4TlJTY3FELTdYU2g3STVvY2pJNDBNZXBCZkNQWjNtR19LMGtTTXpVeE9qY2cxZ3RJNC03QjjSAdwBQVVfeXFMTTI1ei0xT1Z5d21raVFjbVE2TUZmVmVycU9NREctd0d5bjZfUTBickYybnNXaWZlMWdYVnZ0bFlaRzN6bkpjN1kwenNaa25FaU04M1JkNmJKdEhaS0w3OWxfOGZJQmJpOF9jd1BVc1hTMkY0b1NHZnlkWWxJUmtMc25tWnZKeWFhY3FRN2FMUk80cm91U1ZNV29QNmMzTWdoemZwNE1rMndUM21fa3NWNHBxZ0xzVnNjenFrSzE3Q0hOQ0pKMjZzVmJmd1MyWUhvT3VWMk9YcDlmOExvZA?oc=5",
+    "pubDate": "Thu, 15 Oct 2026 10:32:47 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 4,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 2,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 4,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 5,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 6,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 28
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 27
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 2,
+        "total": 32
+      },
+      {
+        "index": 12,
+        "surprise": 8,
+        "specificity": 8,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 2,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 5,
+    "reasoning": "While most candidates fell into a repetitive loop of 'list of permits/affidavits' that mirrored the recent pieces, Index 5 broke the mold by focusing on absurd, active crowd-control technology (kazoos, meditation pods) rather than just paperwork. It offers a fresh, vivid image of institutional absurdity that feels genuinely creative compared to the standard listicle format of the other entries."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, non-violent, and clearly satirical methods to mock crowd control tactics. It does not name any real individuals, target protected groups, or make defamatory claims, and the image prompt is generic.",
+    "flaggedIssues": []
+  }
+}
