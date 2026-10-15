@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T23:08:02.610Z",
+  "topicKey": "cricket",
+  "headline": "Leh Airport's New Terminal Features 'Altitude-Adjusted' Baggage Claim That Only Operates Between 3 AM and 4 AM",
+  "slug": "leh-airport-altitude-baggage-claim",
+  "body": "Passengers arriving at the newly inaugurated Leh airport terminal have expressed surprise at the facility’s new 'High-Altitude Chrono-Logistics' system, which dictates that checked baggage can only be retrieved during the oxygen-optimal window of 3:00 AM to 4:00 AM. Airport authorities confirmed the scheduling is a safety precaution designed to prevent travelers from becoming 'overly enthusiastic' while lifting heavy suitcases at such extreme elevations.\n\n“It’s a simple matter of human physiology,” said ground operations supervisor Tenzing Dorje, while adjusting a pressure valve on a conveyor belt that was currently stationary. “If a tourist off a flight at 11:00 AM tries to haul a 20-kilogram duffel bag off the belt immediately, their heart rate spikes, they get dizzy, and suddenly we have a medical emergency in Arrivals. By keeping the carousel locked until the early morning hours, we ensure every passenger is fully acclimatized and sufficiently rested before they attempt to locate their misplaced winter jacket.”\n\nFor those unable to wait the eighteen hours in the terminal, the airport has introduced a 'Sherpa-Concierge' service where staff will guard the luggage for a fee that fluctuates based on the current wind speed. Frequent flyers noted that the terminal also features a wall of oxygen canisters that require a biometric scan and a haiku about the Himalayas to unlock, though authorities insist this is merely to encourage 'mindful decompression' after a long flight.",
+  "caption": "The new Leh terminal is truly breathtaking, quite literally. If you land at noon, just bring a sleeping bag and prepare for the 3 AM baggage ritual. #Leh #TravelHacks #MountainLife #AirportLogistics (satire)",
+  "igHook": "Would you wait until 3 AM for your suitcase if it meant a better view of the mountains?",
+  "imagePrompt": "A wide, modern airport baggage claim hall with high ceilings and large glass windows overlooking snow-capped mountain peaks in the distance, featuring an empty, stationary luggage conveyor belt.",
+  "sourceHeadline": {
+    "title": "PM Modi inaugurates Rs 3,350 crore projects in Ladakh, including new Leh airport terminal",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY1lVSzdoVWplcUl6amNLand5elluOHZGV0tZNUZVQkwxUmNaemdwRUtFb0JzWFBjNTlOU0xpOEVTNkhMMldLakpsYjJ1R1pVNTVXSVJYY0NEN0FTemNmaE5RampXU3Q2TTFOSGszMXJQM19XR2kwSE5Vd1RjS2RhV3JPQ2lZQnotVl9GRWtDT2dxWGtyOVFJNGxmWnFiS0QwTWFOc0ZuYWx4MC1zd1VvRkMwXzkwVkZTWGk0X0ZCM0V6WS1lUlhSNHF0ZXdiTFI3bFJNTnUzQXk1TTAzRHRPNGoyN3VUWHdoa3M3SU9aTmJuTVZKMHltYnVDaWhWZkl1cmhF?oc=5",
+    "pubDate": "Thu, 15 Oct 2026 09:11:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 2,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 45
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 39
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 provides a perfectly deadpan, absurd premise regarding high-altitude baggage logistics that avoids the 'oxygen tax' fatigue seen in other candidates. It uses specific details—like the haiku biometric scan—to build a vivid image, maintaining a consistent AP-style tone throughout without leaning on cynical tropes."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, fictional character name for the airport supervisor and creates a clearly absurdist, satirical scenario that does not target any specific real individuals, protected groups, or defamatory claims. The image prompt describes a generic, anonymous scene as required.",
+    "flaggedIssues": []
+  }
+}
