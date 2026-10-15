@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T15:17:27.760Z",
+  "topicKey": "trending-news",
+  "headline": "Local Voter Forced To Prove Residency By Naming All 400 Ingredients In His Grandmother’s Secret Pickle Recipe",
+  "slug": "voter-verification-pickle-challenge",
+  "body": "For Ramesh Subramaniam, a resident of Indiranagar, the routine Special Summary Revision of the electoral rolls turned into an existential culinary examination this morning. Upon presenting his documents at the booth, the presiding officer informed him that standard proof of residence was no longer sufficient and demanded he recite the precise ratios of mustard seeds, fenugreek, and preserved mangoes that define his grandmother’s ancestral achar.\n\n“I told him I’ve lived in this PIN code for thirty-two years, but he insisted that only a deep, multi-generational knowledge of home-fermented condiments could truly certify one’s local roots,” said Subramaniam, who was left sweating under the booth's pedestal fan for two hours. “I got to the twelfth ingredient—a specific variety of Kashmiri chili—before he stopped me to ask for the exact sun-drying duration required in a humid climate.”\n\nElection officials at the site defended the move as a necessary security measure against transient voters who might lack the required commitment to the local flavor profile. “We need to ensure that every voter on the list has a visceral, tangible connection to the state’s domestic geography,” said an assistant polling clerk. “If you can’t describe the consistency of a grandmother’s secret batch by smell alone, can you really be trusted to cast a ballot in a local constituency?”\n\nSubramaniam was eventually granted a provisional registration after he managed to correctly estimate the jar’s shelf-life, though he remains barred from voting in municipal elections until he brings a signed affidavit from his grandmother confirming the inclusion of exactly three extra cloves of garlic in the 2022 batch.",
+  "caption": "The new standard for civic engagement is apparently a blind taste test. If you can’t name the secret spice, do you even live here? #Elections2024 #VoterVerification #AcharPolitics #IndiranagarLife (satire)",
+  "igHook": "Would you pass your grandmother's secret recipe test to get on the voter list?",
+  "imagePrompt": "A close-up shot of a dimly lit, crowded community center hallway with a long queue of people waiting behind a wooden desk, focused on a dusty, official-looking stamp pad and a pile of thick, yellowed paper files.",
+  "sourceHeadline": {
+    "title": "EC announces Special Summary Revision of voters' list in 17 states amid SIR row",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSGdBeDF5UU1oeFhiSHhDelZwTXpxLUszNl9fYmpVblI5NlZySzE1WWJFRXVxR2N4ZS1TOG9aa25CZDFwU2NCb2J1VGpibUhkWmtVTHczTGdxc19wX0l5VEU0Y3RmY2NSZEdPOE1QY1Y1aU5GbmFELWlFemxXNVRSVlFlVTBIdDNNMnA2MHp5anVzeUJIV3hkM2VUSU9JUzNqZWd5Uy1kRk9wem5FRk0tVzJjbC1BZy1pamJwc1puZEhlYUkyNU9Jb2lBZTdaT014cFhieXh4RlVYVjVneFBB?oc=5",
+    "pubDate": "Thu, 15 Oct 2026 13:25:00 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 3,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 32
+      },
+      {
+        "index": 4,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 57
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 41
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 10,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 39
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 36
+      }
+    ],
+    "winnerIndex": 4,
+    "reasoning": "Candidate 4 hits the perfect note of bureaucratic absurdity through a hyper-specific, culturally resonant image—the grandmother's pickle recipe. It avoids the AI 'slop' pitfalls by anchoring the satire in a vivid, relatable family detail rather than just mocking the institution, and it structures the absurdity as the lead without explaining the joke."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article is a clearly fictional and satirical piece using a generic, made-up protagonist to highlight bureaucratic absurdity. It does not target specific protected groups, real individuals, or sensitive institutions in a way that violates the provided safety guidelines.",
+    "flaggedIssues": []
+  }
+}
