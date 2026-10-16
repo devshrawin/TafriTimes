@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-16T01:05:04.553Z",
+  "topicKey": "urban-life",
+  "headline": "Apartment Complex Introduces 'Reserved Staring Spots' In Lobby For Residents To Judge Deliveries",
+  "slug": "apartment-lobby-staring-spots",
+  "body": "“I’ve finally secured the premium spot near the mailbox; from here, I can see exactly who ordered extra fries at 11 PM and whether they’re wearing pyjamas in public,” says Ritesh, a retired resident who monitors the lobby arrivals.\n\n“The new floor markings really help; I know exactly where to stand to give that disapproving look without accidentally obstructing the path of the delivery executive,” says Anjali, a marketing professional who works from home.\n\n“I’ve started timing my grocery arrivals to peak gossip hour, just so I can feel the weight of my neighbours’ gazes while I carry my six bags of instant noodles,” says Kabir, a final-year student.\n\n“My delivery partner was so confused by the designated staring zone that he dropped my order, but at least the lobby committee gave him a formal feedback form on his lack of eye contact,” says Sunita, a software architect living in the complex.\n\n“We’re considering a subscription model for the lobby stools next, because the demand for strategic window seats to watch the swanky cars pull up is just overwhelming,” says Manish, the apartment association’s newly appointed ‘Lobby Logistics Coordinator.’",
+  "caption": "Living in a gated community means your late-night food choices are now public record for the lobby committee to critique. How does your society rank on the judgment scale? #UrbanLife #ApartmentLiving #SocietyWars #CityLife (satire)",
+  "igHook": "Would you pay a premium to judge your neighbours’ grocery orders from a lobby stool?",
+  "imagePrompt": "A wide, eye-level shot of a modern apartment lobby showing a marble floor with painted yellow tape markers designated as 'Observation Zones' near a set of glass mailboxes.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 46
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 6,
+        "surprise": 8,
+        "specificity": 9,
+        "structure": 9,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 8,
+        "total": 49
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 8,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 9,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 40
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 43
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 4,
+        "total": 35
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      }
+    ],
+    "winnerIndex": 6,
+    "reasoning": "Candidate 6 (Lobby Staring Spots) stands out for its high degree of specificity and relatable, petty social observation. It avoids the repetitive 'living in traffic' tropes found in many of the other submissions, presenting a mundane domestic horror that feels fresh, warm, and highly structured."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses generic, common names for fictional characters in a satirical, harmless context. The premise is lighthearted, does not target any protected groups or real individuals, and the image prompt describes a generic, anonymous scene.",
+    "flaggedIssues": []
+  }
+}
