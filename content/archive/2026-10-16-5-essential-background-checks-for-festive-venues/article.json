@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-16T08:14:17.021Z",
+  "topicKey": "trending-news",
+  "headline": "5 Essential Background Checks For Anyone Entering A Festive Venue To Ensure Maximum Cultural Compliance",
+  "slug": "5-essential-background-checks-for-festive-venues",
+  "body": "1. Mandatory DNA-Ancestry tracing via a portable spit-test kit to verify if your great-great-grandfather ever attended a non-rhythmic social gathering.\n2. A spontaneous audition where you must recite the entire Wikipedia page of a random folk instrument while holding a heavy brass lamp over your head for ten minutes.\n3. Inspection of your smartphone’s 'Hidden Photos' folder to ensure your search history for the last three years contains no instances of foreign pop music or questionable dance moves.\n4. A mandatory 'Authenticity Vibe-Check' where you must correctly identify the exact region of origin for a specific garnish used in a snack served at the event.\n5. Submitting a notarized affidavit confirming that you have not experienced a state of 'relaxed enjoyment' in the presence of someone who doesn't know the exact lyrics to the current trending folk-fusion anthem.",
+  "caption": "Planning to hit the dance floor this season? Better pass the vibe check first or you might just end up dancing in the parking lot. #GarbaSeason #FestiveVibes #CulturalCheck #Navratri2024 (satire)",
+  "igHook": "Tag someone who would definitely fail the mandatory folk-instrument trivia test at the gate.",
+  "imagePrompt": "A close-up of a rustic wooden fence at a festival ground with a blurred crowd of traditional dancers in the background.",
+  "sourceHeadline": {
+    "title": "‘Non-Hindus’ told to leave Ahmedabad garba event; ‘not my message’, says popular folk singer Aditya Gadhvi",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdHgtUk9pUXB3OXRYaDl5d3FTTmtqbGtoMENkU0xZbHRqaE91S2xORUF1Y1lFOTRrYTY3REI1UmhNUFJnbjhfUzdhR1hWaDFjS1BCTmNnLVJCYW1lc1UxY2V5SkZuWS1Zdjl2Q2NqSmtXV21VaGlpN21McTRoN2lFSy1pLXFHV2pzZHU0eDRncU5sQ29LMzlSUmU5RGdlZTh4ZDJ5dkp2QS1weDcxdDVkcS1ObWdtdUZpak9QSUFHZnNWcjJWOTZxQldnVXgtdnIwNXFQS3BiQjdmblhoN2ROMmJiQW5OZw?oc=5",
+    "pubDate": "Fri, 16 Oct 2026 03:20:16 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 39
+      },
+      {
+        "index": 2,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 3,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 37
+      },
+      {
+        "index": 5,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 7,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 36
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 42
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 38
+      },
+      {
+        "index": 12,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 35
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 34
+      }
+    ],
+    "winnerIndex": 0,
+    "reasoning": "Candidate 0 stands out for its high level of specific, absurd detail (the 'heavy brass lamp' test) and maintains a consistently deadpan, authoritative tone. While the premise of 'over-regulation of cultural spaces' is a common trope, this entry leans into the physical absurdity of the requirements rather than just listing generic bureaucratic documents, giving it a more humorous, vivid quality."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses absurd, exaggerated scenarios to satirize cultural gatekeeping and excessive monitoring, which does not target any specific real person, religion, or community, but rather ridicules the behavior itself. The image prompt is generic and avoids identifiable imagery.",
+    "flaggedIssues": []
+  }
+}
