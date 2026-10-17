@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-17T22:24:40.138Z",
+  "topicKey": "cricket",
+  "headline": "Local Cricket Enthusiast Begins Charging Neighbors 'Viewing Fees' For Aggressive Commentary During IPL Matches",
+  "slug": "local-cricket-enthusiast-begins-charging-neighbors-viewing-fees",
+  "body": "Following a surge in his tactical analysis output, the neighborhood resident has begun invoicing housemates for his unauthorized play-by-play commentary during live IPL broadcasts. The invoices, citing 'Emotional Labor in High-Pressure Cricket Situations,' require settlement in digital gift cards or artisanal snacks before the second innings.",
+  "caption": "Watching the game with your loudest friend is about to get a whole lot more expensive. Tag that one friend who thinks they’re an IPL coach. #CricketFans #IPL2026 #CricketLife (satire)",
+  "igHook": "Would you pay a 'consultation fee' to watch the next game with your loudest cricket-fan friend?",
+  "imagePrompt": "A close-up of a handwritten, slightly crumpled invoice sitting on a coffee table next to a television screen showing a live cricket broadcast.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 4,
+        "total": 40
+      },
+      {
+        "index": 1,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 3,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 30
+      },
+      {
+        "index": 3,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 41
+      },
+      {
+        "index": 4,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 6,
+        "total": 43
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 8,
+        "freshness": 5,
+        "total": 40
+      },
+      {
+        "index": 6,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 30
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 8,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 37
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 6,
+        "warmth": 7,
+        "freshness": 4,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 11,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 5,
+        "total": 33
+      },
+      {
+        "index": 12,
+        "surprise": 4,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 29
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 2,
+        "total": 30
+      }
+    ],
+    "winnerIndex": 10,
+    "reasoning": "Candidate 10 wins because it moves beyond the repetitive 'fan modifies furniture/decor' trope found in the rest of the batch. It introduces a specific, absurd, and character-driven detail (invoicing housemates for 'Emotional Labor') that feels like a fresh, cynical-yet-affectionate observation of fan behavior rather than just a slapstick visual gag."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous persona ('local cricket enthusiast') and does not name any real individuals, groups, or entities that would trigger the specified safety risks.",
+    "flaggedIssues": []
+  }
+}
