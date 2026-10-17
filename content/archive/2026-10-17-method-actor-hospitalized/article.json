@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-17T18:34:59.881Z",
+  "topicKey": "bollywood-entertainment",
+  "headline": "Method actor hospitalized after three-month commitment to role of a houseplant",
+  "slug": "method-actor-hospitalized",
+  "body": "The lead performer was found dehydrated and unresponsive in a sunlit corner of the studio, having refused all water and nutrients in a bid to better understand the photosynthetic process for his upcoming indie drama. Producers have confirmed that production will remain paused until the actor completes his scheduled week of soil-based meditation.",
+  "caption": "True dedication or just a very long nap in the sun? Let us know what you think of this intense prep below. #MethodActing #BollywoodDrama #CinemaLife (satire)",
+  "igHook": "Would you starve yourself for your dream role, or is this taking it a bit too far?",
+  "imagePrompt": "A lush, sun-drenched indoor corner of a high-end film studio filled with various large potted green plants and heavy professional lighting equipment nearby.",
+  "sourceHeadline": null,
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 4,
+        "specificity": 3,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 21
+      },
+      {
+        "index": 1,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 34
+      },
+      {
+        "index": 2,
+        "surprise": 3,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 4,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 20
+      },
+      {
+        "index": 3,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 17
+      },
+      {
+        "index": 4,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 30
+      },
+      {
+        "index": 5,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 7,
+        "total": 36
+      },
+      {
+        "index": 6,
+        "surprise": 2,
+        "specificity": 4,
+        "structure": 4,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 1,
+        "total": 17
+      },
+      {
+        "index": 7,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 34
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 31
+      },
+      {
+        "index": 9,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 37
+      },
+      {
+        "index": 10,
+        "surprise": 3,
+        "specificity": 3,
+        "structure": 3,
+        "punchiness": 3,
+        "warmth": 3,
+        "freshness": 2,
+        "total": 17
+      },
+      {
+        "index": 11,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 6,
+        "total": 31
+      },
+      {
+        "index": 12,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 42
+      },
+      {
+        "index": 13,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 6,
+        "freshness": 6,
+        "total": 35
+      }
+    ],
+    "winnerIndex": 12,
+    "reasoning": "Index 12 is the only piece that feels like a distinct, classic 'Onion-style' joke. It uses the trope of extreme 'method acting' to push into a genuinely absurd, vivid, and funny physical image (a man acting like a houseplant), whereas the others rely on repetitive tropes about long movies or staring contests which are either stale or structurally identical to recent headlines provided."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, anonymous character and a whimsical, absurd premise that does not target any specific real individuals, groups, or religions. The image prompt is entirely generic and does not contain identifying features.",
+    "flaggedIssues": []
+  }
+}
