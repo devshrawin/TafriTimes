@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-17T18:16:25.987Z",
+  "topicKey": "trending-news",
+  "headline": "Indian Tourist Abroad Accidentally Joins French Protest After Mistaking Crowd for Free Baguette Queue",
+  "slug": "tourist-joins-french-protest",
+  "body": "An Indian traveler currently visiting Paris was seen wearing a high-visibility yellow rain poncho and chanting slogans for three hours, reportedly assuming he was patiently waiting in a queue for a complimentary artisanal bread distribution. Local protest organizers have confirmed that the visitor is currently the most enthusiastic participant in the demonstration, despite his repeated attempts to ask where the butter is kept.",
+  "caption": "The bread is a lie, but the energy is real. Never trust a queue without checking if it leads to a bakery first. 🥖🇫🇷 #ParisDiaries #TravelFails #YellowVests #TafriTimes (satire)",
+  "igHook": "Have you ever accidentally joined a protest or a massive crowd just because you were following the line?",
+  "imagePrompt": "A blurry, candid street-level shot showing a crowd of people in fluorescent yellow vests gathered on a wide cobblestone boulevard, with a single person in the foreground wearing a bright yellow plastic raincoat looking confusedly at a map.",
+  "sourceHeadline": {
+    "title": "Protests spread across France as ‘yellow vests’ set to join",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWm9kMng3b2RLSExYb1VnWG5TQTA0R3Bhaml5Y3JVOG56R090MUJ4eGh6V3N1bm9MVVAtb1BXaGxuNTFIazBEdFFYTkF3MDNsNTFYcjJOVlE3S0R5N2lSUENWdmlTZFJoeUxJSEUzYjNxMWdWdjhPWUQzbEJld1FyYzVSczdoYVVHQkQxVHpnSHJhUkN3Z2hnMFFNeUFmUDRaQlQ4ZW5iYkpjT2NuVzNfYUdLSHltSHPSAbwBQVVfeXFMT3htNkV3TzlkSkI5R19fM19EdEYxMkNGdGYxaUhpSDB2aUFyU0huYjlLZ284R2VkY1FjR1doLUNsZ0tvWlZteWtpdk5UQUJSUTIxLW1aTzlnSUtCVmxEYUJIUzRrUEc1alZtMmstSUhwM1JJWjBPY2ZwR2pteTVqc0QzMDBzMThkM2g5dS1SUXFlXzF1Rmt0UGhFNUhrd0ZqclRsamRNa25aY3dlSTlsaU5Pc21hR1c4a1o4X3A?oc=5",
+    "pubDate": "Sat, 17 Oct 2026 14:30:42 GMT"
+  },
+  "judgeVerdict": {
+    "scores": [
+      {
+        "index": 0,
+        "surprise": 5,
+        "specificity": 4,
+        "structure": 6,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 1,
+        "surprise": 7,
+        "specificity": 7,
+        "structure": 8,
+        "punchiness": 8,
+        "warmth": 7,
+        "freshness": 7,
+        "total": 44
+      },
+      {
+        "index": 2,
+        "surprise": 4,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 5,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 3,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 5,
+        "total": 29
+      },
+      {
+        "index": 4,
+        "surprise": 6,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 31
+      },
+      {
+        "index": 5,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 6,
+        "surprise": 6,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 5,
+        "freshness": 3,
+        "total": 32
+      },
+      {
+        "index": 7,
+        "surprise": 7,
+        "specificity": 8,
+        "structure": 8,
+        "punchiness": 7,
+        "warmth": 8,
+        "freshness": 7,
+        "total": 45
+      },
+      {
+        "index": 8,
+        "surprise": 5,
+        "specificity": 6,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 6,
+        "freshness": 5,
+        "total": 34
+      },
+      {
+        "index": 9,
+        "surprise": 4,
+        "specificity": 4,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 26
+      },
+      {
+        "index": 10,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 30
+      },
+      {
+        "index": 11,
+        "surprise": 7,
+        "specificity": 6,
+        "structure": 7,
+        "punchiness": 7,
+        "warmth": 6,
+        "freshness": 7,
+        "total": 40
+      },
+      {
+        "index": 12,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 5,
+        "punchiness": 5,
+        "warmth": 4,
+        "freshness": 4,
+        "total": 28
+      },
+      {
+        "index": 13,
+        "surprise": 5,
+        "specificity": 5,
+        "structure": 6,
+        "punchiness": 6,
+        "warmth": 4,
+        "freshness": 3,
+        "total": 29
+      }
+    ],
+    "winnerIndex": 7,
+    "reasoning": "Candidate 7 provides a charming, specific, and self-contained narrative that avoids the 'AI slop' pitfalls of bureaucratic satire. It captures a relatable human misunderstanding while maintaining a perfect deadpan journalistic tone without over-explaining the joke."
+  },
+  "safetyVerdict": {
+    "verdict": "pass",
+    "reasoning": "The article uses a generic, fictional character to craft a whimsical story about cultural misunderstanding. It avoids naming real individuals, respects the constraints on sensitive topics, and the image prompt describes a generic, anonymous scene without identifying real people, brands, or places.",
+    "flaggedIssues": []
+  }
+}
